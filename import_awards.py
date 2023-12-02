@@ -45,6 +45,9 @@ def get_awarded_fragrances(url: str):
             name = DRIVER.find_element(
                 By.CSS_SELECTOR, f"div.small-6:nth-child({i}) > a:nth-child(2)"
             ).text
+            link = DRIVER.find_element(
+                By.CSS_SELECTOR, f"div.small-6:nth-child({i}) > a:nth-child(2)"
+            ).get_attribute("href")
             upvotes = DRIVER.find_element(
                 By.CSS_SELECTOR,
                 f"div.small-6:nth-child({i}) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
@@ -58,6 +61,7 @@ def get_awarded_fragrances(url: str):
             frag_list.append(
                 {
                     "name": name,
+                    "link": link,
                     "upvotes": upvotes,
                     "downvotes": downvotes,
                     "year": year,
@@ -65,7 +69,7 @@ def get_awarded_fragrances(url: str):
                 }
             )
         except (NoSuchElementException, AttributeError):
-            print(name, upvotes, downvotes, year)
+            print(name, link, upvotes, downvotes, year)
             break
     return frag_list
 
@@ -174,6 +178,7 @@ def graph_years(frag_dict, ranking_func=bayesian_rating):
 
 if __name__ == "__main__":
     for name, link in MENS_BEST.items():
+        print(f"Processing {link}")
         filename = f"{name}.csv"
         pd.DataFrame(get_awarded_fragrances(link)).to_csv(filename, index=False)
         print(f"Wrote {filename}")
