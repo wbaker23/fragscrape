@@ -51,6 +51,16 @@ if __name__ == "__main__":
             "inverse_rank_22",
         ]
     ].sum(axis=1)
+    df_combined["order_total"] = df_combined[
+        [
+            "order_17",
+            "order_18",
+            "order_19",
+            "order_20",
+            "order_21",
+            "order_22",
+        ]
+    ].sum(axis=1)
 
     # Remove rows from the combined dataframe which do not have the same fragrance name across years
     df_combined["check_names"] = (
