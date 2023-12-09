@@ -1,49 +1,16 @@
 import matplotlib.pyplot as plt
 import mplcursors
-import numpy as np
 import pandas as pd
+from config import *
 from scipy.optimize import curve_fit
-from sklearn.preprocessing import MinMaxScaler
 
-filename = "data/vanilla_2021.csv"
+filename = f"{DATA_PATH}/{PROCESSED_FOLDER}/best_marine_2023.csv"
 
 
 if __name__ == "__main__":
     # Load data
     df_combined = pd.read_csv(filename)
     print(f"{df_combined.shape[0]} fragrances loaded from {filename}")
-
-    # Filter out fragrances with either zero upvotes or zero downvotes
-    df_combined = df_combined[
-        (df_combined["upvotes"] != 0) & (df_combined["downvotes"] != 0)
-    ]
-
-    # Get rid of bottom 10% of fragrances.
-    # These are skewed negative due to reinforcement of negative votes
-    # by being visible at the bottom of the list.
-    df_combined = df_combined[
-        df_combined["order"] <= df_combined["order"].quantile(0.9)
-    ]
-
-    # Add feature columns
-    df_combined["total_votes"] = df_combined["upvotes"] + df_combined["downvotes"]
-    df_combined["vote_diff"] = df_combined["upvotes"] - df_combined["downvotes"]
-    df_combined["vote_diff_normalized"] = MinMaxScaler().fit_transform(
-        np.array(df_combined["vote_diff"]).reshape(-1, 1)
-    )
-    df_combined["ratio"] = df_combined["upvotes"] / df_combined["total_votes"]
-    df_combined["updated_order"] = df_combined["order"].rank()
-    df_combined["inverse_order"] = (
-        df_combined.shape[0] - df_combined["order"].rank() + 1
-    )
-    df_combined["bayes"] = (
-        df_combined["upvotes"] + df_combined["upvotes"].median()
-    ) / (
-        df_combined["upvotes"]
-        + df_combined["upvotes"].median()
-        + df_combined["downvotes"]
-        + df_combined["downvotes"].median()
-    )
 
     # Make scatter plot
     plt.close("all")

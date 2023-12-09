@@ -14,3 +14,5 @@ PAGES_TO_IMPORT = {
 }
 
 DATA_PATH = "data"
+RAW_FOLDER = "raw"
+PROCESSED_FOLDER = "processed"
