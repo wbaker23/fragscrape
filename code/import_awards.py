@@ -185,7 +185,8 @@ def graph_years(frag_dict, ranking_func=bayesian_rating):
 if __name__ == "__main__":
     for name, link in PAGES.items():
         print(f"Processing {link}")
-        filename = f"{name}.csv"
+        data_folder = "data"
+        filename = f"{data_folder}/{name}.csv"
         pd.DataFrame(get_awarded_fragrances(link)).to_csv(filename, index=False)
         print(f"Wrote {filename}")
     DRIVER.close()
