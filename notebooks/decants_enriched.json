@@ -1,5 +1,947 @@
 [
     {
+        "name": "Altha\u00efr\nParfums de Marly 2023",
+        "brand": "Parfums de Marly",
+        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/althair",
+        "type": [
+            {
+                "ct_name": "Spicy",
+                "votes": "130"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "239"
+            },
+            {
+                "ct_name": "Powdery",
+                "votes": "47"
+            },
+            {
+                "ct_name": "Oriental",
+                "votes": "57"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "89"
+            },
+            {
+                "ct_name": "Gourmand",
+                "votes": "213"
+            },
+            {
+                "ct_name": "Creamy",
+                "votes": "168"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "92"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "136"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "214"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "66"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "228"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "226"
+            },
+            {
+                "ct_name": "Feminine",
+                "votes": "128"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "104"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "144"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "256"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "242"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "68"
+            }
+        ]
+    },
+    {
+        "name": "Club Black\nMercedes-Benz 2017",
+        "brand": "Mercedes-Benz",
+        "link": "https://www.parfumo.com/Perfumes/Mercedes_Benz/Club_Black",
+        "type": [
+            {
+                "ct_name": "Spicy",
+                "votes": "78"
+            },
+            {
+                "ct_name": "Synthetic",
+                "votes": "41"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "173"
+            },
+            {
+                "ct_name": "Smoky",
+                "votes": "46"
+            },
+            {
+                "ct_name": "Oriental",
+                "votes": "47"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "74"
+            },
+            {
+                "ct_name": "Resinous",
+                "votes": "36"
+            },
+            {
+                "ct_name": "Gourmand",
+                "votes": "143"
+            },
+            {
+                "ct_name": "Creamy",
+                "votes": "97"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "77"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "110"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "168"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "53"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "175"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "184"
+            },
+            {
+                "ct_name": "Feminine",
+                "votes": "78"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "65"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "101"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "183"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "177"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "62"
+            }
+        ]
+    },
+    {
+        "name": "The One for Men\nDolce & Gabbana 2015 EAU DE PARFUM",
+        "brand": "Dolce & Gabbana",
+        "link": "https://www.parfumo.com/Perfumes/Dolce_Gabbana/The_One_for_Men_Eau_de_Parfum",
+        "type": [
+            {
+                "ct_name": "Spicy",
+                "votes": "457"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "460"
+            },
+            {
+                "ct_name": "Oriental",
+                "votes": "234"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "361"
+            },
+            {
+                "ct_name": "Fruity",
+                "votes": "143"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "236"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "277"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "534"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "208"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "563"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "612"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "215"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "332"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "512"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "588"
+            },
+            {
+                "ct_name": "Summer",
+                "votes": "166"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "403"
+            }
+        ]
+    },
+    {
+        "name": "Grey Vetiver\nTom Ford 2009 EAU DE PARFUM",
+        "brand": "Tom Ford",
+        "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Grey_Vetiver",
+        "type": [
+            {
+                "ct_name": "Citrus",
+                "votes": "179"
+            },
+            {
+                "ct_name": "Spicy",
+                "votes": "153"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "199"
+            },
+            {
+                "ct_name": "Green",
+                "votes": "236"
+            },
+            {
+                "ct_name": "Fresh",
+                "votes": "273"
+            },
+            {
+                "ct_name": "Earthy",
+                "votes": "108"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "273"
+            },
+            {
+                "ct_name": "Sport",
+                "votes": "71"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "236"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "125"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "275"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "137"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "326"
+            },
+            {
+                "ct_name": "Feminine",
+                "votes": "47"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "185"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "107"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "116"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "241"
+            },
+            {
+                "ct_name": "Summer",
+                "votes": "269"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "299"
+            }
+        ]
+    },
+    {
+        "name": "Santal\nEau de Santal\nFloris 2002 EAU DE TOILETTE",
+        "brand": "Floris",
+        "link": "https://www.parfumo.com/Perfumes/Floris/Santal_Eau_de_Santal_Eau_de_Toilette",
+        "type": [
+            {
+                "ct_name": "Citrus",
+                "votes": "19"
+            },
+            {
+                "ct_name": "Spicy",
+                "votes": "52"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "26"
+            },
+            {
+                "ct_name": "Powdery",
+                "votes": "12"
+            },
+            {
+                "ct_name": "Oriental",
+                "votes": "15"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "57"
+            },
+            {
+                "ct_name": "Green",
+                "votes": "19"
+            },
+            {
+                "ct_name": "Fresh",
+                "votes": "22"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "51"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "43"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "29"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "44"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "39"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "65"
+            },
+            {
+                "ct_name": "Feminine",
+                "votes": "20"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "32"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "20"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "40"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "54"
+            },
+            {
+                "ct_name": "Summer",
+                "votes": "27"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "39"
+            }
+        ]
+    },
+    {
+        "name": "Royal Oud\nCreed 2011",
+        "brand": "Creed",
+        "link": "https://www.parfumo.com/Perfumes/Creed/Royal_Oud",
+        "type": [
+            {
+                "ct_name": "Citrus",
+                "votes": "94"
+            },
+            {
+                "ct_name": "Spicy",
+                "votes": "297"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "94"
+            },
+            {
+                "ct_name": "Smoky",
+                "votes": "129"
+            },
+            {
+                "ct_name": "Oriental",
+                "votes": "109"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "350"
+            },
+            {
+                "ct_name": "Resinous",
+                "votes": "132"
+            },
+            {
+                "ct_name": "Green",
+                "votes": "75"
+            },
+            {
+                "ct_name": "Fresh",
+                "votes": "161"
+            },
+            {
+                "ct_name": "Earthy",
+                "votes": "97"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "222"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "217"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "276"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "242"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "296"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "379"
+            },
+            {
+                "ct_name": "Feminine",
+                "votes": "75"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "223"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "96"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "292"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "364"
+            },
+            {
+                "ct_name": "Summer",
+                "votes": "137"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "288"
+            }
+        ]
+    },
+    {
+        "name": "Polo Deep Blue\nRalph Lauren 2020",
+        "brand": "Ralph Lauren",
+        "link": "https://www.parfumo.com/Perfumes/Ralph_Lauren/polo-deep-blue",
+        "type": [
+            {
+                "ct_name": "Citrus",
+                "votes": "12"
+            },
+            {
+                "ct_name": "Spicy",
+                "votes": "5"
+            },
+            {
+                "ct_name": "Synthetic",
+                "votes": "9"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "5"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "5"
+            },
+            {
+                "ct_name": "Green",
+                "votes": "8"
+            },
+            {
+                "ct_name": "Fruity",
+                "votes": "7"
+            },
+            {
+                "ct_name": "Fresh",
+                "votes": "18"
+            },
+            {
+                "ct_name": "Aquatic",
+                "votes": "15"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "15"
+            },
+            {
+                "ct_name": "Sport",
+                "votes": "10"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "15"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "3"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "11"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "18"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "7"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "10"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Fall",
+                "votes": "6"
+            },
+            {
+                "ct_name": "Summer",
+                "votes": "18"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "13"
+            }
+        ]
+    },
+    {
+        "name": "Boss Bottled Elixir\nHugo Boss 2023",
+        "brand": "Hugo Boss",
+        "link": "https://www.parfumo.com/Perfumes/Hugo_Boss/boss-bottled-elixir",
+        "type": [
+            {
+                "ct_name": "Spicy",
+                "votes": "51"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "28"
+            },
+            {
+                "ct_name": "Smoky",
+                "votes": "47"
+            },
+            {
+                "ct_name": "Oriental",
+                "votes": "35"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "51"
+            },
+            {
+                "ct_name": "Resinous",
+                "votes": "38"
+            },
+            {
+                "ct_name": "Earthy",
+                "votes": "17"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "20"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "41"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "49"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "22"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "51"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "61"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "38"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "26"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "60"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "59"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "26"
+            }
+        ]
+    },
+    {
+        "name": "Musc Ravageur\nEditions de Parfums Fr\u00e9d\u00e9ric Malle 2000",
+        "brand": "Editions de Parfums Fr\u00e9d\u00e9ric Malle",
+        "link": "https://www.parfumo.com/Perfumes/Editions_de_Parfum_Frederic_Malle/Musc_Ravageur",
+        "type": [
+            {
+                "ct_name": "Spicy",
+                "votes": "380"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "341"
+            },
+            {
+                "ct_name": "Powdery",
+                "votes": "145"
+            },
+            {
+                "ct_name": "Oriental",
+                "votes": "218"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "184"
+            },
+            {
+                "ct_name": "Resinous",
+                "votes": "91"
+            },
+            {
+                "ct_name": "Gourmand",
+                "votes": "135"
+            },
+            {
+                "ct_name": "Creamy",
+                "votes": "106"
+            },
+            {
+                "ct_name": "Animal",
+                "votes": "279"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "143"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "249"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "387"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "106"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "415"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "431"
+            },
+            {
+                "ct_name": "Feminine",
+                "votes": "257"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "242"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "114"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "418"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "426"
+            },
+            {
+                "ct_name": "Summer",
+                "votes": "83"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "226"
+            }
+        ]
+    },
+    {
+        "name": "Pardon\nNasomatto 2011 EXTRAIT DE PARFUM",
+        "brand": "Nasomatto",
+        "link": "https://www.parfumo.com/Perfumes/Nasomatto/Pardon",
+        "type": [
+            {
+                "ct_name": "Spicy",
+                "votes": "225"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "99"
+            },
+            {
+                "ct_name": "Smoky",
+                "votes": "116"
+            },
+            {
+                "ct_name": "Oriental",
+                "votes": "127"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "252"
+            },
+            {
+                "ct_name": "Resinous",
+                "votes": "125"
+            },
+            {
+                "ct_name": "Gourmand",
+                "votes": "88"
+            },
+            {
+                "ct_name": "Earthy",
+                "votes": "107"
+            },
+            {
+                "ct_name": "Floral",
+                "votes": "56"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "67"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "144"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "241"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "76"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "254"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "285"
+            },
+            {
+                "ct_name": "Feminine",
+                "votes": "87"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "144"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "82"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "261"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "270"
+            },
+            {
+                "ct_name": "Summer",
+                "votes": "40"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "123"
+            }
+        ]
+    },
+    {
         "name": "Dark\nAkro 2018",
         "brand": "Akro",
         "link": "https://www.parfumo.com/Perfumes/Akro/Dark",
