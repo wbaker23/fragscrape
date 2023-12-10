@@ -1,16 +1,22 @@
+import argparse
+
 import matplotlib.pyplot as plt
 import mplcursors
 import pandas as pd
 from config import *
 from scipy.optimize import curve_fit
 
-filename = f"{DATA_PATH}/{PROCESSED_FOLDER}/best_marine_2023.csv"
+parser = argparse.ArgumentParser(
+    description="Visualize the ratings from a processed list of fragrances."
+)
+parser.add_argument("filename", help="The path of the file to visualize.")
+args = parser.parse_args()
 
 
 if __name__ == "__main__":
     # Load data
-    df_combined = pd.read_csv(filename)
-    print(f"{df_combined.shape[0]} fragrances loaded from {filename}")
+    df_combined = pd.read_csv(args.filename)
+    print(f"{df_combined.shape[0]} fragrances loaded from {args.filename}")
 
     # Make scatter plot
     plt.close("all")
