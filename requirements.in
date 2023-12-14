@@ -1,0 +1,16 @@
+black
+build
+click
+ipykernel
+isort
+matplotlib
+networkx
+numpy
+pandas
+scikit-learn
+scipy
+selenium
+setuptools
+tqdm
+twine
+undetected-chromedriver
