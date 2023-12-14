@@ -1,5 +1,14 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
 [tool.isort]
-profile = 'black'
+profile = "black"
 
 [project]
-name = 'fragrantica-scraping'
+name = "fragscrape"
+version = "0.0.1"
+authors = [
+    {name = "Will Baker", email = "bakerwill764@gmail.com"},
+]
+description = 'A package for scraping and analyzing data from the fragrance databases Fragrantica and Parfumo.'
