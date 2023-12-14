@@ -5,7 +5,7 @@ import driver
 from selenium.webdriver.common.by import By
 from tqdm import tqdm
 
-DRIVER = driver.start()
+DRIVER = driver.start("https://www.parfumo.com")
 
 infile = "data/parfumo/collection.json"
 outfile = "data/parfumo/collection_enriched.json"

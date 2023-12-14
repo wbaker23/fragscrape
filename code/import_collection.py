@@ -4,7 +4,7 @@ import driver
 from selenium.webdriver.common.by import By
 from tqdm import tqdm
 
-DRIVER = driver.start()
+DRIVER = driver.start("https://www.parfumo.com")
 
 collection_pages = [
     "https://www.parfumo.com/Users/Crazysillage/Collection/Abfuellungen",
