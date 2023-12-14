@@ -1,6 +1,6 @@
 import json
 
-import driver
+from fragscrape.helpers import driver
 from selenium.webdriver.common.by import By
 from tqdm import tqdm
 

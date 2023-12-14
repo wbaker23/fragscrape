@@ -3,7 +3,7 @@ import argparse
 import matplotlib.pyplot as plt
 import mplcursors
 import pandas as pd
-from config import *
+from fragscrape.config import *
 from scipy.optimize import curve_fit
 
 parser = argparse.ArgumentParser(

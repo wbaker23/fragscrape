@@ -3,7 +3,7 @@ import re
 
 import numpy as np
 import pandas as pd
-from config import *
+from fragscrape.config import *
 from sklearn.preprocessing import MinMaxScaler
 
 parser = argparse.ArgumentParser(

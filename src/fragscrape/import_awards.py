@@ -3,7 +3,7 @@ from re import findall, search
 
 import pandas as pd
 import undetected_chromedriver
-from config import *
+from fragscrape.config import *
 from scipy.stats import beta
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
