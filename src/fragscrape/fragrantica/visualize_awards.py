@@ -3,8 +3,9 @@ import argparse
 import matplotlib.pyplot as plt
 import mplcursors
 import pandas as pd
-from fragscrape.fragrantica.config import *
 from scipy.optimize import curve_fit
+
+from fragscrape.fragrantica.config import *
 
 parser = argparse.ArgumentParser(
     description="Visualize the ratings from a processed list of fragrances."

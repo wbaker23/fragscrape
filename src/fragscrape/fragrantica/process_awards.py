@@ -2,8 +2,9 @@ import argparse
 
 import numpy as np
 import pandas as pd
-from fragscrape.fragrantica.config import *
 from sklearn.preprocessing import MinMaxScaler
+
+from fragscrape.fragrantica.config import *
 
 parser = argparse.ArgumentParser(
     description="Enrich the data from a Fragrantica awards page."

@@ -1,8 +1,9 @@
 import json
 
-from fragscrape.helpers import driver
 from selenium.webdriver.common.by import By
 from tqdm import tqdm
+
+from fragscrape.helpers import driver
 
 DRIVER = driver.start("https://www.parfumo.com")
 

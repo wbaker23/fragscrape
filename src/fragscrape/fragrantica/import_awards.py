@@ -3,13 +3,14 @@ from re import findall, search
 
 import pandas as pd
 import undetected_chromedriver
-from fragscrape.fragrantica.config import *
 from scipy.stats import beta
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from tqdm import tqdm
+
+from fragscrape.fragrantica.config import *
 
 DRIVER = undetected_chromedriver.Chrome()
 DRIVER.implicitly_wait(10)
