@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     decants_enriched = []
     for fragrance in tqdm(collection):
-        DRIVER.get(fragrance)
+        DRIVER.get(fragrance["link"])
         name = DRIVER.find_element(
             By.CSS_SELECTOR, "#pd_inf > div.cb.pt-1 > main > div.p_details_holder > h1"
         ).text
@@ -70,11 +70,12 @@ if __name__ == "__main__":
             {
                 "name": name,
                 "brand": brand,
-                "link": fragrance,
+                "link": fragrance["link"],
                 "type": scent_type,
                 "occasion": scent_occasion,
                 "audience": scent_audience,
                 "season": scent_season,
+                "collection_group": fragrance["label"],
             }
         )
 
