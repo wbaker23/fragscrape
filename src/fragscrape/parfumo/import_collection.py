@@ -7,6 +7,7 @@ from fragscrape.helpers import driver
 
 DRIVER = driver.start("https://www.parfumo.com")
 
+# TODO: Parameterize this
 collection_pages = [
     {
         "link": "https://www.parfumo.com/Users/Crazysillage/Collection/Abfuellungen",
@@ -17,6 +18,7 @@ collection_pages = [
         "label": "I have",
     },
 ]
+# TODO: and this
 outfile = "data/parfumo/collection.json"
 
 if __name__ == "__main__":

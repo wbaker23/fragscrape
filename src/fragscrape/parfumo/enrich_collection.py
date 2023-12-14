@@ -8,6 +8,7 @@ from fragscrape.helpers import driver
 
 DRIVER = driver.start("https://www.parfumo.com")
 
+# TODO: Parameterize these
 infile = "data/parfumo/collection.json"
 outfile = "data/parfumo/collection_enriched.json"
 

@@ -22,7 +22,7 @@ class MplColorHelper:
         return self.scalarMap.to_rgba(val, bytes=True)
 
     def get_rgb_str(self, val):
-        r, g, b, a = self.get_rgba(val)
+        r, g, b, _ = self.get_rgba(val)
         return f"rgb({r},{g},{b})"
 
 
@@ -85,6 +85,7 @@ def generate_edges_df(nodes_df):
     print(
         pd.DataFrame(enumerate(np.cumsum(total_pivot_explained_variance))).set_index(0)
     )
+    # TODO: Need algorithm for this
     cutoff = int(input("Enter cutoff: "))
 
     total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
@@ -105,8 +106,10 @@ def generate_edges_df(nodes_df):
     )
 
 
+# TODO: Parameterize these
 infile = "data/parfumo/collection_enriched.json"
 similarity_column = "total_similarity"
+# TODO: Algorithm for this (take minimum of all maximum edge weights per node)
 threshold = 0.74
 
 
