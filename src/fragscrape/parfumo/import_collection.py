@@ -30,6 +30,8 @@ if __name__ == "__main__":
         ):
             fragrance.click()
             try:
+                # Must keep this model in view at all times by scrolling down the page,
+                # following the progress of the loop.
                 link = DRIVER.find_element(
                     By.CSS_SELECTOR, "body > div.wr_sneak > div.header > div.img > a"
                 )

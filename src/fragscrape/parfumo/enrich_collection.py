@@ -17,6 +17,7 @@ if __name__ == "__main__":
         collection = json.load(f)
 
     decants_enriched = []
+    # Let this loop run with the Chrome driver on screen, and wait until it finishes.
     for fragrance in tqdm(collection):
         DRIVER.get(fragrance["link"])
         name = DRIVER.find_element(

@@ -1,6 +1,7 @@
 black
 build
 click
+gravis
 ipykernel
 isort
 matplotlib
