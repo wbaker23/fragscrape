@@ -115,6 +115,7 @@ similarity_column = "total_similarity"
 if __name__ == "__main__":
     nodes_df = pd.read_json(infile)
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
+    print(f"Nodes: {nodes_df.shape[0]}")
 
     edges_df = generate_edges_df(nodes_df)
     edges_df = edges_df.rename(
@@ -138,7 +139,7 @@ if __name__ == "__main__":
     # print(threshold)
 
     edges_df = edges_df[edges_df["weight"] >= threshold]
-    print(f"Edges: {len(edges_df)}")
+    print(f"Edges: {edges_df.shape[0]}")
 
     net = nx.Graph()
 

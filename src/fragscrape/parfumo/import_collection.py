@@ -17,6 +17,10 @@ collection_pages = [
         "link": "https://www.parfumo.com/Users/Crazysillage/Collection",
         "label": "I have",
     },
+    {
+        "link": "https://www.parfumo.com/Users/Crazysillage/Collection/Wish_List",
+        "label": "Wish List",
+    },
 ]
 # TODO: and this
 outfile = "data/parfumo/collection.json"
