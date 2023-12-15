@@ -82,11 +82,12 @@ def generate_edges_df(nodes_df):
         total_pivot, "name", total_pivot.columns.to_list()
     )
 
-    print(
-        pd.DataFrame(enumerate(np.cumsum(total_pivot_explained_variance))).set_index(0)
-    )
-    # TODO: Need algorithm for this
-    cutoff = int(input("Enter cutoff: "))
+    variance_df = pd.DataFrame(
+        enumerate(np.cumsum(total_pivot_explained_variance))
+    ).set_index(0)
+    cutoff = variance_df[variance_df[1] >= 0.99].index.min() + 1
+    # print(variance_df.iloc[(cutoff - 3) :])
+    # print(f"Cutoff: {cutoff}")
 
     total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
     total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed).round(3)
@@ -109,8 +110,6 @@ def generate_edges_df(nodes_df):
 # TODO: Parameterize these
 infile = "data/parfumo/collection_enriched.json"
 similarity_column = "total_similarity"
-# TODO: Algorithm for this (take minimum of all maximum edge weights per node)
-threshold = 0.74
 
 
 if __name__ == "__main__":
@@ -127,6 +126,16 @@ if __name__ == "__main__":
     edges_df["weight"] = MinMaxScaler().fit_transform(
         np.array(edges_df[similarity_column]).reshape(-1, 1)
     )
+
+    node_weights_df = pd.merge(
+        edges_df[["source", "weight"]].groupby("source").max().sort_values("weight"),
+        edges_df[["target", "weight"]].groupby("target").max().sort_values("weight"),
+        how="outer",
+        left_on="source",
+        right_on="target",
+    ).max(axis=1)
+    threshold = node_weights_df.min()
+    # print(threshold)
 
     edges_df = edges_df[edges_df["weight"] >= threshold]
     print(f"Edges: {len(edges_df)}")
@@ -149,10 +158,9 @@ if __name__ == "__main__":
     nx.set_node_attributes(net, nx.pagerank(net), "pagerank")
 
     # Color-code nodes based on Louvain communities
-    # communities = nx.community.louvain_communities(net, weight="weight")
-    # communities = sorted(communities, key=len, reverse=True)
-
-    # print(f"Communities: {len(communities)}")
+    communities = nx.community.louvain_communities(net, weight="weight")
+    communities = sorted(communities, key=len, reverse=True)
+    print(f"Communities: {len(communities)}")
 
     # node_colors = MplColorHelper("rainbow", 0, len(communities) - 1)
     # community_colors = {}
@@ -162,8 +170,13 @@ if __name__ == "__main__":
     #             community_colors[node] = node_colors.get_rgb_str(i)
     # nx.set_node_attributes(net, community_colors, "color")
 
+    collection_groups = nodes_df["collection_group"].unique().tolist()
+    node_colors = MplColorHelper("rainbow", 0, len(collection_groups) - 1)
     nodes_df["color"] = nodes_df.apply(
-        lambda row: "blue" if row["collection_group"] == "I have" else "red", axis=1
+        lambda row: node_colors.get_rgb_str(
+            collection_groups.index(row["collection_group"])
+        ),
+        axis=1,
     )
     nx.set_node_attributes(net, nodes_df["color"].to_dict(), "color")
 
