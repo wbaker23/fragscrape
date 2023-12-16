@@ -20,10 +20,9 @@ def _close_parfumo_cookies_popup(driver):
     return driver
 
 
-def start(url):
+def start_driver():
     DRIVER = undetected_chromedriver.Chrome()
     DRIVER.implicitly_wait(10)
-    DRIVER.get(url)
-    if url == "https://www.parfumo.com":
-        DRIVER = _close_parfumo_cookies_popup(DRIVER)
+    DRIVER.get("https://www.parfumo.com")
+    DRIVER = _close_parfumo_cookies_popup(DRIVER)
     return DRIVER

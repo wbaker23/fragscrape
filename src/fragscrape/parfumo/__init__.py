@@ -1,7 +1,16 @@
 import click
 
+from fragscrape.parfumo.create_collection_graph import create_graph
+from fragscrape.parfumo.enrich_collection import enrich_collection
+from fragscrape.parfumo.import_collection import import_collection
 
-@click.command()
+
+@click.group()
 @click.pass_context
 def parfumo(ctx):
-    click.echo("This is the Parfumo package.")
+    pass
+
+
+parfumo.add_command(import_collection)
+parfumo.add_command(enrich_collection)
+parfumo.add_command(create_graph)

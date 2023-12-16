@@ -1,6 +1,7 @@
 import json
 import re
 
+import click
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -107,12 +108,12 @@ def generate_edges_df(nodes_df):
     )
 
 
-# TODO: Parameterize these
-infile = "data/parfumo/fragrance_data.json"
+@click.command()
+@click.pass_context
+def create_graph(ctx):
+    config = ctx.obj.get("config")
 
-
-if __name__ == "__main__":
-    nodes_df = pd.read_json(infile)
+    nodes_df = pd.read_json(config["parfumo_enrich_results_path"])
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
     print(f"Nodes: {nodes_df.shape[0]}")
 

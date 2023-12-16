@@ -25,5 +25,14 @@ fragrantica_awards_pages_to_import:
   url: https://www.fragrantica.com/awards2023/category/Best-Marine-Perfume
 
 data_path: data
-raw_folder: raw
-processed_folder: processed
+
+parfumo_collection_pages:
+- url: https://www.parfumo.com/Users/Crazysillage/Collection/Abfuellungen
+  label: Decants
+- url: https://www.parfumo.com/Users/Crazysillage/Collection
+  label: I have
+- url: https://www.parfumo.com/Users/Crazysillage/Collection/Wish_List
+  label: Wish List
+
+parfumo_import_results_path: data/parfumo/fragrance_links.json
+parfumo_enrich_results_path: data/parfumo/fragrance_data.json
