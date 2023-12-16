@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from sklearn.preprocessing import MinMaxScaler, PowerTransformer, StandardScaler
 
 
 class MplColorHelper:
@@ -33,12 +33,10 @@ def decompose_df(df: pd.DataFrame, label: str, variables: list):
 
     x_pca = pd.DataFrame(
         pca.fit_transform(
-            pd.DataFrame(
-                StandardScaler().fit_transform(temp_df.loc[:, variables].values)
-            )
+            pd.DataFrame(StandardScaler().fit_transform(temp_df[variables].values))
         )
     )
-    x_pca["name"] = temp_df.loc[:, [label]]
+    x_pca["name"] = temp_df[label]
     x_pca.set_index("name", inplace=True)
 
     return x_pca, pca.explained_variance_ratio_
@@ -124,9 +122,26 @@ def create_graph(ctx):
             "fragrance_2": "target",
         }
     )
-    edges_df["weight"] = MinMaxScaler().fit_transform(
-        np.array(edges_df["total_similarity"]).reshape(-1, 1)
-    )
+
+    # Use total_similarity found after normalizing component features
+    edges_df["weight"] = pd.DataFrame(
+        PowerTransformer().fit_transform(
+            edges_df[
+                [
+                    "type_similarity",
+                    "occasion_similarity",
+                    "season_similarity",
+                    "audience_similarity",
+                ]
+            ].values
+        )
+    ).mean(axis=1)
+    edges_df["weight"] = edges_df["weight"] + abs(edges_df["weight"].min())
+
+    # Use total_similarity found using PCA
+    # edges_df["weight"] = MinMaxScaler().fit_transform(
+    #     np.array(edges_df["total_similarity"]).reshape(-1, 1)
+    # )
 
     node_weights_df = pd.merge(
         edges_df[["source", "weight"]].groupby("source").max().sort_values("weight"),
