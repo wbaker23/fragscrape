@@ -10,11 +10,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from tqdm import tqdm
 
-from fragscrape.fragrantica.config import *
-
-DRIVER = undetected_chromedriver.Chrome()
-DRIVER.implicitly_wait(10)
-
 
 def get_year(name: str):
     try:
@@ -24,10 +19,10 @@ def get_year(name: str):
     return year
 
 
-def get_awarded_fragrances(url: str):
-    DRIVER.get(url)
+def get_awarded_fragrances(url: str, driver):
+    driver.get(url)
     count_fragrances = len(
-        WebDriverWait(DRIVER, 10).until(
+        WebDriverWait(driver, 10).until(
             EC.presence_of_all_elements_located((By.CLASS_NAME, "nomination-box"))
         )
     )
@@ -35,17 +30,17 @@ def get_awarded_fragrances(url: str):
     frag_list = []
     for i in tqdm(range(1, count_fragrances + 1)):
         try:
-            name = DRIVER.find_element(
+            name = driver.find_element(
                 By.CSS_SELECTOR, f"div.small-6:nth-child({i}) > a:nth-child(2)"
             ).text
-            link = DRIVER.find_element(
+            link = driver.find_element(
                 By.CSS_SELECTOR, f"div.small-6:nth-child({i}) > a:nth-child(2)"
             ).get_attribute("href")
-            upvotes = DRIVER.find_element(
+            upvotes = driver.find_element(
                 By.CSS_SELECTOR,
                 f"div.small-6:nth-child({i}) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
             ).text
-            downvotes = DRIVER.find_element(
+            downvotes = driver.find_element(
                 By.CSS_SELECTOR,
                 f"div.small-6:nth-child({i}) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)",
             ).text
@@ -169,10 +164,12 @@ def graph_years(frag_dict, ranking_func=bayesian_rating):
     return x, y
 
 
-if __name__ == "__main__":
-    for name, link in PAGES_TO_IMPORT.items():
-        print(f"Processing {link}")
-        filename = f"{DATA_PATH}/raw/{name}.csv"
-        pd.DataFrame(get_awarded_fragrances(link)).to_csv(filename, index=False)
-        print(f"Wrote {filename}")
-    DRIVER.close()
+def start(pages_to_import, data_path, raw_folder):
+    with undetected_chromedriver.Chrome() as driver:
+        driver.implicitly_wait(10)
+        for name, link in pages_to_import.items():
+            print(f"Processing {link}")
+            filename = f"{data_path}/{raw_folder}/{name}.csv"
+            pd.DataFrame(get_awarded_fragrances(link)).to_csv(filename, index=False)
+            print(f"Wrote {filename}")
+        driver.close()

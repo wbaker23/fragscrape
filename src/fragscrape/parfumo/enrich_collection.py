@@ -4,7 +4,7 @@ import re
 from selenium.webdriver.common.by import By
 from tqdm import tqdm
 
-from fragscrape.helpers import driver
+from fragscrape.parfumo import driver
 
 DRIVER = driver.start("https://www.parfumo.com")
 

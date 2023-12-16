@@ -5,8 +5,6 @@ import mplcursors
 import pandas as pd
 from scipy.optimize import curve_fit
 
-from fragscrape.fragrantica.config import *
-
 parser = argparse.ArgumentParser(
     description="Visualize the ratings from a processed list of fragrances."
 )
@@ -14,7 +12,7 @@ parser.add_argument("filename", help="The path of the file to visualize.")
 args = parser.parse_args()
 
 
-if __name__ == "__main__":
+def start():
     # Load data
     df_combined = pd.read_csv(args.filename)
     print(f"{df_combined.shape[0]} fragrances loaded from {args.filename}")

@@ -4,8 +4,6 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
-from fragscrape.fragrantica.config import *
-
 parser = argparse.ArgumentParser(
     description="Enrich the data from a Fragrantica awards page."
 )
@@ -13,7 +11,8 @@ parser.add_argument("filename", help="The path of the file to process.")
 parser.add_argument("output", help="The path of the file to write.")
 args = parser.parse_args()
 
-if __name__ == "__main__":
+
+def start():
     # Load data
     df = pd.read_csv(args.filename)
     print(f"{df.shape[0]} fragrances loaded from {args.filename}")
