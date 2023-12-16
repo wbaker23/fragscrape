@@ -108,8 +108,7 @@ def generate_edges_df(nodes_df):
 
 
 # TODO: Parameterize these
-infile = "data/parfumo/collection_enriched.json"
-similarity_column = "total_similarity"
+infile = "data/parfumo/fragrance_data.json"
 
 
 if __name__ == "__main__":
@@ -125,7 +124,7 @@ if __name__ == "__main__":
         }
     )
     edges_df["weight"] = MinMaxScaler().fit_transform(
-        np.array(edges_df[similarity_column]).reshape(-1, 1)
+        np.array(edges_df["total_similarity"]).reshape(-1, 1)
     )
 
     node_weights_df = pd.merge(

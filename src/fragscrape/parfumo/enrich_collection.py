@@ -9,8 +9,8 @@ from fragscrape.helpers import driver
 DRIVER = driver.start("https://www.parfumo.com")
 
 # TODO: Parameterize these
-infile = "data/parfumo/collection.json"
-outfile = "data/parfumo/collection_enriched.json"
+infile = "data/parfumo/fragrance_links.json"
+outfile = "data/parfumo/fragrance_data.json"
 
 if __name__ == "__main__":
     with open(infile, "r") as f:

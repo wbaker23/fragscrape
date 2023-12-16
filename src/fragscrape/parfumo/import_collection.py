@@ -23,7 +23,7 @@ collection_pages = [
     },
 ]
 # TODO: and this
-outfile = "data/parfumo/collection.json"
+outfile = "data/parfumo/fragrance_links.json"
 
 if __name__ == "__main__":
     links = []
