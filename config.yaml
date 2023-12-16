@@ -36,3 +36,4 @@ parfumo_collection_pages:
 
 parfumo_import_results_path: data/parfumo/fragrance_links.json
 parfumo_enrich_results_path: data/parfumo/fragrance_data.json
+parfumo_graph_path: data/parfumo/graph.json

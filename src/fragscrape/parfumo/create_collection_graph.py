@@ -181,5 +181,5 @@ def create_graph(ctx):
     )
     nx.set_node_attributes(net, nodes_df["color"].to_dict(), "color")
 
-    with open("graph.json", "w") as f:
+    with open(config["parfumo_graph_path"], "w") as f:
         json.dump(nx.node_link_data(net), f)
