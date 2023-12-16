@@ -84,9 +84,7 @@ def generate_edges_df(nodes_df):
     variance_df = pd.DataFrame(
         enumerate(np.cumsum(total_pivot_explained_variance))
     ).set_index(0)
-    cutoff = variance_df[variance_df[1] >= 0.99].index.min() + 1
-    # print(variance_df.iloc[(cutoff - 3) :])
-    # print(f"Cutoff: {cutoff}")
+    cutoff = variance_df[variance_df[1] >= 0.95].index.min() + 1
 
     total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
     total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed).round(3)
@@ -108,7 +106,16 @@ def generate_edges_df(nodes_df):
 
 @click.command()
 @click.pass_context
-def create_graph(ctx):
+@click.option(
+    "--color-groups",
+    "-color",
+    "color_groups",
+    type=click.Choice(["louvain", "collection"]),
+    default="louvain",
+    show_default=True,
+    help="Choose how to color-code graph nodes.",
+)
+def create_graph(ctx, color_groups):
     config = ctx.obj.get("config")
 
     nodes_df = pd.read_json(config["parfumo_enrich_results_path"])
@@ -124,18 +131,23 @@ def create_graph(ctx):
     )
 
     # Use total_similarity found after normalizing component features
-    edges_df["weight"] = pd.DataFrame(
-        PowerTransformer().fit_transform(
-            edges_df[
-                [
-                    "type_similarity",
-                    "occasion_similarity",
-                    "season_similarity",
-                    "audience_similarity",
-                ]
-            ].values
-        )
-    ).mean(axis=1)
+    component_columns = [
+        "type_similarity",
+        "occasion_similarity",
+        "season_similarity",
+        "audience_similarity",
+    ]
+    component_weights = [0.7, 0.1, 0.1, 0.1]
+    edges_df[component_columns] = pd.DataFrame(
+        PowerTransformer().fit_transform(edges_df[component_columns].values)
+    )
+    edges_df["weight"] = edges_df.apply(
+        lambda row: np.average(
+            row[component_columns],
+            weights=component_weights,
+        ),
+        axis=1,
+    )
     edges_df["weight"] = edges_df["weight"] + abs(edges_df["weight"].min())
 
     # Use total_similarity found using PCA
@@ -151,7 +163,6 @@ def create_graph(ctx):
         right_on="target",
     ).max(axis=1)
     threshold = node_weights_df.min()
-    # print(threshold)
 
     edges_df = edges_df[edges_df["weight"] >= threshold]
     print(f"Edges: {edges_df.shape[0]}")
@@ -173,28 +184,31 @@ def create_graph(ctx):
 
     nx.set_node_attributes(net, nx.pagerank(net), "pagerank")
 
-    # Color-code nodes based on Louvain communities
+    # Find Louvain communities
     communities = nx.community.louvain_communities(net, weight="weight")
     communities = sorted(communities, key=len, reverse=True)
-    print(f"Communities: {len(communities)}")
+    print(f"Louvain communities: {len(communities)}")
 
-    # node_colors = MplColorHelper("rainbow", 0, len(communities) - 1)
-    # community_colors = {}
-    # for node in net:
-    #     for i in range(len(communities)):
-    #         if node in communities[i]:
-    #             community_colors[node] = node_colors.get_rgb_str(i)
-    # nx.set_node_attributes(net, community_colors, "color")
-
-    collection_groups = nodes_df["collection_group"].unique().tolist()
-    node_colors = MplColorHelper("rainbow", 0, len(collection_groups) - 1)
-    nodes_df["color"] = nodes_df.apply(
-        lambda row: node_colors.get_rgb_str(
-            collection_groups.index(row["collection_group"])
-        ),
-        axis=1,
-    )
-    nx.set_node_attributes(net, nodes_df["color"].to_dict(), "color")
+    if color_groups == "louvain":
+        # Color code based on Louvain communities
+        node_colors = MplColorHelper("rainbow", 0, len(communities) - 1)
+        community_colors = {}
+        for node in net:
+            for i in range(len(communities)):
+                if node in communities[i]:
+                    community_colors[node] = node_colors.get_rgb_str(i)
+        nx.set_node_attributes(net, community_colors, "color")
+    elif color_groups == "collection":
+        # Color code based on collection group
+        collection_groups = nodes_df["collection_group"].unique().tolist()
+        node_colors = MplColorHelper("rainbow", 0, len(collection_groups) - 1)
+        nodes_df["color"] = nodes_df.apply(
+            lambda row: node_colors.get_rgb_str(
+                collection_groups.index(row["collection_group"])
+            ),
+            axis=1,
+        )
+        nx.set_node_attributes(net, nodes_df["color"].to_dict(), "color")
 
     with open(config["parfumo_graph_path"], "w") as f:
         json.dump(nx.node_link_data(net), f)
