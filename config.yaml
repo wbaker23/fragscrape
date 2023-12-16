@@ -1,0 +1,29 @@
+fragrantica_awards_pages_to_import:
+- name: mens_all_time_2017
+  url: https://www.fragrantica.com/awards/category/best-fragrance-of-all-times-for-men
+- name: mens_all_time_2018
+  url: https://www.fragrantica.com/awards2018/category/best-fragrance-for-men
+- name: mens_all_time_2019
+  url: https://www.fragrantica.com/awards2019/category/Best-Men-s-Perfume-of-All-Time
+- name: mens_all_time_2020
+  url: https://www.fragrantica.com/awards2020/category/Best-Men-s-Perfume-of-All-Time
+- name: mens_all_time_2021
+  url: https://www.fragrantica.com/awards2021/category/Best-Men-s-Perfume-of-All-Time
+- name: mens_all_time_2022
+  url: https://www.fragrantica.com/awards2022/category/Best-Men-s-Perfume-of-All-Time
+- name: mens_all_time_2023
+  url: https://www.fragrantica.com/awards2023/category/Best-Men-s-Perfume-of-All-Time
+- name: mens_yearly_2022
+  url: https://www.fragrantica.com/awards2022/category/Best-Perfume-for-Men-2022
+- name: mens_yearly_2023
+  url: https://www.fragrantica.com/awards2023/category/Best-Perfume-for-Men-2023
+- name: vanilla_2021
+  url: https://www.fragrantica.com/awards2021/category/Best-Vanilla-Perfume
+- name: hot_days_2017
+  url: https://www.fragrantica.com/awards/category/best-fragrance-for-hot-days
+- name: best_marine_2023
+  url: https://www.fragrantica.com/awards2023/category/Best-Marine-Perfume
+
+data_path: data
+raw_folder: raw
+processed_folder: processed

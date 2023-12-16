@@ -5,6 +5,7 @@ gravis
 ipykernel
 isort
 matplotlib
+mplcursors
 networkx
 numpy
 pandas
