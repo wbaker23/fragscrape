@@ -9,6 +9,7 @@ from fragscrape.parfumo.import_fragrances import import_fragrances
 @click.group()
 @click.pass_context
 def parfumo(ctx):
+    """Entrypoint for Parfumo-specific code."""
     pass
 
 

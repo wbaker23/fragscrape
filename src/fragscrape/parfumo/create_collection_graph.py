@@ -13,6 +13,8 @@ from sklearn.preprocessing import MinMaxScaler, PowerTransformer, StandardScaler
 
 
 class MplColorHelper:
+    """Helper class for coloring nodes using a colormap."""
+
     def __init__(self, cmap_name, start_val, stop_val):
         self.cmap_name = cmap_name
         self.cmap = plt.get_cmap(cmap_name)
@@ -28,6 +30,7 @@ class MplColorHelper:
 
 
 def decompose_df(df: pd.DataFrame, label: str, variables: list):
+    """Use PCA to decompose a df."""
     pca = PCA()
     temp_df = df.reset_index()
 
@@ -43,6 +46,7 @@ def decompose_df(df: pd.DataFrame, label: str, variables: list):
 
 
 def explode_chart_data(df, chart_name):
+    """Convert df with Parfumo chart data into wide-form."""
     # Explode parfumo chart data
     exp_df = df.explode(chart_name)
     exp_df[f"{chart_name}_name"] = exp_df[chart_name].apply(lambda x: x["ct_name"])
@@ -62,6 +66,7 @@ def explode_chart_data(df, chart_name):
 
 
 def generate_edges_df(nodes_df):
+    """Generate df listing all possible combinations of nodes with distance metrics."""
     type_pivot = explode_chart_data(nodes_df, "type")
     type_cosine_array = cosine_similarity(type_pivot).round(3)
 
@@ -108,7 +113,7 @@ def generate_edges_df(nodes_df):
 @click.pass_context
 @click.option(
     "--color-groups",
-    "-color",
+    "-c",
     "color_groups",
     type=click.Choice(["louvain", "collection"]),
     default="louvain",
@@ -116,6 +121,7 @@ def generate_edges_df(nodes_df):
     help="Choose how to color-code graph nodes.",
 )
 def create_graph(ctx, color_groups):
+    """Create networkx-compatible json file containing graph nodes and edges."""
     config = ctx.obj.get("config")
 
     nodes_df = pd.read_json(config["parfumo_enrich_results_path"])

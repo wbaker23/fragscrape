@@ -11,6 +11,7 @@ from fragscrape.parfumo.driver import start_driver
 @click.command()
 @click.pass_context
 def enrich_collection(ctx):
+    """Navigate to previously scraped fragrance urls to get categorization data."""
     config = ctx.obj.get("config")
 
     with open(config["parfumo_import_results_path"], "r") as f:

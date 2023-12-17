@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 
 
 def _close_parfumo_cookies_popup(driver):
+    """Automatically close Parfumo's cookie dialogs."""
     iframe = driver.find_element(By.XPATH, "//iframe[@title='SP Consent Message']")
     driver.switch_to.frame(iframe)
     driver.find_element(By.XPATH, "//button[@title='Settings or reject']").click()
@@ -21,6 +22,7 @@ def _close_parfumo_cookies_popup(driver):
 
 
 def start_driver():
+    """Initialize driver and navigate to Parfumo."""
     DRIVER = undetected_chromedriver.Chrome()
     DRIVER.implicitly_wait(10)
     DRIVER.get("https://www.parfumo.com")

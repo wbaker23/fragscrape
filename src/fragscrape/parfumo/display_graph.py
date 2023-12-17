@@ -8,12 +8,12 @@ import networkx as nx
 @click.command()
 @click.pass_context
 def display_graph(ctx):
+    """Open graph data and visualize in web browser."""
     config = ctx.obj.get("config")
 
     with open(config["parfumo_graph_path"], "r") as f:
         net = nx.node_link_graph(json.load(f), multigraph=False)
 
-    # Display visualization
     fig = gv.vis(
         net,
         graph_height=700,

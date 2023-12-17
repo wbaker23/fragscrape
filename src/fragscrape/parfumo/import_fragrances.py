@@ -18,10 +18,12 @@ from fragscrape.parfumo.driver import start_driver
     help="Source of fragrances, either a collection page or page of top fragrances.",
 )
 def import_fragrances(ctx, source):
+    """Import an array of fragrance links from Parfumo pages."""
     config = ctx.obj.get("config")
 
     with start_driver() as driver:
         links = []
+        # Collect fragrance urls from collection pages.
         if source == "collection":
             for page in tqdm(config["parfumo_collection_pages"]):
                 driver.get(page["url"])
@@ -43,6 +45,7 @@ def import_fragrances(ctx, source):
                         )
                     except:
                         continue
+        # Collect fragrance urls from top lists.
         elif source == "tops":
             for page in tqdm(config["parfumo_top_pages"]):
                 driver.get(page["url"])
