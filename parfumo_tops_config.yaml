@@ -1,0 +1,7 @@
+parfumo_top_pages:
+- url: https://www.parfumo.com/Perfumes/Tops/Men
+  label: Top Mens
+
+parfumo_import_results_path: data/parfumo/tops/fragrance_links.json
+parfumo_enrich_results_path: data/parfumo/tops/fragrance_data.json
+parfumo_graph_path: data/parfumo/tops/graph.json

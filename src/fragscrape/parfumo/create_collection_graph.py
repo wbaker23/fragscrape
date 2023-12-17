@@ -216,7 +216,7 @@ def create_graph(ctx, color_groups):
         shortened_node_labels[node] = re.sub(" \\d{4}.*$", "", node)
     nx.set_node_attributes(net, shortened_node_labels, "short_name")
 
-    nx.set_node_attributes(net, nodes_df['image_src'].to_dict(), "image")
+    nx.set_node_attributes(net, nodes_df["image_src"].to_dict(), "image")
 
     with open(config["parfumo_graph_path"], "w") as f:
         json.dump(nx.node_link_data(net), f)

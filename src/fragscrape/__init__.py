@@ -7,7 +7,7 @@ from fragscrape.parfumo import parfumo
 
 @click.group()
 @click.pass_context
-@click.option("--config-file", "-f", "config_file", default="config.yaml")
+@click.option("--config-file", "-f", "config_file")
 def cli(ctx, config_file):
     """Entrypoint for fragscrape package."""
     with open(config_file, "r") as f:
