@@ -29,6 +29,9 @@ def enrich_collection(ctx):
                 By.CSS_SELECTOR,
                 "#pd_inf > div.cb.pt-1 > main > div.p_details_holder > h1 > span > span > a:nth-child(1) > span",
             ).text
+            image_src = driver.find_element(
+                By.XPATH, "//img[@itemprop='image']"
+            ).get_attribute("src")
 
             try:
                 driver.find_element(By.ID, "classi_li").click()
@@ -75,6 +78,7 @@ def enrich_collection(ctx):
                 {
                     "name": name,
                     "brand": brand,
+                    "image_src": image_src,
                     "link": fragrance["link"],
                     "type": scent_type,
                     "occasion": scent_occasion,

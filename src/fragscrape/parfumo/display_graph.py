@@ -19,8 +19,14 @@ def display_graph(ctx):
         graph_height=700,
         use_edge_size_normalization=True,
         edge_size_data_source="weight",
+        edge_size_factor=0.5,
         use_node_size_normalization=True,
         node_size_data_source="pagerank",
         show_node_label=True,
+        node_label_data_source="short_name",
+        show_node_label_border=True,
+        gravitational_constant=-20000,
+        avoid_overlap=0.01,
+        central_gravity=1,
     )
     fig.display()
