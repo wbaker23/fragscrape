@@ -1,3 +1,6 @@
+Hello! This repository is a work in progress. 1.0.0 release is coming soon!
+
+#### Notes
 ```
 python -m build
 python -m twine upload --repository testpypi dist/*
@@ -6,7 +9,7 @@ python -m pip install --index-url https://test.pypi.org/simple/ --no-deps fragsc
 
 #### TODO
 - Use Click to finish CLI setup for Fragrantica code
-
+- Add license
 
 #### Future improvements
 - Make Parfumo work with headless driver
