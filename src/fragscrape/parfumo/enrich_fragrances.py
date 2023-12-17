@@ -10,7 +10,7 @@ from fragscrape.parfumo.driver import start_driver
 
 @click.command()
 @click.pass_context
-def enrich_collection(ctx):
+def enrich_fragrances(ctx):
     """Navigate to previously scraped fragrance urls to get categorization data."""
     config = ctx.obj.get("config")
 

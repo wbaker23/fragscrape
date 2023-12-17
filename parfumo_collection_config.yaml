@@ -5,6 +5,8 @@ parfumo_collection_pages:
   label: I have
 - url: https://www.parfumo.com/Users/Crazysillage/Collection/Wish_List
   label: Wish List
+- url: https://www.parfumo.com/Users/Crazysillage/Collection/Watch_List
+  label: Watch List
 
 parfumo_import_results_path: data/parfumo/fragrance_links.json
 parfumo_enrich_results_path: data/parfumo/fragrance_data.json

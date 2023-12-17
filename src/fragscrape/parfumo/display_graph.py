@@ -16,7 +16,9 @@ def display_graph(ctx):
 
     fig = gv.vis(
         net,
-        graph_height=700,
+        graph_height=600,
+        details_height=150,
+        show_details=True,
         use_edge_size_normalization=True,
         edge_size_data_source="weight",
         edge_size_factor=0.5,

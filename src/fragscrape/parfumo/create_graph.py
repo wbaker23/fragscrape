@@ -112,7 +112,7 @@ def generate_edges_df(nodes_df):
 @click.command()
 @click.pass_context
 @click.option(
-    "--color-groups",
+    "--color",
     "-c",
     "color_groups",
     type=click.Choice(["louvain", "collection"]),
@@ -124,6 +124,7 @@ def create_graph(ctx, color_groups):
     """Create networkx-compatible json file containing graph nodes and edges."""
     config = ctx.obj.get("config")
 
+    # Load graph data
     nodes_df = pd.read_json(config["parfumo_enrich_results_path"])
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
     print(f"Nodes: {nodes_df.shape[0]}")
@@ -136,7 +137,7 @@ def create_graph(ctx, color_groups):
         }
     )
 
-    # Use total_similarity found after normalizing component features
+    # Calculate weight by transforming component features and averaging
     component_columns = [
         "type_similarity",
         "occasion_similarity",
@@ -154,7 +155,9 @@ def create_graph(ctx, color_groups):
         ),
         axis=1,
     )
-    edges_df["weight"] = edges_df["weight"] + abs(edges_df["weight"].min())
+    edges_df["weight"] = MinMaxScaler().fit_transform(
+        np.array(edges_df["weight"]).reshape(-1, 1)
+    )
 
     # Use total_similarity found using PCA
     # edges_df["weight"] = MinMaxScaler().fit_transform(
@@ -169,16 +172,18 @@ def create_graph(ctx, color_groups):
         right_on="target",
     ).max(axis=1)
     threshold = node_weights_df.min()
-
     edges_df = edges_df[edges_df["weight"] >= threshold]
     print(f"Edges: {edges_df.shape[0]}")
 
+    # Create graph
     net = nx.Graph()
 
+    # Add nodes to graph
     nodes_df.set_index("name", inplace=True)
     for index, row in nodes_df.iterrows():
         net.add_node(index, collection_group=row["collection_group"])
 
+    # Add edges to graph
     for index, row in edges_df.iterrows():
         src = row["source"]
         dst = row["target"]
@@ -216,11 +221,18 @@ def create_graph(ctx, color_groups):
         )
         nx.set_node_attributes(net, nodes_df["color"].to_dict(), "color")
 
-    # Create shortened node labels
-    shortened_node_labels = {}
-    for node in net:
-        shortened_node_labels[node] = re.sub(" \\d{4}.*$", "", node)
-    nx.set_node_attributes(net, shortened_node_labels, "short_name")
+    # Create shortened node labels and add node details
+    for node_id in net.nodes:
+        node = net.nodes[node_id]
+        node["short_name"] = re.sub(" \\d{4}.*$", "", node_id)
+        node["click"] = "<br>".join(
+            f"{i[0]} -- {i[1]} -- {i[2]}"
+            for i in sorted(
+                ((e[0], e[1], e[2]["weight"]) for e in net.edges([node_id], data=True)),
+                key=lambda x: x[2],
+                reverse=True,
+            )
+        )
 
     nx.set_node_attributes(net, nodes_df["image_src"].to_dict(), "image")
 

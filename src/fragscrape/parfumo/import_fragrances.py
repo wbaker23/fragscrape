@@ -11,6 +11,7 @@ from fragscrape.parfumo.driver import start_driver
 @click.pass_context
 @click.option(
     "--source",
+    "-s",
     "source",
     type=click.Choice(["collection", "tops"]),
     default="collection",
