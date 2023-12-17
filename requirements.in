@@ -9,6 +9,7 @@ mplcursors
 networkx
 numpy
 pandas
+pyyaml
 scikit-learn
 scipy
 selenium
