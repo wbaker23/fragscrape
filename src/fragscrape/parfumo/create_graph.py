@@ -172,6 +172,9 @@ def create_graph(ctx, color_groups):
         right_on="target",
     ).max(axis=1)
     threshold = node_weights_df.min()
+    print(
+        f"Min: {edges_df['weight'].min()}, Max: {edges_df['weight'].max()}, Threshold: {threshold}"
+    )
     edges_df = edges_df[edges_df["weight"] >= threshold]
     print(f"Edges: {edges_df.shape[0]}")
 
@@ -193,7 +196,10 @@ def create_graph(ctx, color_groups):
     print(f"Minimum degree: {min(list(net.degree()), key=lambda x: x[1])}")
     print(f"Zero-degree nodes: {len([n for n in net.degree() if n[1] == 0])}")
 
+    # Calculate centrality measures for nodes
+    print("Calculating centrality measures...")
     nx.set_node_attributes(net, nx.pagerank(net), "pagerank")
+    nx.set_node_attributes(net, nx.laplacian_centrality(net), "laplacian_centrality")
 
     # Find Louvain communities
     communities = nx.community.louvain_communities(net, weight="weight")
