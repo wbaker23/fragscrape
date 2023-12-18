@@ -195,6 +195,7 @@ def create_graph(ctx, color_groups):
 
     print(f"Minimum degree: {min(list(net.degree()), key=lambda x: x[1])}")
     print(f"Zero-degree nodes: {len([n for n in net.degree() if n[1] == 0])}")
+    print(f"One-degree nodes: {len([n for n in net.degree() if n[1] == 1])}")
 
     # Calculate centrality measures for nodes
     print("Calculating centrality measures...")
