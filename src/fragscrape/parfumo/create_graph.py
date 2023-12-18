@@ -217,12 +217,11 @@ def create_graph(ctx, color_groups):
         nx.set_node_attributes(net, community_colors, "color")
     elif color_groups == "collection":
         # Color code based on collection group
-        collection_groups = nodes_df["collection_group"].unique().tolist()
-        node_colors = MplColorHelper("rainbow", 0, len(collection_groups) - 1)
+        collection_group_colors = {
+            p["label"]: p["color"] for p in config["parfumo_collection_pages"]
+        }
         nodes_df["color"] = nodes_df.apply(
-            lambda row: node_colors.get_rgb_str(
-                collection_groups.index(row["collection_group"])
-            ),
+            lambda row: collection_group_colors[row["collection_group"]],
             axis=1,
         )
         nx.set_node_attributes(net, nodes_df["color"].to_dict(), "color")
