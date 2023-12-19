@@ -9,7 +9,12 @@ import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.preprocessing import MinMaxScaler, PowerTransformer, StandardScaler
+from sklearn.preprocessing import (
+    MinMaxScaler,
+    PowerTransformer,
+    StandardScaler,
+    QuantileTransformer,
+)
 
 
 class MplColorHelper:
@@ -144,9 +149,9 @@ def create_graph(ctx, color_groups):
         "season_similarity",
         "audience_similarity",
     ]
-    component_weights = [0.7, 0.1, 0.1, 0.1]
+    component_weights = [0.85, 0.05, 0.05, 0.05]
     edges_df[component_columns] = pd.DataFrame(
-        PowerTransformer().fit_transform(edges_df[component_columns].values)
+        QuantileTransformer().fit_transform(edges_df[component_columns].values)
     )
     edges_df["weight"] = edges_df.apply(
         lambda row: np.average(
@@ -155,7 +160,7 @@ def create_graph(ctx, color_groups):
         ),
         axis=1,
     )
-    edges_df["weight"] = MinMaxScaler().fit_transform(
+    edges_df["weight"] = QuantileTransformer().fit_transform(
         np.array(edges_df["weight"]).reshape(-1, 1)
     )
 
@@ -199,8 +204,12 @@ def create_graph(ctx, color_groups):
 
     # Calculate centrality measures for nodes
     print("Calculating centrality measures...")
-    nx.set_node_attributes(net, nx.pagerank(net), "pagerank")
-    nx.set_node_attributes(net, nx.laplacian_centrality(net), "laplacian_centrality")
+    nx.set_node_attributes(net, nx.pagerank(net, weight="weight"), "pagerank")
+    nx.set_node_attributes(net, nx.degree_centrality(net), "degree_centrality")
+    nx.set_node_attributes(net, nx.closeness_centrality(net), "closeness_centrality")
+    nx.set_node_attributes(
+        net, nx.load_centrality(net, weight="weight"), "load_centrality"
+    )
 
     # Find Louvain communities
     communities = nx.community.louvain_communities(net, weight="weight")
