@@ -170,17 +170,20 @@ def create_graph(ctx, color_groups):
     #     np.array(edges_df["total_similarity"]).reshape(-1, 1)
     # )
 
-    node_weights_df = pd.merge(
-        edges_df[["source", "weight"]].groupby("source").max().sort_values("weight"),
-        edges_df[["target", "weight"]].groupby("target").max().sort_values("weight"),
-        how="outer",
-        left_on="source",
-        right_on="target",
-    ).max(axis=1)
-    threshold = node_weights_df.min()
-    print(
-        f"Min: {edges_df['weight'].min()}, Max: {edges_df['weight'].max()}, Threshold: {threshold}"
-    )
+    # Automatically calculate threshold so graph is fully connected
+    # node_weights_df = pd.merge(
+    #     edges_df[["source", "weight"]].groupby("source").max().sort_values("weight"),
+    #     edges_df[["target", "weight"]].groupby("target").max().sort_values("weight"),
+    #     how="outer",
+    #     left_on="source",
+    #     right_on="target",
+    # ).max(axis=1)
+    # threshold = node_weights_df.min()
+    # print(
+    #     f"Min: {edges_df['weight'].min()}, Max: {edges_df['weight'].max()}, Threshold: {threshold}"
+    # )
+
+    threshold = 0.9
     edges_df = edges_df[edges_df["weight"] >= threshold]
     print(f"Edges: {edges_df.shape[0]}")
 
