@@ -132,6 +132,7 @@ def create_graph(ctx, color_groups):
     # Load graph data
     nodes_df = pd.read_json(config["parfumo_enrich_results_path"])
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
+    nodes_df = nodes_df.dropna()
     print(f"Nodes: {nodes_df.shape[0]}")
 
     edges_df = generate_edges_df(nodes_df)
