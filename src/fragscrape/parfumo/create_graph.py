@@ -84,30 +84,14 @@ def generate_edges_df(nodes_df):
     audience_pivot = explode_chart_data(nodes_df, "audience")
     audience_cosine_array = cosine_similarity(audience_pivot).round(3)
 
-    total_pivot = (
-        type_pivot.join(occasion_pivot).join(season_pivot).join(audience_pivot)
-    )
-    total_pivot_decomposed, total_pivot_explained_variance = decompose_df(
-        total_pivot, "name", total_pivot.columns.to_list()
-    )
-
-    variance_df = pd.DataFrame(
-        enumerate(np.cumsum(total_pivot_explained_variance))
-    ).set_index(0)
-    cutoff = variance_df[variance_df[1] >= 0.95].index.min() + 1
-
-    total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
-    total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed).round(3)
-
     return pd.DataFrame(
         {
-            "fragrance_1": total_pivot.index[i],
-            "fragrance_2": total_pivot.index[j],
+            "fragrance_1": type_pivot.index[i],
+            "fragrance_2": type_pivot.index[j],
             "type_similarity": type_cosine_array[i][j],
             "occasion_similarity": occasion_cosine_array[i][j],
             "season_similarity": season_cosine_array[i][j],
             "audience_similarity": audience_cosine_array[i][j],
-            "total_similarity": total_pivot_cosine_array[i][j],
         }
         for i in range(0, len(type_cosine_array))
         for j in range(0, i)
@@ -164,11 +148,6 @@ def create_graph(ctx, color_groups):
     edges_df["weight"] = QuantileTransformer().fit_transform(
         np.array(edges_df["weight"]).reshape(-1, 1)
     )
-
-    # Use total_similarity found using PCA
-    # edges_df["weight"] = MinMaxScaler().fit_transform(
-    #     np.array(edges_df["total_similarity"]).reshape(-1, 1)
-    # )
 
     # Automatically calculate threshold so graph is fully connected
     # node_weights_df = pd.merge(
