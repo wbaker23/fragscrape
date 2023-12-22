@@ -13,7 +13,6 @@ from sklearn.preprocessing import (
     MinMaxScaler,
     PowerTransformer,
     StandardScaler,
-    QuantileTransformer,
 )
 
 
@@ -73,16 +72,16 @@ def explode_chart_data(df, chart_name):
 def generate_edges_df(nodes_df):
     """Generate df listing all possible combinations of nodes with distance metrics."""
     type_pivot = explode_chart_data(nodes_df, "type")
-    type_cosine_array = cosine_similarity(type_pivot).round(3)
+    type_cosine_array = cosine_similarity(type_pivot)
 
     occasion_pivot = explode_chart_data(nodes_df, "occasion")
-    occasion_cosine_array = cosine_similarity(occasion_pivot).round(3)
+    occasion_cosine_array = cosine_similarity(occasion_pivot)
 
     season_pivot = explode_chart_data(nodes_df, "season")
-    season_cosine_array = cosine_similarity(season_pivot).round(3)
+    season_cosine_array = cosine_similarity(season_pivot)
 
     audience_pivot = explode_chart_data(nodes_df, "audience")
-    audience_cosine_array = cosine_similarity(audience_pivot).round(3)
+    audience_cosine_array = cosine_similarity(audience_pivot)
 
     return pd.DataFrame(
         {
@@ -136,7 +135,7 @@ def create_graph(ctx, color_groups):
     ]
     component_weights = [0.85, 0.05, 0.05, 0.05]
     edges_df[component_columns] = pd.DataFrame(
-        QuantileTransformer().fit_transform(edges_df[component_columns].values)
+        MinMaxScaler().fit_transform(edges_df[component_columns].values)
     )
     edges_df["weight"] = edges_df.apply(
         lambda row: np.average(
@@ -145,24 +144,19 @@ def create_graph(ctx, color_groups):
         ),
         axis=1,
     )
-    edges_df["weight"] = QuantileTransformer().fit_transform(
-        np.array(edges_df["weight"]).reshape(-1, 1)
-    )
 
     # Automatically calculate threshold so graph is fully connected
-    # node_weights_df = pd.merge(
-    #     edges_df[["source", "weight"]].groupby("source").max().sort_values("weight"),
-    #     edges_df[["target", "weight"]].groupby("target").max().sort_values("weight"),
-    #     how="outer",
-    #     left_on="source",
-    #     right_on="target",
-    # ).max(axis=1)
-    # threshold = node_weights_df.min()
-    # print(
-    #     f"Min: {edges_df['weight'].min()}, Max: {edges_df['weight'].max()}, Threshold: {threshold}"
-    # )
-
-    threshold = 0.9
+    node_weights_df = pd.merge(
+        edges_df[["source", "weight"]].groupby("source").max().sort_values("weight"),
+        edges_df[["target", "weight"]].groupby("target").max().sort_values("weight"),
+        how="outer",
+        left_on="source",
+        right_on="target",
+    ).max(axis=1)
+    threshold = node_weights_df.min()
+    print(
+        f"Min: {edges_df['weight'].min()}, Max: {edges_df['weight'].max()}, Threshold: {threshold}"
+    )
     edges_df = edges_df[edges_df["weight"] >= threshold]
     print(f"Edges: {edges_df.shape[0]}")
 
@@ -188,10 +182,11 @@ def create_graph(ctx, color_groups):
     # Calculate centrality measures for nodes
     print("Calculating centrality measures...")
     nx.set_node_attributes(net, nx.pagerank(net, weight="weight"), "pagerank")
-    nx.set_node_attributes(net, nx.degree_centrality(net), "degree_centrality")
-    nx.set_node_attributes(net, nx.closeness_centrality(net), "closeness_centrality")
     nx.set_node_attributes(
-        net, nx.load_centrality(net, weight="weight"), "load_centrality"
+        net, nx.betweenness_centrality(net, weight="weight"), "betweenness_centrality"
+    )
+    nx.set_node_attributes(
+        net, nx.effective_size(net, weight="weight"), "effective_size"
     )
 
     # Find Louvain communities

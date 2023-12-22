@@ -30,5 +30,6 @@ def display_graph(ctx):
         gravitational_constant=-20000,
         avoid_overlap=0.01,
         central_gravity=1,
+        show_node_image=False,
     )
     fig.display()
