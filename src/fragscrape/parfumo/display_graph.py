@@ -23,7 +23,7 @@ def display_graph(ctx):
         edge_size_data_source="weight",
         edge_size_factor=0.5,
         use_node_size_normalization=True,
-        node_size_data_source="effective_size",
+        node_size_data_source="pagerank",
         show_node_label=True,
         node_label_data_source="short_name",
         show_node_label_border=True,

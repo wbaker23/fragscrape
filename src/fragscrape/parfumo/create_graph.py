@@ -108,7 +108,16 @@ def generate_edges_df(nodes_df):
     show_default=True,
     help="Choose how to color-code graph nodes.",
 )
-def create_graph(ctx, color_groups):
+@click.option(
+    "--threshold",
+    "-th",
+    "threshold",
+    type=float,
+    default=None,
+    show_default=True,
+    help="Threshold for connection strength to create edges.",
+)
+def create_graph(ctx, color_groups, threshold):
     """Create networkx-compatible json file containing graph nodes and edges."""
     config = ctx.obj.get("config")
 
@@ -133,7 +142,7 @@ def create_graph(ctx, color_groups):
         "season_similarity",
         "audience_similarity",
     ]
-    component_weights = [0.85, 0.05, 0.05, 0.05]
+    component_weights = [0.8, 0.1, 0, 0.1]
     edges_df[component_columns] = pd.DataFrame(
         MinMaxScaler().fit_transform(edges_df[component_columns].values)
     )
@@ -153,7 +162,7 @@ def create_graph(ctx, color_groups):
         left_on="source",
         right_on="target",
     ).max(axis=1)
-    threshold = node_weights_df.min()
+    threshold = node_weights_df.min() if threshold is None else threshold
     print(
         f"Min: {edges_df['weight'].min()}, Max: {edges_df['weight'].max()}, Threshold: {threshold}"
     )
@@ -178,6 +187,7 @@ def create_graph(ctx, color_groups):
     print(f"Minimum degree: {min(list(net.degree()), key=lambda x: x[1])}")
     print(f"Zero-degree nodes: {len([n for n in net.degree() if n[1] == 0])}")
     print(f"One-degree nodes: {len([n for n in net.degree() if n[1] == 1])}")
+    print(f"Number of connected components: {nx.number_connected_components(net)}")
 
     # Calculate centrality measures for nodes
     print("Calculating centrality measures...")
