@@ -194,6 +194,7 @@ def create_graph(ctx, color_groups, threshold):
     nx.set_node_attributes(
         net, nx.effective_size(net, weight="weight"), "effective_size"
     )
+    nx.set_node_attributes(net, nx.degree_centrality(net), "degree_centrality")
 
     # Find Louvain communities
     communities = nx.community.louvain_communities(net, weight="weight")
