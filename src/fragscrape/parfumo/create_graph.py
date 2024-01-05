@@ -138,7 +138,7 @@ def create_graph(ctx, color_groups, threshold):
         "season_similarity",
         "audience_similarity",
     ]
-    component_weights = [0.8, 0.1, 0, 0.1]
+    component_weights = [1, 1, 1, 0]
     edges_df[component_columns] = pd.DataFrame(
         MinMaxScaler().fit_transform(edges_df[component_columns].values)
     )
