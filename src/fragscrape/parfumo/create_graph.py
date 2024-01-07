@@ -79,6 +79,17 @@ def generate_edges_df(nodes_df):
     audience_pivot = explode_chart_data(nodes_df, "audience")
     audience_cosine_array = cosine_similarity(audience_pivot)
 
+    notes_exp_df = (
+        nodes_df[["name", "notes"]].explode("notes").drop_duplicates().fillna("None")
+    )
+    notes_exp_df["values"] = 1
+    notes_pivot = (
+        notes_exp_df.pivot(index="name", columns="notes", values="values")
+        .fillna(0)
+        .astype("int32")
+    ).drop(columns=["None"])
+    notes_cosine_array = cosine_similarity(notes_pivot)
+
     return pd.DataFrame(
         {
             "fragrance_1": type_pivot.index[i],
@@ -87,6 +98,7 @@ def generate_edges_df(nodes_df):
             "occasion_similarity": occasion_cosine_array[i][j],
             "season_similarity": season_cosine_array[i][j],
             "audience_similarity": audience_cosine_array[i][j],
+            "notes_similarity": notes_cosine_array[i][j],
         }
         for i in range(0, len(type_cosine_array))
         for j in range(0, i)
@@ -137,8 +149,9 @@ def create_graph(ctx, color_groups, threshold):
         "occasion_similarity",
         "season_similarity",
         "audience_similarity",
+        "notes_similarity",
     ]
-    component_weights = [1, 1, 1, 0]
+    component_weights = [3, 3, 3, 0, 1]
     edges_df[component_columns] = pd.DataFrame(
         MinMaxScaler().fit_transform(edges_df[component_columns].values)
     )
