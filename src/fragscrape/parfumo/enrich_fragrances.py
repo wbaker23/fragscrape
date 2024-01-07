@@ -34,6 +34,14 @@ def enrich_fragrances(ctx):
                 By.XPATH, "//img[@itemprop='image']"
             ).get_attribute("src")
 
+            notes_list = [
+                e.text
+                for e in driver.find_elements(
+                    By.XPATH,
+                    "//div[@class='notes_list mb-2']//span[@class='nowrap pointer']",
+                )
+            ]
+
             try:
                 driver.find_element(By.ID, "classi_li").click()
                 type_script = driver.find_element(
@@ -86,6 +94,7 @@ def enrich_fragrances(ctx):
                     "audience": scent_audience,
                     "season": scent_season,
                     "collection_group": fragrance["label"],
+                    "notes": notes_list,
                 }
             )
 
