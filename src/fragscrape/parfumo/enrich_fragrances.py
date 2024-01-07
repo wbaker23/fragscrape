@@ -1,11 +1,84 @@
 import json
 import re
+from collections import Counter
+from itertools import chain
 
 import click
 from selenium.webdriver.common.by import By
 from tqdm import tqdm
 
 from fragscrape.parfumo.driver import start_driver
+
+
+def _add_note_groups(fragrances_enriched: list):
+    notes_list = set(chain.from_iterable(f["notes"] for f in fragrances_enriched))
+    replacement_dict = {
+        "Mandarin_orange": "Mandarin",
+        "Green_mandarin_orange": "Green_mandarin",
+        "Ylang-ylang": "Ylang_ylang",
+        "Italian_mandarin_orange": "Italian_mandarin",
+        "Italian_green_mandarin_orange": "Italian_green_mandarin",
+        "Calabrian_mandarin_orange": "Calabrian_mandarin",
+        "Sicilian_mandarin_orange": "Sicilian_mandarin",
+        "Green_stems": "green-stem",
+        "Roman_chamomile": "roman-camomile",
+        "Frankincense_resin": "frankincense",
+        "Oak_wood_absolute": "Oak_absolute",
+        "Red_mandarin_orange": "Red_mandarin",
+    }
+    note_groups_dict = {}
+
+    with start_driver() as driver:
+        for n in tqdm(notes_list):
+            url_name = n
+            url_name = url_name.replace("®", "")
+            url_name = url_name.replace("™", "")
+            url_name = url_name.replace("é", "e")
+            url_name = url_name.replace("ç", "c")
+            url_name = url_name.replace(" ", "_")
+            if url_name in replacement_dict:
+                driver.get(
+                    f"https://www.parfumo.com/Fragrance_Note/{replacement_dict[url_name]}"
+                )
+            else:
+                driver.get(f"https://www.parfumo.com/Fragrance_Note/{url_name}")
+            try:
+                driver.find_element(By.XPATH, "//div[@class='main']")
+                groups = driver.find_elements(
+                    By.XPATH, "//div[@class='mt-1 mb-1']/span[@class='label_a upper']/a"
+                )
+                note_groups_dict[n] = [group.get_attribute("href") for group in groups]
+            except:
+                try:
+                    driver.get(
+                        f"https://www.parfumo.com/Fragrance_Note/{url_name.lower().replace('_', '-')}"
+                    )
+                    driver.find_element(By.XPATH, "//div[@class='main']")
+                    groups = driver.find_elements(
+                        By.XPATH,
+                        "//div[@class='mt-1 mb-1']/span[@class='label_a upper']/a",
+                    )
+                    note_groups_dict[n] = [
+                        group.get_attribute("href") for group in groups
+                    ]
+                except:
+                    print(url_name)
+
+    with open("note_groups_dict.json", "w") as f:
+        json.dump(note_groups_dict, f)
+
+    def _get_groups_for_notes(note_list):
+        group_list = []
+        for note in note_list:
+            group_list.extend(note_groups_dict[note])
+        return [
+            {"group_name": k, "group_count": v} for k, v in Counter(group_list).items()
+        ]
+
+    for f in fragrances_enriched:
+        f["note_groups"] = _get_groups_for_notes(f["notes"])
+
+    return fragrances_enriched
 
 
 @click.command()
@@ -97,6 +170,8 @@ def enrich_fragrances(ctx):
                     "notes": notes_list,
                 }
             )
+
+    decants_enriched = _add_note_groups(decants_enriched)
 
     with open(config["parfumo_enrich_results_path"], "w") as f:
         json.dump(decants_enriched, f)
