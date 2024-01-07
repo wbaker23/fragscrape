@@ -79,24 +79,16 @@ def generate_edges_df(nodes_df):
     audience_pivot = explode_chart_data(nodes_df, "audience")
     audience_cosine_array = cosine_similarity(audience_pivot)
 
-    notes_exp_df = (
-        nodes_df[["name", "notes"]].explode("notes").drop_duplicates().fillna("None")
-    )
+    notes_exp_df = nodes_df[["name", "notes"]].explode("notes").drop_duplicates()
     notes_exp_df["values"] = 1
     notes_pivot = (
         notes_exp_df.pivot(index="name", columns="notes", values="values")
         .fillna(0)
         .astype("int32")
-    ).drop(columns=["None"])
+    )
     notes_cosine_array = cosine_similarity(notes_pivot)
 
     note_groups_exp_df = nodes_df.explode("note_groups")
-    note_groups_exp_df["note_groups"].fillna(
-        pd.Series(
-            [{"group_name": "None", "group_count": 1}] * note_groups_exp_df.shape[0]
-        ),
-        inplace=True,
-    )
     note_groups_exp_df["group_name"] = note_groups_exp_df["note_groups"].apply(
         lambda x: x["group_name"]
     )
@@ -156,6 +148,7 @@ def create_graph(ctx, color_groups, threshold):
     nodes_df = pd.read_json(config["parfumo_enrich_results_path"])
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
     nodes_df = nodes_df.dropna()
+    nodes_df = nodes_df.loc[nodes_df["brand"] != "Nasomatto"]
     print(f"Nodes: {nodes_df.shape[0]}")
 
     edges_df = generate_edges_df(nodes_df)
