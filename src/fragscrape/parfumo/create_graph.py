@@ -95,7 +95,6 @@ def generate_edges_df(nodes_df):
     note_groups_exp_df["group_count"] = note_groups_exp_df["note_groups"].apply(
         lambda x: x["group_count"]
     )
-
     note_groups_pivot = (
         note_groups_exp_df[["name", "group_name", "group_count"]]
         .pivot(index="name", columns="group_name", values="group_count")
@@ -103,6 +102,24 @@ def generate_edges_df(nodes_df):
         .astype("int32")
     )
     note_groups_cosine_array = cosine_similarity(note_groups_pivot)
+
+    total_pivot = (
+        type_pivot.join(occasion_pivot)
+        .join(season_pivot)
+        .join(audience_pivot)
+        .join(notes_pivot)
+        .join(note_groups_pivot)
+    )
+    total_pivot_decomposed, total_pivot_explained_variance = decompose_df(
+        total_pivot, "name", total_pivot.columns.to_list()
+    )
+    variance_df = pd.DataFrame(
+        enumerate(np.cumsum(total_pivot_explained_variance))
+    ).set_index(0)
+    cutoff = variance_df[variance_df[1] >= 0.95].index.min() + 1
+    print(f"Reducing from {total_pivot_decomposed.shape[1]} features to {cutoff-1}.")
+    total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
+    total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed).round(3)
 
     return pd.DataFrame(
         {
@@ -114,6 +131,7 @@ def generate_edges_df(nodes_df):
             "audience_similarity": audience_cosine_array[i][j],
             "notes_similarity": notes_cosine_array[i][j],
             "note_groups_similarity": note_groups_cosine_array[i][j],
+            "total_similarity": total_pivot_cosine_array[i][j],
         }
         for i in range(0, len(type_cosine_array))
         for j in range(0, i)
@@ -167,10 +185,11 @@ def create_graph(ctx, color_groups, threshold):
         "audience_similarity",
         "notes_similarity",
         "note_groups_similarity",
+        "total_similarity",
     ]
-    component_weights = [4, 3, 3, 0, 1, 1]
+    component_weights = [4, 3, 3, 0, 1, 1, 1]
     edges_df[component_columns] = pd.DataFrame(
-        MinMaxScaler().fit_transform(edges_df[component_columns].values)
+        StandardScaler().fit_transform(edges_df[component_columns].values)
     )
     edges_df["weight"] = edges_df.apply(
         lambda row: np.average(
