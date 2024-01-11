@@ -10,7 +10,7 @@ from tqdm import tqdm
 from fragscrape.parfumo.driver import start_driver
 
 
-def _add_note_groups(fragrances_enriched: list):
+def _add_note_groups(fragrances_enriched: list, write_path: str):
     notes_list = set(chain.from_iterable(f["notes"] for f in fragrances_enriched))
     replacement_dict = {
         "Mandarin_orange": "Mandarin",
@@ -64,7 +64,7 @@ def _add_note_groups(fragrances_enriched: list):
                 except:
                     print(url_name)
 
-    with open("note_groups_dict.json", "w") as f:
+    with open(write_path, "w") as f:
         json.dump(note_groups_dict, f)
 
     def _get_groups_for_notes(note_list):
@@ -171,7 +171,9 @@ def enrich_fragrances(ctx):
                 }
             )
 
-    decants_enriched = _add_note_groups(decants_enriched)
+    decants_enriched = _add_note_groups(
+        decants_enriched, config["parfumo_enrich_notes_path"]
+    )
 
     with open(config["parfumo_enrich_results_path"], "w") as f:
         json.dump(decants_enriched, f)
