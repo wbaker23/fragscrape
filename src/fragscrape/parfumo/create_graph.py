@@ -188,9 +188,9 @@ def create_graph(ctx, color_groups, threshold):
         # "total_similarity",
     ]
     component_weights = [4, 1, 1, 1]
-    edges_df[component_columns] = pd.DataFrame(
-        StandardScaler().fit_transform(edges_df[component_columns].values)
-    )
+    # edges_df[component_columns] = pd.DataFrame(
+    #     StandardScaler().fit_transform(edges_df[component_columns].values)
+    # )
     edges_df["weight"] = edges_df.apply(
         lambda row: np.average(
             row[component_columns],
