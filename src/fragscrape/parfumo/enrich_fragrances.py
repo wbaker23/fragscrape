@@ -171,9 +171,9 @@ def enrich_fragrances(ctx):
                 }
             )
 
-    decants_enriched = _add_note_groups(
-        decants_enriched, config["parfumo_enrich_notes_path"]
-    )
+    # decants_enriched = _add_note_groups(
+    #     decants_enriched, config["parfumo_enrich_notes_path"]
+    # )
 
     with open(config["parfumo_enrich_results_path"], "w") as f:
         json.dump(decants_enriched, f)
