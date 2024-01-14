@@ -27,8 +27,6 @@ def display_graph(ctx):
         show_node_label=True,
         node_label_data_source="short_name",
         show_node_label_border=True,
-        gravitational_constant=-20000,
-        central_gravity=1,
         show_node_image=False,
     )
     fig.display()
