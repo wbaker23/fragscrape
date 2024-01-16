@@ -1,6 +1,6 @@
 import click
 
-from fragscrape.parfumo.compare_types import compare_types
+from fragscrape.parfumo.compare import compare
 from fragscrape.parfumo.create_graph import create_graph
 from fragscrape.parfumo.display_graph import display_graph
 from fragscrape.parfumo.enrich_fragrances import enrich_fragrances
@@ -18,4 +18,4 @@ parfumo.add_command(import_fragrances)
 parfumo.add_command(enrich_fragrances)
 parfumo.add_command(create_graph)
 parfumo.add_command(display_graph)
-parfumo.add_command(compare_types)
+parfumo.add_command(compare)

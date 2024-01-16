@@ -8,20 +8,16 @@ from matplotlib.axes import Axes
 from fragscrape.parfumo.create_graph import explode_chart_data
 
 
-def _add_subplot_to_axes(
-    ax: Axes, df: pd.DataFrame, fragrance_1: str, fragrance_2: str
-) -> None:
-    df = df.loc[
-        df.index.str.contains(fragrance_1, case=False)
-        | df.index.str.contains(fragrance_2, case=False)
-    ]
+def _add_subplot_to_axes(ax: Axes, df: pd.DataFrame) -> None:
     df = df.loc[:, (df != 0).any(axis=0)]
-    pd.plotting.parallel_coordinates(df.reset_index(), "name", ax=ax)
+    pd.plotting.parallel_coordinates(df.reset_index(), "name", ax=ax, colormap="bwr")
+    for tick in ax.get_xticklabels():
+        tick.set_rotation(20)
 
 
 @click.command()
 @click.pass_context
-def compare_types(ctx):
+def compare(ctx):
     config = ctx.obj.get("config")
 
     nodes_df = pd.read_json(config["parfumo_enrich_results_path"])
@@ -31,15 +27,29 @@ def compare_types(ctx):
 
     fragrance_1 = input("Type the name of a fragrance: ")
     fragrance_2 = input("Type the name of a second fragrance: ")
+    nodes_df = nodes_df.loc[
+        nodes_df["name"].str.contains(fragrance_1, case=False)
+        | nodes_df["name"].str.contains(fragrance_2, case=False)
+    ]
+
     fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(8, 5))
 
     type_pivot = explode_chart_data(nodes_df, "type")
-    _add_subplot_to_axes(ax1, type_pivot, fragrance_1, fragrance_2)
-    occasion_pivot = explode_chart_data(nodes_df, "occasion")
-    _add_subplot_to_axes(ax2, occasion_pivot, fragrance_1, fragrance_2)
-    season_pivot = explode_chart_data(nodes_df, "season")
-    _add_subplot_to_axes(ax3, season_pivot, fragrance_1, fragrance_2)
-    audience_pivot = explode_chart_data(nodes_df, "audience")
-    _add_subplot_to_axes(ax4, audience_pivot, fragrance_1, fragrance_2)
+    _add_subplot_to_axes(ax1, type_pivot)
+    ax1.get_legend().set_visible(False)
 
+    occasion_pivot = explode_chart_data(nodes_df, "occasion")
+    _add_subplot_to_axes(ax2, occasion_pivot)
+    ax2.get_legend().set_visible(False)
+
+    season_pivot = explode_chart_data(nodes_df, "season")
+    _add_subplot_to_axes(ax3, season_pivot)
+    ax3.get_legend().set_visible(False)
+
+    audience_pivot = explode_chart_data(nodes_df, "audience")
+    _add_subplot_to_axes(ax4, audience_pivot)
+
+    plt.subplots_adjust(
+        left=0.1, bottom=0.1, right=0.9, top=0.9, wspace=0.4, hspace=0.4
+    )
     plt.show()
