@@ -240,6 +240,7 @@ def create_graph(ctx, color_groups, threshold):
     nx.set_node_attributes(
         net, nx.betweenness_centrality(net, weight="weight"), "betweenness_centrality"
     )
+    nx.set_node_attributes(net, nx.constraint(net, weight="weight"), "constraint")
     nx.set_node_attributes(
         net, nx.effective_size(net, weight="weight"), "effective_size"
     )
