@@ -10,7 +10,7 @@ from fragscrape.parfumo.create_graph import explode_chart_data
 
 def _add_subplot_to_axes(ax: Axes, df: pd.DataFrame) -> None:
     df = df.loc[:, (df != 0).any(axis=0)]
-    pd.plotting.parallel_coordinates(df.reset_index(), "name", ax=ax, colormap="bwr")
+    pd.plotting.parallel_coordinates(df.reset_index(), "name", ax=ax, colormap="brg")
     for tick in ax.get_xticklabels():
         tick.set_rotation(20)
 
@@ -35,10 +35,22 @@ def compare(ctx):
     fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(8, 5))
 
     type_pivot = explode_chart_data(nodes_df, "type")
+    type_pivot = type_pivot[
+        sorted(
+            type_pivot.columns,
+            key=lambda c: abs(type_pivot.diff().iloc[1][c]),
+        )
+    ]
     _add_subplot_to_axes(ax1, type_pivot)
     ax1.get_legend().set_visible(False)
 
     occasion_pivot = explode_chart_data(nodes_df, "occasion")
+    occasion_pivot = occasion_pivot[
+        sorted(
+            occasion_pivot.columns,
+            key=lambda c: abs(occasion_pivot.diff().iloc[1][c]),
+        )
+    ]
     _add_subplot_to_axes(ax2, occasion_pivot)
     ax2.get_legend().set_visible(False)
 
