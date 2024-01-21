@@ -1,19 +1,24 @@
 parfumo_collection_pages:
-- url: https://www.parfumo.com/Users/Crazysillage/Collection/Abfuellungen
-  label: Decants
-  color: rgb(141,118,182)
-- url: https://www.parfumo.com/Users/Crazysillage/Collection
-  label: I have
-  color: rgb(103,164,245)
-- url: https://www.parfumo.com/Users/Crazysillage/Collection/Wish_List
-  label: Wish List
-  color: rgb(248,92,132)
-- url: https://www.parfumo.com/Users/Crazysillage/Collection/Watch_List
-  label: Watch List
-  color: rgb(252,160,48)
-# - url: https://www.parfumo.com/Users/Crazysillage/Collection/I_had
-#   label: I had
-#   color: rgb(52,52,52)
+  - url: https://www.parfumo.com/Users/Crazysillage/Collection/Abfuellungen
+    label: Decants
+    color: rgb(141,118,182)
+  - url: https://www.parfumo.com/Users/Crazysillage/Collection
+    label: I have
+    color: rgb(103,164,245)
+  - url: https://www.parfumo.com/Users/Crazysillage/Collection/Miniaturen
+    label: Miniatures
+    color: rgb(103,164,245)
+  - url: https://www.parfumo.com/Users/Crazysillage/Collection/Wish_List
+    label: Wish List
+    color: rgb(248,92,132)
+  - url: https://www.parfumo.com/Users/Crazysillage/Collection/Watch_List
+    label: Watch List
+    color: rgb(252,160,48)
+  # - url: https://www.parfumo.com/Users/Crazysillage/Collection/I_had
+  #   label: I had
+  #   color: rgb(52,52,52)
+  # - url: https://www.parfumo.com/Users/Crazysillage/Collection/251252
+  #   label: Vault
 
 parfumo_import_results_path: data/parfumo/fragrance_links.json
 parfumo_enrich_results_path: data/parfumo/fragrance_data.json
