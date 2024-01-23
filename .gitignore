@@ -161,6 +161,5 @@ cython_debug/
 
 # Everything above copied from https://github.com/github/gitignore/blob/main/Python.gitignore
 # Exceptions specific to this project are below
-data/
 /*.sh
 *.ipynb
