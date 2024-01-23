@@ -43,6 +43,7 @@ def compare(ctx):
     ]
     _add_subplot_to_axes(ax1, type_pivot)
     ax1.get_legend().set_visible(False)
+    ax1.set_ybound(lower=-0.01)
 
     occasion_pivot = explode_chart_data(nodes_df, "occasion")
     occasion_pivot = occasion_pivot[
@@ -53,6 +54,7 @@ def compare(ctx):
     ]
     _add_subplot_to_axes(ax2, occasion_pivot)
     ax2.get_legend().set_visible(False)
+    ax2.set_ybound(lower=-0.01)
 
     season_pivot = explode_chart_data(nodes_df, "season")
     season_pivot = season_pivot[
@@ -63,6 +65,7 @@ def compare(ctx):
     ]
     _add_subplot_to_axes(ax3, season_pivot)
     ax3.get_legend().set_visible(False)
+    ax3.set_ybound(lower=-0.01)
 
     audience_pivot = explode_chart_data(nodes_df, "audience")
     audience_pivot = audience_pivot[
@@ -72,6 +75,7 @@ def compare(ctx):
         )
     ]
     _add_subplot_to_axes(ax4, audience_pivot)
+    ax4.set_ybound(lower=-0.01)
 
     plt.subplots_adjust(
         left=0.1, bottom=0.1, right=0.9, top=0.9, wspace=0.4, hspace=0.4
