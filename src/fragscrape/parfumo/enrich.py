@@ -83,7 +83,7 @@ def _add_note_groups(fragrances_enriched: list, write_path: str):
 
 @click.command()
 @click.pass_context
-def enrich_fragrances(ctx):
+def enrich(ctx):
     """Navigate to previously scraped fragrance urls to get categorization data."""
     config = ctx.obj.get("config")
 
