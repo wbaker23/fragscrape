@@ -112,10 +112,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Moschino/Toy_Boy",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Zaharoff/signature-eau-de-parfum",
         "label": "Decants"
     },
@@ -149,10 +145,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Bvlgari/Aqva_pour_Homme_Eau_de_Toilette",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/Le_Male_Eau_de_Toilette",
         "label": "Decants"
     },
     {
@@ -260,10 +252,6 @@
         "label": "I have"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Azzaro/chrome-extreme",
-        "label": "I have"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Mandarino_di_Amalfi_Acqua",
         "label": "I have"
     },
@@ -292,6 +280,42 @@
         "label": "Miniatures"
     },
     {
+        "link": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/Le_Vestiaire__Caftan",
+        "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/pegasus-exclusif",
+        "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/naughton-wilson/gravitas",
+        "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Chanel/paris-edimbourg",
+        "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Amouage/enclave",
+        "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/Armani_Prive__Ambre_Eccentrico",
+        "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Kilian/apple-brandy-on-the-rocks",
+        "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Louis_Vuitton/imagination",
+        "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/Royal_Essence_Oajan",
+        "label": "Wish List"
+    },
+    {
         "link": "https://www.parfumo.com/Perfumes/Sarah_Baker_Perfumes/Atlante",
         "label": "Wish List"
     },
@@ -305,10 +329,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/LArc/Argentium__Halo_de_Lune",
-        "label": "Wish List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Zaharoff/2nd-soul",
         "label": "Wish List"
     },
     {
@@ -464,15 +484,7 @@
         "label": "Wish List"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Amouage/enclave",
-        "label": "Watch List"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/Invictus_Eau_de_Toilette",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/Royal_Essence_Oajan",
         "label": "Watch List"
     },
     {
@@ -480,39 +492,7 @@
         "label": "Watch List"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Chanel/paris-edimbourg",
-        "label": "Watch List"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Maison_Francis_Kurkdjian/Amyris_homme",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Guerlain/L_Homme_Ideal_Cool",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/naughton-wilson/gravitas",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Louis_Vuitton/imagination",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/Armani_Prive__Ambre_Eccentrico",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/Le_Vestiaire__Caftan",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/pegasus-exclusif",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Kilian/apple-brandy-on-the-rocks",
         "label": "Watch List"
     },
     {
