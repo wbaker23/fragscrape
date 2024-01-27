@@ -275,7 +275,7 @@ def create_graph(ctx, color_groups, threshold):
     elif color_groups == "collection":
         # Color code based on collection group
         collection_group_colors = {
-            p["label"]: p["color"] for p in config["parfumo_collection_pages"]
+            p["label"]: p["color"] for p in config["parfumo_pages"]
         }
         nodes_df["color"] = nodes_df.apply(
             lambda row: collection_group_colors[row["collection_group"]],

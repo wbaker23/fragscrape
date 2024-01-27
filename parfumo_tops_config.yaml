@@ -1,8 +1,10 @@
-parfumo_top_pages:
+parfumo_pages:
 - url: https://www.parfumo.com/Perfumes/Tops/Men
   label: Top Mens
+  color: rgb(112,162,212)
 - url: https://www.parfumo.com/Perfumes/Tops/Unisex
   label: Top Unisex
+  color: rgb(86,205,167)
 
 parfumo_import_results_path: data/parfumo/tops/fragrance_links.json
 parfumo_enrich_results_path: data/parfumo/tops/fragrance_data.json
