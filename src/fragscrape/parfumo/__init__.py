@@ -4,7 +4,7 @@ from fragscrape.parfumo.compare import compare
 from fragscrape.parfumo.create_graph import create_graph
 from fragscrape.parfumo.display_graph import display_graph
 from fragscrape.parfumo.enrich import enrich
-from fragscrape.parfumo.import_fragrances import import_fragrances
+from fragscrape.parfumo.load import load
 
 
 @click.group()
@@ -14,7 +14,7 @@ def parfumo(ctx):
     pass
 
 
-parfumo.add_command(import_fragrances)
+parfumo.add_command(load)
 parfumo.add_command(enrich)
 parfumo.add_command(create_graph)
 parfumo.add_command(display_graph)

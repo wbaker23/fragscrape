@@ -18,7 +18,7 @@ from fragscrape.parfumo.driver import start_driver
     show_default=True,
     help="Source of fragrances, either a collection page or page of top fragrances.",
 )
-def import_fragrances(ctx, source):
+def load(ctx, source):
     """Import an array of fragrance links from Parfumo pages."""
     config = ctx.obj.get("config")
 
