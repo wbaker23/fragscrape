@@ -252,6 +252,10 @@
         "label": "I have"
     },
     {
+        "link": "https://www.parfumo.com/Perfumes/Azzaro/chrome-extreme",
+        "label": "I have"
+    },
+    {
         "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Mandarino_di_Amalfi_Acqua",
         "label": "I have"
     },
@@ -380,10 +384,6 @@
         "label": "Wish List"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Bon_Parfumeur/003_Yuzu_Feuilles_de_Violette_Vetiver",
-        "label": "Wish List"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Ralph_Lauren/polo-cologne-intense",
         "label": "Wish List"
     },
@@ -482,6 +482,10 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Guerlain/l-homme-ideal-platine-prive",
         "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Abercrombie_Fitch/Fierce",
+        "label": "Watch List"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/Invictus_Eau_de_Toilette",

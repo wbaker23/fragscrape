@@ -26,7 +26,7 @@ def load(ctx, source):
         links = []
         # Collect fragrance urls from collection pages.
         if source == "collection":
-            for page in tqdm(config["parfumo_collection_pages"]):
+            for page in tqdm(config["parfumo_pages"]):
                 driver.get(page["url"])
                 for fragrance in tqdm(
                     driver.find_element(By.ID, "wr_wrapper").find_elements(

@@ -20,7 +20,7 @@ parfumo_pages:
   # - url: https://www.parfumo.com/Users/Crazysillage/Collection/251252
   #   label: Vault
 
-parfumo_import_results_path: data/parfumo/fragrance_links.json
-parfumo_enrich_results_path: data/parfumo/fragrance_data.json
-parfumo_enrich_notes_path: data/parfumo/fragrance_notes.json
-parfumo_graph_path: data/parfumo/graph.json
+parfumo_import_results_path: data/parfumo/collection/fragrance_links.json
+parfumo_enrich_results_path: data/parfumo/collection/fragrance_data.json
+parfumo_enrich_notes_path: data/parfumo/collection/fragrance_notes.json
+parfumo_graph_path: data/parfumo/collection/graph.json
