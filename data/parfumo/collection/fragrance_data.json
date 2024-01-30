@@ -35,7 +35,7 @@
             },
             {
                 "ct_name": "Creamy",
-                "votes": "109"
+                "votes": "110"
             },
             {
                 "ct_name": "Animal",
@@ -49,7 +49,7 @@
             },
             {
                 "ct_name": "Leisure",
-                "votes": "257"
+                "votes": "256"
             },
             {
                 "ct_name": "Night Out",
@@ -71,7 +71,7 @@
             },
             {
                 "ct_name": "Feminine",
-                "votes": "263"
+                "votes": "264"
             },
             {
                 "ct_name": "Mature",
@@ -337,19 +337,19 @@
         "type": [
             {
                 "ct_name": "Spicy",
-                "votes": "763"
+                "votes": "765"
             },
             {
                 "ct_name": "Sweet",
-                "votes": "984"
+                "votes": "986"
             },
             {
                 "ct_name": "Oriental",
-                "votes": "328"
+                "votes": "330"
             },
             {
                 "ct_name": "Woody",
-                "votes": "491"
+                "votes": "492"
             },
             {
                 "ct_name": "Gourmand",
@@ -357,7 +357,7 @@
             },
             {
                 "ct_name": "Fruity",
-                "votes": "614"
+                "votes": "616"
             },
             {
                 "ct_name": "Fresh",
@@ -371,29 +371,29 @@
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "582"
+                "votes": "584"
             },
             {
                 "ct_name": "Leisure",
-                "votes": "699"
+                "votes": "701"
             },
             {
                 "ct_name": "Night Out",
-                "votes": "948"
+                "votes": "950"
             },
             {
                 "ct_name": "Business",
-                "votes": "403"
+                "votes": "405"
             },
             {
                 "ct_name": "Evening",
-                "votes": "951"
+                "votes": "953"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "1104"
+                "votes": "1106"
             },
             {
                 "ct_name": "Feminine",
@@ -401,29 +401,29 @@
             },
             {
                 "ct_name": "Mature",
-                "votes": "353"
+                "votes": "354"
             },
             {
                 "ct_name": "Youthful",
-                "votes": "657"
+                "votes": "658"
             }
         ],
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "971"
+                "votes": "973"
             },
             {
                 "ct_name": "Fall",
-                "votes": "1061"
+                "votes": "1063"
             },
             {
                 "ct_name": "Summer",
-                "votes": "318"
+                "votes": "319"
             },
             {
                 "ct_name": "Spring",
-                "votes": "781"
+                "votes": "783"
             }
         ],
         "collection_group": "Decants",
@@ -565,15 +565,15 @@
         "type": [
             {
                 "ct_name": "Spicy",
-                "votes": "450"
+                "votes": "451"
             },
             {
                 "ct_name": "Sweet",
-                "votes": "954"
+                "votes": "955"
             },
             {
                 "ct_name": "Powdery",
-                "votes": "1090"
+                "votes": "1092"
             },
             {
                 "ct_name": "Oriental",
@@ -585,7 +585,7 @@
             },
             {
                 "ct_name": "Woody",
-                "votes": "638"
+                "votes": "639"
             },
             {
                 "ct_name": "Gourmand",
@@ -607,33 +607,33 @@
             },
             {
                 "ct_name": "Leisure",
-                "votes": "520"
+                "votes": "521"
             },
             {
                 "ct_name": "Night Out",
-                "votes": "1152"
+                "votes": "1155"
             },
             {
                 "ct_name": "Business",
-                "votes": "401"
+                "votes": "402"
             },
             {
                 "ct_name": "Evening",
-                "votes": "1181"
+                "votes": "1184"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "1269"
+                "votes": "1272"
             },
             {
                 "ct_name": "Feminine",
-                "votes": "336"
+                "votes": "337"
             },
             {
                 "ct_name": "Mature",
-                "votes": "617"
+                "votes": "619"
             },
             {
                 "ct_name": "Youthful",
@@ -643,19 +643,19 @@
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "1215"
+                "votes": "1218"
             },
             {
                 "ct_name": "Fall",
-                "votes": "1207"
+                "votes": "1210"
             },
             {
                 "ct_name": "Summer",
-                "votes": "174"
+                "votes": "175"
             },
             {
                 "ct_name": "Spring",
-                "votes": "573"
+                "votes": "575"
             }
         ],
         "collection_group": "Decants",
@@ -890,11 +890,11 @@
         "type": [
             {
                 "ct_name": "Spicy",
-                "votes": "172"
+                "votes": "173"
             },
             {
                 "ct_name": "Sweet",
-                "votes": "304"
+                "votes": "305"
             },
             {
                 "ct_name": "Powdery",
@@ -902,19 +902,19 @@
             },
             {
                 "ct_name": "Oriental",
-                "votes": "73"
+                "votes": "74"
             },
             {
                 "ct_name": "Woody",
-                "votes": "116"
+                "votes": "117"
             },
             {
                 "ct_name": "Gourmand",
-                "votes": "268"
+                "votes": "269"
             },
             {
                 "ct_name": "Creamy",
-                "votes": "213"
+                "votes": "214"
             }
         ],
         "occasion": [
@@ -924,51 +924,51 @@
             },
             {
                 "ct_name": "Leisure",
-                "votes": "177"
+                "votes": "178"
             },
             {
                 "ct_name": "Night Out",
-                "votes": "274"
+                "votes": "275"
             },
             {
                 "ct_name": "Business",
-                "votes": "85"
+                "votes": "86"
             },
             {
                 "ct_name": "Evening",
-                "votes": "292"
+                "votes": "293"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "296"
+                "votes": "297"
             },
             {
                 "ct_name": "Feminine",
-                "votes": "162"
+                "votes": "163"
             },
             {
                 "ct_name": "Mature",
-                "votes": "133"
+                "votes": "134"
             },
             {
                 "ct_name": "Youthful",
-                "votes": "190"
+                "votes": "191"
             }
         ],
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "327"
+                "votes": "328"
             },
             {
                 "ct_name": "Fall",
-                "votes": "313"
+                "votes": "314"
             },
             {
                 "ct_name": "Spring",
-                "votes": "94"
+                "votes": "95"
             }
         ],
         "collection_group": "Decants",
@@ -1747,11 +1747,11 @@
         "type": [
             {
                 "ct_name": "Spicy",
-                "votes": "232"
+                "votes": "233"
             },
             {
                 "ct_name": "Sweet",
-                "votes": "101"
+                "votes": "102"
             },
             {
                 "ct_name": "Smoky",
@@ -1759,15 +1759,15 @@
             },
             {
                 "ct_name": "Oriental",
-                "votes": "129"
+                "votes": "130"
             },
             {
                 "ct_name": "Woody",
-                "votes": "259"
+                "votes": "260"
             },
             {
                 "ct_name": "Resinous",
-                "votes": "129"
+                "votes": "130"
             },
             {
                 "ct_name": "Gourmand",
@@ -1789,21 +1789,21 @@
             },
             {
                 "ct_name": "Night Out",
-                "votes": "248"
+                "votes": "249"
             },
             {
                 "ct_name": "Business",
-                "votes": "80"
+                "votes": "81"
             },
             {
                 "ct_name": "Evening",
-                "votes": "263"
+                "votes": "264"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "294"
+                "votes": "295"
             },
             {
                 "ct_name": "Feminine",
@@ -1811,7 +1811,7 @@
             },
             {
                 "ct_name": "Mature",
-                "votes": "150"
+                "votes": "151"
             },
             {
                 "ct_name": "Youthful",
@@ -1821,11 +1821,11 @@
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "270"
+                "votes": "271"
             },
             {
                 "ct_name": "Fall",
-                "votes": "279"
+                "votes": "280"
             },
             {
                 "ct_name": "Summer",
@@ -1838,112 +1838,6 @@
         ],
         "collection_group": "Decants",
         "notes": []
-    },
-    {
-        "name": "Sapphire Collection - London\nWidian / AJ Arabia 2018",
-        "brand": "Widian / AJ Arabia",
-        "image_src": "https://pimages.parfumo.de/720/100658_img-9848-widian-aj-arabia-sapphire-collection-london_720.jpg",
-        "link": "https://www.parfumo.com/Perfumes/Widian/Sapphire_Collection__London",
-        "type": [
-            {
-                "ct_name": "Spicy",
-                "votes": "143"
-            },
-            {
-                "ct_name": "Sweet",
-                "votes": "257"
-            },
-            {
-                "ct_name": "Oriental",
-                "votes": "202"
-            },
-            {
-                "ct_name": "Leathery",
-                "votes": "386"
-            },
-            {
-                "ct_name": "Woody",
-                "votes": "173"
-            },
-            {
-                "ct_name": "Fruity",
-                "votes": "309"
-            },
-            {
-                "ct_name": "Floral",
-                "votes": "88"
-            }
-        ],
-        "occasion": [
-            {
-                "ct_name": "Daily",
-                "votes": "107"
-            },
-            {
-                "ct_name": "Leisure",
-                "votes": "199"
-            },
-            {
-                "ct_name": "Night Out",
-                "votes": "375"
-            },
-            {
-                "ct_name": "Business",
-                "votes": "94"
-            },
-            {
-                "ct_name": "Evening",
-                "votes": "385"
-            }
-        ],
-        "audience": [
-            {
-                "ct_name": "Masculine",
-                "votes": "395"
-            },
-            {
-                "ct_name": "Feminine",
-                "votes": "183"
-            },
-            {
-                "ct_name": "Mature",
-                "votes": "185"
-            },
-            {
-                "ct_name": "Youthful",
-                "votes": "159"
-            }
-        ],
-        "season": [
-            {
-                "ct_name": "Winter",
-                "votes": "378"
-            },
-            {
-                "ct_name": "Fall",
-                "votes": "401"
-            },
-            {
-                "ct_name": "Summer",
-                "votes": "84"
-            },
-            {
-                "ct_name": "Spring",
-                "votes": "257"
-            }
-        ],
-        "collection_group": "Decants",
-        "notes": [
-            "Oud",
-            "Cypress",
-            "Violet",
-            "Raspberry",
-            "Lily of the valley",
-            "Leather",
-            "Musk",
-            "Vanilla",
-            "Amber"
-        ]
     },
     {
         "name": "Ambre Cashmere Intense\nParfums de Nicola\u00ef 2015",
@@ -2173,106 +2067,6 @@
         ]
     },
     {
-        "name": "Acqua di Gi\u00f2 Parfum\nGiorgio Armani 2023",
-        "brand": "Giorgio Armani",
-        "image_src": "https://pimages.parfumo.de/720/208479_img-6623-giorgio-armani-acqua-di-gio-parfum_720.jpg",
-        "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/acqua-di-gio-parfum",
-        "type": [
-            {
-                "ct_name": "Citrus",
-                "votes": "52"
-            },
-            {
-                "ct_name": "Spicy",
-                "votes": "60"
-            },
-            {
-                "ct_name": "Synthetic",
-                "votes": "19"
-            },
-            {
-                "ct_name": "Green",
-                "votes": "29"
-            },
-            {
-                "ct_name": "Fresh",
-                "votes": "95"
-            },
-            {
-                "ct_name": "Aquatic",
-                "votes": "96"
-            }
-        ],
-        "occasion": [
-            {
-                "ct_name": "Daily",
-                "votes": "96"
-            },
-            {
-                "ct_name": "Sport",
-                "votes": "48"
-            },
-            {
-                "ct_name": "Leisure",
-                "votes": "88"
-            },
-            {
-                "ct_name": "Night Out",
-                "votes": "40"
-            },
-            {
-                "ct_name": "Business",
-                "votes": "93"
-            },
-            {
-                "ct_name": "Evening",
-                "votes": "46"
-            }
-        ],
-        "audience": [
-            {
-                "ct_name": "Masculine",
-                "votes": "101"
-            },
-            {
-                "ct_name": "Mature",
-                "votes": "59"
-            },
-            {
-                "ct_name": "Youthful",
-                "votes": "60"
-            }
-        ],
-        "season": [
-            {
-                "ct_name": "Winter",
-                "votes": "24"
-            },
-            {
-                "ct_name": "Fall",
-                "votes": "70"
-            },
-            {
-                "ct_name": "Summer",
-                "votes": "102"
-            },
-            {
-                "ct_name": "Spring",
-                "votes": "100"
-            }
-        ],
-        "collection_group": "Decants",
-        "notes": [
-            "Marine notes",
-            "Calabrian bergamot",
-            "Bourbon geranium",
-            "Proven\u00e7al clary sage",
-            "Rosemary",
-            "Frankincense",
-            "Guatemala patchouly"
-        ]
-    },
-    {
         "name": "Angels' Share\nKilian 2020",
         "brand": "Kilian",
         "image_src": "https://pimages.parfumo.de/720/142773_img-8130-kilian-angels-share_720.jpg",
@@ -2280,11 +2074,11 @@
         "type": [
             {
                 "ct_name": "Spicy",
-                "votes": "408"
+                "votes": "409"
             },
             {
                 "ct_name": "Sweet",
-                "votes": "558"
+                "votes": "559"
             },
             {
                 "ct_name": "Oriental",
@@ -2296,7 +2090,7 @@
             },
             {
                 "ct_name": "Gourmand",
-                "votes": "528"
+                "votes": "529"
             },
             {
                 "ct_name": "Creamy",
@@ -2314,7 +2108,7 @@
             },
             {
                 "ct_name": "Night Out",
-                "votes": "540"
+                "votes": "541"
             },
             {
                 "ct_name": "Business",
@@ -2322,17 +2116,17 @@
             },
             {
                 "ct_name": "Evening",
-                "votes": "558"
+                "votes": "559"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "497"
+                "votes": "498"
             },
             {
                 "ct_name": "Feminine",
-                "votes": "469"
+                "votes": "470"
             },
             {
                 "ct_name": "Mature",
@@ -2340,17 +2134,17 @@
             },
             {
                 "ct_name": "Youthful",
-                "votes": "230"
+                "votes": "231"
             }
         ],
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "587"
+                "votes": "588"
             },
             {
                 "ct_name": "Fall",
-                "votes": "528"
+                "votes": "529"
             },
             {
                 "ct_name": "Spring",
@@ -3111,23 +2905,23 @@
         "type": [
             {
                 "ct_name": "Spicy",
-                "votes": "378"
+                "votes": "382"
             },
             {
                 "ct_name": "Sweet",
-                "votes": "234"
+                "votes": "238"
             },
             {
                 "ct_name": "Smoky",
-                "votes": "178"
+                "votes": "179"
             },
             {
                 "ct_name": "Oriental",
-                "votes": "341"
+                "votes": "345"
             },
             {
                 "ct_name": "Woody",
-                "votes": "405"
+                "votes": "409"
             },
             {
                 "ct_name": "Resinous",
@@ -3137,29 +2931,29 @@
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "95"
+                "votes": "96"
             },
             {
                 "ct_name": "Leisure",
-                "votes": "223"
+                "votes": "224"
             },
             {
                 "ct_name": "Night Out",
-                "votes": "416"
+                "votes": "420"
             },
             {
                 "ct_name": "Business",
-                "votes": "78"
+                "votes": "80"
             },
             {
                 "ct_name": "Evening",
-                "votes": "438"
+                "votes": "442"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "469"
+                "votes": "473"
             },
             {
                 "ct_name": "Feminine",
@@ -3167,7 +2961,7 @@
             },
             {
                 "ct_name": "Mature",
-                "votes": "233"
+                "votes": "234"
             },
             {
                 "ct_name": "Youthful",
@@ -3177,11 +2971,11 @@
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "450"
+                "votes": "454"
             },
             {
                 "ct_name": "Fall",
-                "votes": "455"
+                "votes": "459"
             },
             {
                 "ct_name": "Summer",
@@ -3189,7 +2983,7 @@
             },
             {
                 "ct_name": "Spring",
-                "votes": "192"
+                "votes": "193"
             }
         ],
         "collection_group": "Decants",
@@ -3320,16 +3114,12 @@
                 "votes": "174"
             },
             {
-                "ct_name": "Sweet",
-                "votes": "62"
-            },
-            {
                 "ct_name": "Leathery",
-                "votes": "79"
+                "votes": "80"
             },
             {
                 "ct_name": "Woody",
-                "votes": "230"
+                "votes": "231"
             },
             {
                 "ct_name": "Green",
@@ -3337,11 +3127,11 @@
             },
             {
                 "ct_name": "Fresh",
-                "votes": "275"
+                "votes": "276"
             },
             {
                 "ct_name": "Foug\u00e8re",
-                "votes": "214"
+                "votes": "215"
             },
             {
                 "ct_name": "Floral",
@@ -3351,27 +3141,27 @@
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "317"
+                "votes": "318"
             },
             {
                 "ct_name": "Sport",
-                "votes": "87"
+                "votes": "88"
             },
             {
                 "ct_name": "Leisure",
-                "votes": "285"
+                "votes": "286"
             },
             {
                 "ct_name": "Night Out",
-                "votes": "151"
+                "votes": "152"
             },
             {
                 "ct_name": "Business",
-                "votes": "309"
+                "votes": "310"
             },
             {
                 "ct_name": "Evening",
-                "votes": "163"
+                "votes": "164"
             }
         ],
         "audience": [
@@ -3389,7 +3179,7 @@
             },
             {
                 "ct_name": "Youthful",
-                "votes": "128"
+                "votes": "129"
             }
         ],
         "season": [
@@ -3399,15 +3189,15 @@
             },
             {
                 "ct_name": "Fall",
-                "votes": "298"
+                "votes": "299"
             },
             {
                 "ct_name": "Summer",
-                "votes": "265"
+                "votes": "266"
             },
             {
                 "ct_name": "Spring",
-                "votes": "337"
+                "votes": "338"
             }
         ],
         "collection_group": "Decants",
@@ -3772,11 +3562,11 @@
             },
             {
                 "ct_name": "Spicy",
-                "votes": "614"
+                "votes": "615"
             },
             {
                 "ct_name": "Woody",
-                "votes": "770"
+                "votes": "771"
             },
             {
                 "ct_name": "Green",
@@ -3788,17 +3578,17 @@
             },
             {
                 "ct_name": "Fresh",
-                "votes": "501"
+                "votes": "502"
             },
             {
                 "ct_name": "Earthy",
-                "votes": "689"
+                "votes": "690"
             }
         ],
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "790"
+                "votes": "791"
             },
             {
                 "ct_name": "Sport",
@@ -3814,21 +3604,21 @@
             },
             {
                 "ct_name": "Business",
-                "votes": "729"
+                "votes": "730"
             },
             {
                 "ct_name": "Evening",
-                "votes": "524"
+                "votes": "525"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "940"
+                "votes": "941"
             },
             {
                 "ct_name": "Feminine",
-                "votes": "105"
+                "votes": "106"
             },
             {
                 "ct_name": "Mature",
@@ -3846,7 +3636,7 @@
             },
             {
                 "ct_name": "Fall",
-                "votes": "827"
+                "votes": "828"
             },
             {
                 "ct_name": "Summer",
@@ -3854,7 +3644,7 @@
             },
             {
                 "ct_name": "Spring",
-                "votes": "835"
+                "votes": "836"
             }
         ],
         "collection_group": "Decants",
@@ -4094,23 +3884,23 @@
         "type": [
             {
                 "ct_name": "Spicy",
-                "votes": "737"
+                "votes": "740"
             },
             {
                 "ct_name": "Sweet",
-                "votes": "814"
+                "votes": "818"
             },
             {
                 "ct_name": "Smoky",
-                "votes": "364"
+                "votes": "365"
             },
             {
                 "ct_name": "Oriental",
-                "votes": "451"
+                "votes": "452"
             },
             {
                 "ct_name": "Woody",
-                "votes": "384"
+                "votes": "385"
             },
             {
                 "ct_name": "Gourmand",
@@ -4122,7 +3912,7 @@
             },
             {
                 "ct_name": "Creamy",
-                "votes": "189"
+                "votes": "190"
             }
         ],
         "occasion": [
@@ -4132,33 +3922,33 @@
             },
             {
                 "ct_name": "Leisure",
-                "votes": "468"
+                "votes": "469"
             },
             {
                 "ct_name": "Night Out",
-                "votes": "814"
+                "votes": "817"
             },
             {
                 "ct_name": "Business",
-                "votes": "249"
+                "votes": "250"
             },
             {
                 "ct_name": "Evening",
-                "votes": "851"
+                "votes": "854"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "919"
+                "votes": "922"
             },
             {
                 "ct_name": "Feminine",
-                "votes": "268"
+                "votes": "269"
             },
             {
                 "ct_name": "Mature",
-                "votes": "389"
+                "votes": "390"
             },
             {
                 "ct_name": "Youthful",
@@ -4168,15 +3958,15 @@
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "902"
+                "votes": "905"
             },
             {
                 "ct_name": "Fall",
-                "votes": "867"
+                "votes": "870"
             },
             {
                 "ct_name": "Spring",
-                "votes": "296"
+                "votes": "298"
             }
         ],
         "collection_group": "Decants",
@@ -4255,7 +4045,7 @@
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "245"
+                "votes": "246"
             },
             {
                 "ct_name": "Feminine",
@@ -4263,21 +4053,21 @@
             },
             {
                 "ct_name": "Mature",
-                "votes": "61"
+                "votes": "62"
             },
             {
                 "ct_name": "Youthful",
-                "votes": "183"
+                "votes": "184"
             }
         ],
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "251"
+                "votes": "252"
             },
             {
                 "ct_name": "Fall",
-                "votes": "244"
+                "votes": "245"
             },
             {
                 "ct_name": "Summer",
@@ -4285,7 +4075,7 @@
             },
             {
                 "ct_name": "Spring",
-                "votes": "115"
+                "votes": "116"
             }
         ],
         "collection_group": "Decants",
@@ -4304,23 +4094,23 @@
         "type": [
             {
                 "ct_name": "Spicy",
-                "votes": "164"
+                "votes": "166"
             },
             {
                 "ct_name": "Sweet",
-                "votes": "112"
+                "votes": "114"
             },
             {
                 "ct_name": "Oriental",
-                "votes": "111"
+                "votes": "113"
             },
             {
                 "ct_name": "Leathery",
-                "votes": "63"
+                "votes": "64"
             },
             {
                 "ct_name": "Woody",
-                "votes": "164"
+                "votes": "166"
             },
             {
                 "ct_name": "Resinous",
@@ -4334,29 +4124,29 @@
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "62"
-            },
-            {
-                "ct_name": "Leisure",
-                "votes": "94"
-            },
-            {
-                "ct_name": "Night Out",
-                "votes": "151"
-            },
-            {
-                "ct_name": "Business",
                 "votes": "63"
             },
             {
+                "ct_name": "Leisure",
+                "votes": "96"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "153"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "64"
+            },
+            {
                 "ct_name": "Evening",
-                "votes": "159"
+                "votes": "161"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "185"
+                "votes": "187"
             },
             {
                 "ct_name": "Feminine",
@@ -4364,21 +4154,21 @@
             },
             {
                 "ct_name": "Mature",
-                "votes": "105"
+                "votes": "107"
             },
             {
                 "ct_name": "Youthful",
-                "votes": "48"
+                "votes": "49"
             }
         ],
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "165"
+                "votes": "167"
             },
             {
                 "ct_name": "Fall",
-                "votes": "183"
+                "votes": "185"
             },
             {
                 "ct_name": "Summer",
@@ -4386,7 +4176,7 @@
             },
             {
                 "ct_name": "Spring",
-                "votes": "96"
+                "votes": "98"
             }
         ],
         "collection_group": "Decants",
@@ -6065,25 +5855,25 @@
             },
             {
                 "ct_name": "Fruity",
-                "votes": "181"
+                "votes": "182"
             },
             {
                 "ct_name": "Fresh",
-                "votes": "350"
+                "votes": "351"
             },
             {
                 "ct_name": "Floral",
-                "votes": "92"
+                "votes": "93"
             },
             {
                 "ct_name": "Aquatic",
-                "votes": "183"
+                "votes": "184"
             }
         ],
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "328"
+                "votes": "329"
             },
             {
                 "ct_name": "Sport",
@@ -6091,7 +5881,7 @@
             },
             {
                 "ct_name": "Leisure",
-                "votes": "324"
+                "votes": "325"
             },
             {
                 "ct_name": "Night Out",
@@ -6109,7 +5899,7 @@
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "359"
+                "votes": "360"
             },
             {
                 "ct_name": "Feminine",
@@ -6117,11 +5907,11 @@
             },
             {
                 "ct_name": "Mature",
-                "votes": "145"
+                "votes": "146"
             },
             {
                 "ct_name": "Youthful",
-                "votes": "199"
+                "votes": "200"
             }
         ],
         "season": [
@@ -6135,11 +5925,11 @@
             },
             {
                 "ct_name": "Summer",
-                "votes": "353"
+                "votes": "354"
             },
             {
                 "ct_name": "Spring",
-                "votes": "342"
+                "votes": "343"
             }
         ],
         "collection_group": "I have",
@@ -7144,51 +6934,51 @@
             },
             {
                 "ct_name": "Fresh",
-                "votes": "457"
+                "votes": "458"
             },
             {
                 "ct_name": "Aquatic",
-                "votes": "201"
+                "votes": "202"
             }
         ],
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "499"
+                "votes": "500"
             },
             {
                 "ct_name": "Sport",
-                "votes": "181"
+                "votes": "182"
             },
             {
                 "ct_name": "Leisure",
-                "votes": "439"
+                "votes": "440"
             },
             {
                 "ct_name": "Night Out",
-                "votes": "270"
+                "votes": "271"
             },
             {
                 "ct_name": "Business",
-                "votes": "471"
+                "votes": "472"
             },
             {
                 "ct_name": "Evening",
-                "votes": "274"
+                "votes": "275"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "551"
+                "votes": "552"
             },
             {
                 "ct_name": "Mature",
-                "votes": "208"
+                "votes": "209"
             },
             {
                 "ct_name": "Youthful",
-                "votes": "325"
+                "votes": "326"
             }
         ],
         "season": [
@@ -7198,15 +6988,15 @@
             },
             {
                 "ct_name": "Fall",
-                "votes": "407"
+                "votes": "408"
             },
             {
                 "ct_name": "Summer",
-                "votes": "492"
+                "votes": "493"
             },
             {
                 "ct_name": "Spring",
-                "votes": "516"
+                "votes": "517"
             }
         ],
         "collection_group": "Miniatures",
@@ -7242,7 +7032,7 @@
             },
             {
                 "ct_name": "Leathery",
-                "votes": "547"
+                "votes": "548"
             },
             {
                 "ct_name": "Woody",
@@ -7278,7 +7068,7 @@
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "533"
+                "votes": "534"
             },
             {
                 "ct_name": "Feminine",
@@ -7300,7 +7090,7 @@
             },
             {
                 "ct_name": "Fall",
-                "votes": "524"
+                "votes": "525"
             },
             {
                 "ct_name": "Summer",
@@ -7868,7 +7658,7 @@
         "type": [
             {
                 "ct_name": "Spicy",
-                "votes": "127"
+                "votes": "128"
             },
             {
                 "ct_name": "Synthetic",
@@ -7880,11 +7670,11 @@
             },
             {
                 "ct_name": "Oriental",
-                "votes": "55"
+                "votes": "56"
             },
             {
                 "ct_name": "Woody",
-                "votes": "97"
+                "votes": "98"
             },
             {
                 "ct_name": "Resinous",
@@ -7892,11 +7682,11 @@
             },
             {
                 "ct_name": "Green",
-                "votes": "79"
+                "votes": "80"
             },
             {
                 "ct_name": "Fresh",
-                "votes": "91"
+                "votes": "92"
             },
             {
                 "ct_name": "Creamy",
@@ -7906,29 +7696,29 @@
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "99"
+                "votes": "100"
             },
             {
                 "ct_name": "Leisure",
-                "votes": "119"
+                "votes": "120"
             },
             {
                 "ct_name": "Night Out",
-                "votes": "106"
+                "votes": "107"
             },
             {
                 "ct_name": "Business",
-                "votes": "85"
+                "votes": "86"
             },
             {
                 "ct_name": "Evening",
-                "votes": "99"
+                "votes": "100"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "155"
+                "votes": "156"
             },
             {
                 "ct_name": "Feminine",
@@ -7936,7 +7726,7 @@
             },
             {
                 "ct_name": "Mature",
-                "votes": "66"
+                "votes": "67"
             },
             {
                 "ct_name": "Youthful",
@@ -7946,19 +7736,19 @@
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "86"
+                "votes": "87"
             },
             {
                 "ct_name": "Fall",
-                "votes": "136"
+                "votes": "137"
             },
             {
                 "ct_name": "Summer",
-                "votes": "77"
+                "votes": "78"
             },
             {
                 "ct_name": "Spring",
-                "votes": "131"
+                "votes": "132"
             }
         ],
         "collection_group": "Wish List",
@@ -8183,7 +7973,7 @@
         "type": [
             {
                 "ct_name": "Citrus",
-                "votes": "644"
+                "votes": "645"
             },
             {
                 "ct_name": "Spicy",
@@ -8207,7 +7997,7 @@
             },
             {
                 "ct_name": "Fresh",
-                "votes": "686"
+                "votes": "687"
             },
             {
                 "ct_name": "Creamy",
@@ -8215,21 +8005,21 @@
             },
             {
                 "ct_name": "Aquatic",
-                "votes": "363"
+                "votes": "364"
             }
         ],
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "680"
+                "votes": "681"
             },
             {
                 "ct_name": "Sport",
-                "votes": "374"
+                "votes": "375"
             },
             {
                 "ct_name": "Leisure",
-                "votes": "652"
+                "votes": "653"
             },
             {
                 "ct_name": "Night Out",
@@ -8237,7 +8027,7 @@
             },
             {
                 "ct_name": "Business",
-                "votes": "544"
+                "votes": "545"
             },
             {
                 "ct_name": "Evening",
@@ -8247,19 +8037,19 @@
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "718"
+                "votes": "719"
             },
             {
                 "ct_name": "Feminine",
-                "votes": "245"
+                "votes": "246"
             },
             {
                 "ct_name": "Mature",
-                "votes": "260"
+                "votes": "261"
             },
             {
                 "ct_name": "Youthful",
-                "votes": "450"
+                "votes": "451"
             }
         ],
         "season": [
@@ -8273,11 +8063,11 @@
             },
             {
                 "ct_name": "Summer",
-                "votes": "748"
+                "votes": "749"
             },
             {
                 "ct_name": "Spring",
-                "votes": "677"
+                "votes": "678"
             }
         ],
         "collection_group": "Wish List",
@@ -11142,40 +10932,7 @@
         "brand": "The Dua Brand / Dua Fragrances",
         "image_src": "https://pimages.parfumo.de/480/139000_img-8881-dua-fragrances-river-fougere_480.jpg",
         "link": "https://www.parfumo.com/Perfumes/the-dua-brand/river-fougere",
-        "type": [
-            {
-                "ct_name": "Spicy",
-                "votes": "7"
-            },
-            {
-                "ct_name": "Woody",
-                "votes": "5"
-            },
-            {
-                "ct_name": "Green",
-                "votes": "6"
-            },
-            {
-                "ct_name": "Fresh",
-                "votes": "7"
-            },
-            {
-                "ct_name": "Foug\u00e8re",
-                "votes": "8"
-            },
-            {
-                "ct_name": "Earthy",
-                "votes": "4"
-            },
-            {
-                "ct_name": "Creamy",
-                "votes": "4"
-            },
-            {
-                "ct_name": "Floral",
-                "votes": "3"
-            }
-        ],
+        "type": null,
         "occasion": [
             {
                 "ct_name": "Daily",
@@ -12750,7 +12507,7 @@
         "type": [
             {
                 "ct_name": "Citrus",
-                "votes": "43"
+                "votes": "44"
             },
             {
                 "ct_name": "Spicy",
@@ -12758,7 +12515,7 @@
             },
             {
                 "ct_name": "Sweet",
-                "votes": "23"
+                "votes": "24"
             },
             {
                 "ct_name": "Woody",
@@ -12770,7 +12527,7 @@
             },
             {
                 "ct_name": "Fresh",
-                "votes": "44"
+                "votes": "45"
             },
             {
                 "ct_name": "Creamy",
@@ -12780,7 +12537,7 @@
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "41"
+                "votes": "42"
             },
             {
                 "ct_name": "Sport",
@@ -12788,7 +12545,7 @@
             },
             {
                 "ct_name": "Leisure",
-                "votes": "40"
+                "votes": "41"
             },
             {
                 "ct_name": "Night Out",
@@ -12806,7 +12563,7 @@
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "47"
+                "votes": "48"
             },
             {
                 "ct_name": "Feminine",
@@ -12818,7 +12575,7 @@
             },
             {
                 "ct_name": "Youthful",
-                "votes": "32"
+                "votes": "33"
             }
         ],
         "season": [
@@ -12832,11 +12589,11 @@
             },
             {
                 "ct_name": "Summer",
-                "votes": "44"
+                "votes": "45"
             },
             {
                 "ct_name": "Spring",
-                "votes": "42"
+                "votes": "43"
             }
         ],
         "collection_group": "Wish List",
@@ -12845,6 +12602,128 @@
             "Green almond",
             "Pink pepper",
             "Haitian vetiver"
+        ]
+    },
+    {
+        "name": "Fierce\nAbercrombie & Fitch 2002 COLOGNE",
+        "brand": "Abercrombie & Fitch",
+        "image_src": "https://pimages.parfumo.de/720/6074_img-2008-abercrombie-fitch-fierce-cologne_720.jpg",
+        "link": "https://www.parfumo.com/Perfumes/Abercrombie_Fitch/Fierce",
+        "type": [
+            {
+                "ct_name": "Citrus",
+                "votes": "104"
+            },
+            {
+                "ct_name": "Spicy",
+                "votes": "63"
+            },
+            {
+                "ct_name": "Synthetic",
+                "votes": "91"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "52"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "89"
+            },
+            {
+                "ct_name": "Green",
+                "votes": "42"
+            },
+            {
+                "ct_name": "Fruity",
+                "votes": "37"
+            },
+            {
+                "ct_name": "Fresh",
+                "votes": "157"
+            },
+            {
+                "ct_name": "Floral",
+                "votes": "45"
+            },
+            {
+                "ct_name": "Aquatic",
+                "votes": "45"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "162"
+            },
+            {
+                "ct_name": "Sport",
+                "votes": "90"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "162"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "103"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "118"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "88"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "185"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "36"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "148"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "60"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "122"
+            },
+            {
+                "ct_name": "Summer",
+                "votes": "170"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "176"
+            }
+        ],
+        "collection_group": "Watch List",
+        "notes": [
+            "Lemon",
+            "Fir resin",
+            "Cardamom",
+            "Orange",
+            "Petitgrain",
+            "Rosemary",
+            "Lily of the valley",
+            "Rose",
+            "Jasmine",
+            "Oakmoss",
+            "Brazilian rosewood",
+            "Musk",
+            "Vetiver"
         ]
     },
     {
@@ -13318,7 +13197,7 @@
             },
             {
                 "ct_name": "Spicy",
-                "votes": "238"
+                "votes": "239"
             },
             {
                 "ct_name": "Woody",
@@ -13326,15 +13205,15 @@
             },
             {
                 "ct_name": "Green",
-                "votes": "199"
+                "votes": "200"
             },
             {
                 "ct_name": "Fresh",
-                "votes": "314"
+                "votes": "315"
             },
             {
                 "ct_name": "Foug\u00e8re",
-                "votes": "160"
+                "votes": "161"
             },
             {
                 "ct_name": "Floral",
@@ -13344,37 +13223,37 @@
         "occasion": [
             {
                 "ct_name": "Daily",
-                "votes": "306"
+                "votes": "307"
             },
             {
                 "ct_name": "Sport",
-                "votes": "104"
+                "votes": "105"
             },
             {
                 "ct_name": "Leisure",
-                "votes": "278"
+                "votes": "279"
             },
             {
                 "ct_name": "Night Out",
-                "votes": "150"
+                "votes": "151"
             },
             {
                 "ct_name": "Business",
-                "votes": "296"
+                "votes": "297"
             },
             {
                 "ct_name": "Evening",
-                "votes": "167"
+                "votes": "168"
             }
         ],
         "audience": [
             {
                 "ct_name": "Masculine",
-                "votes": "356"
+                "votes": "357"
             },
             {
                 "ct_name": "Mature",
-                "votes": "205"
+                "votes": "206"
             },
             {
                 "ct_name": "Youthful",
@@ -13384,11 +13263,11 @@
         "season": [
             {
                 "ct_name": "Winter",
-                "votes": "153"
+                "votes": "154"
             },
             {
                 "ct_name": "Fall",
-                "votes": "266"
+                "votes": "267"
             },
             {
                 "ct_name": "Summer",
@@ -13396,15 +13275,15 @@
             },
             {
                 "ct_name": "Spring",
-                "votes": "341"
+                "votes": "342"
             }
         ],
         "collection_group": "Watch List",
         "notes": [
             "Lavender",
+            "Neroli",
             "Petitgrain",
             "Rosemary",
-            "Neroli",
             "Clary sage",
             "Geranium",
             "Galbanum",
