@@ -24,4 +24,5 @@ fragrantica_awards_pages_to_import:
 - name: best_marine_2023
   url: https://www.fragrantica.com/awards2023/category/Best-Marine-Perfume
 
-data_path: data
+import_data_path: data/fragrantica/raw
+processed_data_path: data/fragrantica/processed
