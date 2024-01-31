@@ -1,0 +1,201 @@
+link,vote_diff,updated_order,bayes,vote_diff_normalized,total_votes,name
+https://www.fragrantica.com/perfume/Dior/Sauvage-Elixir-68415.html,288.3333333333333,31.0,0.5628075215047948,0.2881322814520169,1791.0,Sauvage Elixir Dior (male) ~ 2021
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-Intense-2011-13016.html,620.1428571428571,1.0,0.662736190065931,0.9982578397212544,1689.5714285714287,Dior Homme Intense 2011 Dior (male) ~ 2011
+https://www.fragrantica.com/perfume/Creed/Aventus-9828.html,286.57142857142856,5.142857142857143,0.5942213684242544,0.5990055045780466,1444.2857142857142,Aventus Creed (male) ~ 2010
+https://www.fragrantica.com/perfume/Hermes/Terre-d-Hermes-17.html,412.42857142857144,3.0,0.6378050182906102,0.7853077563337203,1441.0,Terre d'Hermès Hermès (male) ~ 2006
+https://www.fragrantica.com/perfume/Chanel/Bleu-de-Chanel-Eau-de-Parfum-25967.html,398.14285714285717,9.285714285714286,0.6211247358909144,0.6151587626360886,1356.142857142857,Bleu de Chanel Eau de Parfum Chanel (male) ~ 2014
+https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Male-Elixir-81642.html,58.0,30.0,0.5176132278936018,0.0849897189856065,1348.0,Le Male Elixir Jean Paul Gaultier (male) ~ 2023
+https://www.fragrantica.com/perfume/Dior/Fahrenheit-228.html,244.0,8.714285714285714,0.6009296783627296,0.5677655012935954,1185.4285714285713,Fahrenheit Dior (male) ~ 1988
+https://www.fragrantica.com/perfume/Yves-Saint-Laurent/La-Nuit-de-l-Homme-5521.html,352.42857142857144,6.285714285714286,0.642138899380149,0.6916213077948551,1141.2857142857142,La Nuit de l'Homme Yves Saint Laurent (male) ~ 2009
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-Parfum-27417.html,342.14285714285717,7.428571428571429,0.6443110314754827,0.6660201224281622,1131.5714285714287,Dior Homme Parfum Dior (male) ~ 2014
+https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Male-Le-Parfum-61856.html,315.0,92.0,0.6017573397891716,0.32621335424364306,1107.5,Le Male Le Parfum Jean Paul Gaultier (male) ~ 2020
+https://www.fragrantica.com/perfume/Givenchy/Gentleman-Eau-de-Parfum-Reserve-Privee-71272.html,196.5,32.5,0.5960801538857671,0.20319255311202175,1049.5,Gentleman Eau de Parfum Reserve Privée Givenchy (male) ~ 2022
+https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Profumo-29727.html,309.2857142857143,12.285714285714286,0.6264348480625729,0.536184683882657,1042.7142857142858,Acqua di Giò Profumo Giorgio Armani (male) ~ 2015
+https://www.fragrantica.com/perfume/Chanel/Bleu-de-Chanel-Parfum-49912.html,171.5,30.833333333333332,0.5743756964959309,0.2981823454920562,905.5,Bleu de Chanel Parfum Chanel (male) ~ 2018
+https://www.fragrantica.com/perfume/Tom-Ford/Ombre-Leather-2018-50239.html,267.6666666666667,24.833333333333332,0.6540929376311291,0.4589713119838734,897.6666666666666,Ombré Leather (2018) Tom Ford (unisex) ~ 2018
+https://www.fragrantica.com/perfume/Dior/Sauvage-31861.html,43.0,28.571428571428573,0.5184296976907892,0.1812235230461832,892.1428571428571,Sauvage Dior (male) ~ 2015
+https://www.fragrantica.com/perfume/Dolce-Gabbana/The-One-for-Men-Eau-de-Parfum-31909.html,244.71428571428572,12.428571428571429,0.6371282244452232,0.5261424611609405,876.4285714285714,The One for Men Eau de Parfum Dolce&Gabbana (male) ~ 2015
+https://www.fragrantica.com/perfume/Viktor-Rolf/Spicebomb-Extreme-30499.html,265.7142857142857,34.0,0.6312310994594128,0.4484297570099763,860.0,Spicebomb Extreme Viktor&Rolf (male) ~ 2015
+https://www.fragrantica.com/perfume/Parfums-de-Marly/Layton-39314.html,280.0,43.142857142857146,0.653498486285035,0.4997941520769011,832.5714285714286,Layton Parfums de Marly (unisex) ~ 2016
+https://www.fragrantica.com/perfume/Tom-Ford/Oud-Wood-1826.html,265.0,12.428571428571429,0.6626384695538717,0.5878234415890906,819.8571428571429,Oud Wood Tom Ford (unisex) ~ 2007
+https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Sport-Eau-Extreme-14669.html,198.28571428571428,25.857142857142858,0.6163929867445725,0.40099509250032905,762.5714285714286,Allure Homme Sport Eau Extreme Chanel (male) ~ 2012
+https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Male-430.html,91.28571428571429,27.571428571428573,0.5543568188950696,0.26770900771988326,751.5714285714286,Le Male Jean Paul Gaultier (male) ~ 1995
+https://www.fragrantica.com/perfume/Lalique/Encre-Noire-1834.html,170.14285714285714,16.714285714285715,0.6205957037278086,0.5090710477603436,747.0,Encre Noire Lalique (male) ~ 2006
+https://www.fragrantica.com/perfume/Yves-Saint-Laurent/La-Nuit-de-L-Homme-Bleu-Electrique-67997.html,140.0,51.333333333333336,0.6074647985170735,0.18293157097668136,742.6666666666666,La Nuit de L'Homme Bleu Électrique Yves Saint Laurent (male) ~ 2021
+https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-410.html,118.57142857142857,28.857142857142858,0.5707996975960149,0.3075191132289174,737.7142857142857,Acqua di Gio Giorgio Armani (male) ~ 1996
+https://www.fragrantica.com/perfume/Prada/Prada-L-Homme-39029.html,235.28571428571428,26.571428571428573,0.6490099415901655,0.4509057011141896,733.5714285714286,Prada L'Homme Prada (male) ~ 2016
+https://www.fragrantica.com/perfume/Tom-Ford/Tobacco-Vanille-1825.html,175.71428571428572,29.142857142857142,0.6281764760899223,0.3973856922269091,690.5714285714286,Tobacco Vanille Tom Ford (unisex) ~ 2007
+https://www.fragrantica.com/perfume/By-Kilian/Angels-Share-62615.html,76.33333333333333,128.66666666666666,0.5464541327837807,0.12649391225576043,678.3333333333334,Angels' Share By Kilian (unisex) ~ 2020
+https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Y-Eau-de-Parfum-50757.html,123.0,65.33333333333333,0.556960495249789,0.22511818644435952,663.0,Y Eau de Parfum Yves Saint Laurent (male) ~ 2018
+https://www.fragrantica.com/perfume/Creed/Green-Irish-Tweed-474.html,152.28571428571428,20.714285714285715,0.6266621061410323,0.43595933645222035,626.0,Green Irish Tweed Creed (male) ~ 1985
+https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html,178.71428571428572,51.714285714285715,0.631733438698604,0.4065273114277537,620.7142857142857,L’Homme Ideal Eau de Parfum Guerlain (male) ~ 2016
+https://www.fragrantica.com/perfume/Tom-Ford/Noir-Extreme-29675.html,164.0,33.42857142857143,0.648279386297231,0.3759927614876068,578.8571428571429,Noir Extreme Tom Ford (male) ~ 2015
+https://www.fragrantica.com/perfume/Hermes/Terre-d-Hermes-Parfum-8282.html,109.14285714285714,61.714285714285715,0.5948645855851064,0.34153104648490984,576.0,Terre d'Hermes Parfum Hermès (male) ~ 2009
+https://www.fragrantica.com/perfume/Chanel/Bleu-de-Chanel-9099.html,92.71428571428571,38.0,0.5763717309662563,0.29329935518274414,545.2857142857143,Bleu de Chanel Chanel (male) ~ 2010
+https://www.fragrantica.com/perfume/Dior/Eau-Sauvage-231.html,166.85714285714286,28.0,0.64470151606957,0.4312461162610752,535.1428571428571,Eau Sauvage Dior (male) ~ 1966
+https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Absolutely-64501.html,65.0,90.33333333333333,0.5614157883179622,0.11243110752749585,527.6666666666666,Emporio Armani Stronger With You Absolutely Giorgio Armani (male) ~ 2021
+https://www.fragrantica.com/perfume/Parfums-de-Marly/Herod-16939.html,132.14285714285714,37.142857142857146,0.6408564435455262,0.3699351361793334,517.8571428571429,Herod Parfums de Marly (male) ~ 2012
+https://www.fragrantica.com/perfume/Chanel/Egoiste-Platinum-614.html,103.71428571428571,37.142857142857146,0.6085630110253792,0.2992818241401388,513.7142857142857,Egoiste Platinum Chanel (male) ~ 1993
+https://www.fragrantica.com/perfume/Montblanc/Explorer-52002.html,89.25,58.5,0.5751492274077045,0.15858984058474407,513.25,Explorer Montblanc (male) ~ 2019
+https://www.fragrantica.com/perfume/Davidoff/Cool-Water-507.html,58.714285714285715,51.857142857142854,0.5521687428193481,0.21001920637210067,498.14285714285717,Cool Water Davidoff (male) ~ 1988
+https://www.fragrantica.com/perfume/Versace/Versace-Pour-Homme-2318.html,84.14285714285714,48.0,0.577891551207781,0.24268399801298127,475.57142857142856,Versace Pour Homme Versace (male) ~ 2008
+https://www.fragrantica.com/perfume/Issey-Miyake/L-Eau-d-Issey-Pour-Homme-721.html,106.14285714285714,56.857142857142854,0.6067770995165696,0.2765124394667794,474.7142857142857,L'Eau d'Issey Pour Homme Issey Miyake (male) ~ 1994
+https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Le-Beau-Le-Parfum-72158.html,45.5,98.0,0.5338884401085358,0.08129471323898475,470.5,Le Beau Le Parfum Jean Paul Gaultier (male) ~ 2022
+https://www.fragrantica.com/perfume/Chanel/Egoiste-613.html,118.85714285714286,34.142857142857146,0.6209061113893501,0.38018550440381044,461.7142857142857,Egoiste Chanel (male) ~ 1990
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-2020-58714.html,34.75,157.0,0.5074129589309383,0.0907396912955189,453.75,Dior Homme 2020 Dior (male) ~ 2020
+https://www.fragrantica.com/perfume/Bvlgari/Bvlgari-Man-In-Black-26358.html,107.42857142857143,39.714285714285715,0.6138000514204717,0.30178333335273366,453.7142857142857,Bvlgari Man In Black Bvlgari (male) ~ 2014
+https://www.fragrantica.com/perfume/Mugler/A-Men-Pure-Havane-11444.html,121.71428571428571,32.714285714285715,0.6312626475546147,0.36933981775010843,441.7142857142857,A*Men Pure Havane Mugler (male) ~ 2011
+https://www.fragrantica.com/perfume/Prada/Prada-L-Homme-Intense-45396.html,73.66666666666667,66.66666666666667,0.5846131615107661,0.2057968805924014,437.0,Prada L'Homme Intense Prada (male) ~ 2017
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-13015.html,93.71428571428571,47.714285714285715,0.6017593636825261,0.3254240874049093,427.14285714285717,Dior Homme Dior (male) ~ 2011
+https://www.fragrantica.com/perfume/Xerjoff/XJ-1861-Naxos-30529.html,140.14285714285714,184.57142857142858,0.5866512973929854,0.23513547865520873,425.85714285714283,XJ 1861 Naxos Xerjoff (unisex) ~ 2015
+https://www.fragrantica.com/perfume/Viktor-Rolf/Spicebomb-13857.html,80.57142857142857,45.42857142857143,0.5884077322918877,0.2687743878942897,420.85714285714283,Spicebomb Viktor&Rolf (male) ~ 2012
+https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Ultra-Male-30947.html,66.28571428571429,64.0,0.5622541468066163,0.2141729306259559,418.57142857142856,Ultra Male Jean Paul Gaultier (male) ~ 2015
+https://www.fragrantica.com/perfume/Giorgio-Armani/Emporio-Armani-Stronger-With-You-Intensely-52802.html,59.25,116.5,0.5452678738116972,0.11436982590045416,415.75,Emporio Armani Stronger With You Intensely Giorgio Armani (male) ~ 2019
+https://www.fragrantica.com/perfume/Guerlain/Vetiver-69.html,111.42857142857143,42.142857142857146,0.6390836367851509,0.35291465808540295,408.2857142857143,Vetiver Guerlain (male) ~ 2000
+https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Extreme-60284.html,77.75,91.25,0.5936698170675428,0.14541536426240373,405.25,L'Homme Idéal Extrême Guerlain (male) ~ 2020
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-Sport-2021-71326.html,29.0,122.0,0.5261554212168487,0.0698502864137279,405.0,Dior Homme Sport 2021 Dior (male) ~ 2022
+https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Edition-Blanche-Eau-de-Parfum-28942.html,89.14285714285714,87.28571428571429,0.5949009163604774,0.30045974354901966,403.42857142857144,Allure Homme Edition Blanche Eau de Parfum Chanel (male) ~ 2014
+https://www.fragrantica.com/perfume/Chanel/Allure-Homme-Sport-607.html,89.28571428571429,51.857142857142854,0.5954589748378779,0.25800235059103616,391.0,Allure Homme Sport Chanel (male) ~ 2004
+https://www.fragrantica.com/perfume/Mancera/Red-Tobacco-46663.html,63.0,92.0,0.5818309840299333,0.1323826118502472,371.0,Red Tobacco Mancera (unisex) ~ 2017
+https://www.fragrantica.com/perfume/Versace/Eros-16657.html,26.285714285714285,93.57142857142857,0.5132743449250602,0.12555001562985518,367.14285714285717,Eros Versace (male) ~ 2012
+https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Kouros-735.html,32.285714285714285,73.85714285714286,0.5338466347880386,0.17600722116912534,360.57142857142856,Kouros Yves Saint Laurent (male) ~ 1981
+https://www.fragrantica.com/perfume/Chanel/Antaeus-616.html,88.71428571428571,47.857142857142854,0.6102581277447664,0.3066636797122869,359.57142857142856,Antaeus Chanel (male) ~ 1981
+https://www.fragrantica.com/perfume/Dior/Sauvage-Eau-de-Parfum-48100.html,-5.833333333333333,121.83333333333333,0.47813770388356347,0.06923217392698974,355.5,Sauvage Eau de Parfum Dior (male) ~ 2018
+https://www.fragrantica.com/perfume/Dior/Fahrenheit-Le-Parfum-23099.html,60.857142857142854,77.14285714285714,0.5782076642944316,0.21721656862456304,353.14285714285717,Fahrenheit Le Parfum Dior (male) ~ 2014
+https://www.fragrantica.com/perfume/Versace/Versace-Pour-Homme-Dylan-Blue-40031.html,43.285714285714285,90.28571428571429,0.5356397127332428,0.16183895431308945,348.7142857142857,Versace Pour Homme Dylan Blue Versace (male) ~ 2016
+https://www.fragrantica.com/perfume/Armaf/Club-de-Nuit-Intense-Man-34696.html,28.428571428571427,80.0,0.5356559033269759,0.17253255325076888,347.85714285714283,Club de Nuit Intense Man Armaf (male) ~ 2015
+https://www.fragrantica.com/perfume/Dior/Eau-Sauvage-Parfum-2017-43977.html,70.33333333333333,71.16666666666667,0.5996918521993567,0.21896523471960047,347.3333333333333,Eau Sauvage Parfum 2017 Dior (male) ~ 2017
+https://www.fragrantica.com/perfume/Versace/Eros-Parfum-70090.html,-29.333333333333332,427.0,0.4201521946326124,0.0245650294226897,342.6666666666667,Eros Parfum Versace (male) ~ 2021
+https://www.fragrantica.com/perfume/Nishane/Hacivat-44174.html,57.6,108.0,0.5710184229166588,0.16084652219541978,342.4,Hacivat Nishane (unisex) ~ 2017
+https://www.fragrantica.com/perfume/Tom-Ford/Tuscan-Leather-1849.html,92.14285714285714,49.0,0.6255985926850588,0.33217930166741666,341.0,Tuscan Leather Tom Ford (unisex) ~ 2007
+https://www.fragrantica.com/perfume/Tauer-Perfumes/02-L-Air-du-Desert-Marocain-4573.html,173.0,52.142857142857146,0.7096204730624845,0.36739715424533903,339.85714285714283,02 L'Air du Desert Marocain Tauer Perfumes (unisex) ~ 2005
+https://www.fragrantica.com/perfume/Valentino/Valentino-Uomo-Intense-2021-75094.html,70.0,118.0,0.6029883591789724,0.1018757445380882,339.0,Valentino Uomo Intense 2021 Valentino (male) ~ 2021
+https://www.fragrantica.com/perfume/Guerlain/Habit-Rouge-Eau-de-Toilette-16.html,73.28571428571429,60.42857142857143,0.6004369684445026,0.2853110880340486,326.14285714285717,Habit Rouge Eau de Toilette Guerlain (male) ~ 1965
+https://www.fragrantica.com/perfume/Mugler/A-Men-705.html,54.42857142857143,68.14285714285714,0.570175814245499,0.2230496824970236,326.14285714285717,A*Men Mugler (male) ~ 1996
+https://www.fragrantica.com/perfume/Tom-Ford/Beau-De-Jour-Eau-de-Parfum-59064.html,72.5,123.25,0.6057584588799414,0.13757329337494734,325.5,Beau De Jour Eau de Parfum Tom Ford (male) ~ 2020
+https://www.fragrantica.com/perfume/Parfums-de-Marly/Layton-Exclusif-46633.html,42.0,199.25,0.5396437608436255,0.12362293865137305,299.0,Layton Exclusif Parfums de Marly (unisex) ~ 2017
+https://www.fragrantica.com/perfume/Givenchy/Gentleman-Eau-de-Parfum-48476.html,60.4,85.6,0.5766031320380562,0.1557423692970544,296.0,Gentleman Eau de Parfum Givenchy (male) ~ 2018
+https://www.fragrantica.com/perfume/Amouage/Reflection-Man-920.html,75.42857142857143,66.85714285714286,0.6318214898572361,0.2494313599653619,295.42857142857144,Reflection Man Amouage (male) ~ 2006
+https://www.fragrantica.com/perfume/Bentley/Bentley-for-Men-Intense-17666.html,65.57142857142857,80.0,0.5871876923146276,0.22268670117209655,295.0,Bentley for Men Intense Bentley (male) ~ 2013
+https://www.fragrantica.com/perfume/Gucci/Gucci-Guilty-Absolute-43040.html,46.142857142857146,90.0,0.5622418955164753,0.20179491118779952,291.85714285714283,Gucci Guilty Absolute Gucci (male) ~ 2017
+https://www.fragrantica.com/perfume/Maison-Francis-Kurkdjian/Grand-Soir-40816.html,77.66666666666667,71.0,0.6194297121611083,0.2373663194811008,287.6666666666667,Grand Soir Maison Francis Kurkdjian (unisex) ~ 2016
+https://www.fragrantica.com/perfume/Rochas/Moustache-Eau-de-Parfum-52350.html,66.0,104.25,0.6060551912783627,0.13688344409783157,286.5,Moustache Eau de Parfum Rochas (male) ~ 2018
+https://www.fragrantica.com/perfume/Prada/Luna-Rossa-Black-48682.html,53.666666666666664,110.66666666666667,0.5731185568117728,0.16939491623213312,286.3333333333333,Luna Rossa Black Prada (male) ~ 2018
+https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Oud-for-Greatness-53641.html,45.6,109.8,0.5891613479551749,0.15224982029447304,282.8,Oud for Greatness Initio Parfums Prives (unisex) ~ 2018
+https://www.fragrantica.com/perfume/Mancera/Cedrat-Boise-15211.html,41.714285714285715,140.42857142857142,0.5415389496162761,0.15495275052299587,282.0,Cedrat Boise Mancera (unisex) ~ 2011
+https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Profondo-59532.html,79.0,123.25,0.6026357314778548,0.13774272503782575,280.5,Acqua di Giò Profondo Giorgio Armani (male) ~ 2020
+https://www.fragrantica.com/perfume/Moschino/Toy-Boy-55858.html,19.0,177.75,0.5127787475064121,0.08530065157231752,278.0,Toy Boy Moschino (male) ~ 2019
+https://www.fragrantica.com/perfume/Burberry/London-for-Men-804.html,55.142857142857146,71.57142857142857,0.5929340490300835,0.24797009857242272,277.14285714285717,London for Men Burberry (male) ~ 2006
+https://www.fragrantica.com/perfume/Guerlain/Habit-Rouge-Rouge-Prive-80690.html,29.0,152.0,0.53125,0.0651130911583276,277.0,Habit Rouge Rouge Privé Guerlain (male) ~ 2023
+https://www.fragrantica.com/perfume/Guy-Laroche/Drakkar-Noir-2069.html,55.833333333333336,85.5,0.5884896774930456,0.1797870879396916,275.5,Drakkar Noir Guy Laroche (male) ~ 1982
+https://www.fragrantica.com/perfume/Paco-Rabanne/1-Million-3747.html,-44.833333333333336,222.83333333333334,0.4167705573756186,0.0069682430888736505,274.1666666666667,1 Million Paco Rabanne (male) ~ 2008
+https://www.fragrantica.com/perfume/Mugler/A-Men-Pure-Malt-6103.html,84.57142857142857,62.285714285714285,0.6385521137245397,0.3023152395239283,273.14285714285717,A*Men Pure Malt Mugler (male) ~ 2009
+https://www.fragrantica.com/perfume/Amouage/Interlude-Man-15294.html,71.71428571428571,68.57142857142857,0.6123250438030334,0.2401236267844977,272.0,Interlude Man Amouage (male) ~ 2012
+https://www.fragrantica.com/perfume/Giorgio-Armani/Armani-Code-Absolu-53106.html,80.25,99.0,0.6175547483361625,0.1484353856591358,269.75,Armani Code Absolu Giorgio Armani (male) ~ 2019
+https://www.fragrantica.com/perfume/Tom-Ford/Noir-Extreme-Parfum-75489.html,30.0,281.5,0.5278213658046699,0.06864133347836396,269.0,Noir Extreme Parfum Tom Ford (male) ~ 2022
+https://www.fragrantica.com/perfume/Yves-Saint-Laurent/M7-1031.html,94.85714285714286,60.857142857142854,0.654090226272512,0.3243172960368232,266.85714285714283,M7 Yves Saint Laurent (male) ~ 2002
+https://www.fragrantica.com/perfume/Louis-Vuitton/Imagination-67370.html,19.0,310.0,0.4780882519756494,0.05839570307329595,259.0,Imagination Louis Vuitton (male) ~ 2021
+https://www.fragrantica.com/perfume/Valentino/Valentino-Uomo-Intense-38254.html,87.14285714285714,80.71428571428571,0.6368098834610858,0.3167788313959356,258.57142857142856,Valentino Uomo Intense Valentino (male) ~ 2016
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-2005-230.html,52.57142857142857,96.42857142857143,0.5763965792434347,0.22513251657729014,256.57142857142856,Dior Homme 2005 Dior (male) ~ 2005
+https://www.fragrantica.com/perfume/Lattafa-Perfumes/Khamrah-75805.html,-1.5,276.0,0.4669281433987317,0.044750916379772396,256.5,Khamrah Lattafa Perfumes (unisex) ~ 2022
+https://www.fragrantica.com/perfume/Tom-Ford/Ombre-Leather-Parfum-68716.html,22.0,227.33333333333334,0.5208504433253739,0.0722383683356364,255.33333333333334,Ombré Leather Parfum Tom Ford (unisex) ~ 2021
+https://www.fragrantica.com/perfume/Versace/Eros-Eau-de-Parfum-62762.html,9.0,184.0,0.5053341094947749,0.06334898938655233,254.33333333333334,Eros Eau de Parfum Versace (male) ~ 2020
+https://www.fragrantica.com/perfume/Tom-Ford/Grey-Vetiver-6697.html,73.71428571428571,89.0,0.6291423104412369,0.2567375846569113,254.28571428571428,Grey Vetiver Tom Ford (male) ~ 2009
+https://www.fragrantica.com/perfume/Lalique/Encre-Noire-A-L-Extreme-32356.html,63.57142857142857,85.14285714285714,0.6091645614233377,0.24242004253030558,253.28571428571428,Encre Noire A L'Extreme Lalique (male) ~ 2015
+https://www.fragrantica.com/perfume/Dior/Eau-Sauvage-Parfum-14811.html,65.28571428571429,74.42857142857143,0.6180787012849426,0.25772681569871014,247.57142857142858,Eau Sauvage Parfum Dior (male) ~ 2012
+https://www.fragrantica.com/perfume/Giorgio-Armani/Armani-Code-412.html,56.142857142857146,84.57142857142857,0.5884646339627088,0.20678558896297775,245.0,Armani Code Giorgio Armani (male) ~ 2004
+https://www.fragrantica.com/perfume/Dolce-Gabbana/Light-Blue-Eau-Intense-Pour-Homme-44035.html,40.666666666666664,160.83333333333334,0.5429052287387216,0.13887445237420656,244.66666666666666,Light Blue Eau Intense Pour Homme Dolce&Gabbana (male) ~ 2017
+https://www.fragrantica.com/perfume/Azzaro/The-Most-Wanted-Parfum-73664.html,54.0,148.0,0.5826383319967923,0.08820310933521344,244.0,The Most Wanted Parfum Azzaro (male) ~ 2022
+https://www.fragrantica.com/perfume/Mancera/Intense-Cedrat-Boise-72796.html,31.5,159.5,0.5381837768822567,0.0706166118651686,239.5,Intense Cedrat Boise Mancera (male) ~ 2021
+https://www.fragrantica.com/perfume/Nishane/Ani-54785.html,47.0,134.75,0.5752304549930831,0.11042338961720073,236.0,Ani Nishane (unisex) ~ 2019
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-Original-69010.html,47.666666666666664,151.0,0.5734649122807017,0.10125830871454926,235.0,Dior Homme Original Dior (male) ~ 2021
+https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-25780.html,57.142857142857146,85.0,0.6105080964297347,0.2320138621842862,229.71428571428572,L’Homme Ideal Guerlain (male) ~ 2014
+https://www.fragrantica.com/perfume/Guerlain/L-Instant-de-Guerlain-pour-Homme-Eau-Extreme-11570.html,80.14285714285714,71.0,0.6613216457920575,0.3141444994783357,227.28571428571428,L'Instant de Guerlain pour Homme Eau Extreme Guerlain (male) ~ 2005
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-Cologne-2013-17256.html,60.285714285714285,87.42857142857143,0.6252475869550229,0.24419385305198293,224.0,Dior Homme Cologne 2013 Dior (male) ~ 2013
+https://www.fragrantica.com/perfume/Creed/Royal-Oud-12317.html,39.142857142857146,102.28571428571429,0.5689393078395135,0.17275806152793557,223.42857142857142,Royal Oud Creed (unisex) ~ 2011
+https://www.fragrantica.com/perfume/Hugo-Boss/Boss-Bottled-383.html,38.166666666666664,108.16666666666667,0.5709591425876285,0.169759938544952,221.16666666666666,Boss Bottled Hugo Boss (male) ~ 1998
+https://www.fragrantica.com/perfume/Yves-Saint-Laurent/L-Homme-734.html,53.42857142857143,86.28571428571429,0.6072408315670291,0.24925989085012748,221.14285714285714,L'Homme Yves Saint Laurent (male) ~ 2006
+https://www.fragrantica.com/perfume/Versace/Eros-Flame-52180.html,7.0,245.5,0.48258747158655113,0.06677877382260117,220.0,Eros Flame Versace (male) ~ 2018
+https://www.fragrantica.com/perfume/Dolce-Gabbana/Light-Blue-Forever-pour-Homme-66556.html,35.0,160.5,0.5475306838106371,0.07233896026116,220.0,Light Blue Forever pour Homme Dolce&Gabbana (male) ~ 2021
+https://www.fragrantica.com/perfume/Givenchy/Pi-39.html,57.857142857142854,106.85714285714286,0.601070044596874,0.20422438031946094,219.85714285714286,Pi Givenchy (male) ~ 1998
+https://www.fragrantica.com/perfume/Amouage/Jubilation-XXV-Man-2366.html,83.28571428571429,73.57142857142857,0.658870773820608,0.3220377563261972,217.57142857142858,Jubilation XXV Man Amouage (male) ~ 2007
+https://www.fragrantica.com/perfume/Frederic-Malle/Musc-Ravageur-1801.html,47.666666666666664,134.33333333333334,0.5843208837754091,0.1577200983139378,215.66666666666666,Musc Ravageur Frederic Malle (unisex) ~ 2000
+https://www.fragrantica.com/perfume/Gucci/Gucci-pour-Homme-2003-691.html,73.71428571428571,78.0,0.6390518651305845,0.2851545465842119,214.28571428571428,Gucci pour Homme (2003) Gucci (male) ~ 2003
+https://www.fragrantica.com/perfume/Armaf/Club-de-Nuit-Intense-Man-Limited-Edition-Parfum-77861.html,2.0,229.0,0.4863813229571984,0.0466072652501713,214.0,Club de Nuit Intense Man Limited Edition Parfum Armaf (male) ~ 2021
+https://www.fragrantica.com/perfume/Chanel/Pour-Monsieur-615.html,69.0,88.5,0.6348376417648792,0.23489278127377508,211.33333333333334,Pour Monsieur Chanel (male) ~ 1955
+https://www.fragrantica.com/perfume/Hermes/H24-65147.html,-1.3333333333333333,210.66666666666666,0.4823743386243386,0.0523184377259062,205.33333333333334,H24 Hermès (male) ~ 2021
+https://www.fragrantica.com/perfume/Dolce-Gabbana/The-One-for-Men-2056.html,58.42857142857143,94.28571428571429,0.6204174257158527,0.2163327976004285,204.14285714285714,The One for Men Dolce&Gabbana (male) ~ 2008
+https://www.fragrantica.com/perfume/Azzaro/Wanted-by-Night-49144.html,38.333333333333336,136.16666666666666,0.5486719847386633,0.14191668067435406,203.33333333333334,Wanted by Night Azzaro (male) ~ 2018
+https://www.fragrantica.com/perfume/Versace/Versace-Man-Eau-Fraiche-644.html,42.57142857142857,101.0,0.5912941780433056,0.19900263297130547,200.28571428571428,Versace Man Eau Fraiche Versace (male) ~ 2006
+https://www.fragrantica.com/perfume/Ralph-Lauren/Polo-890.html,44.142857142857146,103.71428571428571,0.589817997758317,0.20145035274968187,197.57142857142858,Polo Ralph Lauren (male) ~ 1978
+https://www.fragrantica.com/perfume/Dolce-Gabbana/Dolce-Gabbana-pour-Homme-1994-483.html,56.285714285714285,91.0,0.615702407404483,0.2114063956715936,196.0,Dolce&Gabbana pour Homme (1994) Dolce&Gabbana (male) ~ 1994
+https://www.fragrantica.com/perfume/Prada/Prada-L-Homme-L-Eau-46400.html,27.2,217.2,0.5391100535505828,0.11910486513041704,196.0,Prada L'Homme L'Eau Prada (male) ~ 2017
+https://www.fragrantica.com/perfume/Bvlgari/Aqva-Pour-Homme-153.html,34.0,110.85714285714286,0.5667535786284025,0.17764689740253695,191.71428571428572,Aqva Pour Homme Bvlgari (male) ~ 2005
+https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Jazz-Club-20541.html,41.857142857142854,157.28571428571428,0.5769418563558821,0.17954367333620178,191.28571428571428,Jazz Club Maison Martin Margiela (male) ~ 2013
+https://www.fragrantica.com/perfume/Aramis/Aramis-113.html,32.714285714285715,122.0,0.5619391303019595,0.176517977574006,190.71428571428572,Aramis Aramis (male) ~ 1966
+https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Cologne-30620.html,32.166666666666664,140.66666666666666,0.562454218527161,0.17288978418939038,190.16666666666666,L’Homme Ideal Cologne Guerlain (male) ~ 2015
+https://www.fragrantica.com/perfume/Maison-Martin-Margiela/By-the-Fireplace-31623.html,46.857142857142854,157.85714285714286,0.5902959031578041,0.187275543840803,190.0,By the Fireplace Maison Martin Margiela (unisex) ~ 2015
+https://www.fragrantica.com/perfume/Prada/Prada-Amber-Pour-Homme-Prada-Man-1044.html,44.0,102.57142857142857,0.5884390349274621,0.19434864114608655,188.28571428571428,Prada Amber Pour Homme (Prada Man) Prada (male) ~ 2006
+https://www.fragrantica.com/perfume/Cartier/Pasha-de-Cartier-Parfum-59418.html,41.0,141.5,0.5841850471160817,0.10931728495897652,188.0,Pasha de Cartier Parfum Cartier (male) ~ 2020
+https://www.fragrantica.com/perfume/Parfums-de-Marly/Carlisle-33514.html,45.833333333333336,113.33333333333333,0.5908025471156876,0.18174640049283544,187.5,Carlisle Parfums de Marly (unisex) ~ 2015
+https://www.fragrantica.com/perfume/Carolina-Herrera/CH-Men-Prive-31508.html,31.571428571428573,112.85714285714286,0.562040174134928,0.16516201232885863,185.28571428571428,CH Men Prive Carolina Herrera (male) ~ 2015
+https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Opium-Pour-Homme-562.html,59.0,101.14285714285714,0.6245474454261691,0.23357979056209674,183.0,Opium Pour Homme Yves Saint Laurent (male) ~ 1995
+https://www.fragrantica.com/perfume/Giorgio-Armani/Armani-Code-Parfum-75126.html,36.0,198.5,0.5525712005586314,0.07343029419820535,181.0,Armani Code Parfum Giorgio Armani (male) ~ 2022
+https://www.fragrantica.com/perfume/Azzaro/The-Most-Wanted-66826.html,32.0,212.0,0.5392540754062374,0.0808827780428928,178.66666666666666,The Most Wanted Azzaro (male) ~ 2021
+https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Y-Eau-de-Toilette-73440.html,-12.0,242.0,0.4594594594594595,0.0372848948374761,178.0,Y Eau de Toilette Yves Saint Laurent (male) ~ 2022
+https://www.fragrantica.com/perfume/Azzaro/Azzaro-pour-Homme-829.html,41.57142857142857,110.14285714285714,0.5920955248561931,0.19081632747607385,176.71428571428572,Azzaro pour Homme Azzaro (male) ~ 1978
+https://www.fragrantica.com/perfume/Louis-Vuitton/Ombre-Nomade-49755.html,22.0,251.75,0.5287343179899627,0.08384248956693006,176.5,Ombre Nomade Louis Vuitton (unisex) ~ 2018
+https://www.fragrantica.com/perfume/Tauer-Perfumes/Au-Coeur-du-Desert-41053.html,90.5,209.16666666666666,0.5954893578856187,0.16871487885136785,174.83333333333334,Au Coeur du Désert Tauer Perfumes (unisex) ~ 2016
+https://www.fragrantica.com/perfume/Armaf/Club-de-Nuit-Intense-Man-Parfum-72842.html,10.5,230.0,0.503236949012622,0.05730567965433771,172.5,Club de Nuit Intense Man Parfum Armaf (male) ~ 2022
+https://www.fragrantica.com/perfume/Guerlain/L-Instant-de-Guerlain-pour-Homme-EDP-44763.html,52.285714285714285,107.57142857142857,0.6145828821069044,0.2316725553852812,172.28571428571428,L'Instant de Guerlain pour Homme EDP Guerlain (male) ~ 2015
+https://www.fragrantica.com/perfume/Gucci/Envy-for-Men-688.html,62.142857142857146,94.14285714285714,0.6370483161100615,0.22928726623142034,171.85714285714286,Envy for Men Gucci (male) ~ 1998
+https://www.fragrantica.com/perfume/Shulton-Company/Old-Spice-Original-14746.html,17.428571428571427,161.28571428571428,0.53066291203986,0.1262873549444488,170.28571428571428,Old Spice Original Shulton Company (male) ~ 1938
+https://www.fragrantica.com/perfume/Joop/Joop-Homme-1251.html,-12.833333333333334,220.5,0.46629160676990455,0.08316301478537058,170.16666666666666,Joop! Homme Joop! (male) ~ 1989
+https://www.fragrantica.com/perfume/Hermes/H24-Eau-de-Parfum-75811.html,-9.0,273.5,0.458927381745503,0.0404222751380303,170.0,H24 Eau de Parfum Hermès (male) ~ 2022
+https://www.fragrantica.com/perfume/Acqua-di-Parma/Essenza-di-Colonia-9829.html,53.857142857142854,128.71428571428572,0.6114705726515488,0.20040381888287748,167.85714285714286,Essenza di Colonia Acqua di Parma (male) ~ 2010
+https://www.fragrantica.com/perfume/Valentino/Valentino-Uomo-19558.html,45.42857142857143,109.85714285714286,0.6059915383390001,0.20629158953606794,166.85714285714286,Valentino Uomo Valentino (male) ~ 2014
+https://www.fragrantica.com/perfume/Nasomatto/Black-Afgano-6472.html,25.285714285714285,128.85714285714286,0.5540987592742307,0.15807953167828945,166.42857142857142,Black Afgano Nasomatto (unisex)
+https://www.fragrantica.com/perfume/Marc-Antoine-Barrois/Ganymede-54720.html,21.0,229.25,0.5288697218949175,0.08259198518043656,166.0,Ganymede Marc-Antoine Barrois (unisex) ~ 2019
+https://www.fragrantica.com/perfume/Maison-Francis-Kurkdjian/Baccarat-Rouge-540-33519.html,11.142857142857142,205.28571428571428,0.5153354584444881,0.14981802763549176,165.14285714285714,Baccarat Rouge 540 Maison Francis Kurkdjian (unisex) ~ 2015
+https://www.fragrantica.com/perfume/Mancera/Red-Tobacco-Intense-84246.html,-21.0,338.0,0.4278846153846153,0.0308430431802604,165.0,Red Tobacco Intense Mancera (unisex) ~ 2023
+https://www.fragrantica.com/perfume/Roja-Dove/Elysium-Pour-Homme-Parfum-Cologne-46296.html,37.57142857142857,198.14285714285714,0.5473234614056232,0.15031822617413892,164.42857142857142,Elysium Pour Homme Parfum Cologne Roja Dove (male) ~ 2017
+https://www.fragrantica.com/perfume/Dior/Sauvage-Parfum-56324.html,-19.4,278.2,0.44330102392140863,0.055581304887979764,164.2,Sauvage Parfum Dior (male) ~ 2019
+https://www.fragrantica.com/perfume/Paco-Rabanne/1-Million-Elixir-71708.html,-28.5,369.5,0.408896492728828,0.02353887062172285,162.5,1 Million Elixir Paco Rabanne (male) ~ 2022
+https://www.fragrantica.com/perfume/Versace/The-Dreamer-59417.html,37.0,190.25,0.5737265032214586,0.11233788242098194,161.0,The Dreamer Versace (male) ~ 2010
+https://www.fragrantica.com/perfume/Parfums-de-Marly/Greenley-62101.html,13.5,238.5,0.5087437742114,0.05679097367562315,160.5,Greenley Parfums de Marly (unisex) ~ 2020
+https://www.fragrantica.com/perfume/Parfums-de-Marly/Percival-51037.html,29.666666666666668,202.66666666666666,0.5481955758426967,0.07888788600098011,158.33333333333334,Percival Parfums de Marly (unisex) ~ 2018
+https://www.fragrantica.com/perfume/Amouage/Reflection-45-Man-69488.html,21.5,257.0,0.5140607424071991,0.0610563824196619,156.5,Reflection 45 Man Amouage (male) ~ 2021
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-Cologne-2022-72062.html,61.0,167.0,0.6313131313131313,0.0870459218642906,155.0,Dior Homme Cologne 2022 Dior (male) ~ 2022
+https://www.fragrantica.com/perfume/Creed/Silver-Mountain-Water-472.html,22.0,144.85714285714286,0.5420579460062983,0.13859544014625733,154.85714285714286,Silver Mountain Water Creed (unisex) ~ 1995
+https://www.fragrantica.com/perfume/Chanel/Allure-Homme-523.html,44.714285714285715,120.0,0.6089372460640591,0.18281471610032204,154.71428571428572,Allure Homme Chanel (male) ~ 1999
+https://www.fragrantica.com/perfume/Prada/Luna-Rossa-Carbon-43402.html,39.285714285714285,153.85714285714286,0.5750545447773712,0.1603640433676746,151.28571428571428,Luna Rossa Carbon Prada (male) ~ 2017
+https://www.fragrantica.com/perfume/Cartier/Declaration-307.html,44.42857142857143,124.85714285714286,0.6068155411657971,0.19098233408120097,151.0,Declaration Cartier (male) ~ 1998
+https://www.fragrantica.com/perfume/Dior/Dior-Homme-Intense-2007-1771.html,35.2,154.0,0.5803026192384346,0.16864710934754473,150.4,Dior Homme Intense 2007 Dior (male) ~ 2007
+https://www.fragrantica.com/perfume/Parfums-de-Marly/Oajan-21548.html,19.333333333333332,193.83333333333334,0.5462232918735724,0.1399023770895326,150.0,Oajan Parfums de Marly (unisex) ~ 2013
+https://www.fragrantica.com/perfume/Serge-Lutens/Chergui-2762.html,46.333333333333336,124.66666666666667,0.6178980818165254,0.21923541383373757,148.66666666666666,Chergui Serge Lutens (unisex) ~ 2001
+https://www.fragrantica.com/perfume/Calvin-Klein/Obsession-for-Men-249.html,21.0,143.42857142857142,0.5527794614499076,0.16065240467502367,148.42857142857142,Obsession for Men Calvin Klein (male) ~ 1986
+https://www.fragrantica.com/perfume/Mercedes-Benz/Mercedes-Benz-Club-Black-46797.html,24.0,258.75,0.5359931299956021,0.08282524212130801,147.5,Mercedes Benz Club Black Mercedes-Benz (male) ~ 2017
+https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-Parfum-81508.html,25.0,227.0,0.5421052631578948,0.0623714873200822,147.0,Acqua di Giò Parfum Giorgio Armani (male) ~ 2023
+https://www.fragrantica.com/perfume/Tom-Ford/Grey-Vetiver-Eau-de-Toilette-28459.html,33.2,165.0,0.5674120066416002,0.19426388453374036,146.8,Grey Vetiver Eau de Toilette Tom Ford (male) ~ 2014
+https://www.fragrantica.com/perfume/Memo-Paris/African-Leather-31383.html,18.25,181.5,0.5425273723172029,0.1185703262093577,146.75,African Leather Memo Paris (unisex) ~ 2015
+https://www.fragrantica.com/perfume/Caron/Pour-Un-Homme-de-Caron-3166.html,26.285714285714285,139.57142857142858,0.5624969760482018,0.1672549977900466,146.57142857142858,Pour Un Homme de Caron Caron (male) ~ 1934
+https://www.fragrantica.com/perfume/Narciso-Rodriguez/Narciso-Rodriguez-for-Him-1063.html,31.571428571428573,128.14285714285714,0.5785966560220631,0.1855286037009818,146.14285714285714,Narciso Rodriguez for Him Narciso Rodriguez (male) ~ 2007
+https://www.fragrantica.com/perfume/Bvlgari/Aqva-Amara-22675.html,28.714285714285715,143.42857142857142,0.569800482603695,0.20077781232622943,145.57142857142858,Aqva Amara Bvlgari (male) ~ 2014
+https://www.fragrantica.com/perfume/Paco-Rabanne/1-Million-Parfum-60035.html,-33.5,479.0,0.39066842592852524,0.0187587558989695,145.5,1 Million Parfum Paco Rabanne (male) ~ 2020
+https://www.fragrantica.com/perfume/Tom-Ford/Tobacco-Oud-21402.html,23.285714285714285,146.14285714285714,0.5536972367518355,0.14682583875042096,145.0,Tobacco Oud Tom Ford (unisex) ~ 2013
+https://www.fragrantica.com/perfume/Azzaro/Chrome-788.html,12.857142857142858,176.85714285714286,0.5136440232238885,0.12049106061699603,144.85714285714286,Chrome Azzaro (male) ~ 1996
+https://www.fragrantica.com/perfume/Missoni/Missoni-Wave-61329.html,17.0,223.5,0.5259373394966615,0.060272364974045145,144.0,Missoni Wave Missoni (male) ~ 2020
+https://www.fragrantica.com/perfume/John-Varvatos/Artisan-Pure-46623.html,32.666666666666664,157.33333333333334,0.5674816394933572,0.15300617707137884,143.66666666666666,Artisan Pure John Varvatos (male) ~ 2017
+https://www.fragrantica.com/perfume/Calvin-Klein/CK-One-276.html,12.166666666666666,211.0,0.5124268131891956,0.09277930254819701,142.83333333333334,CK One Calvin Klein (unisex) ~ 1994
+https://www.fragrantica.com/perfume/Paco-Rabanne/Invictus-18471.html,-37.0,432.5,0.38585397957357803,0.0219719284571207,142.0,Invictus Paco Rabanne (male) ~ 2013
+https://www.fragrantica.com/perfume/Hermes/Terre-D-Hermes-Eau-Intense-Vetiver-50672.html,12.333333333333334,175.83333333333334,0.5170388150233368,0.11133440708919091,141.66666666666666,Terre D'Hermes Eau Intense Vetiver Hermès (male) ~ 2018
+https://www.fragrantica.com/perfume/Tom-Ford/Neroli-Portofino-12192.html,17.166666666666668,178.5,0.5344552922150577,0.11991238858384036,141.5,Neroli Portofino Tom Ford (unisex) ~ 2011
+https://www.fragrantica.com/perfume/Acqua-di-Parma/Acqua-di-Parma-Colonia-1681.html,46.857142857142854,139.71428571428572,0.6079824038426993,0.18192987378921593,140.0,Acqua di Parma Colonia Acqua di Parma (unisex) ~ 1916
+https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Rive-Gauche-pour-Homme-1032.html,38.5,140.66666666666666,0.6022074133866296,0.1734596760611782,139.16666666666666,Rive Gauche pour Homme Yves Saint Laurent (male) ~ 2003
+https://www.fragrantica.com/perfume/Parfums-de-Marly/Althair-84109.html,-3.0,303.0,0.467032967032967,0.0431802604523646,139.0,Althaïr Parfums de Marly (male) ~ 2023
+https://www.fragrantica.com/perfume/Givenchy/Gentleman-Eau-de-Parfum-Boisee-59009.html,21.333333333333332,267.0,0.5313302241361852,0.07256559356487387,138.66666666666666,Gentleman Eau de Parfum Boisée Givenchy (male) ~ 2020
+https://www.fragrantica.com/perfume/Boucheron/Jaipur-Homme-Eau-de-Parfum-64096.html,39.75,173.0,0.6037125823658898,0.1123680261478023,138.25,Jaipur Homme Eau de Parfum Boucheron (male) ~ 1997
+https://www.fragrantica.com/perfume/Xerjoff/Alexandria-II-17786.html,21.333333333333332,293.0,0.5179796749851695,0.121155827170752,137.33333333333334,Alexandria II Xerjoff (unisex) ~ 2012
+https://www.fragrantica.com/perfume/Bvlgari/Black-154.html,28.0,154.83333333333334,0.5762190608833441,0.14835806594833648,135.66666666666666,Black Bvlgari (unisex) ~ 1998
+https://www.fragrantica.com/perfume/Paco-Rabanne/Paco-Rabanne-Pour-Homme-526.html,29.857142857142858,135.14285714285714,0.5785989454911217,0.16498760685362596,134.42857142857142,Paco Rabanne Pour Homme Paco Rabanne (male) ~ 1973
+https://www.fragrantica.com/perfume/Guerlain/Heritage-Eau-de-Toilette-1880.html,51.0,115.71428571428571,0.6394962271685846,0.21444883836867273,134.14285714285714,Heritage Eau de Toilette Guerlain (male) ~ 1992

@@ -3,25 +3,25 @@ import pandas as pd
 if __name__ == "__main__":
     # Load all 6 .csv files and show the number of total rows
     df_17 = pd.read_csv(
-        "data/processed/mens_all_time_2017.csv", index_col="link"
+        "data/fragrantica/processed/mens_all_time_2017.csv", index_col="link"
     ).add_suffix("_17")
     df_18 = pd.read_csv(
-        "data/processed/mens_all_time_2018.csv", index_col="link"
+        "data/fragrantica/processed/mens_all_time_2018.csv", index_col="link"
     ).add_suffix("_18")
     df_19 = pd.read_csv(
-        "data/processed/mens_all_time_2019.csv", index_col="link"
+        "data/fragrantica/processed/mens_all_time_2019.csv", index_col="link"
     ).add_suffix("_19")
     df_20 = pd.read_csv(
-        "data/processed/mens_all_time_2020.csv", index_col="link"
+        "data/fragrantica/processed/mens_all_time_2020.csv", index_col="link"
     ).add_suffix("_20")
     df_21 = pd.read_csv(
-        "data/processed/mens_all_time_2021.csv", index_col="link"
+        "data/fragrantica/processed/mens_all_time_2021.csv", index_col="link"
     ).add_suffix("_21")
     df_22 = pd.read_csv(
-        "data/processed/mens_all_time_2022.csv", index_col="link"
+        "data/fragrantica/processed/mens_all_time_2022.csv", index_col="link"
     ).add_suffix("_22")
     df_23 = pd.read_csv(
-        "data/processed/mens_all_time_2023.csv", index_col="link"
+        "data/fragrantica/processed/mens_all_time_2023.csv", index_col="link"
     ).add_suffix("_23")
 
     # Combine all 6 dataframes and calculate mean columns
@@ -127,5 +127,5 @@ if __name__ == "__main__":
 
     # Write combined dataframe to Excel file
     df_combined.sort_values("total_votes", ascending=False).head(200).to_csv(
-        "data/processed/mens_all_time_combined.csv"
+        "data/fragrantica/processed/mens_all_time_combined.csv"
     )
