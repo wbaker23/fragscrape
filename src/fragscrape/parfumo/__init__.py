@@ -11,7 +11,6 @@ from fragscrape.parfumo.load import load
 @click.pass_context
 def parfumo(ctx):
     """Entrypoint for Parfumo-specific code."""
-    pass
 
 
 parfumo.add_command(load)

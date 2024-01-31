@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.preprocessing import MinMaxScaler, PowerTransformer, StandardScaler
+from sklearn.preprocessing import StandardScaler
 
 
 class MplColorHelper:
