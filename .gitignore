@@ -163,3 +163,4 @@ cython_debug/
 # Exceptions specific to this project are below
 /*.sh
 *.ipynb
+data/parfumo/collection/graph.json
