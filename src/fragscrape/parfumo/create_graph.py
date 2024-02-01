@@ -167,9 +167,7 @@ def create_graph(ctx, color_groups, threshold):
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
     nodes_df = nodes_df.dropna()
     print(nodes_df["collection_group"].value_counts())
-    # nodes_df = nodes_df.loc[
-    #     ~nodes_df["collection_group"].isin(["Excluded", "Wish List"])
-    # ]
+    nodes_df = nodes_df.loc[~nodes_df["collection_group"].isin(["Hated", "Vault"])]
     # nodes_df = nodes_df.loc[nodes_df["brand"] != "Nasomatto"]
     print(f"Nodes: {nodes_df.shape[0]}")
 

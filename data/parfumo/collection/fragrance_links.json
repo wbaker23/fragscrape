@@ -72,10 +72,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Rogue/Mousse_Illuminee",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Kilian/angels-share",
         "label": "Decants"
     },
@@ -266,6 +262,14 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Costa_Azzurra_Eau_de_Parfum",
         "label": "Miniatures"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rasasi/Daarej_pour_Homme",
+        "label": "Wish List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/The_Nue_Co_/forest-lungs",
+        "label": "Wish List"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/Le_Vestiaire__Caftan",
@@ -516,131 +520,243 @@
         "label": "Watch List"
     },
     {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/Mousse_Illuminee",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Widian/Sapphire_Collection__London",
+        "label": "Vault"
+    },
+    {
         "link": "https://www.parfumo.com/Perfumes/the-dua-brand/fierce",
-        "label": "Tested"
+        "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Valentino/valentino-uomo-intense",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Les_Indemodables/vanille-havane-eau-de-parfum",
-        "label": "Tested"
+        "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/Le_Male_Eau_de_Toilette",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Moschino/Toy_Boy",
-        "label": "Tested"
+        "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Carolina_Herrera/212-vip-black-eau-de-parfum",
-        "label": "Tested"
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/Salted_Green_Mango",
+        "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Carolina_Herrera/bad-boy-cobalt",
-        "label": "Tested"
+        "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/1_Million_Eau_de_Toilette",
+        "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Dolce_Gabbana/Light_Blue_pour_Homme_Eau_de_Toilette",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Issey_Miyake/L_Eau_d_Issey_pour_Homme_Eau_de_Toilette",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/Cigar_Rum",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Jimmy_Choo/jimmy-choo-man-aqua",
-        "label": "Tested"
+        "link": "https://www.parfumo.com/Perfumes/Azzaro/Chrome_Eau_de_Toilette",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Versace/eros-eau-de-parfum",
-        "label": "Tested"
+        "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Givenchy/gentleman-society-eau-de-parfum",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Azzaro/wanted-eau-de-parfum",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/John_Varvatos/john-varvatos-xx",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Burberry/hero-eau-de-parfum",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Ralph_Lauren/ralph-s-club-parfum",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Prada/luna-rossa-ocean-eau-de-parfum",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Valentino/valentino-uomo-born-in-roma-intense",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/acqua-di-gio-parfum",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Hugo_Boss/boss-bottled-parfum",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/Percival",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Dior/Dior_Homme_Eau_for_Men_Eau_de_Toilette",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Bvlgari/Bvlgari_pour_Homme_Eau_de_Toilette",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/1-million-royal",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Halloween/Halloween_Man_X",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Montblanc/legend-eau-de-parfum",
-        "label": "Tested"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Coach/coach-green",
-        "label": "Tested"
+        "link": "https://www.parfumo.com/Perfumes/Montblanc/Explorer",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Amouage/Reflection_Man",
-        "label": "Tested"
+        "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/Emporio_Armani_Stronger_With_You",
-        "label": "Tested"
+        "link": "https://www.parfumo.com/Perfumes/Rogue/tuberose-moss",
+        "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Alexandria_Fragrances/black-panther",
-        "label": "Tested"
+        "link": "https://www.parfumo.com/Perfumes/Rogue/a-oud-ancienne",
+        "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Azzaro/the-most-wanted",
-        "label": "Tested"
+        "link": "https://www.parfumo.com/Perfumes/Rogue/vetifleur",
+        "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Valentino/valentino-uomo-born-in-roma",
-        "label": "Tested"
+        "link": "https://www.parfumo.com/Perfumes/Rogue/l-homme-m-lacroix",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/jasmin-antique",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/Champs_Lunaires",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/derviche-ii",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/Derviche",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/Fougere_L_Aube",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/Tabac_Vert",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/rostracto",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/Chypre_Siam",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/roasted-coffee-cigarette-whisky-come-and-get-your-suede-honey-baby",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/cherry-amaretto",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/spring-ambience",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/yuzu-soda",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/SM_Cafe",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/sweet-farewell",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/summer-peaches-by-the-tea-room",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Akro/Malt",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Akro/Night",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Akro/Haze",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Akro/Smoke",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Lattafa/ishq-al-shuyukh-silver",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/targhee-forest",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Rogue/bon-monsieur",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Nasomatto/Duro",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Azzaro/Azzaro_pour_Homme",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Dior/Dior_Homme_Eau_for_Men_Eau_de_Toilette",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Jimmy_Choo/jimmy-choo-man-aqua",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/Cigar_Rum",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Akro/Dark",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Akro/Awake",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/Oliver",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Les_Indemodables/vanille-havane-eau-de-parfum",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Dior/Dior_Homme_Parfum",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/Sedley",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Bvlgari/Bvlgari_Man_Wood_Essence",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Bvlgari/bvlgari-man-glacial-essence",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Escentric_Molecules/molecule-05",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Davidoff/cool-water-parfum",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Escentric_Molecules/Escentric_04",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Escentric_Molecules/Molecule_04",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Kilian/Black_Phantom",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Frapin/L_Humaniste",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Juliette_Has_a_Gun/not-a-perfume-superdose",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Le_Labo/AnOther_13",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Xerjoff/Erba_Pura",
+        "label": "Hated"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Azzaro/azzaro-pour-homme-wild-mint",
+        "label": "Hated"
     }
 ]
