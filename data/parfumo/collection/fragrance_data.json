@@ -7311,122 +7311,6 @@
         ]
     },
     {
-        "name": "Daarej pour Homme\nRasasi",
-        "brand": "Rasasi",
-        "image_src": "https://pimages.parfumo.de/720/26566_img-7697-rasasi-daarej-pour-homme_720.jpg",
-        "link": "https://www.parfumo.com/Perfumes/Rasasi/Daarej_pour_Homme",
-        "type": [
-            {
-                "ct_name": "Spicy",
-                "votes": "130"
-            },
-            {
-                "ct_name": "Synthetic",
-                "votes": "56"
-            },
-            {
-                "ct_name": "Sweet",
-                "votes": "172"
-            },
-            {
-                "ct_name": "Powdery",
-                "votes": "97"
-            },
-            {
-                "ct_name": "Oriental",
-                "votes": "151"
-            },
-            {
-                "ct_name": "Woody",
-                "votes": "58"
-            },
-            {
-                "ct_name": "Fresh",
-                "votes": "47"
-            },
-            {
-                "ct_name": "Creamy",
-                "votes": "41"
-            },
-            {
-                "ct_name": "Floral",
-                "votes": "84"
-            }
-        ],
-        "occasion": [
-            {
-                "ct_name": "Daily",
-                "votes": "132"
-            },
-            {
-                "ct_name": "Leisure",
-                "votes": "139"
-            },
-            {
-                "ct_name": "Night Out",
-                "votes": "141"
-            },
-            {
-                "ct_name": "Business",
-                "votes": "112"
-            },
-            {
-                "ct_name": "Evening",
-                "votes": "150"
-            }
-        ],
-        "audience": [
-            {
-                "ct_name": "Masculine",
-                "votes": "208"
-            },
-            {
-                "ct_name": "Feminine",
-                "votes": "44"
-            },
-            {
-                "ct_name": "Mature",
-                "votes": "81"
-            },
-            {
-                "ct_name": "Youthful",
-                "votes": "127"
-            }
-        ],
-        "season": [
-            {
-                "ct_name": "Winter",
-                "votes": "166"
-            },
-            {
-                "ct_name": "Fall",
-                "votes": "193"
-            },
-            {
-                "ct_name": "Summer",
-                "votes": "75"
-            },
-            {
-                "ct_name": "Spring",
-                "votes": "157"
-            }
-        ],
-        "collection_group": "Wish List",
-        "notes": [
-            "Cardamom",
-            "Cumin",
-            "Mugwort",
-            "Iris",
-            "Rose",
-            "Tonka bean",
-            "Musk",
-            "Vanilla",
-            "Amber",
-            "Patchouli",
-            "Sandalwood"
-        ]
-    },
-    {
         "name": "Forest Lungs\nThe Nue Co. 2020",
         "brand": "The Nue Co.",
         "image_src": "https://pimages.parfumo.de/720/145899_img-1459-the-nue-co-forest-lungs_720.jpg",
@@ -14427,10 +14311,10 @@
             "Kelp",
             "Lime",
             "Orange bitters",
+            "Bergamot",
             "Green mango",
             "Guava leaf",
             "Pineapple",
-            "Bergamot",
             "Chili",
             "Damask rose",
             "Elemi resin",
