@@ -1,5 +1,13 @@
 [
     {
+        "link": "https://www.parfumo.com/Perfumes/Amouage/Journey_Man",
+        "label": "Decants"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/pegasus-exclusif",
+        "label": "Decants"
+    },
+    {
         "link": "https://www.parfumo.com/Perfumes/Editions_de_Parfum_Frederic_Malle/Musc_Ravageur",
         "label": "Decants"
     },
@@ -120,10 +128,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Penhaligons/Sartorial",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Neroli_Portofino_Eau_de_Parfum",
         "label": "Decants"
     },
@@ -156,10 +160,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Montblanc/Legend_Eau_de_Toilette",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Creed/Spice__Wood",
         "label": "Decants"
     },
@@ -170,6 +170,18 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Bvlgari/Eau_Parfumee_au_The_Vert",
         "label": "Decants"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Montblanc/Legend_Eau_de_Toilette",
+        "label": "I have"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Davidoff/Cool_Water_Wave_2017",
+        "label": "I have"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/Invictus_Eau_de_Toilette",
+        "label": "I have"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/Armani_Prive__Vetiver_d_Hiver_Vetiver_Babylone",
@@ -276,10 +288,6 @@
         "label": "Wish List"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/pegasus-exclusif",
-        "label": "Wish List"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/naughton-wilson/gravitas",
         "label": "Wish List"
     },
@@ -344,10 +352,6 @@
         "label": "Wish List"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Amouage/Journey_Man",
-        "label": "Wish List"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/Royal_Essence_Habdan",
         "label": "Wish List"
     },
@@ -405,10 +409,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Comme_des_Garons/Series_3_Incense_Zagorsk",
-        "label": "Wish List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/the-dua-brand/river-fougere",
         "label": "Wish List"
     },
     {
@@ -472,18 +472,6 @@
         "label": "Wish List"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Abercrombie_Fitch/Fierce",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/Invictus_Eau_de_Toilette",
-        "label": "Watch List"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Davidoff/Cool_Water_Wave_2017",
-        "label": "Watch List"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Maison_Francis_Kurkdjian/Amyris_homme",
         "label": "Watch List"
     },
@@ -518,6 +506,10 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Chanel/Allure_Homme",
         "label": "Watch List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Penhaligons/Sartorial",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Rogue/Mousse_Illuminee",
@@ -706,57 +698,5 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Dior/Dior_Homme_Parfum",
         "label": "Vault"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/Sedley",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Bvlgari/Bvlgari_Man_Wood_Essence",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Bvlgari/bvlgari-man-glacial-essence",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Escentric_Molecules/molecule-05",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Davidoff/cool-water-parfum",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Escentric_Molecules/Escentric_04",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Escentric_Molecules/Molecule_04",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Kilian/Black_Phantom",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Frapin/L_Humaniste",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Juliette_Has_a_Gun/not-a-perfume-superdose",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Le_Labo/AnOther_13",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Xerjoff/Erba_Pura",
-        "label": "Hated"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Azzaro/azzaro-pour-homme-wild-mint",
-        "label": "Hated"
     }
 ]
