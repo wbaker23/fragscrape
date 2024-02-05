@@ -145,7 +145,7 @@ def load_and_clean(filepath: str):
     print(nodes_df["collection_group"].value_counts())
     nodes_df = nodes_df.loc[~nodes_df["collection_group"].isin(["Hated", "Vault"])]
     # nodes_df = nodes_df.loc[nodes_df["brand"] != "Nasomatto"]
-    print(f"Nodes: {nodes_df.shape[0]}")
+    print(f"Nodes: {nodes_df.shape[0]}", "\n")
     return nodes_df
 
 
@@ -212,7 +212,7 @@ def create_graph(ctx, color_groups, threshold):
         # "note_groups_similarity",
         # "total_similarity",
     ]
-    component_weights = [1, 1, 1, 1]
+    component_weights = [3, 1, 1, 1]
     # edges_df[component_columns] = pd.DataFrame(
     #     StandardScaler().fit_transform(edges_df[component_columns].values)
     # )
@@ -224,6 +224,8 @@ def create_graph(ctx, color_groups, threshold):
         axis=1,
     )
 
+    print(edges_df.describe(), "\n")
+
     # Automatically calculate threshold so there are no degree zero nodes
     node_weights_df = pd.merge(
         edges_df[["source", "weight"]].groupby("source").max().sort_values("weight"),
@@ -234,7 +236,7 @@ def create_graph(ctx, color_groups, threshold):
     ).max(axis=1)
     threshold = node_weights_df.min() if threshold is None else threshold
     print(
-        f"Min: {edges_df['weight'].min()}, Max: {edges_df['weight'].max()}, Threshold: {threshold}"
+        f"Weight threshold: {threshold}",
     )
     edges_df = edges_df[edges_df["weight"] >= threshold]
     print(f"Edges: {edges_df.shape[0]}")
