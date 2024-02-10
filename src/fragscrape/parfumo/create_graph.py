@@ -143,7 +143,9 @@ def load_and_clean(filepath: str):
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
     nodes_df = nodes_df.dropna()
     print(nodes_df["collection_group"].value_counts())
-    nodes_df = nodes_df.loc[~nodes_df["collection_group"].isin(["Hated", "Vault"])]
+    nodes_df = nodes_df.loc[
+        ~nodes_df["collection_group"].isin(["Wish List", "Watch List"])
+    ]
     # nodes_df = nodes_df.loc[nodes_df["brand"] != "Nasomatto"]
     print(f"Nodes: {nodes_df.shape[0]}", "\n")
     return nodes_df
@@ -212,7 +214,7 @@ def create_graph(ctx, color_groups, threshold):
         # "note_groups_similarity",
         # "total_similarity",
     ]
-    component_weights = [3, 1, 1, 1]
+    component_weights = [1, 1, 1, 1]
     # edges_df[component_columns] = pd.DataFrame(
     #     StandardScaler().fit_transform(edges_df[component_columns].values)
     # )
@@ -252,7 +254,9 @@ def create_graph(ctx, color_groups, threshold):
             collection_group=row["collection_group"],
             type_animal=type_pivot.loc[index]["Animal"],
             type_aquatic=type_pivot.loc[index]["Aquatic"],
-            type_chypre=type_pivot.loc[index]["Chypre"],
+            type_chypre=type_pivot.loc[index]["Chypre"]
+            if "Chypre" in type_pivot.loc[index]
+            else 0,
             type_citrus=type_pivot.loc[index]["Citrus"],
             type_creamy=type_pivot.loc[index]["Creamy"],
             type_earthy=type_pivot.loc[index]["Earthy"],
