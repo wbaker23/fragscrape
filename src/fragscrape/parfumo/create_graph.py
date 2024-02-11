@@ -143,9 +143,9 @@ def load_and_clean(filepath: str):
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
     nodes_df = nodes_df.dropna()
     print(nodes_df["collection_group"].value_counts())
-    nodes_df = nodes_df.loc[
-        ~nodes_df["collection_group"].isin(["Wish List", "Watch List"])
-    ]
+    # nodes_df = nodes_df.loc[
+    #     ~nodes_df["collection_group"].isin(["Wish List", "Watch List"])
+    # ]
     # nodes_df = nodes_df.loc[nodes_df["brand"] != "Nasomatto"]
     print(f"Nodes: {nodes_df.shape[0]}", "\n")
     return nodes_df

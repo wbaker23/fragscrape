@@ -16,7 +16,7 @@ parfumo_pages:
     color: rgb(252,160,48)
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/251252
     label: Vault
-    color: rgb(216,112,173)
+    color: rgb(37,92,102)
 
 parfumo_import_results_path: data/parfumo/collection/fragrance_links.json
 parfumo_enrich_results_path: data/parfumo/collection/fragrance_data.json
