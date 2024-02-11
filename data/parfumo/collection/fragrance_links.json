@@ -24,10 +24,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Tauer/no-02-l-air-du-desert-marocain-eau-de-toilette-intense",
-        "label": "Vault"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/Layton",
         "label": "Decants"
     },
@@ -84,10 +80,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Nicolai/Ambre_Cashmere_Intense",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Kilian/angels-share",
         "label": "Decants"
     },
@@ -97,10 +89,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/invictus-platinum",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/1-million-elixir",
         "label": "Decants"
     },
     {
@@ -158,10 +146,6 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/le-male-elixir",
         "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/haltane",
-        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/invictus-victory",
@@ -278,6 +262,10 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Costa_Azzurra_Eau_de_Parfum",
         "label": "Miniatures"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Guerlain/aqua-allegoria-forte-nerolia-vetiver",
+        "label": "Wish List"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/The_Nue_Co_/forest-lungs",
@@ -478,6 +466,18 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Chanel/Allure_Homme",
         "label": "Watch List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Nicolai/Ambre_Cashmere_Intense",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/haltane",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Tauer/no-02-l-air-du-desert-marocain-eau-de-toilette-intense",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Guy_Laroche/Drakkar_Noir_Eau_de_Toilette",
