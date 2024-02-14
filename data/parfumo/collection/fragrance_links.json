@@ -76,14 +76,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Nasomatto/Pardon",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Kilian/angels-share",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Givenchy/gentleman-givenchy-reserve-privee",
         "label": "Decants"
     },
@@ -466,6 +458,14 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Chanel/Allure_Homme",
         "label": "Watch List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Kilian/angels-share",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Nasomatto/Pardon",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Parfums_de_Nicolai/Ambre_Cashmere_Intense",
