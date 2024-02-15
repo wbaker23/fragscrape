@@ -1,18 +1,10 @@
 [
     {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/pegasus-exclusif",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Guerlain/l-homme-ideal-platine-prive",
         "label": "Decants"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Bond_No_9/Bleecker_Street",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Amouage/Journey_Man",
         "label": "Decants"
     },
     {
@@ -458,6 +450,14 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Chanel/Allure_Homme",
         "label": "Watch List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Amouage/Journey_Man",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/pegasus-exclusif",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Kilian/angels-share",
