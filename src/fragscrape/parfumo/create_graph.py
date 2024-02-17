@@ -103,35 +103,35 @@ def generate_edges_df(nodes_df):
     # )
     # note_groups_cosine_array = cosine_similarity(note_groups_pivot)
 
-    # total_pivot = (
-    #     type_pivot.join(occasion_pivot)
-    #     .join(season_pivot)
-    #     .join(audience_pivot)
-    #     .join(notes_pivot)
-    #     .join(note_groups_pivot)
-    # )
-    # total_pivot_decomposed, total_pivot_explained_variance = decompose_df(
-    #     total_pivot, "name", total_pivot.columns.to_list()
-    # )
-    # variance_df = pd.DataFrame(
-    #     enumerate(np.cumsum(total_pivot_explained_variance))
-    # ).set_index(0)
-    # cutoff = variance_df[variance_df[1] >= 0.95].index.min() + 1
-    # print(f"Reducing from {total_pivot_decomposed.shape[1]} features to {cutoff-1}.")
-    # total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
-    # total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed).round(3)
+    total_pivot = (
+        type_pivot.join(occasion_pivot)
+        .join(season_pivot)
+        .join(audience_pivot)
+        # .join(notes_pivot)
+        # .join(note_groups_pivot)
+    )
+    total_pivot_decomposed, total_pivot_explained_variance = decompose_df(
+        total_pivot, "name", total_pivot.columns.to_list()
+    )
+    variance_df = pd.DataFrame(
+        enumerate(np.cumsum(total_pivot_explained_variance))
+    ).set_index(0)
+    cutoff = variance_df[variance_df[1] >= 0.95].index.min() + 1
+    print(f"Reducing from {total_pivot_decomposed.shape[1]} features to {cutoff-1}.")
+    total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
+    total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed).round(3)
 
     return pd.DataFrame(
         {
-            "fragrance_1": type_pivot.index[i],
-            "fragrance_2": type_pivot.index[j],
+            "source": type_pivot.index[i],
+            "target": type_pivot.index[j],
             "type_similarity": type_cosine_array[i][j],
             "occasion_similarity": occasion_cosine_array[i][j],
             "season_similarity": season_cosine_array[i][j],
             "audience_similarity": audience_cosine_array[i][j],
             # "notes_similarity": notes_cosine_array[i][j],
             # "note_groups_similarity": note_groups_cosine_array[i][j],
-            # "total_similarity": total_pivot_cosine_array[i][j],
+            "total_similarity": total_pivot_cosine_array[i][j],
         }
         for i in range(0, len(type_cosine_array))
         for j in range(0, i)
@@ -143,9 +143,7 @@ def load_and_clean(filepath: str):
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
     nodes_df = nodes_df.dropna()
     print(nodes_df["collection_group"].value_counts())
-    # nodes_df = nodes_df.loc[
-    #     ~nodes_df["collection_group"].isin(["Wish List", "Watch List"])
-    # ]
+    nodes_df = nodes_df.loc[~nodes_df["collection_group"].isin(["Vault"])]
     # nodes_df = nodes_df.loc[nodes_df["brand"] != "Nasomatto"]
     print(f"Nodes: {nodes_df.shape[0]}", "\n")
     return nodes_df
@@ -179,30 +177,7 @@ def create_graph(ctx, color_groups, threshold):
     nodes_df = load_and_clean(config["parfumo_enrich_results_path"])
 
     # Generate edges
-    type_pivot = explode_chart_data(nodes_df, "type")
-    type_cosine_array = cosine_similarity(type_pivot)
-
-    occasion_pivot = explode_chart_data(nodes_df, "occasion")
-    occasion_cosine_array = cosine_similarity(occasion_pivot)
-
-    season_pivot = explode_chart_data(nodes_df, "season")
-    season_cosine_array = cosine_similarity(season_pivot)
-
-    audience_pivot = explode_chart_data(nodes_df, "audience")
-    audience_cosine_array = cosine_similarity(audience_pivot)
-
-    edges_df = pd.DataFrame(
-        {
-            "source": type_pivot.index[i],
-            "target": type_pivot.index[j],
-            "type_similarity": type_cosine_array[i][j],
-            "occasion_similarity": occasion_cosine_array[i][j],
-            "season_similarity": season_cosine_array[i][j],
-            "audience_similarity": audience_cosine_array[i][j],
-        }
-        for i in range(0, len(type_cosine_array))
-        for j in range(0, i)
-    )
+    edges_df = generate_edges_df(nodes_df)
 
     # Calculate weight by transforming component features and averaging
     component_columns = [
@@ -212,9 +187,9 @@ def create_graph(ctx, color_groups, threshold):
         "audience_similarity",
         # "notes_similarity",
         # "note_groups_similarity",
-        # "total_similarity",
+        "total_similarity",
     ]
-    component_weights = [1, 1, 1, 1]
+    component_weights = [1, 1, 1, 1, 1]
     # edges_df[component_columns] = pd.DataFrame(
     #     StandardScaler().fit_transform(edges_df[component_columns].values)
     # )
@@ -229,18 +204,27 @@ def create_graph(ctx, color_groups, threshold):
     print(edges_df.describe(), "\n")
 
     # Automatically calculate threshold so there are no degree zero nodes
-    node_weights_df = pd.merge(
-        edges_df[["source", "weight"]].groupby("source").max().sort_values("weight"),
-        edges_df[["target", "weight"]].groupby("target").max().sort_values("weight"),
-        how="outer",
-        left_on="source",
-        right_on="target",
-    ).max(axis=1)
-    threshold = node_weights_df.min() if threshold is None else threshold
+    all_weights = pd.concat(
+        [
+            edges_df[["source", "weight"]].rename(columns={"source": "fragrance"}),
+            edges_df[["target", "weight"]].rename(columns={"target": "fragrance"}),
+        ]
+    ).sort_values("weight", ascending=False)
+    all_fragrances = list(all_weights["fragrance"].unique())
+    for row in all_weights.itertuples(index=False):
+        if not all_fragrances:
+            auto_threshold = row.weight
+            break
+        try:
+            all_fragrances.remove(row.fragrance)
+        except ValueError:
+            pass
+
+    threshold = auto_threshold if threshold is None else threshold
     print(
         f"Weight threshold: {threshold}",
     )
-    edges_df = edges_df[edges_df["weight"] >= threshold]
+    edges_df = edges_df[edges_df["weight"] > threshold]
     print(f"Edges: {edges_df.shape[0]}")
 
     # Create graph
@@ -252,29 +236,29 @@ def create_graph(ctx, color_groups, threshold):
         net.add_node(
             index,
             collection_group=row["collection_group"],
-            type_animal=type_pivot.loc[index]["Animal"],
-            type_aquatic=type_pivot.loc[index]["Aquatic"],
-            type_chypre=type_pivot.loc[index]["Chypre"]
-            if "Chypre" in type_pivot.loc[index]
-            else 0,
-            type_citrus=type_pivot.loc[index]["Citrus"],
-            type_creamy=type_pivot.loc[index]["Creamy"],
-            type_earthy=type_pivot.loc[index]["Earthy"],
-            type_floral=type_pivot.loc[index]["Floral"],
-            type_fougere=type_pivot.loc[index]["Fougère"],
-            type_fresh=type_pivot.loc[index]["Fresh"],
-            type_fruity=type_pivot.loc[index]["Fruity"],
-            type_gourmand=type_pivot.loc[index]["Gourmand"],
-            type_green=type_pivot.loc[index]["Green"],
-            type_leathery=type_pivot.loc[index]["Leathery"],
-            type_oriental=type_pivot.loc[index]["Oriental"],
-            type_powdery=type_pivot.loc[index]["Powdery"],
-            type_resinous=type_pivot.loc[index]["Resinous"],
-            type_smoky=type_pivot.loc[index]["Smoky"],
-            type_spicy=type_pivot.loc[index]["Spicy"],
-            type_sweet=type_pivot.loc[index]["Sweet"],
-            type_synthetic=type_pivot.loc[index]["Synthetic"],
-            type_woody=type_pivot.loc[index]["Woody"],
+            # type_animal=type_pivot.loc[index]["Animal"],
+            # type_aquatic=type_pivot.loc[index]["Aquatic"],
+            # type_chypre=type_pivot.loc[index]["Chypre"]
+            # if "Chypre" in type_pivot.loc[index]
+            # else 0,
+            # type_citrus=type_pivot.loc[index]["Citrus"],
+            # type_creamy=type_pivot.loc[index]["Creamy"],
+            # type_earthy=type_pivot.loc[index]["Earthy"],
+            # type_floral=type_pivot.loc[index]["Floral"],
+            # type_fougere=type_pivot.loc[index]["Fougère"],
+            # type_fresh=type_pivot.loc[index]["Fresh"],
+            # type_fruity=type_pivot.loc[index]["Fruity"],
+            # type_gourmand=type_pivot.loc[index]["Gourmand"],
+            # type_green=type_pivot.loc[index]["Green"],
+            # type_leathery=type_pivot.loc[index]["Leathery"],
+            # type_oriental=type_pivot.loc[index]["Oriental"],
+            # type_powdery=type_pivot.loc[index]["Powdery"],
+            # type_resinous=type_pivot.loc[index]["Resinous"],
+            # type_smoky=type_pivot.loc[index]["Smoky"],
+            # type_spicy=type_pivot.loc[index]["Spicy"],
+            # type_sweet=type_pivot.loc[index]["Sweet"],
+            # type_synthetic=type_pivot.loc[index]["Synthetic"],
+            # type_woody=type_pivot.loc[index]["Woody"],
         )
 
     # Add edges to graph
