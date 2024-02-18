@@ -119,7 +119,7 @@ def generate_edges_df(nodes_df):
     cutoff = variance_df[variance_df[1] >= 0.95].index.min() + 1
     print(f"Reducing from {total_pivot_decomposed.shape[1]} features to {cutoff-1}.")
     total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
-    total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed).round(3)
+    total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed)
 
     return pd.DataFrame(
         {
@@ -224,7 +224,7 @@ def create_graph(ctx, color_groups, threshold):
     print(
         f"Weight threshold: {threshold}",
     )
-    edges_df = edges_df[edges_df["weight"] > threshold]
+    edges_df = edges_df[edges_df["weight"] >= threshold]
     print(f"Edges: {edges_df.shape[0]}")
 
     # Create graph
