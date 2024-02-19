@@ -116,7 +116,7 @@ def generate_edges_df(nodes_df):
     variance_df = pd.DataFrame(
         enumerate(np.cumsum(total_pivot_explained_variance))
     ).set_index(0)
-    cutoff = variance_df[variance_df[1] >= 0.95].index.min() + 1
+    cutoff = variance_df[variance_df[1] >= 0.99].index.min() + 1
     print(f"Reducing from {total_pivot_decomposed.shape[1]} features to {cutoff-1}.")
     total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
     total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed)
@@ -189,7 +189,7 @@ def create_graph(ctx, color_groups, threshold):
         # "note_groups_similarity",
         "total_similarity",
     ]
-    component_weights = [1, 1, 1, 1, 1]
+    component_weights = [0, 0, 0, 0, 1]
     # edges_df[component_columns] = pd.DataFrame(
     #     StandardScaler().fit_transform(edges_df[component_columns].values)
     # )
