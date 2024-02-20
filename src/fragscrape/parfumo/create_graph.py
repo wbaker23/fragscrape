@@ -203,24 +203,18 @@ def create_graph(ctx, color_groups, threshold):
 
     print(edges_df.describe(), "\n")
 
-    # Automatically calculate threshold so there are no degree zero nodes
-    all_weights = pd.concat(
-        [
-            edges_df[["source", "weight"]].rename(columns={"source": "fragrance"}),
-            edges_df[["target", "weight"]].rename(columns={"target": "fragrance"}),
-        ]
-    ).sort_values("weight", ascending=False)
-    all_fragrances = list(all_weights["fragrance"].unique())
-    for row in all_weights.itertuples(index=False):
-        if not all_fragrances:
-            auto_threshold = row.weight
-            break
-        try:
-            all_fragrances.remove(row.fragrance)
-        except ValueError:
-            pass
-
-    threshold = auto_threshold if threshold is None else threshold
+    # Automatically calculate threshold to exclude outliers
+    node_weights_df = pd.merge(
+        edges_df[["source", "weight"]].groupby("source").max().sort_values("weight"),
+        edges_df[["target", "weight"]].groupby("target").max().sort_values("weight"),
+        how="outer",
+        left_on="source",
+        right_on="target",
+    ).max(axis=1)
+    q1 = node_weights_df.quantile(0.25)
+    q3 = node_weights_df.quantile(0.75)
+    iqr = q3 - q1
+    threshold = q1 - (1.5 * iqr) if threshold is None else threshold
     print(
         f"Weight threshold: {threshold}",
     )
