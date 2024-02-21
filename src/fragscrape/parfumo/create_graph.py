@@ -206,10 +206,11 @@ def create_graph(ctx, color_groups, threshold):
         left_on="source",
         right_on="target",
     ).max(axis=1)
-    q1 = node_weights_df.quantile(0.25)
-    q3 = node_weights_df.quantile(0.75)
-    iqr = q3 - q1
-    threshold = q1 - (1.5 * iqr) if threshold is None else threshold
+    # q1 = node_weights_df.quantile(0.25)
+    # q3 = node_weights_df.quantile(0.75)
+    # iqr = q3 - q1
+    # threshold = q1 - (1.5 * iqr) if threshold is None else threshold
+    threshold = node_weights_df.min() if threshold is None else threshold
     print(
         f"Weight threshold: {threshold}",
     )
