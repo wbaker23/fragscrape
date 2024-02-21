@@ -9,7 +9,6 @@ import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.preprocessing import StandardScaler
 
 
 class MplColorHelper:
@@ -34,11 +33,7 @@ def decompose_df(df: pd.DataFrame, label: str, variables: list):
     pca = PCA()
     temp_df = df.reset_index()
 
-    x_pca = pd.DataFrame(
-        pca.fit_transform(
-            pd.DataFrame(StandardScaler().fit_transform(temp_df[variables].values))
-        )
-    )
+    x_pca = pd.DataFrame(pca.fit_transform(temp_df[variables].values))
     x_pca["name"] = temp_df[label]
     x_pca.set_index("name", inplace=True)
 
