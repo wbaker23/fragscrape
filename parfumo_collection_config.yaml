@@ -14,11 +14,11 @@ parfumo_pages:
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/Watch_List
     label: Watch List
     color: rgb(252,160,48)
-  - url: https://www.parfumo.com/Users/Crazysillage/Collection/251252
-    label: Vault
-    color: rgb(37,92,102)
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/Tested
     label: Tested
+    color: rgb(37,92,102)
+  - url: https://www.parfumo.com/Users/Crazysillage/Collection/251252
+    label: Vault
     color: rgb(37,92,102)
 
 parfumo_import_results_path: data/parfumo/collection/fragrance_links.json
