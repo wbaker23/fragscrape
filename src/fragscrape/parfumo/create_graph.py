@@ -138,7 +138,11 @@ def load_and_clean(filepath: str):
     nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
     nodes_df = nodes_df.dropna()
     print(nodes_df["collection_group"].value_counts())
-    nodes_df = nodes_df.loc[~nodes_df["collection_group"].isin(["Vault"])]
+    nodes_df = nodes_df.loc[
+        nodes_df["collection_group"].isin(
+            ["I have", "Miniatures", "Decants", "Wish List", "Watch List"]
+        )
+    ]
     # nodes_df = nodes_df.loc[nodes_df["brand"] != "Nasomatto"]
     print(f"Nodes: {nodes_df.shape[0]}", "\n")
     return nodes_df
@@ -184,7 +188,7 @@ def create_graph(ctx, color_groups, threshold):
         # "note_groups_similarity",
         "total_similarity",
     ]
-    component_weights = [0, 0, 0, 0, 1]
+    component_weights = [1, 2, 2, 2, 0]
     # edges_df[component_columns] = pd.DataFrame(
     #     StandardScaler().fit_transform(edges_df[component_columns].values)
     # )
