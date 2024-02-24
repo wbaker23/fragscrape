@@ -140,7 +140,7 @@ def load_and_clean(filepath: str):
     print(nodes_df["collection_group"].value_counts())
     nodes_df = nodes_df.loc[
         nodes_df["collection_group"].isin(
-            ["I have", "Miniatures", "Decants", "Wish List", "Watch List"]
+            ["I have", "Miniatures", "Decants", "Wish List", "Watch List", "Vault"]
         )
     ]
     # nodes_df = nodes_df.loc[nodes_df["brand"] != "Nasomatto"]
