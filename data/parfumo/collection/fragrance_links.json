@@ -104,10 +104,6 @@
         "label": "Miniatures"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Tobacco_Oud",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Penhaligons/Portraits__The_Tragedy_of_Lord_George",
         "label": "Decants"
     },
@@ -125,10 +121,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Nasomatto/Baraonda",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Amouage/boundless",
         "label": "Decants"
     },
     {
@@ -236,10 +228,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Bentley/Bentley_for_Men_Absolute",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Neroli_Portofino_Eau_de_Parfum",
         "label": "Decants"
     },
@@ -274,6 +262,10 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Bvlgari/Eau_Parfumee_au_The_Blanc",
         "label": "Decants"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Tom_Ford/vanilla-sex",
+        "label": "Wish List"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Guerlain/aqua-allegoria-forte-nerolia-vetiver",
@@ -438,6 +430,14 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Chanel/Allure_Homme",
         "label": "Watch List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Amouage/boundless",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Tobacco_Oud",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Zaharoff/signature-eau-de-parfum",
@@ -609,6 +609,10 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Hugo_Boss/boss-bottled-parfum",
+        "label": "Tested"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Bentley/Bentley_for_Men_Absolute",
         "label": "Tested"
     },
     {

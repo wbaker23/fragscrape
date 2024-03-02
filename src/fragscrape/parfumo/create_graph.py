@@ -143,7 +143,7 @@ def load_and_clean(filepath: str):
             ["I have", "Miniatures", "Decants", "Wish List", "Watch List", "Vault"]
         )
     ]
-    # nodes_df = nodes_df.loc[nodes_df["brand"] != "Nasomatto"]
+    nodes_df = nodes_df.loc[nodes_df["brand"] != "The Dua Brand / Dua Fragrances"]
     print(f"Nodes: {nodes_df.shape[0]}", "\n")
     return nodes_df
 
