@@ -3226,122 +3226,6 @@
         "notes": []
     },
     {
-        "name": "Enclave\nAmouage 2020",
-        "brand": "Amouage",
-        "image_src": "https://pimages.parfumo.de/720/143609_img-5343-amouage-enclave_720.jpg",
-        "link": "https://www.parfumo.com/Perfumes/Amouage/enclave",
-        "type": [
-            {
-                "ct_name": "Spicy",
-                "votes": "133"
-            },
-            {
-                "ct_name": "Synthetic",
-                "votes": "34"
-            },
-            {
-                "ct_name": "Sweet",
-                "votes": "76"
-            },
-            {
-                "ct_name": "Oriental",
-                "votes": "58"
-            },
-            {
-                "ct_name": "Woody",
-                "votes": "100"
-            },
-            {
-                "ct_name": "Resinous",
-                "votes": "45"
-            },
-            {
-                "ct_name": "Green",
-                "votes": "83"
-            },
-            {
-                "ct_name": "Fresh",
-                "votes": "98"
-            },
-            {
-                "ct_name": "Creamy",
-                "votes": "36"
-            }
-        ],
-        "occasion": [
-            {
-                "ct_name": "Daily",
-                "votes": "103"
-            },
-            {
-                "ct_name": "Leisure",
-                "votes": "125"
-            },
-            {
-                "ct_name": "Night Out",
-                "votes": "109"
-            },
-            {
-                "ct_name": "Business",
-                "votes": "90"
-            },
-            {
-                "ct_name": "Evening",
-                "votes": "103"
-            }
-        ],
-        "audience": [
-            {
-                "ct_name": "Masculine",
-                "votes": "162"
-            },
-            {
-                "ct_name": "Feminine",
-                "votes": "50"
-            },
-            {
-                "ct_name": "Mature",
-                "votes": "71"
-            },
-            {
-                "ct_name": "Youthful",
-                "votes": "75"
-            }
-        ],
-        "season": [
-            {
-                "ct_name": "Winter",
-                "votes": "90"
-            },
-            {
-                "ct_name": "Fall",
-                "votes": "140"
-            },
-            {
-                "ct_name": "Summer",
-                "votes": "82"
-            },
-            {
-                "ct_name": "Spring",
-                "votes": "137"
-            }
-        ],
-        "collection_group": "Decants",
-        "notes": [
-            "Spearmint",
-            "Cardamom",
-            "Cinnamon",
-            "Pink pepper CO2",
-            "Patchouli",
-            "Frankincense",
-            "Rose absolute",
-            "Vetiver",
-            "Amber Xtreme\u2122",
-            "Saffiano\u2122",
-            "Labdanum"
-        ]
-    },
-    {
         "name": "L'Homme Id\u00e9al Platine Priv\u00e9\nGuerlain 2023",
         "brand": "Guerlain",
         "image_src": "https://pimages.parfumo.de/720/206292_img-2306-guerlain-l-homme-ideal-platine-prive_720.jpg",
@@ -11538,6 +11422,122 @@
         ]
     },
     {
+        "name": "Enclave\nAmouage 2020",
+        "brand": "Amouage",
+        "image_src": "https://pimages.parfumo.de/720/143609_img-5343-amouage-enclave_720.jpg",
+        "link": "https://www.parfumo.com/Perfumes/Amouage/enclave",
+        "type": [
+            {
+                "ct_name": "Spicy",
+                "votes": "133"
+            },
+            {
+                "ct_name": "Synthetic",
+                "votes": "34"
+            },
+            {
+                "ct_name": "Sweet",
+                "votes": "76"
+            },
+            {
+                "ct_name": "Oriental",
+                "votes": "58"
+            },
+            {
+                "ct_name": "Woody",
+                "votes": "100"
+            },
+            {
+                "ct_name": "Resinous",
+                "votes": "45"
+            },
+            {
+                "ct_name": "Green",
+                "votes": "83"
+            },
+            {
+                "ct_name": "Fresh",
+                "votes": "98"
+            },
+            {
+                "ct_name": "Creamy",
+                "votes": "36"
+            }
+        ],
+        "occasion": [
+            {
+                "ct_name": "Daily",
+                "votes": "103"
+            },
+            {
+                "ct_name": "Leisure",
+                "votes": "125"
+            },
+            {
+                "ct_name": "Night Out",
+                "votes": "109"
+            },
+            {
+                "ct_name": "Business",
+                "votes": "90"
+            },
+            {
+                "ct_name": "Evening",
+                "votes": "103"
+            }
+        ],
+        "audience": [
+            {
+                "ct_name": "Masculine",
+                "votes": "162"
+            },
+            {
+                "ct_name": "Feminine",
+                "votes": "50"
+            },
+            {
+                "ct_name": "Mature",
+                "votes": "71"
+            },
+            {
+                "ct_name": "Youthful",
+                "votes": "75"
+            }
+        ],
+        "season": [
+            {
+                "ct_name": "Winter",
+                "votes": "90"
+            },
+            {
+                "ct_name": "Fall",
+                "votes": "140"
+            },
+            {
+                "ct_name": "Summer",
+                "votes": "82"
+            },
+            {
+                "ct_name": "Spring",
+                "votes": "137"
+            }
+        ],
+        "collection_group": "Vault",
+        "notes": [
+            "Spearmint",
+            "Cardamom",
+            "Cinnamon",
+            "Pink pepper CO2",
+            "Patchouli",
+            "Frankincense",
+            "Rose absolute",
+            "Vetiver",
+            "Amber Xtreme\u2122",
+            "Saffiano\u2122",
+            "Labdanum"
+        ]
+    },
+    {
         "name": "Boundless\nAmouage 2021",
         "brand": "Amouage",
         "image_src": "https://pimages.parfumo.de/720/149515_img-1975-amouage-boundless_720.jpg",
@@ -13202,8 +13202,8 @@
         "notes": [
             "Lavender",
             "Mint",
-            "Bergamot",
             "Cardamom",
+            "Bergamot",
             "Tarragon",
             "Cinnamon",
             "Neroli",
