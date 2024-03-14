@@ -140,7 +140,7 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Widian/Sapphire_Collection__London",
+        "link": "https://www.parfumo.com/Perfumes/Widian/london",
         "label": "Decants"
     },
     {
@@ -244,10 +244,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Ralph_Lauren/polo-deep-blue",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Hugo_Boss/boss-bottled-elixir",
         "label": "Decants"
     },
@@ -257,10 +253,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/invictus-platinum",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Hermes/terre-d-hermes-eau-givree",
         "label": "Decants"
     },
     {
@@ -320,7 +312,7 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Tom_Ford/vanilla-sex",
+        "link": "https://www.parfumo.com/Perfumes/Tom_Ford/vanilla-sex-vanilla",
         "label": "Wish List"
     },
     {
@@ -528,6 +520,10 @@
         "label": "Vault"
     },
     {
+        "link": "https://www.parfumo.com/Perfumes/Ralph_Lauren/polo-deep-blue",
+        "label": "Tested"
+    },
+    {
         "link": "https://www.parfumo.com/Perfumes/Rogue/Mousse_Illuminee",
         "label": "Tested"
     },
@@ -553,6 +549,10 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Strangers_Parfumerie/Cigar_Rum",
+        "label": "Tested"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Versace/eros-eau-de-parfum",
         "label": "Tested"
     },
     {
@@ -629,6 +629,10 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/Emporio_Armani_Stronger_With_You",
+        "label": "Tested"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Hermes/terre-d-hermes-eau-givree",
         "label": "Tested"
     },
     {
