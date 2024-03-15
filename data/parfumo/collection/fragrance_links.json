@@ -128,10 +128,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Azzaro/Chrome_Eau_de_Toilette",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/1_Million_Eau_de_Toilette",
         "label": "Decants"
     },
@@ -149,10 +145,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/haltane",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Nasomatto/Pardon",
         "label": "Decants"
     },
     {
@@ -192,7 +184,7 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Editions_de_Parfum_Frederic_Malle/Musc_Ravageur",
+        "link": "https://www.parfumo.com/Perfumes/Editions_de_Parfum_Frederic_Malle/musc-ravageur-eau-de-parfum",
         "label": "Decants"
     },
     {
@@ -241,10 +233,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Creed/Royal_Oud",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Hugo_Boss/boss-bottled-elixir",
         "label": "Decants"
     },
     {
@@ -468,6 +456,14 @@
         "label": "Watch List"
     },
     {
+        "link": "https://www.parfumo.com/Perfumes/Hugo_Boss/boss-bottled-elixir",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Nasomatto/Pardon",
+        "label": "Vault"
+    },
+    {
         "link": "https://www.parfumo.com/Perfumes/Parfums_de_Nicolai/Ambre_Cashmere_Intense",
         "label": "Vault"
     },
@@ -518,6 +514,10 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Dior/Dior_Homme_Parfum",
         "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Azzaro/Chrome_Eau_de_Toilette",
+        "label": "Tested"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Ralph_Lauren/polo-deep-blue",
