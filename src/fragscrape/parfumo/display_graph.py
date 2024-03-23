@@ -8,6 +8,7 @@ import networkx as nx
 def visualize(net, size_parameter):
     fig = gv.vis(
         net,
+        gravitational_constant=-5000,
         graph_height=600,
         details_height=150,
         show_details=True,
