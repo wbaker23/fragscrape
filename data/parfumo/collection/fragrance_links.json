@@ -48,10 +48,6 @@
         "label": "I have"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/the-dua-brand/Bois_Precieux_et_Epices",
-        "label": "I have"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Hugo_Boss/Hugo_Iced",
         "label": "I have"
     },
@@ -130,10 +126,6 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/Le_Male_Eau_de_Toilette",
         "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Widian/london",
-        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Penhaligons/Sartorial",
@@ -229,10 +221,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Givenchy/gentleman-givenchy-reserve-privee",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/invictus-platinum",
         "label": "Decants"
     },
     {
@@ -448,6 +436,10 @@
         "label": "Watch List"
     },
     {
+        "link": "https://www.parfumo.com/Perfumes/Widian/london",
+        "label": "Vault"
+    },
+    {
         "link": "https://www.parfumo.com/Perfumes/Penhaligons/Portraits__The_Tragedy_of_Lord_George",
         "label": "Vault"
     },
@@ -509,6 +501,10 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Dior/Dior_Homme_Parfum",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/the-dua-brand/Bois_Precieux_et_Epices",
         "label": "Vault"
     },
     {
@@ -641,6 +637,10 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Azzaro/the-most-wanted",
+        "label": "Tested"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/invictus-platinum",
         "label": "Tested"
     },
     {
