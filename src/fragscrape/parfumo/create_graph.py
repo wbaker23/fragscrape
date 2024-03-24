@@ -118,20 +118,23 @@ def generate_edges_df(nodes_df):
     total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
     total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed)
 
-    return pd.DataFrame(
-        {
-            "source": type_pivot.index[i],
-            "target": type_pivot.index[j],
-            "type_similarity": type_cosine_array[i][j],
-            "occasion_similarity": occasion_cosine_array[i][j],
-            "season_similarity": season_cosine_array[i][j],
-            "audience_similarity": audience_cosine_array[i][j],
-            # "notes_similarity": notes_cosine_array[i][j],
-            # "note_groups_similarity": note_groups_cosine_array[i][j],
-            "total_similarity": total_pivot_cosine_array[i][j],
-        }
-        for i in range(0, len(type_cosine_array))
-        for j in range(0, i)
+    return (
+        pd.DataFrame(
+            {
+                "source": type_pivot.index[i],
+                "target": type_pivot.index[j],
+                "type_similarity": type_cosine_array[i][j],
+                "occasion_similarity": occasion_cosine_array[i][j],
+                "season_similarity": season_cosine_array[i][j],
+                "audience_similarity": audience_cosine_array[i][j],
+                # "notes_similarity": notes_cosine_array[i][j],
+                # "note_groups_similarity": note_groups_cosine_array[i][j],
+                "total_similarity": total_pivot_cosine_array[i][j],
+            }
+            for i in range(0, len(type_cosine_array))
+            for j in range(0, i)
+        ),
+        total_pivot,
     )
 
 
@@ -178,7 +181,7 @@ def create_graph(ctx, color_groups, threshold):
     nodes_df = load_and_clean(config["parfumo_enrich_results_path"])
 
     # Generate edges
-    edges_df = generate_edges_df(nodes_df)
+    edges_df, total_pivot = generate_edges_df(nodes_df)
 
     # Calculate weight by transforming component features and averaging
     component_columns = [
@@ -236,35 +239,53 @@ def create_graph(ctx, color_groups, threshold):
     # Create graph
     net = nx.Graph()
 
+    def assign_node_attribute(df, index, attribute_name):
+        if attribute_name in df.loc[index]:
+            return df.loc[index][attribute_name]
+        else:
+            return 0
+
     # Add nodes to graph
     nodes_df.set_index("name", inplace=True)
     for index, row in nodes_df.iterrows():
         net.add_node(
             index,
             collection_group=row["collection_group"],
-            # type_animal=type_pivot.loc[index]["Animal"],
-            # type_aquatic=type_pivot.loc[index]["Aquatic"],
-            # type_chypre=type_pivot.loc[index]["Chypre"]
-            # if "Chypre" in type_pivot.loc[index]
-            # else 0,
-            # type_citrus=type_pivot.loc[index]["Citrus"],
-            # type_creamy=type_pivot.loc[index]["Creamy"],
-            # type_earthy=type_pivot.loc[index]["Earthy"],
-            # type_floral=type_pivot.loc[index]["Floral"],
-            # type_fougere=type_pivot.loc[index]["Fougère"],
-            # type_fresh=type_pivot.loc[index]["Fresh"],
-            # type_fruity=type_pivot.loc[index]["Fruity"],
-            # type_gourmand=type_pivot.loc[index]["Gourmand"],
-            # type_green=type_pivot.loc[index]["Green"],
-            # type_leathery=type_pivot.loc[index]["Leathery"],
-            # type_oriental=type_pivot.loc[index]["Oriental"],
-            # type_powdery=type_pivot.loc[index]["Powdery"],
-            # type_resinous=type_pivot.loc[index]["Resinous"],
-            # type_smoky=type_pivot.loc[index]["Smoky"],
-            # type_spicy=type_pivot.loc[index]["Spicy"],
-            # type_sweet=type_pivot.loc[index]["Sweet"],
-            # type_synthetic=type_pivot.loc[index]["Synthetic"],
-            # type_woody=type_pivot.loc[index]["Woody"],
+            type_animal=assign_node_attribute(total_pivot, index, "Animal"),
+            type_aquatic=assign_node_attribute(total_pivot, index, "Aquatic"),
+            type_chypre=assign_node_attribute(total_pivot, index, "Chypre"),
+            type_citrus=assign_node_attribute(total_pivot, index, "Citrus"),
+            type_creamy=assign_node_attribute(total_pivot, index, "Creamy"),
+            type_earthy=assign_node_attribute(total_pivot, index, "Earthy"),
+            type_floral=assign_node_attribute(total_pivot, index, "Floral"),
+            type_fougere=assign_node_attribute(total_pivot, index, "Fougère"),
+            type_fresh=assign_node_attribute(total_pivot, index, "Fresh"),
+            type_fruity=assign_node_attribute(total_pivot, index, "Fruity"),
+            type_gourmand=assign_node_attribute(total_pivot, index, "Gourmand"),
+            type_green=assign_node_attribute(total_pivot, index, "Green"),
+            type_leathery=assign_node_attribute(total_pivot, index, "Leathery"),
+            type_oriental=assign_node_attribute(total_pivot, index, "Oriental"),
+            type_powdery=assign_node_attribute(total_pivot, index, "Powdery"),
+            type_resinous=assign_node_attribute(total_pivot, index, "Resinous"),
+            type_smoky=assign_node_attribute(total_pivot, index, "Smoky"),
+            type_spicy=assign_node_attribute(total_pivot, index, "Spicy"),
+            type_sweet=assign_node_attribute(total_pivot, index, "Sweet"),
+            type_synthetic=assign_node_attribute(total_pivot, index, "Synthetic"),
+            type_woody=assign_node_attribute(total_pivot, index, "Woody"),
+            occasion_evening=assign_node_attribute(total_pivot, index, "Evening"),
+            occasion_business=assign_node_attribute(total_pivot, index, "Business"),
+            occasion_night_out=assign_node_attribute(total_pivot, index, "Night Out"),
+            occasion_leisure=assign_node_attribute(total_pivot, index, "Leisure"),
+            occasion_sport=assign_node_attribute(total_pivot, index, "Sport"),
+            occasion_daily=assign_node_attribute(total_pivot, index, "Daily"),
+            season_spring=assign_node_attribute(total_pivot, index, "Spring"),
+            season_summer=assign_node_attribute(total_pivot, index, "Summer"),
+            season_fall=assign_node_attribute(total_pivot, index, "Fall"),
+            season_winter=assign_node_attribute(total_pivot, index, "Winter"),
+            audience_youthful=assign_node_attribute(total_pivot, index, "Youthful"),
+            audience_mature=assign_node_attribute(total_pivot, index, "Mature"),
+            audience_feminine=assign_node_attribute(total_pivot, index, "Feminine"),
+            audience_masculine=assign_node_attribute(total_pivot, index, "Masculine"),
         )
 
     # Add edges to graph
