@@ -10,8 +10,6 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
 
-from fragscrape.parfumo.display_graph import visualize
-
 
 class MplColorHelper:
     """Helper class for coloring nodes using a colormap."""
@@ -362,5 +360,3 @@ def create_graph(ctx, color_groups, threshold):
 
     with open(config["parfumo_graph_path"], "w") as f:
         json.dump(nx.node_link_data(net), f)
-
-    visualize(net, "effective_size")
