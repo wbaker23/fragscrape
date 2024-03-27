@@ -52,11 +52,8 @@ def explode_chart_data(df, chart_name):
         exp_df[["name", f"{chart_name}_name", f"{chart_name}_votes"]]
         .pivot(index="name", columns=f"{chart_name}_name", values=f"{chart_name}_votes")
         .fillna(0)
-        .astype("int32")
     )
 
-    # Normalize row values to sum to 1
-    pivot = pivot.apply(lambda row: row / row.sum(), axis=1)
     return pivot
 
 
@@ -105,16 +102,16 @@ def generate_edges_df(nodes_df):
         # .join(notes_pivot)
         # .join(note_groups_pivot)
     )
-    total_pivot_decomposed, total_pivot_explained_variance = decompose_df(
-        total_pivot, "name", total_pivot.columns.to_list()
-    )
-    variance_df = pd.DataFrame(
-        enumerate(np.cumsum(total_pivot_explained_variance))
-    ).set_index(0)
-    cutoff = variance_df[variance_df[1] >= 0.99].index.min() + 1
-    print(f"Reducing from {total_pivot_decomposed.shape[1]} features to {cutoff-1}.")
-    total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
-    total_pivot_cosine_array = cosine_similarity(total_pivot_decomposed)
+    # total_pivot_decomposed, total_pivot_explained_variance = decompose_df(
+    #     total_pivot, "name", total_pivot.columns.to_list()
+    # )
+    # variance_df = pd.DataFrame(
+    #     enumerate(np.cumsum(total_pivot_explained_variance))
+    # ).set_index(0)
+    # cutoff = variance_df[variance_df[1] >= 0.99].index.min() + 1
+    # print(f"Reducing from {total_pivot_decomposed.shape[1]} features to {cutoff-1}.")
+    # total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
+    total_pivot_cosine_array = cosine_similarity(total_pivot)
 
     return (
         pd.DataFrame(
@@ -191,7 +188,7 @@ def create_graph(ctx, color_groups, threshold):
         # "note_groups_similarity",
         "total_similarity",
     ]
-    component_weights = [1, 2, 2, 2, 0]
+    component_weights = [0, 0, 0, 0, 1]
     # edges_df[component_columns] = pd.DataFrame(
     #     StandardScaler().fit_transform(edges_df[component_columns].values)
     # )
