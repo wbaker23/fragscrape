@@ -162,5 +162,4 @@ cython_debug/
 # Everything above copied from https://github.com/github/gitignore/blob/main/Python.gitignore
 # Exceptions specific to this project are below
 /*.sh
-*.ipynb
 data/parfumo/collection/graph.json
