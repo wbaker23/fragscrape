@@ -35,6 +35,7 @@ def compare(ctx):
     fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(8, 5))
 
     type_pivot = explode_chart_data(nodes_df, "type")
+    type_pivot = type_pivot.apply(lambda row: row / row.sum(), axis=1)
     type_pivot = type_pivot[
         sorted(
             type_pivot.columns,
@@ -46,6 +47,7 @@ def compare(ctx):
     ax1.set_ybound(lower=-0.01)
 
     occasion_pivot = explode_chart_data(nodes_df, "occasion")
+    occasion_pivot = occasion_pivot.apply(lambda row: row / row.sum(), axis=1)
     occasion_pivot = occasion_pivot[
         sorted(
             occasion_pivot.columns,
@@ -57,6 +59,7 @@ def compare(ctx):
     ax2.set_ybound(lower=-0.01)
 
     season_pivot = explode_chart_data(nodes_df, "season")
+    season_pivot = season_pivot.apply(lambda row: row / row.sum(), axis=1)
     season_pivot = season_pivot[
         sorted(
             season_pivot.columns,
@@ -68,6 +71,7 @@ def compare(ctx):
     ax3.set_ybound(lower=-0.01)
 
     audience_pivot = explode_chart_data(nodes_df, "audience")
+    audience_pivot = audience_pivot.apply(lambda row: row / row.sum(), axis=1)
     audience_pivot = audience_pivot[
         sorted(
             audience_pivot.columns,
