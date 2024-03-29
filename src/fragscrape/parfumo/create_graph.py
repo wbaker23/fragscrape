@@ -52,6 +52,7 @@ def explode_chart_data(df, chart_name):
         exp_df[["name", f"{chart_name}_name", f"{chart_name}_votes"]]
         .pivot(index="name", columns=f"{chart_name}_name", values=f"{chart_name}_votes")
         .fillna(0)
+        .astype(int)
     )
 
     return pivot
@@ -236,7 +237,7 @@ def create_graph(ctx, color_groups, threshold):
 
     def assign_node_attribute(df, index, attribute_name):
         if attribute_name in df.loc[index]:
-            return df.loc[index][attribute_name]
+            return int(df.loc[index][attribute_name])
         else:
             return 0
 
