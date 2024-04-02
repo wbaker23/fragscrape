@@ -42,7 +42,6 @@ def load(ctx, source):
                             "body > div.wr_sneak > div.header > div.img > a",
                         )
                         if link.get_attribute("href") in [l["link"] for l in links]:
-                            print("Duplicate link, skipping...")
                             continue
                         links.append(
                             {"link": link.get_attribute("href"), "label": page["label"]}

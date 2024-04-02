@@ -160,10 +160,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/haltane",
-        "label": "Vault"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Kilian/angels-share",
         "label": "Decants"
     },
@@ -273,10 +269,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Hermes/Terre_d_Hermes_Eau_de_Toilette",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Bvlgari/Aqva_pour_Homme_Eau_de_Toilette",
         "label": "Decants"
     },
     {
@@ -438,6 +430,14 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Chanel/Allure_Homme",
         "label": "Watch List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Bvlgari/Aqva_pour_Homme_Eau_de_Toilette",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/haltane",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Nasomatto/Baraonda",
