@@ -27,4 +27,7 @@ def start_driver():
     DRIVER.implicitly_wait(3)
     DRIVER.get("https://www.parfumo.com")
     DRIVER = _close_parfumo_cookies_popup(DRIVER)
+
+    input("Login and press Enter to continue...")
+
     return DRIVER
