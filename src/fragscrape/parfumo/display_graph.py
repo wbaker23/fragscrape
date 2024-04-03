@@ -22,7 +22,7 @@ def visualize(net, size_parameter):
         show_node_label_border=True,
         show_node_image=False,
     )
-    fig.export_html("index.html")
+    fig.export_html("index.html", overwrite=True)
     fig.display()
 
 
