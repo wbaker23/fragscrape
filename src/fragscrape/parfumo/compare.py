@@ -39,7 +39,7 @@ def compare(ctx):
     type_pivot = type_pivot[
         sorted(
             type_pivot.columns,
-            key=lambda c: type_pivot.diff().iloc[1][c],
+            key=lambda c: type_pivot.iloc[0][c],
         )
     ]
     _add_subplot_to_axes(ax1, type_pivot)
@@ -51,7 +51,7 @@ def compare(ctx):
     occasion_pivot = occasion_pivot[
         sorted(
             occasion_pivot.columns,
-            key=lambda c: occasion_pivot.diff().iloc[1][c],
+            key=lambda c: occasion_pivot.iloc[0][c],
         )
     ]
     _add_subplot_to_axes(ax2, occasion_pivot)
@@ -63,7 +63,7 @@ def compare(ctx):
     season_pivot = season_pivot[
         sorted(
             season_pivot.columns,
-            key=lambda c: season_pivot.diff().iloc[1][c],
+            key=lambda c: season_pivot.iloc[0][c],
         )
     ]
     _add_subplot_to_axes(ax3, season_pivot)
@@ -75,7 +75,7 @@ def compare(ctx):
     audience_pivot = audience_pivot[
         sorted(
             audience_pivot.columns,
-            key=lambda c: audience_pivot.diff().iloc[1][c],
+            key=lambda c: audience_pivot.iloc[0][c],
         )
     ]
     _add_subplot_to_axes(ax4, audience_pivot)
