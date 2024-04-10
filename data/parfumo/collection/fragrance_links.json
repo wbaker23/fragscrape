@@ -168,10 +168,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Guerlain/aqua-allegoria-forte-nerolia-vetiver",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Nasomatto/Duro",
         "label": "Decants"
     },
@@ -181,10 +177,6 @@
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Jimmy_Choo/jimmy-choo-man-aqua",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/Le_Male_Eau_de_Toilette",
         "label": "Decants"
     },
     {
@@ -406,6 +398,10 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Chanel/Allure_Homme",
         "label": "Watch List"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/Le_Male_Eau_de_Toilette",
+        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/1_Million_Eau_de_Toilette",
