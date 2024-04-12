@@ -17,7 +17,7 @@ executing==2.0.1
 fonttools==4.47.2
 gravis==0.1.0
 h11==0.14.0
-idna==3.6
+idna==3.7
 importlib-metadata==7.0.1
 ipykernel==6.29.0
 ipython==8.20.0
