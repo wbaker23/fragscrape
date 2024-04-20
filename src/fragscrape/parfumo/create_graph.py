@@ -189,7 +189,7 @@ def create_graph(ctx, color_groups, threshold):
         # "note_groups_similarity",
         "total_similarity",
     ]
-    component_weights = [0, 0, 0, 0, 1]
+    component_weights = [0, 1, 1, 1, 3]
     # edges_df[component_columns] = pd.DataFrame(
     #     StandardScaler().fit_transform(edges_df[component_columns].values)
     # )
