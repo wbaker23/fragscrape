@@ -141,7 +141,7 @@ def load_and_clean(filepath: str):
     print(nodes_df["collection_group"].value_counts())
     nodes_df = nodes_df.loc[
         nodes_df["collection_group"].isin(
-            ["I have", "Miniatures", "Decants", "Wish List", "Watch List"]
+            ["I have", "Miniatures", "Decants", "Wish List", "Watch List", "Vault"]
         )
     ]
     nodes_df = nodes_df.loc[nodes_df["brand"] != "The Dua Brand / Dua Fragrances"]
@@ -189,7 +189,7 @@ def create_graph(ctx, color_groups, threshold):
         # "note_groups_similarity",
         "total_similarity",
     ]
-    component_weights = [0, 1, 1, 1, 3]
+    component_weights = [0, 0, 0, 0, 1]
     # edges_df[component_columns] = pd.DataFrame(
     #     StandardScaler().fit_transform(edges_df[component_columns].values)
     # )
