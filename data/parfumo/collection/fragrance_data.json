@@ -4527,7 +4527,7 @@
                 "votes": "103"
             }
         ],
-        "collection_group": "Vault",
+        "collection_group": "Outlier",
         "notes": [
             "Coconut water",
             "Tonka bean",
@@ -5147,7 +5147,7 @@
                 "votes": "135"
             }
         ],
-        "collection_group": "Decants",
+        "collection_group": "Vault",
         "notes": []
     },
     {
@@ -11368,7 +11368,7 @@
                 "votes": "134"
             }
         ],
-        "collection_group": "Vault",
+        "collection_group": "Tested",
         "notes": [
             "Mandarin orange",
             "Petitgrain",
@@ -12092,7 +12092,7 @@
                 "votes": "33"
             }
         ],
-        "collection_group": "Vault",
+        "collection_group": "Outlier",
         "notes": [
             "Mandarin orange",
             "Black pepper",
@@ -13100,7 +13100,7 @@
                 "votes": "178"
             }
         ],
-        "collection_group": "Vault",
+        "collection_group": "Outlier",
         "notes": [
             "Pear",
             "Pink pepper",
