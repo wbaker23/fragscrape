@@ -164,10 +164,6 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/le-beau-paradise-garden",
-        "label": "Vault"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Rasasi/hawas-ice",
         "label": "Decants"
     },
@@ -186,10 +182,6 @@
     {
         "link": "https://www.parfumo.com/Perfumes/memo-paris/ocean-leather",
         "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Nasomatto/Duro",
-        "label": "Vault"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Amouage/Reflection_Man",
@@ -408,6 +400,14 @@
         "label": "Watch List"
     },
     {
+        "link": "https://www.parfumo.com/Perfumes/Nasomatto/Duro",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/le-beau-paradise-garden",
+        "label": "Vault"
+    },
+    {
         "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/Le_Male_Eau_de_Toilette",
         "label": "Vault"
     },
@@ -418,10 +418,6 @@
     {
         "link": "https://www.parfumo.com/Perfumes/Zaharoff/signature-eau-de-parfum",
         "label": "Vault"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Bvlgari/Aqva_pour_Homme_Eau_de_Toilette",
-        "label": "Tested"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/haltane",
@@ -502,6 +498,10 @@
     {
         "link": "https://www.parfumo.com/Perfumes/the-dua-brand/Bois_Precieux_et_Epices",
         "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Bvlgari/Aqva_pour_Homme_Eau_de_Toilette",
+        "label": "Tested"
     },
     {
         "link": "https://www.parfumo.com/Perfumes/Montblanc/Explorer",
