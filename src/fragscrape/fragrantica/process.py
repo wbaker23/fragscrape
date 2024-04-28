@@ -21,7 +21,7 @@ def process(ctx):
         # Get rid of bottom 10% of fragrances.
         # These are skewed negative due to reinforcement of negative votes
         # by being visible at the bottom of the list.
-        df = df[df["order"] <= df["order"].quantile(0.9)]
+        # df = df[df["order"] <= df["order"].quantile(0.9)]
 
         # Add feature columns
         df["total_votes"] = df["upvotes"] + df["downvotes"]

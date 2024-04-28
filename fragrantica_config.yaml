@@ -23,6 +23,8 @@ fragrantica_awards_pages_to_import:
   url: https://www.fragrantica.com/awards/category/best-fragrance-for-hot-days
 - name: best_marine_2023
   url: https://www.fragrantica.com/awards2023/category/Best-Marine-Perfume
+- name: best_cherry_2022
+  url: https://www.fragrantica.com/awards2022/category/Best-Cherry-Perfume
 
 import_data_path: data/fragrantica/raw
 processed_data_path: data/fragrantica/processed
