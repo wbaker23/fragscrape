@@ -4,7 +4,7 @@
         "label": "I have"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/armani-code-eau-de-parfum",
+        "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/armani-code-2021-eau-de-parfum",
         "label": "I have"
     },
     {
@@ -148,10 +148,6 @@
         "label": "Miniatures"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Editions_de_Parfum_Frederic_Malle/Geranium_pour_Monsieur",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Xerjoff/renaissance",
         "label": "Decants"
     },
@@ -200,15 +196,7 @@
         "label": "Decants"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Brioni/brioni-eau-de-parfum-2021",
-        "label": "Decants"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/Kilian/apple-brandy-on-the-rocks",
-        "label": "Decants"
-    },
-    {
-        "link": "https://www.parfumo.com/Perfumes/Ralph_Lauren/polo-cologne-intense",
         "label": "Decants"
     },
     {
@@ -340,10 +328,6 @@
         "label": "Wish List"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Stephane_Humbert_Lucas/Taklamakan",
-        "label": "Wish List"
-    },
-    {
         "link": "https://www.parfumo.com/Perfumes/LOccitane_en_Provence/Eau_De_Baux",
         "label": "Wish List"
     },
@@ -392,6 +376,18 @@
         "label": "Watch List"
     },
     {
+        "link": "https://www.parfumo.com/Perfumes/Editions_de_Parfum_Frederic_Malle/Geranium_pour_Monsieur",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Ralph_Lauren/polo-cologne-intense",
+        "label": "Vault"
+    },
+    {
+        "link": "https://www.parfumo.com/Perfumes/Brioni/brioni-eau-de-parfum-2021",
+        "label": "Vault"
+    },
+    {
         "link": "https://www.parfumo.com/Perfumes/Nasomatto/Duro",
         "label": "Vault"
     },
@@ -424,7 +420,7 @@
         "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Penhaligons/Portraits__The_Tragedy_of_Lord_George",
+        "link": "https://www.parfumo.com/Perfumes/Penhaligons/the-tragedy-of-lord-george",
         "label": "Vault"
     },
     {
@@ -436,7 +432,7 @@
         "label": "Vault"
     },
     {
-        "link": "https://www.parfumo.com/Perfumes/Parfums_de_Nicolai/Ambre_Cashmere_Intense",
+        "link": "https://www.parfumo.com/Perfumes/Nicolai/Ambre_Cashmere_Intense",
         "label": "Vault"
     },
     {

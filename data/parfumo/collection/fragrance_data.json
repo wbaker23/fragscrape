@@ -4088,7 +4088,7 @@
                 "votes": "113"
             }
         ],
-        "collection_group": "Decants",
+        "collection_group": "Vault",
         "notes": [
             "Mint",
             "Peppermint",
@@ -5497,7 +5497,7 @@
                 "votes": "39"
             }
         ],
-        "collection_group": "Decants",
+        "collection_group": "Vault",
         "notes": [
             "Ozonic notes",
             "Green apple",
@@ -5699,7 +5699,7 @@
                 "votes": "24"
             }
         ],
-        "collection_group": "Decants",
+        "collection_group": "Vault",
         "notes": [
             "Grapefruit",
             "Basil",
@@ -9069,120 +9069,6 @@
             "Pine",
             "Violet",
             "Iris"
-        ]
-    },
-    {
-        "name": "Taklamakan\nSt\u00e9phane Humbert Lucas 2016",
-        "brand": "St\u00e9phane Humbert Lucas",
-        "image_src": "https://pimages.parfumo.de/720/72705_img-3380-stephane_humbert_lucas-taklamakan_720.jpg",
-        "link": "https://www.parfumo.com/Perfumes/Stephane_Humbert_Lucas/Taklamakan",
-        "type": [
-            {
-                "ct_name": "Spicy",
-                "votes": "155"
-            },
-            {
-                "ct_name": "Sweet",
-                "votes": "105"
-            },
-            {
-                "ct_name": "Smoky",
-                "votes": "72"
-            },
-            {
-                "ct_name": "Powdery",
-                "votes": "68"
-            },
-            {
-                "ct_name": "Oriental",
-                "votes": "133"
-            },
-            {
-                "ct_name": "Woody",
-                "votes": "149"
-            },
-            {
-                "ct_name": "Resinous",
-                "votes": "120"
-            },
-            {
-                "ct_name": "Earthy",
-                "votes": "67"
-            },
-            {
-                "ct_name": "Creamy",
-                "votes": "45"
-            }
-        ],
-        "occasion": [
-            {
-                "ct_name": "Daily",
-                "votes": "64"
-            },
-            {
-                "ct_name": "Leisure",
-                "votes": "123"
-            },
-            {
-                "ct_name": "Night Out",
-                "votes": "165"
-            },
-            {
-                "ct_name": "Business",
-                "votes": "41"
-            },
-            {
-                "ct_name": "Evening",
-                "votes": "177"
-            }
-        ],
-        "audience": [
-            {
-                "ct_name": "Masculine",
-                "votes": "188"
-            },
-            {
-                "ct_name": "Feminine",
-                "votes": "149"
-            },
-            {
-                "ct_name": "Mature",
-                "votes": "84"
-            },
-            {
-                "ct_name": "Youthful",
-                "votes": "53"
-            }
-        ],
-        "season": [
-            {
-                "ct_name": "Winter",
-                "votes": "173"
-            },
-            {
-                "ct_name": "Fall",
-                "votes": "180"
-            },
-            {
-                "ct_name": "Summer",
-                "votes": "52"
-            },
-            {
-                "ct_name": "Spring",
-                "votes": "94"
-            }
-        ],
-        "collection_group": "Wish List",
-        "notes": [
-            "Osmanthus",
-            "Calabrian bergamot",
-            "Neroli",
-            "Indian patchouli",
-            "Chinese toon",
-            "Benzoin",
-            "Cistus",
-            "Vanilla",
-            "Musk"
         ]
     },
     {
