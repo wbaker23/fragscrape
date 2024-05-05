@@ -19,7 +19,7 @@ parfumo_pages:
     color: rgb(37,92,102)
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/Tested
     label: Tested
-    color: rgb(37,92,102)
+    color: rgb(107,205,114)
 
 parfumo_import_results_path: data/parfumo/collection/fragrance_links.json
 parfumo_enrich_results_path: data/parfumo/collection/fragrance_data.json
