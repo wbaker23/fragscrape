@@ -3949,56 +3949,6 @@
     ]
   },
   {
-    "name": "Platinum \u00c9go\u00efste\nChanel 1993 EAU DE TOILETTE",
-    "brand": "Chanel",
-    "image_src": "https://pimages.parfumo.de/720/829_img-8745-chanel-platinum-egoiste-eau-de-toilette_720.jpg",
-    "link": "https://www.parfumo.com/Perfumes/Chanel/Platinum_Egoiste_Eau_de_Toilette",
-    "type": [
-      { "ct_name": "Citrus", "votes": "138" },
-      { "ct_name": "Spicy", "votes": "249" },
-      { "ct_name": "Woody", "votes": "193" },
-      { "ct_name": "Green", "votes": "208" },
-      { "ct_name": "Fresh", "votes": "329" },
-      { "ct_name": "Foug\u00e8re", "votes": "171" },
-      { "ct_name": "Floral", "votes": "105" }
-    ],
-    "occasion": [
-      { "ct_name": "Daily", "votes": "321" },
-      { "ct_name": "Sport", "votes": "108" },
-      { "ct_name": "Leisure", "votes": "293" },
-      { "ct_name": "Night Out", "votes": "158" },
-      { "ct_name": "Business", "votes": "312" },
-      { "ct_name": "Evening", "votes": "173" }
-    ],
-    "audience": [
-      { "ct_name": "Masculine", "votes": "374" },
-      { "ct_name": "Mature", "votes": "221" },
-      { "ct_name": "Youthful", "votes": "142" }
-    ],
-    "season": [
-      { "ct_name": "Winter", "votes": "159" },
-      { "ct_name": "Fall", "votes": "282" },
-      { "ct_name": "Summer", "votes": "311" },
-      { "ct_name": "Spring", "votes": "359" }
-    ],
-    "collection_group": "Watch List",
-    "notes": [
-      "Lavender",
-      "Neroli",
-      "Petitgrain",
-      "Rosemary",
-      "Clary sage",
-      "Geranium",
-      "Galbanum",
-      "Jasmine",
-      "Cedar",
-      "Oakmoss",
-      "Sandalwood",
-      "Vetiver",
-      "Amber"
-    ]
-  },
-  {
     "name": "Eau Noire\nDior 2004",
     "brand": "Dior",
     "image_src": "https://pimages.parfumo.de/720/2190_img-3255-dior-eau-noire_720.jpg",
@@ -4092,69 +4042,6 @@
       "Haitian vetiver",
       "Leather",
       "Patchouli"
-    ]
-  },
-  {
-    "name": "Allure Homme\nChanel 1999 EAU DE TOILETTE",
-    "brand": "Chanel",
-    "image_src": "https://pimages.parfumo.de/240/828_sch8suwwkh_240.jpg",
-    "link": "https://www.parfumo.com/Perfumes/Chanel/Allure_Homme",
-    "type": [
-      { "ct_name": "Citrus", "votes": "120" },
-      { "ct_name": "Spicy", "votes": "192" },
-      { "ct_name": "Sweet", "votes": "134" },
-      { "ct_name": "Oriental", "votes": "55" },
-      { "ct_name": "Woody", "votes": "193" },
-      { "ct_name": "Fruity", "votes": "91" },
-      { "ct_name": "Fresh", "votes": "169" },
-      { "ct_name": "Floral", "votes": "66" }
-    ],
-    "occasion": [
-      { "ct_name": "Daily", "votes": "236" },
-      { "ct_name": "Leisure", "votes": "213" },
-      { "ct_name": "Night Out", "votes": "163" },
-      { "ct_name": "Business", "votes": "221" },
-      { "ct_name": "Evening", "votes": "172" }
-    ],
-    "audience": [
-      { "ct_name": "Masculine", "votes": "278" },
-      { "ct_name": "Feminine", "votes": "26" },
-      { "ct_name": "Mature", "votes": "136" },
-      { "ct_name": "Youthful", "votes": "138" }
-    ],
-    "season": [
-      { "ct_name": "Winter", "votes": "173" },
-      { "ct_name": "Fall", "votes": "244" },
-      { "ct_name": "Summer", "votes": "157" },
-      { "ct_name": "Spring", "votes": "238" }
-    ],
-    "collection_group": "Watch List",
-    "notes": [
-      "Bergamot",
-      "Lavender",
-      "Peach",
-      "Ginger",
-      "Lemon",
-      "Mandarin orange",
-      "Pepper",
-      "Cedar",
-      "Freesia",
-      "Jasmine",
-      "Patchouli",
-      "Rosewood",
-      "Vetiver",
-      "Aniseed",
-      "Gardenia",
-      "Rose",
-      "Sandalwood",
-      "Tonka bean",
-      "Amber",
-      "Musk",
-      "Oakmoss",
-      "Vanilla",
-      "Benzoin",
-      "Coconut",
-      "Leather"
     ]
   },
   {
