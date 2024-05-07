@@ -146,7 +146,6 @@ def load_and_clean(filepath: str):
                 "Miniatures",
                 "Decants",
                 "Sample Atomizers",
-                "Sample Vials",
                 "Wish List",
                 "Watch List",
             ]
