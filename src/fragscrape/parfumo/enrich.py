@@ -116,7 +116,9 @@ def enrich(ctx):
             ]
 
             try:
-                driver.find_element(By.ID, "classi_li").click()
+                driver.find_element(
+                    By.XPATH, "//nav[@class='flex ptabs ']/div[6]"
+                ).click()
                 type_script = driver.find_element(
                     By.CSS_SELECTOR, "#classification_community > script:nth-child(2)"
                 ).get_attribute("innerHTML")

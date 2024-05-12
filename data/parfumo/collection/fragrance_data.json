@@ -1,5 +1,42 @@
 [
   {
+    "name": "Wood Sage & Sea Salt\nJo Malone 2014 COLOGNE",
+    "brand": "Jo Malone",
+    "image_src": "https://pimages.parfumo.de/720/46238_img-1386-jo_malone-wood_sage__sea_salt_cologne_720.jpg",
+    "link": "https://www.parfumo.com/Perfumes/Jo_Malone/Wood_Sage__Sea_Salt_Cologne",
+    "type": [
+      { "ct_name": "Citrus", "votes": "117" },
+      { "ct_name": "Spicy", "votes": "165" },
+      { "ct_name": "Sweet", "votes": "77" },
+      { "ct_name": "Woody", "votes": "230" },
+      { "ct_name": "Green", "votes": "77" },
+      { "ct_name": "Fresh", "votes": "352" },
+      { "ct_name": "Aquatic", "votes": "280" }
+    ],
+    "occasion": [
+      { "ct_name": "Daily", "votes": "364" },
+      { "ct_name": "Sport", "votes": "190" },
+      { "ct_name": "Leisure", "votes": "365" },
+      { "ct_name": "Night Out", "votes": "60" },
+      { "ct_name": "Business", "votes": "306" },
+      { "ct_name": "Evening", "votes": "70" }
+    ],
+    "audience": [
+      { "ct_name": "Masculine", "votes": "280" },
+      { "ct_name": "Feminine", "votes": "375" },
+      { "ct_name": "Mature", "votes": "144" },
+      { "ct_name": "Youthful", "votes": "182" }
+    ],
+    "season": [
+      { "ct_name": "Winter", "votes": "61" },
+      { "ct_name": "Fall", "votes": "158" },
+      { "ct_name": "Summer", "votes": "379" },
+      { "ct_name": "Spring", "votes": "338" }
+    ],
+    "collection_group": "I have",
+    "notes": ["Ambrette seed", "Mineral notes", "Sea salt", "Sage"]
+  },
+  {
     "name": "Gucci pour Homme II\nGucci 2007 EAU DE TOILETTE",
     "brand": "Gucci",
     "image_src": "https://pimages.parfumo.de/720/74_img-1003-gucci-gucci_pour_homme_ii_eau_de_toilette_720.jpg",
@@ -147,31 +184,31 @@
     "image_src": "https://pimages.parfumo.de/720/23309_img-8978-dior_christian_dior-dior_homme_cologne_2013_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Dior/Dior_Homme_Cologne_2013",
     "type": [
-      { "ct_name": "Citrus", "votes": "281" },
+      { "ct_name": "Citrus", "votes": "285" },
       { "ct_name": "Green", "votes": "46" },
-      { "ct_name": "Fruity", "votes": "108" },
-      { "ct_name": "Fresh", "votes": "274" },
-      { "ct_name": "Floral", "votes": "72" },
-      { "ct_name": "Aquatic", "votes": "67" }
+      { "ct_name": "Fruity", "votes": "110" },
+      { "ct_name": "Fresh", "votes": "278" },
+      { "ct_name": "Floral", "votes": "73" },
+      { "ct_name": "Aquatic", "votes": "69" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "268" },
-      { "ct_name": "Sport", "votes": "214" },
-      { "ct_name": "Leisure", "votes": "272" },
+      { "ct_name": "Daily", "votes": "272" },
+      { "ct_name": "Sport", "votes": "218" },
+      { "ct_name": "Leisure", "votes": "276" },
       { "ct_name": "Night Out", "votes": "53" },
-      { "ct_name": "Business", "votes": "212" },
+      { "ct_name": "Business", "votes": "216" },
       { "ct_name": "Evening", "votes": "55" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "290" },
-      { "ct_name": "Feminine", "votes": "101" },
+      { "ct_name": "Masculine", "votes": "293" },
+      { "ct_name": "Feminine", "votes": "102" },
       { "ct_name": "Mature", "votes": "111" },
-      { "ct_name": "Youthful", "votes": "192" }
+      { "ct_name": "Youthful", "votes": "195" }
     ],
     "season": [
       { "ct_name": "Fall", "votes": "50" },
-      { "ct_name": "Summer", "votes": "302" },
-      { "ct_name": "Spring", "votes": "241" }
+      { "ct_name": "Summer", "votes": "306" },
+      { "ct_name": "Spring", "votes": "245" }
     ],
     "collection_group": "I have",
     "notes": ["Calabrian bergamot", "Moroccan grapefruit blossom", "White musk"]
@@ -280,31 +317,31 @@
     "type": [
       { "ct_name": "Citrus", "votes": "108" },
       { "ct_name": "Spicy", "votes": "62" },
-      { "ct_name": "Synthetic", "votes": "264" },
-      { "ct_name": "Sweet", "votes": "243" },
+      { "ct_name": "Synthetic", "votes": "265" },
+      { "ct_name": "Sweet", "votes": "245" },
       { "ct_name": "Woody", "votes": "69" },
-      { "ct_name": "Fruity", "votes": "144" },
-      { "ct_name": "Fresh", "votes": "271" },
+      { "ct_name": "Fruity", "votes": "146" },
+      { "ct_name": "Fresh", "votes": "273" },
       { "ct_name": "Aquatic", "votes": "193" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "266" },
-      { "ct_name": "Sport", "votes": "148" },
-      { "ct_name": "Leisure", "votes": "276" },
+      { "ct_name": "Daily", "votes": "268" },
+      { "ct_name": "Sport", "votes": "149" },
+      { "ct_name": "Leisure", "votes": "278" },
       { "ct_name": "Night Out", "votes": "180" },
-      { "ct_name": "Business", "votes": "162" },
+      { "ct_name": "Business", "votes": "163" },
       { "ct_name": "Evening", "votes": "149" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "335" },
+      { "ct_name": "Masculine", "votes": "337" },
       { "ct_name": "Mature", "votes": "43" },
-      { "ct_name": "Youthful", "votes": "322" }
+      { "ct_name": "Youthful", "votes": "323" }
     ],
     "season": [
       { "ct_name": "Winter", "votes": "112" },
       { "ct_name": "Fall", "votes": "212" },
-      { "ct_name": "Summer", "votes": "291" },
-      { "ct_name": "Spring", "votes": "321" }
+      { "ct_name": "Summer", "votes": "293" },
+      { "ct_name": "Spring", "votes": "323" }
     ],
     "collection_group": "I have",
     "notes": [
@@ -324,32 +361,32 @@
     "image_src": "https://pimages.parfumo.de/720/2834_img-7502-giorgio-armani-armani-prive-vetiver-d-hiver-vetiver-babylone_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/Armani_Prive__Vetiver_d_Hiver_Vetiver_Babylone",
     "type": [
-      { "ct_name": "Citrus", "votes": "91" },
+      { "ct_name": "Citrus", "votes": "92" },
       { "ct_name": "Spicy", "votes": "59" },
       { "ct_name": "Woody", "votes": "46" },
-      { "ct_name": "Green", "votes": "80" },
+      { "ct_name": "Green", "votes": "81" },
       { "ct_name": "Fruity", "votes": "26" },
-      { "ct_name": "Fresh", "votes": "97" }
+      { "ct_name": "Fresh", "votes": "98" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "90" },
-      { "ct_name": "Sport", "votes": "35" },
-      { "ct_name": "Leisure", "votes": "90" },
+      { "ct_name": "Daily", "votes": "91" },
+      { "ct_name": "Sport", "votes": "36" },
+      { "ct_name": "Leisure", "votes": "91" },
       { "ct_name": "Night Out", "votes": "31" },
       { "ct_name": "Business", "votes": "88" },
       { "ct_name": "Evening", "votes": "28" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "99" },
-      { "ct_name": "Feminine", "votes": "82" },
+      { "ct_name": "Masculine", "votes": "100" },
+      { "ct_name": "Feminine", "votes": "83" },
       { "ct_name": "Mature", "votes": "37" },
       { "ct_name": "Youthful", "votes": "39" }
     ],
     "season": [
       { "ct_name": "Winter", "votes": "20" },
       { "ct_name": "Fall", "votes": "39" },
-      { "ct_name": "Summer", "votes": "104" },
-      { "ct_name": "Spring", "votes": "95" }
+      { "ct_name": "Summer", "votes": "105" },
+      { "ct_name": "Spring", "votes": "96" }
     ],
     "collection_group": "I have",
     "notes": [
@@ -370,33 +407,33 @@
     "image_src": "https://pimages.parfumo.de/720/1745_img-4452-yves-saint-laurent-l-homme-eau-de-toilette_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/L_Homme_Eau_de_Toilette",
     "type": [
-      { "ct_name": "Citrus", "votes": "138" },
-      { "ct_name": "Spicy", "votes": "214" },
-      { "ct_name": "Sweet", "votes": "170" },
-      { "ct_name": "Woody", "votes": "156" },
+      { "ct_name": "Citrus", "votes": "140" },
+      { "ct_name": "Spicy", "votes": "215" },
+      { "ct_name": "Sweet", "votes": "172" },
+      { "ct_name": "Woody", "votes": "157" },
       { "ct_name": "Fruity", "votes": "69" },
-      { "ct_name": "Fresh", "votes": "243" },
+      { "ct_name": "Fresh", "votes": "245" },
       { "ct_name": "Floral", "votes": "106" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "288" },
+      { "ct_name": "Daily", "votes": "290" },
       { "ct_name": "Sport", "votes": "65" },
-      { "ct_name": "Leisure", "votes": "259" },
-      { "ct_name": "Night Out", "votes": "125" },
-      { "ct_name": "Business", "votes": "256" },
+      { "ct_name": "Leisure", "votes": "261" },
+      { "ct_name": "Night Out", "votes": "126" },
+      { "ct_name": "Business", "votes": "257" },
       { "ct_name": "Evening", "votes": "146" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "304" },
+      { "ct_name": "Masculine", "votes": "305" },
       { "ct_name": "Feminine", "votes": "32" },
-      { "ct_name": "Mature", "votes": "94" },
-      { "ct_name": "Youthful", "votes": "180" }
+      { "ct_name": "Mature", "votes": "95" },
+      { "ct_name": "Youthful", "votes": "182" }
     ],
     "season": [
       { "ct_name": "Winter", "votes": "123" },
-      { "ct_name": "Fall", "votes": "235" },
-      { "ct_name": "Summer", "votes": "240" },
-      { "ct_name": "Spring", "votes": "307" }
+      { "ct_name": "Fall", "votes": "236" },
+      { "ct_name": "Summer", "votes": "242" },
+      { "ct_name": "Spring", "votes": "309" }
     ],
     "collection_group": "I have",
     "notes": [
@@ -509,32 +546,32 @@
     "image_src": "https://pimages.parfumo.de/720/252_img-5562-hugo-boss-boss-bottled-eau-de-toilette_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Hugo_Boss/Boss_Bottled_Eau_de_Toilette",
     "type": [
-      { "ct_name": "Citrus", "votes": "181" },
+      { "ct_name": "Citrus", "votes": "182" },
       { "ct_name": "Spicy", "votes": "297" },
-      { "ct_name": "Synthetic", "votes": "140" },
-      { "ct_name": "Sweet", "votes": "423" },
-      { "ct_name": "Woody", "votes": "312" },
-      { "ct_name": "Fruity", "votes": "467" },
-      { "ct_name": "Fresh", "votes": "468" }
+      { "ct_name": "Synthetic", "votes": "141" },
+      { "ct_name": "Sweet", "votes": "425" },
+      { "ct_name": "Woody", "votes": "313" },
+      { "ct_name": "Fruity", "votes": "470" },
+      { "ct_name": "Fresh", "votes": "469" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "628" },
-      { "ct_name": "Sport", "votes": "187" },
-      { "ct_name": "Leisure", "votes": "540" },
+      { "ct_name": "Daily", "votes": "629" },
+      { "ct_name": "Sport", "votes": "188" },
+      { "ct_name": "Leisure", "votes": "542" },
       { "ct_name": "Night Out", "votes": "309" },
-      { "ct_name": "Business", "votes": "536" },
+      { "ct_name": "Business", "votes": "538" },
       { "ct_name": "Evening", "votes": "311" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "687" },
+      { "ct_name": "Masculine", "votes": "690" },
       { "ct_name": "Mature", "votes": "240" },
-      { "ct_name": "Youthful", "votes": "451" }
+      { "ct_name": "Youthful", "votes": "452" }
     ],
     "season": [
       { "ct_name": "Winter", "votes": "404" },
-      { "ct_name": "Fall", "votes": "564" },
-      { "ct_name": "Summer", "votes": "493" },
-      { "ct_name": "Spring", "votes": "624" }
+      { "ct_name": "Fall", "votes": "565" },
+      { "ct_name": "Summer", "votes": "496" },
+      { "ct_name": "Spring", "votes": "627" }
     ],
     "collection_group": "I have",
     "notes": [
@@ -595,31 +632,31 @@
     "image_src": "https://pimages.parfumo.de/720/94933_img-4764-john_varvatos-artisan_pure_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/John_Varvatos/Artisan_Pure",
     "type": [
-      { "ct_name": "Citrus", "votes": "289" },
-      { "ct_name": "Woody", "votes": "123" },
+      { "ct_name": "Citrus", "votes": "291" },
+      { "ct_name": "Woody", "votes": "124" },
       { "ct_name": "Green", "votes": "67" },
-      { "ct_name": "Fresh", "votes": "271" },
-      { "ct_name": "Creamy", "votes": "71" },
+      { "ct_name": "Fresh", "votes": "273" },
+      { "ct_name": "Creamy", "votes": "72" },
       { "ct_name": "Floral", "votes": "87" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "267" },
-      { "ct_name": "Sport", "votes": "162" },
-      { "ct_name": "Leisure", "votes": "275" },
-      { "ct_name": "Night Out", "votes": "66" },
+      { "ct_name": "Daily", "votes": "270" },
+      { "ct_name": "Sport", "votes": "164" },
+      { "ct_name": "Leisure", "votes": "277" },
+      { "ct_name": "Night Out", "votes": "67" },
       { "ct_name": "Business", "votes": "189" },
       { "ct_name": "Evening", "votes": "52" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "297" },
-      { "ct_name": "Feminine", "votes": "64" },
-      { "ct_name": "Mature", "votes": "112" },
-      { "ct_name": "Youthful", "votes": "184" }
+      { "ct_name": "Masculine", "votes": "299" },
+      { "ct_name": "Feminine", "votes": "65" },
+      { "ct_name": "Mature", "votes": "113" },
+      { "ct_name": "Youthful", "votes": "185" }
     ],
     "season": [
-      { "ct_name": "Fall", "votes": "39" },
-      { "ct_name": "Summer", "votes": "315" },
-      { "ct_name": "Spring", "votes": "232" }
+      { "ct_name": "Fall", "votes": "40" },
+      { "ct_name": "Summer", "votes": "317" },
+      { "ct_name": "Spring", "votes": "233" }
     ],
     "collection_group": "I have",
     "notes": ["Citrus notes", "Petitgrain", "Iris", "Woods"]
@@ -630,34 +667,34 @@
     "image_src": "https://pimages.parfumo.de/720/2307_img-3776-creed-silver-mountain-water-eau-de-parfum_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Creed/Silver_Mountain_Water",
     "type": [
-      { "ct_name": "Citrus", "votes": "244" },
+      { "ct_name": "Citrus", "votes": "246" },
       { "ct_name": "Spicy", "votes": "72" },
-      { "ct_name": "Woody", "votes": "106" },
-      { "ct_name": "Green", "votes": "145" },
-      { "ct_name": "Fruity", "votes": "189" },
-      { "ct_name": "Fresh", "votes": "367" },
-      { "ct_name": "Floral", "votes": "99" },
-      { "ct_name": "Aquatic", "votes": "194" }
+      { "ct_name": "Woody", "votes": "107" },
+      { "ct_name": "Green", "votes": "147" },
+      { "ct_name": "Fruity", "votes": "190" },
+      { "ct_name": "Fresh", "votes": "370" },
+      { "ct_name": "Floral", "votes": "100" },
+      { "ct_name": "Aquatic", "votes": "197" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "343" },
-      { "ct_name": "Sport", "votes": "171" },
-      { "ct_name": "Leisure", "votes": "340" },
-      { "ct_name": "Night Out", "votes": "120" },
-      { "ct_name": "Business", "votes": "297" },
+      { "ct_name": "Daily", "votes": "346" },
+      { "ct_name": "Sport", "votes": "172" },
+      { "ct_name": "Leisure", "votes": "343" },
+      { "ct_name": "Night Out", "votes": "121" },
+      { "ct_name": "Business", "votes": "300" },
       { "ct_name": "Evening", "votes": "116" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "375" },
-      { "ct_name": "Feminine", "votes": "159" },
-      { "ct_name": "Mature", "votes": "157" },
-      { "ct_name": "Youthful", "votes": "212" }
+      { "ct_name": "Masculine", "votes": "377" },
+      { "ct_name": "Feminine", "votes": "160" },
+      { "ct_name": "Mature", "votes": "159" },
+      { "ct_name": "Youthful", "votes": "213" }
     ],
     "season": [
       { "ct_name": "Winter", "votes": "67" },
-      { "ct_name": "Fall", "votes": "151" },
-      { "ct_name": "Summer", "votes": "371" },
-      { "ct_name": "Spring", "votes": "358" }
+      { "ct_name": "Fall", "votes": "152" },
+      { "ct_name": "Summer", "votes": "373" },
+      { "ct_name": "Spring", "votes": "359" }
     ],
     "collection_group": "I have",
     "notes": [
@@ -766,32 +803,32 @@
     "image_src": "https://pimages.parfumo.de/720/1843_img-3032-creed-virgin_island_water_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Creed/Virgin_Island_Water",
     "type": [
-      { "ct_name": "Citrus", "votes": "562" },
-      { "ct_name": "Sweet", "votes": "431" },
+      { "ct_name": "Citrus", "votes": "563" },
+      { "ct_name": "Sweet", "votes": "432" },
       { "ct_name": "Gourmand", "votes": "150" },
-      { "ct_name": "Fruity", "votes": "422" },
-      { "ct_name": "Fresh", "votes": "589" },
-      { "ct_name": "Creamy", "votes": "207" },
+      { "ct_name": "Fruity", "votes": "423" },
+      { "ct_name": "Fresh", "votes": "590" },
+      { "ct_name": "Creamy", "votes": "208" },
       { "ct_name": "Floral", "votes": "127" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "524" },
+      { "ct_name": "Daily", "votes": "525" },
       { "ct_name": "Sport", "votes": "225" },
-      { "ct_name": "Leisure", "votes": "655" },
-      { "ct_name": "Night Out", "votes": "297" },
+      { "ct_name": "Leisure", "votes": "656" },
+      { "ct_name": "Night Out", "votes": "298" },
       { "ct_name": "Business", "votes": "346" },
       { "ct_name": "Evening", "votes": "262" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "619" },
-      { "ct_name": "Feminine", "votes": "542" },
-      { "ct_name": "Mature", "votes": "186" },
-      { "ct_name": "Youthful", "votes": "414" }
+      { "ct_name": "Masculine", "votes": "620" },
+      { "ct_name": "Feminine", "votes": "543" },
+      { "ct_name": "Mature", "votes": "187" },
+      { "ct_name": "Youthful", "votes": "415" }
     ],
     "season": [
       { "ct_name": "Fall", "votes": "92" },
-      { "ct_name": "Summer", "votes": "703" },
-      { "ct_name": "Spring", "votes": "486" }
+      { "ct_name": "Summer", "votes": "704" },
+      { "ct_name": "Spring", "votes": "487" }
     ],
     "collection_group": "I have",
     "notes": [
@@ -812,31 +849,31 @@
     "image_src": "https://pimages.parfumo.de/720/102281_img-7662-dior-sauvage_eau_de_parfum_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Dior/Sauvage_Eau_de_Parfum",
     "type": [
-      { "ct_name": "Citrus", "votes": "182" },
-      { "ct_name": "Spicy", "votes": "361" },
+      { "ct_name": "Citrus", "votes": "184" },
+      { "ct_name": "Spicy", "votes": "362" },
       { "ct_name": "Synthetic", "votes": "266" },
-      { "ct_name": "Sweet", "votes": "152" },
-      { "ct_name": "Woody", "votes": "189" },
-      { "ct_name": "Fresh", "votes": "403" }
+      { "ct_name": "Sweet", "votes": "154" },
+      { "ct_name": "Woody", "votes": "191" },
+      { "ct_name": "Fresh", "votes": "405" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "393" },
-      { "ct_name": "Sport", "votes": "132" },
-      { "ct_name": "Leisure", "votes": "378" },
-      { "ct_name": "Night Out", "votes": "328" },
-      { "ct_name": "Business", "votes": "326" },
-      { "ct_name": "Evening", "votes": "341" }
+      { "ct_name": "Daily", "votes": "394" },
+      { "ct_name": "Sport", "votes": "133" },
+      { "ct_name": "Leisure", "votes": "379" },
+      { "ct_name": "Night Out", "votes": "330" },
+      { "ct_name": "Business", "votes": "328" },
+      { "ct_name": "Evening", "votes": "343" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "482" },
-      { "ct_name": "Mature", "votes": "175" },
-      { "ct_name": "Youthful", "votes": "316" }
+      { "ct_name": "Masculine", "votes": "484" },
+      { "ct_name": "Mature", "votes": "176" },
+      { "ct_name": "Youthful", "votes": "318" }
     ],
     "season": [
       { "ct_name": "Winter", "votes": "331" },
-      { "ct_name": "Fall", "votes": "440" },
-      { "ct_name": "Summer", "votes": "363" },
-      { "ct_name": "Spring", "votes": "447" }
+      { "ct_name": "Fall", "votes": "441" },
+      { "ct_name": "Summer", "votes": "366" },
+      { "ct_name": "Spring", "votes": "448" }
     ],
     "collection_group": "I have",
     "notes": [
@@ -855,16 +892,16 @@
     "image_src": "https://pimages.parfumo.de/480/136303_img-8856-azzaro-parfums-loris-azzaro-chrome-extreme_480.jpg",
     "link": "https://www.parfumo.com/Perfumes/Azzaro/chrome-extreme",
     "type": [
-      { "ct_name": "Citrus", "votes": "26" },
+      { "ct_name": "Citrus", "votes": "27" },
       { "ct_name": "Synthetic", "votes": "13" },
       { "ct_name": "Woody", "votes": "10" },
-      { "ct_name": "Green", "votes": "7" },
-      { "ct_name": "Fruity", "votes": "17" },
-      { "ct_name": "Fresh", "votes": "33" },
-      { "ct_name": "Aquatic", "votes": "28" }
+      { "ct_name": "Green", "votes": "8" },
+      { "ct_name": "Fruity", "votes": "18" },
+      { "ct_name": "Fresh", "votes": "34" },
+      { "ct_name": "Aquatic", "votes": "29" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "34" },
+      { "ct_name": "Daily", "votes": "35" },
       { "ct_name": "Sport", "votes": "24" },
       { "ct_name": "Leisure", "votes": "30" },
       { "ct_name": "Night Out", "votes": "13" },
@@ -872,14 +909,14 @@
       { "ct_name": "Evening", "votes": "12" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "32" },
+      { "ct_name": "Masculine", "votes": "33" },
       { "ct_name": "Mature", "votes": "15" },
-      { "ct_name": "Youthful", "votes": "24" }
+      { "ct_name": "Youthful", "votes": "25" }
     ],
     "season": [
       { "ct_name": "Fall", "votes": "12" },
-      { "ct_name": "Summer", "votes": "35" },
-      { "ct_name": "Spring", "votes": "29" }
+      { "ct_name": "Summer", "votes": "36" },
+      { "ct_name": "Spring", "votes": "30" }
     ],
     "collection_group": "I have",
     "notes": [
@@ -955,22 +992,22 @@
     "image_src": "https://pimages.parfumo.de/720/1844_img-6527-yves_saint_laurent-la_nuit_de_l_homme_eau_de_toilette_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Yves_Saint_Laurent/La_Nuit_de_L_Homme_Eau_de_Toilette",
     "type": [
-      { "ct_name": "Spicy", "votes": "706" },
+      { "ct_name": "Spicy", "votes": "707" },
       { "ct_name": "Sweet", "votes": "667" },
       { "ct_name": "Powdery", "votes": "156" },
       { "ct_name": "Oriental", "votes": "328" },
-      { "ct_name": "Woody", "votes": "375" },
-      { "ct_name": "Fresh", "votes": "258" }
+      { "ct_name": "Woody", "votes": "376" },
+      { "ct_name": "Fresh", "votes": "259" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "374" },
       { "ct_name": "Leisure", "votes": "451" },
-      { "ct_name": "Night Out", "votes": "758" },
+      { "ct_name": "Night Out", "votes": "759" },
       { "ct_name": "Business", "votes": "310" },
       { "ct_name": "Evening", "votes": "808" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "880" },
+      { "ct_name": "Masculine", "votes": "881" },
       { "ct_name": "Feminine", "votes": "87" },
       { "ct_name": "Mature", "votes": "300" },
       { "ct_name": "Youthful", "votes": "533" }
@@ -979,7 +1016,7 @@
       { "ct_name": "Winter", "votes": "702" },
       { "ct_name": "Fall", "votes": "820" },
       { "ct_name": "Summer", "votes": "319" },
-      { "ct_name": "Spring", "votes": "632" }
+      { "ct_name": "Spring", "votes": "633" }
     ],
     "collection_group": "I have",
     "notes": [
@@ -993,37 +1030,88 @@
     ]
   },
   {
+    "name": "Eau de Soleil Blanc\nTom Ford 2017",
+    "brand": "Tom Ford",
+    "image_src": "https://pimages.parfumo.de/720/101945_img-2843-tom_ford-eau_de_soleil_blanc_720.jpg",
+    "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Eau_de_Soleil_Blanc",
+    "type": [
+      { "ct_name": "Citrus", "votes": "122" },
+      { "ct_name": "Sweet", "votes": "180" },
+      { "ct_name": "Powdery", "votes": "71" },
+      { "ct_name": "Fruity", "votes": "63" },
+      { "ct_name": "Fresh", "votes": "161" },
+      { "ct_name": "Creamy", "votes": "278" },
+      { "ct_name": "Floral", "votes": "212" }
+    ],
+    "occasion": [
+      { "ct_name": "Daily", "votes": "246" },
+      { "ct_name": "Sport", "votes": "66" },
+      { "ct_name": "Leisure", "votes": "279" },
+      { "ct_name": "Night Out", "votes": "123" },
+      { "ct_name": "Business", "votes": "156" },
+      { "ct_name": "Evening", "votes": "98" }
+    ],
+    "audience": [
+      { "ct_name": "Masculine", "votes": "186" },
+      { "ct_name": "Feminine", "votes": "293" },
+      { "ct_name": "Mature", "votes": "109" },
+      { "ct_name": "Youthful", "votes": "178" }
+    ],
+    "season": [
+      { "ct_name": "Winter", "votes": "27" },
+      { "ct_name": "Fall", "votes": "52" },
+      { "ct_name": "Summer", "votes": "306" },
+      { "ct_name": "Spring", "votes": "222" }
+    ],
+    "collection_group": "Miniatures",
+    "notes": [
+      "Bitter orange zest",
+      "Bergamot",
+      "Petitgrain",
+      "Cardamom",
+      "Pistachio",
+      "Caraway",
+      "Pink pepper",
+      "Morrocan orange blossom",
+      "Comorian ylang-ylang",
+      "Tuberose",
+      "Jasmine",
+      "Vanilla",
+      "Amber"
+    ]
+  },
+  {
     "name": "Bleu de Chanel\nChanel 2010 EAU DE TOILETTE",
     "brand": "Chanel",
     "image_src": "https://pimages.parfumo.de/720/8982_img-9371-chanel-bleu_de_chanel_eau_de_toilette_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Chanel/Bleu_de_Chanel",
     "type": [
-      { "ct_name": "Citrus", "votes": "425" },
+      { "ct_name": "Citrus", "votes": "427" },
       { "ct_name": "Spicy", "votes": "263" },
       { "ct_name": "Synthetic", "votes": "117" },
       { "ct_name": "Woody", "votes": "318" },
       { "ct_name": "Fruity", "votes": "123" },
-      { "ct_name": "Fresh", "votes": "483" },
-      { "ct_name": "Aquatic", "votes": "214" }
+      { "ct_name": "Fresh", "votes": "485" },
+      { "ct_name": "Aquatic", "votes": "216" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "524" },
+      { "ct_name": "Daily", "votes": "526" },
       { "ct_name": "Sport", "votes": "191" },
-      { "ct_name": "Leisure", "votes": "460" },
-      { "ct_name": "Night Out", "votes": "280" },
-      { "ct_name": "Business", "votes": "494" },
-      { "ct_name": "Evening", "votes": "286" }
+      { "ct_name": "Leisure", "votes": "462" },
+      { "ct_name": "Night Out", "votes": "281" },
+      { "ct_name": "Business", "votes": "496" },
+      { "ct_name": "Evening", "votes": "287" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "578" },
-      { "ct_name": "Mature", "votes": "222" },
-      { "ct_name": "Youthful", "votes": "342" }
+      { "ct_name": "Masculine", "votes": "580" },
+      { "ct_name": "Mature", "votes": "223" },
+      { "ct_name": "Youthful", "votes": "344" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "243" },
-      { "ct_name": "Fall", "votes": "429" },
-      { "ct_name": "Summer", "votes": "517" },
-      { "ct_name": "Spring", "votes": "543" }
+      { "ct_name": "Winter", "votes": "244" },
+      { "ct_name": "Fall", "votes": "430" },
+      { "ct_name": "Summer", "votes": "519" },
+      { "ct_name": "Spring", "votes": "545" }
     ],
     "collection_group": "Miniatures",
     "notes": [
@@ -1047,26 +1135,26 @@
       { "ct_name": "Spicy", "votes": "352" },
       { "ct_name": "Sweet", "votes": "261" },
       { "ct_name": "Smoky", "votes": "183" },
-      { "ct_name": "Leathery", "votes": "600" },
+      { "ct_name": "Leathery", "votes": "601" },
       { "ct_name": "Woody", "votes": "203" },
       { "ct_name": "Floral", "votes": "118" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "211" },
       { "ct_name": "Leisure", "votes": "351" },
-      { "ct_name": "Night Out", "votes": "513" },
+      { "ct_name": "Night Out", "votes": "514" },
       { "ct_name": "Business", "votes": "215" },
-      { "ct_name": "Evening", "votes": "515" }
+      { "ct_name": "Evening", "votes": "516" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "584" },
+      { "ct_name": "Masculine", "votes": "585" },
       { "ct_name": "Feminine", "votes": "125" },
       { "ct_name": "Mature", "votes": "307" },
       { "ct_name": "Youthful", "votes": "215" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "543" },
-      { "ct_name": "Fall", "votes": "573" },
+      { "ct_name": "Winter", "votes": "544" },
+      { "ct_name": "Fall", "votes": "574" },
       { "ct_name": "Summer", "votes": "86" },
       { "ct_name": "Spring", "votes": "308" }
     ],
@@ -1088,33 +1176,33 @@
     "image_src": "https://pimages.parfumo.de/720/46089_img-2151-tom-ford-costa-azzurra-eau-de-parfum_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Costa_Azzurra_Eau_de_Parfum",
     "type": [
-      { "ct_name": "Citrus", "votes": "151" },
-      { "ct_name": "Spicy", "votes": "101" },
-      { "ct_name": "Woody", "votes": "101" },
-      { "ct_name": "Green", "votes": "58" },
-      { "ct_name": "Fruity", "votes": "39" },
-      { "ct_name": "Fresh", "votes": "161" },
-      { "ct_name": "Aquatic", "votes": "130" }
+      { "ct_name": "Citrus", "votes": "152" },
+      { "ct_name": "Spicy", "votes": "102" },
+      { "ct_name": "Woody", "votes": "102" },
+      { "ct_name": "Green", "votes": "59" },
+      { "ct_name": "Fruity", "votes": "40" },
+      { "ct_name": "Fresh", "votes": "162" },
+      { "ct_name": "Aquatic", "votes": "131" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "165" },
-      { "ct_name": "Sport", "votes": "66" },
-      { "ct_name": "Leisure", "votes": "161" },
-      { "ct_name": "Night Out", "votes": "72" },
-      { "ct_name": "Business", "votes": "127" },
-      { "ct_name": "Evening", "votes": "73" }
+      { "ct_name": "Daily", "votes": "166" },
+      { "ct_name": "Sport", "votes": "67" },
+      { "ct_name": "Leisure", "votes": "162" },
+      { "ct_name": "Night Out", "votes": "73" },
+      { "ct_name": "Business", "votes": "128" },
+      { "ct_name": "Evening", "votes": "74" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "188" },
-      { "ct_name": "Feminine", "votes": "74" },
-      { "ct_name": "Mature", "votes": "78" },
-      { "ct_name": "Youthful", "votes": "89" }
+      { "ct_name": "Masculine", "votes": "189" },
+      { "ct_name": "Feminine", "votes": "75" },
+      { "ct_name": "Mature", "votes": "79" },
+      { "ct_name": "Youthful", "votes": "90" }
     ],
     "season": [
       { "ct_name": "Winter", "votes": "21" },
       { "ct_name": "Fall", "votes": "73" },
-      { "ct_name": "Summer", "votes": "185" },
-      { "ct_name": "Spring", "votes": "156" }
+      { "ct_name": "Summer", "votes": "186" },
+      { "ct_name": "Spring", "votes": "157" }
     ],
     "collection_group": "Miniatures",
     "notes": ["Lemon", "Cypress", "Oak wood"]
@@ -1127,32 +1215,32 @@
     "type": [
       { "ct_name": "Spicy", "votes": "219" },
       { "ct_name": "Sweet", "votes": "300" },
-      { "ct_name": "Smoky", "votes": "124" },
-      { "ct_name": "Powdery", "votes": "450" },
+      { "ct_name": "Smoky", "votes": "125" },
+      { "ct_name": "Powdery", "votes": "451" },
       { "ct_name": "Oriental", "votes": "146" },
-      { "ct_name": "Leathery", "votes": "417" },
-      { "ct_name": "Woody", "votes": "342" },
-      { "ct_name": "Creamy", "votes": "112" },
+      { "ct_name": "Leathery", "votes": "418" },
+      { "ct_name": "Woody", "votes": "343" },
+      { "ct_name": "Creamy", "votes": "113" },
       { "ct_name": "Floral", "votes": "134" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "127" },
       { "ct_name": "Leisure", "votes": "225" },
-      { "ct_name": "Night Out", "votes": "507" },
-      { "ct_name": "Business", "votes": "179" },
-      { "ct_name": "Evening", "votes": "507" }
+      { "ct_name": "Night Out", "votes": "508" },
+      { "ct_name": "Business", "votes": "180" },
+      { "ct_name": "Evening", "votes": "508" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "529" },
+      { "ct_name": "Masculine", "votes": "530" },
       { "ct_name": "Feminine", "votes": "114" },
-      { "ct_name": "Mature", "votes": "314" },
+      { "ct_name": "Mature", "votes": "315" },
       { "ct_name": "Youthful", "votes": "179" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "528" },
-      { "ct_name": "Fall", "votes": "501" },
+      { "ct_name": "Winter", "votes": "529" },
+      { "ct_name": "Fall", "votes": "502" },
       { "ct_name": "Summer", "votes": "63" },
-      { "ct_name": "Spring", "votes": "239" }
+      { "ct_name": "Spring", "votes": "240" }
     ],
     "collection_group": "Decants",
     "notes": ["Leather", "Florentine iris", "Ceylonese sandalwood"]
@@ -1163,30 +1251,30 @@
     "image_src": "https://pimages.parfumo.de/720/2529_img-5743-tauer_perfumes-no_02__l_air_du_desert_marocain_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Tauer/no-02-l-air-du-desert-marocain-eau-de-toilette-intense",
     "type": [
-      { "ct_name": "Spicy", "votes": "445" },
+      { "ct_name": "Spicy", "votes": "446" },
       { "ct_name": "Sweet", "votes": "119" },
-      { "ct_name": "Smoky", "votes": "252" },
-      { "ct_name": "Oriental", "votes": "408" },
-      { "ct_name": "Woody", "votes": "341" },
-      { "ct_name": "Resinous", "votes": "270" },
+      { "ct_name": "Smoky", "votes": "253" },
+      { "ct_name": "Oriental", "votes": "409" },
+      { "ct_name": "Woody", "votes": "342" },
+      { "ct_name": "Resinous", "votes": "271" },
       { "ct_name": "Earthy", "votes": "167" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "167" },
-      { "ct_name": "Leisure", "votes": "313" },
-      { "ct_name": "Night Out", "votes": "392" },
+      { "ct_name": "Leisure", "votes": "314" },
+      { "ct_name": "Night Out", "votes": "393" },
       { "ct_name": "Business", "votes": "135" },
-      { "ct_name": "Evening", "votes": "429" }
+      { "ct_name": "Evening", "votes": "430" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "486" },
+      { "ct_name": "Masculine", "votes": "487" },
       { "ct_name": "Feminine", "votes": "234" },
-      { "ct_name": "Mature", "votes": "262" },
+      { "ct_name": "Mature", "votes": "263" },
       { "ct_name": "Youthful", "votes": "129" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "436" },
-      { "ct_name": "Fall", "votes": "465" },
+      { "ct_name": "Winter", "votes": "437" },
+      { "ct_name": "Fall", "votes": "466" },
       { "ct_name": "Summer", "votes": "166" },
       { "ct_name": "Spring", "votes": "272" }
     ],
@@ -1488,32 +1576,32 @@
     "image_src": "https://pimages.parfumo.de/720/9438_img-3926-creed-aventus_eau_de_parfum_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Creed/aventus",
     "type": [
-      { "ct_name": "Citrus", "votes": "765" },
+      { "ct_name": "Citrus", "votes": "771" },
       { "ct_name": "Spicy", "votes": "411" },
-      { "ct_name": "Sweet", "votes": "273" },
-      { "ct_name": "Smoky", "votes": "625" },
-      { "ct_name": "Woody", "votes": "670" },
-      { "ct_name": "Fruity", "votes": "1063" },
-      { "ct_name": "Fresh", "votes": "1092" }
+      { "ct_name": "Sweet", "votes": "275" },
+      { "ct_name": "Smoky", "votes": "627" },
+      { "ct_name": "Woody", "votes": "673" },
+      { "ct_name": "Fruity", "votes": "1068" },
+      { "ct_name": "Fresh", "votes": "1097" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "1132" },
-      { "ct_name": "Sport", "votes": "441" },
-      { "ct_name": "Leisure", "votes": "1086" },
-      { "ct_name": "Night Out", "votes": "981" },
-      { "ct_name": "Business", "votes": "999" },
-      { "ct_name": "Evening", "votes": "899" }
+      { "ct_name": "Daily", "votes": "1139" },
+      { "ct_name": "Sport", "votes": "446" },
+      { "ct_name": "Leisure", "votes": "1093" },
+      { "ct_name": "Night Out", "votes": "986" },
+      { "ct_name": "Business", "votes": "1005" },
+      { "ct_name": "Evening", "votes": "904" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "1382" },
-      { "ct_name": "Mature", "votes": "617" },
-      { "ct_name": "Youthful", "votes": "785" }
+      { "ct_name": "Masculine", "votes": "1388" },
+      { "ct_name": "Mature", "votes": "623" },
+      { "ct_name": "Youthful", "votes": "791" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "581" },
-      { "ct_name": "Fall", "votes": "1003" },
-      { "ct_name": "Summer", "votes": "1246" },
-      { "ct_name": "Spring", "votes": "1311" }
+      { "ct_name": "Winter", "votes": "582" },
+      { "ct_name": "Fall", "votes": "1006" },
+      { "ct_name": "Summer", "votes": "1253" },
+      { "ct_name": "Spring", "votes": "1317" }
     ],
     "collection_group": "Decants",
     "notes": [
@@ -1538,32 +1626,32 @@
     "image_src": "https://pimages.parfumo.de/720/13889_img-2650-dior-christian-dior-dior-homme-intense-2011_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Dior/Dior_Homme_Intense_2011",
     "type": [
-      { "ct_name": "Spicy", "votes": "492" },
-      { "ct_name": "Sweet", "votes": "1040" },
-      { "ct_name": "Powdery", "votes": "1190" },
-      { "ct_name": "Oriental", "votes": "264" },
-      { "ct_name": "Leathery", "votes": "232" },
-      { "ct_name": "Woody", "votes": "698" },
-      { "ct_name": "Gourmand", "votes": "390" },
+      { "ct_name": "Spicy", "votes": "495" },
+      { "ct_name": "Sweet", "votes": "1043" },
+      { "ct_name": "Powdery", "votes": "1193" },
+      { "ct_name": "Oriental", "votes": "266" },
+      { "ct_name": "Leathery", "votes": "233" },
+      { "ct_name": "Woody", "votes": "701" },
+      { "ct_name": "Gourmand", "votes": "392" },
       { "ct_name": "Creamy", "votes": "371" },
-      { "ct_name": "Floral", "votes": "296" }
+      { "ct_name": "Floral", "votes": "297" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "430" },
-      { "ct_name": "Leisure", "votes": "571" },
-      { "ct_name": "Night Out", "votes": "1254" },
-      { "ct_name": "Business", "votes": "438" },
-      { "ct_name": "Evening", "votes": "1291" }
+      { "ct_name": "Daily", "votes": "431" },
+      { "ct_name": "Leisure", "votes": "573" },
+      { "ct_name": "Night Out", "votes": "1257" },
+      { "ct_name": "Business", "votes": "439" },
+      { "ct_name": "Evening", "votes": "1294" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "1386" },
-      { "ct_name": "Feminine", "votes": "359" },
-      { "ct_name": "Mature", "votes": "686" },
+      { "ct_name": "Masculine", "votes": "1391" },
+      { "ct_name": "Feminine", "votes": "361" },
+      { "ct_name": "Mature", "votes": "690" },
       { "ct_name": "Youthful", "votes": "545" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "1328" },
-      { "ct_name": "Fall", "votes": "1327" },
+      { "ct_name": "Winter", "votes": "1333" },
+      { "ct_name": "Fall", "votes": "1331" },
       { "ct_name": "Summer", "votes": "190" },
       { "ct_name": "Spring", "votes": "635" }
     ],
@@ -1582,30 +1670,30 @@
     "type": [
       { "ct_name": "Spicy", "votes": "423" },
       { "ct_name": "Sweet", "votes": "381" },
-      { "ct_name": "Powdery", "votes": "161" },
+      { "ct_name": "Powdery", "votes": "162" },
       { "ct_name": "Oriental", "votes": "237" },
       { "ct_name": "Woody", "votes": "204" },
       { "ct_name": "Resinous", "votes": "97" },
       { "ct_name": "Gourmand", "votes": "142" },
       { "ct_name": "Creamy", "votes": "125" },
-      { "ct_name": "Animal", "votes": "317" }
+      { "ct_name": "Animal", "votes": "319" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "156" },
       { "ct_name": "Leisure", "votes": "276" },
       { "ct_name": "Night Out", "votes": "432" },
       { "ct_name": "Business", "votes": "117" },
-      { "ct_name": "Evening", "votes": "456" }
+      { "ct_name": "Evening", "votes": "457" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "479" },
-      { "ct_name": "Feminine", "votes": "281" },
+      { "ct_name": "Masculine", "votes": "480" },
+      { "ct_name": "Feminine", "votes": "282" },
       { "ct_name": "Mature", "votes": "279" },
       { "ct_name": "Youthful", "votes": "126" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "466" },
-      { "ct_name": "Fall", "votes": "473" },
+      { "ct_name": "Winter", "votes": "467" },
+      { "ct_name": "Fall", "votes": "474" },
       { "ct_name": "Summer", "votes": "94" },
       { "ct_name": "Spring", "votes": "251" }
     ],
@@ -1629,33 +1717,33 @@
     "image_src": "https://pimages.parfumo.de/720/71892_img-5479-parfums_de_marly-layton_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/Layton",
     "type": [
-      { "ct_name": "Spicy", "votes": "872" },
-      { "ct_name": "Sweet", "votes": "1110" },
+      { "ct_name": "Spicy", "votes": "877" },
+      { "ct_name": "Sweet", "votes": "1117" },
       { "ct_name": "Oriental", "votes": "365" },
-      { "ct_name": "Woody", "votes": "545" },
-      { "ct_name": "Gourmand", "votes": "285" },
-      { "ct_name": "Fruity", "votes": "693" },
-      { "ct_name": "Fresh", "votes": "321" },
-      { "ct_name": "Creamy", "votes": "267" }
+      { "ct_name": "Woody", "votes": "547" },
+      { "ct_name": "Gourmand", "votes": "287" },
+      { "ct_name": "Fruity", "votes": "697" },
+      { "ct_name": "Fresh", "votes": "323" },
+      { "ct_name": "Creamy", "votes": "270" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "671" },
-      { "ct_name": "Leisure", "votes": "795" },
-      { "ct_name": "Night Out", "votes": "1080" },
-      { "ct_name": "Business", "votes": "463" },
-      { "ct_name": "Evening", "votes": "1076" }
+      { "ct_name": "Daily", "votes": "677" },
+      { "ct_name": "Leisure", "votes": "801" },
+      { "ct_name": "Night Out", "votes": "1086" },
+      { "ct_name": "Business", "votes": "469" },
+      { "ct_name": "Evening", "votes": "1083" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "1256" },
-      { "ct_name": "Feminine", "votes": "153" },
-      { "ct_name": "Mature", "votes": "412" },
-      { "ct_name": "Youthful", "votes": "773" }
+      { "ct_name": "Masculine", "votes": "1266" },
+      { "ct_name": "Feminine", "votes": "154" },
+      { "ct_name": "Mature", "votes": "416" },
+      { "ct_name": "Youthful", "votes": "781" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "1098" },
-      { "ct_name": "Fall", "votes": "1207" },
-      { "ct_name": "Summer", "votes": "367" },
-      { "ct_name": "Spring", "votes": "892" }
+      { "ct_name": "Winter", "votes": "1105" },
+      { "ct_name": "Fall", "votes": "1215" },
+      { "ct_name": "Summer", "votes": "369" },
+      { "ct_name": "Spring", "votes": "899" }
     ],
     "collection_group": "Decants",
     "notes": [
@@ -1682,14 +1770,15 @@
     "type": [
       { "ct_name": "Citrus", "votes": "3" },
       { "ct_name": "Spicy", "votes": "4" },
-      { "ct_name": "Sweet", "votes": "4" },
+      { "ct_name": "Sweet", "votes": "5" },
       { "ct_name": "Woody", "votes": "6" },
-      { "ct_name": "Fruity", "votes": "5" },
-      { "ct_name": "Fresh", "votes": "5" },
-      { "ct_name": "Creamy", "votes": "2" }
+      { "ct_name": "Fruity", "votes": "6" },
+      { "ct_name": "Fresh", "votes": "6" },
+      { "ct_name": "Creamy", "votes": "2" },
+      { "ct_name": "Aquatic", "votes": "2" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "4" },
+      { "ct_name": "Daily", "votes": "5" },
       { "ct_name": "Leisure", "votes": "7" },
       { "ct_name": "Night Out", "votes": "5" },
       { "ct_name": "Business", "votes": "6" },
@@ -1699,13 +1788,13 @@
       { "ct_name": "Masculine", "votes": "8" },
       { "ct_name": "Feminine", "votes": "1" },
       { "ct_name": "Mature", "votes": "3" },
-      { "ct_name": "Youthful", "votes": "5" }
+      { "ct_name": "Youthful", "votes": "6" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "3" },
-      { "ct_name": "Fall", "votes": "6" },
-      { "ct_name": "Summer", "votes": "5" },
-      { "ct_name": "Spring", "votes": "8" }
+      { "ct_name": "Winter", "votes": "4" },
+      { "ct_name": "Fall", "votes": "7" },
+      { "ct_name": "Summer", "votes": "6" },
+      { "ct_name": "Spring", "votes": "9" }
     ],
     "collection_group": "Decants",
     "notes": [
@@ -1770,34 +1859,34 @@
     "image_src": "https://pimages.parfumo.de/720/2057_img-3199-amouage-reflection-man_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Amouage/Reflection_Man",
     "type": [
-      { "ct_name": "Spicy", "votes": "340" },
-      { "ct_name": "Sweet", "votes": "601" },
-      { "ct_name": "Powdery", "votes": "428" },
+      { "ct_name": "Spicy", "votes": "341" },
+      { "ct_name": "Sweet", "votes": "603" },
+      { "ct_name": "Powdery", "votes": "430" },
       { "ct_name": "Oriental", "votes": "239" },
-      { "ct_name": "Woody", "votes": "379" },
-      { "ct_name": "Fresh", "votes": "653" },
+      { "ct_name": "Woody", "votes": "380" },
+      { "ct_name": "Fresh", "votes": "655" },
       { "ct_name": "Creamy", "votes": "256" },
-      { "ct_name": "Floral", "votes": "811" }
+      { "ct_name": "Floral", "votes": "814" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "757" },
-      { "ct_name": "Sport", "votes": "149" },
-      { "ct_name": "Leisure", "votes": "729" },
-      { "ct_name": "Night Out", "votes": "700" },
-      { "ct_name": "Business", "votes": "707" },
-      { "ct_name": "Evening", "votes": "664" }
+      { "ct_name": "Daily", "votes": "760" },
+      { "ct_name": "Sport", "votes": "150" },
+      { "ct_name": "Leisure", "votes": "732" },
+      { "ct_name": "Night Out", "votes": "703" },
+      { "ct_name": "Business", "votes": "710" },
+      { "ct_name": "Evening", "votes": "667" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "1012" },
+      { "ct_name": "Masculine", "votes": "1015" },
       { "ct_name": "Feminine", "votes": "186" },
-      { "ct_name": "Mature", "votes": "433" },
-      { "ct_name": "Youthful", "votes": "508" }
+      { "ct_name": "Mature", "votes": "436" },
+      { "ct_name": "Youthful", "votes": "510" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "442" },
-      { "ct_name": "Fall", "votes": "791" },
-      { "ct_name": "Summer", "votes": "767" },
-      { "ct_name": "Spring", "votes": "960" }
+      { "ct_name": "Winter", "votes": "444" },
+      { "ct_name": "Fall", "votes": "793" },
+      { "ct_name": "Summer", "votes": "771" },
+      { "ct_name": "Spring", "votes": "964" }
     ],
     "collection_group": "Decants",
     "notes": [
@@ -1820,32 +1909,32 @@
     "image_src": "https://pimages.parfumo.de/720/3838_img-6677-tom_ford-neroli_portofino_eau_de_parfum_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Neroli_Portofino_Eau_de_Parfum",
     "type": [
-      { "ct_name": "Citrus", "votes": "199" },
+      { "ct_name": "Citrus", "votes": "201" },
       { "ct_name": "Sweet", "votes": "45" },
-      { "ct_name": "Green", "votes": "65" },
-      { "ct_name": "Fruity", "votes": "50" },
-      { "ct_name": "Fresh", "votes": "205" },
-      { "ct_name": "Floral", "votes": "109" },
+      { "ct_name": "Green", "votes": "66" },
+      { "ct_name": "Fruity", "votes": "51" },
+      { "ct_name": "Fresh", "votes": "208" },
+      { "ct_name": "Floral", "votes": "110" },
       { "ct_name": "Aquatic", "votes": "87" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "186" },
-      { "ct_name": "Sport", "votes": "115" },
-      { "ct_name": "Leisure", "votes": "194" },
+      { "ct_name": "Sport", "votes": "116" },
+      { "ct_name": "Leisure", "votes": "195" },
       { "ct_name": "Night Out", "votes": "65" },
-      { "ct_name": "Business", "votes": "134" },
+      { "ct_name": "Business", "votes": "135" },
       { "ct_name": "Evening", "votes": "55" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "212" },
-      { "ct_name": "Feminine", "votes": "152" },
-      { "ct_name": "Mature", "votes": "89" },
-      { "ct_name": "Youthful", "votes": "102" }
+      { "ct_name": "Masculine", "votes": "214" },
+      { "ct_name": "Feminine", "votes": "153" },
+      { "ct_name": "Mature", "votes": "90" },
+      { "ct_name": "Youthful", "votes": "103" }
     ],
     "season": [
       { "ct_name": "Fall", "votes": "43" },
-      { "ct_name": "Summer", "votes": "231" },
-      { "ct_name": "Spring", "votes": "185" }
+      { "ct_name": "Summer", "votes": "234" },
+      { "ct_name": "Spring", "votes": "187" }
     ],
     "collection_group": "Decants",
     "notes": [
@@ -1863,31 +1952,30 @@
     "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/invictus-victory",
     "type": [
       { "ct_name": "Citrus", "votes": "24" },
-      { "ct_name": "Spicy", "votes": "63" },
-      { "ct_name": "Synthetic", "votes": "50" },
-      { "ct_name": "Sweet", "votes": "75" },
+      { "ct_name": "Spicy", "votes": "64" },
+      { "ct_name": "Synthetic", "votes": "51" },
+      { "ct_name": "Sweet", "votes": "76" },
       { "ct_name": "Woody", "votes": "15" },
       { "ct_name": "Gourmand", "votes": "19" },
       { "ct_name": "Fresh", "votes": "38" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "34" },
-      { "ct_name": "Sport", "votes": "10" },
-      { "ct_name": "Leisure", "votes": "50" },
-      { "ct_name": "Night Out", "votes": "62" },
+      { "ct_name": "Daily", "votes": "35" },
+      { "ct_name": "Leisure", "votes": "51" },
+      { "ct_name": "Night Out", "votes": "63" },
       { "ct_name": "Business", "votes": "24" },
-      { "ct_name": "Evening", "votes": "66" }
+      { "ct_name": "Evening", "votes": "67" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "78" },
+      { "ct_name": "Masculine", "votes": "79" },
       { "ct_name": "Mature", "votes": "14" },
-      { "ct_name": "Youthful", "votes": "66" }
+      { "ct_name": "Youthful", "votes": "67" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "62" },
-      { "ct_name": "Fall", "votes": "75" },
+      { "ct_name": "Winter", "votes": "63" },
+      { "ct_name": "Fall", "votes": "76" },
       { "ct_name": "Summer", "votes": "21" },
-      { "ct_name": "Spring", "votes": "44" }
+      { "ct_name": "Spring", "votes": "45" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -1957,29 +2045,29 @@
       { "ct_name": "Leathery", "votes": "84" },
       { "ct_name": "Woody", "votes": "248" },
       { "ct_name": "Green", "votes": "79" },
-      { "ct_name": "Fresh", "votes": "296" },
-      { "ct_name": "Foug\u00e8re", "votes": "234" },
+      { "ct_name": "Fresh", "votes": "297" },
+      { "ct_name": "Foug\u00e8re", "votes": "235" },
       { "ct_name": "Floral", "votes": "111" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "338" },
+      { "ct_name": "Daily", "votes": "339" },
       { "ct_name": "Sport", "votes": "96" },
-      { "ct_name": "Leisure", "votes": "304" },
-      { "ct_name": "Night Out", "votes": "162" },
-      { "ct_name": "Business", "votes": "328" },
+      { "ct_name": "Leisure", "votes": "305" },
+      { "ct_name": "Night Out", "votes": "163" },
+      { "ct_name": "Business", "votes": "329" },
       { "ct_name": "Evening", "votes": "174" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "382" },
+      { "ct_name": "Masculine", "votes": "383" },
       { "ct_name": "Feminine", "votes": "38" },
-      { "ct_name": "Mature", "votes": "199" },
+      { "ct_name": "Mature", "votes": "200" },
       { "ct_name": "Youthful", "votes": "137" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "172" },
-      { "ct_name": "Fall", "votes": "317" },
-      { "ct_name": "Summer", "votes": "283" },
-      { "ct_name": "Spring", "votes": "360" }
+      { "ct_name": "Winter", "votes": "173" },
+      { "ct_name": "Fall", "votes": "318" },
+      { "ct_name": "Summer", "votes": "284" },
+      { "ct_name": "Spring", "votes": "361" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -1998,27 +2086,27 @@
     "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/Ultra_Male",
     "type": [
       { "ct_name": "Spicy", "votes": "204" },
-      { "ct_name": "Synthetic", "votes": "248" },
-      { "ct_name": "Sweet", "votes": "599" },
+      { "ct_name": "Synthetic", "votes": "249" },
+      { "ct_name": "Sweet", "votes": "601" },
       { "ct_name": "Oriental", "votes": "114" },
       { "ct_name": "Gourmand", "votes": "185" },
-      { "ct_name": "Fruity", "votes": "434" }
+      { "ct_name": "Fruity", "votes": "436" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "122" },
-      { "ct_name": "Leisure", "votes": "308" },
-      { "ct_name": "Night Out", "votes": "581" },
-      { "ct_name": "Evening", "votes": "513" }
+      { "ct_name": "Leisure", "votes": "309" },
+      { "ct_name": "Night Out", "votes": "584" },
+      { "ct_name": "Evening", "votes": "515" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "573" },
+      { "ct_name": "Masculine", "votes": "575" },
       { "ct_name": "Feminine", "votes": "99" },
       { "ct_name": "Mature", "votes": "54" },
-      { "ct_name": "Youthful", "votes": "513" }
+      { "ct_name": "Youthful", "votes": "516" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "527" },
-      { "ct_name": "Fall", "votes": "540" },
+      { "ct_name": "Winter", "votes": "529" },
+      { "ct_name": "Fall", "votes": "543" },
       { "ct_name": "Summer", "votes": "155" },
       { "ct_name": "Spring", "votes": "367" }
     ],
@@ -2088,30 +2176,30 @@
     "image_src": "https://pimages.parfumo.de/720/146241_img-9049-giorgio-armani-emporio-armani-stronger-with-you-absolutely_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Giorgio_Armani/emporio-armani-stronger-with-you-absolutely",
     "type": [
-      { "ct_name": "Spicy", "votes": "133" },
-      { "ct_name": "Sweet", "votes": "202" },
-      { "ct_name": "Oriental", "votes": "77" },
-      { "ct_name": "Woody", "votes": "91" },
-      { "ct_name": "Resinous", "votes": "41" },
-      { "ct_name": "Gourmand", "votes": "161" }
+      { "ct_name": "Spicy", "votes": "134" },
+      { "ct_name": "Sweet", "votes": "204" },
+      { "ct_name": "Oriental", "votes": "78" },
+      { "ct_name": "Woody", "votes": "92" },
+      { "ct_name": "Resinous", "votes": "42" },
+      { "ct_name": "Gourmand", "votes": "163" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "53" },
       { "ct_name": "Leisure", "votes": "92" },
-      { "ct_name": "Night Out", "votes": "194" },
+      { "ct_name": "Night Out", "votes": "196" },
       { "ct_name": "Business", "votes": "34" },
-      { "ct_name": "Evening", "votes": "210" }
+      { "ct_name": "Evening", "votes": "211" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "209" },
+      { "ct_name": "Masculine", "votes": "210" },
       { "ct_name": "Feminine", "votes": "29" },
       { "ct_name": "Mature", "votes": "84" },
       { "ct_name": "Youthful", "votes": "128" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "221" },
-      { "ct_name": "Fall", "votes": "199" },
-      { "ct_name": "Spring", "votes": "47" }
+      { "ct_name": "Winter", "votes": "222" },
+      { "ct_name": "Fall", "votes": "201" },
+      { "ct_name": "Spring", "votes": "48" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -2132,28 +2220,28 @@
     "image_src": "https://pimages.parfumo.de/720/158077_img-4050-givenchy-gentleman-givenchy-eau-de-parfum-reserve-privee_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Givenchy/gentleman-givenchy-reserve-privee",
     "type": [
-      { "ct_name": "Spicy", "votes": "179" },
-      { "ct_name": "Sweet", "votes": "202" },
+      { "ct_name": "Spicy", "votes": "182" },
+      { "ct_name": "Sweet", "votes": "203" },
       { "ct_name": "Powdery", "votes": "174" },
-      { "ct_name": "Woody", "votes": "148" },
-      { "ct_name": "Gourmand", "votes": "90" },
+      { "ct_name": "Woody", "votes": "150" },
+      { "ct_name": "Gourmand", "votes": "92" },
       { "ct_name": "Creamy", "votes": "107" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "78" },
       { "ct_name": "Leisure", "votes": "118" },
-      { "ct_name": "Night Out", "votes": "225" },
-      { "ct_name": "Business", "votes": "80" },
-      { "ct_name": "Evening", "votes": "241" }
+      { "ct_name": "Night Out", "votes": "228" },
+      { "ct_name": "Business", "votes": "81" },
+      { "ct_name": "Evening", "votes": "245" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "259" },
-      { "ct_name": "Mature", "votes": "146" },
+      { "ct_name": "Masculine", "votes": "263" },
+      { "ct_name": "Mature", "votes": "147" },
       { "ct_name": "Youthful", "votes": "97" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "247" },
-      { "ct_name": "Fall", "votes": "249" },
+      { "ct_name": "Winter", "votes": "251" },
+      { "ct_name": "Fall", "votes": "252" },
       { "ct_name": "Spring", "votes": "92" }
     ],
     "collection_group": "Sample Atomizers",
@@ -2273,33 +2361,33 @@
     "image_src": "https://pimages.parfumo.de/480/95419_img-6577-mercedes_benz-club_black_480.jpg",
     "link": "https://www.parfumo.com/Perfumes/Mercedes_Benz/Club_Black",
     "type": [
-      { "ct_name": "Spicy", "votes": "105" },
-      { "ct_name": "Synthetic", "votes": "48" },
-      { "ct_name": "Sweet", "votes": "223" },
+      { "ct_name": "Spicy", "votes": "107" },
+      { "ct_name": "Synthetic", "votes": "49" },
+      { "ct_name": "Sweet", "votes": "228" },
       { "ct_name": "Smoky", "votes": "53" },
       { "ct_name": "Oriental", "votes": "55" },
-      { "ct_name": "Woody", "votes": "94" },
+      { "ct_name": "Woody", "votes": "97" },
       { "ct_name": "Resinous", "votes": "45" },
-      { "ct_name": "Gourmand", "votes": "181" },
-      { "ct_name": "Creamy", "votes": "127" }
+      { "ct_name": "Gourmand", "votes": "186" },
+      { "ct_name": "Creamy", "votes": "129" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "96" },
-      { "ct_name": "Leisure", "votes": "138" },
-      { "ct_name": "Night Out", "votes": "213" },
-      { "ct_name": "Business", "votes": "65" },
-      { "ct_name": "Evening", "votes": "221" }
+      { "ct_name": "Daily", "votes": "99" },
+      { "ct_name": "Leisure", "votes": "140" },
+      { "ct_name": "Night Out", "votes": "217" },
+      { "ct_name": "Business", "votes": "66" },
+      { "ct_name": "Evening", "votes": "225" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "230" },
+      { "ct_name": "Masculine", "votes": "235" },
       { "ct_name": "Feminine", "votes": "99" },
-      { "ct_name": "Mature", "votes": "88" },
-      { "ct_name": "Youthful", "votes": "132" }
+      { "ct_name": "Mature", "votes": "90" },
+      { "ct_name": "Youthful", "votes": "136" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "235" },
-      { "ct_name": "Fall", "votes": "227" },
-      { "ct_name": "Spring", "votes": "78" }
+      { "ct_name": "Winter", "votes": "240" },
+      { "ct_name": "Fall", "votes": "231" },
+      { "ct_name": "Spring", "votes": "79" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -2318,31 +2406,31 @@
     "image_src": "https://pimages.parfumo.de/720/221495_img-5348-parfums-de-marly-althair_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/althair",
     "type": [
-      { "ct_name": "Spicy", "votes": "225" },
-      { "ct_name": "Sweet", "votes": "414" },
-      { "ct_name": "Powdery", "votes": "81" },
-      { "ct_name": "Oriental", "votes": "95" },
-      { "ct_name": "Woody", "votes": "147" },
-      { "ct_name": "Gourmand", "votes": "367" },
-      { "ct_name": "Creamy", "votes": "286" }
+      { "ct_name": "Spicy", "votes": "228" },
+      { "ct_name": "Sweet", "votes": "420" },
+      { "ct_name": "Powdery", "votes": "83" },
+      { "ct_name": "Oriental", "votes": "96" },
+      { "ct_name": "Woody", "votes": "148" },
+      { "ct_name": "Gourmand", "votes": "370" },
+      { "ct_name": "Creamy", "votes": "292" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "169" },
-      { "ct_name": "Leisure", "votes": "235" },
-      { "ct_name": "Night Out", "votes": "378" },
-      { "ct_name": "Business", "votes": "108" },
-      { "ct_name": "Evening", "votes": "401" }
+      { "ct_name": "Daily", "votes": "170" },
+      { "ct_name": "Leisure", "votes": "237" },
+      { "ct_name": "Night Out", "votes": "383" },
+      { "ct_name": "Business", "votes": "109" },
+      { "ct_name": "Evening", "votes": "406" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "410" },
-      { "ct_name": "Feminine", "votes": "202" },
-      { "ct_name": "Mature", "votes": "183" },
-      { "ct_name": "Youthful", "votes": "268" }
+      { "ct_name": "Masculine", "votes": "415" },
+      { "ct_name": "Feminine", "votes": "204" },
+      { "ct_name": "Mature", "votes": "186" },
+      { "ct_name": "Youthful", "votes": "271" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "444" },
-      { "ct_name": "Fall", "votes": "428" },
-      { "ct_name": "Spring", "votes": "141" }
+      { "ct_name": "Winter", "votes": "450" },
+      { "ct_name": "Fall", "votes": "434" },
+      { "ct_name": "Spring", "votes": "144" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -2363,31 +2451,31 @@
     "image_src": "https://pimages.parfumo.de/720/151766_img-8042-kilian-apple-brandy-on-the-rocks_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Kilian/apple-brandy-on-the-rocks",
     "type": [
-      { "ct_name": "Spicy", "votes": "54" },
-      { "ct_name": "Sweet", "votes": "65" },
+      { "ct_name": "Spicy", "votes": "55" },
+      { "ct_name": "Sweet", "votes": "66" },
       { "ct_name": "Woody", "votes": "53" },
-      { "ct_name": "Gourmand", "votes": "20" },
-      { "ct_name": "Fruity", "votes": "70" },
+      { "ct_name": "Gourmand", "votes": "21" },
+      { "ct_name": "Fruity", "votes": "71" },
       { "ct_name": "Fresh", "votes": "40" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "41" },
       { "ct_name": "Leisure", "votes": "64" },
-      { "ct_name": "Night Out", "votes": "67" },
+      { "ct_name": "Night Out", "votes": "68" },
       { "ct_name": "Business", "votes": "40" },
-      { "ct_name": "Evening", "votes": "76" }
+      { "ct_name": "Evening", "votes": "77" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "84" },
-      { "ct_name": "Feminine", "votes": "49" },
-      { "ct_name": "Mature", "votes": "41" },
-      { "ct_name": "Youthful", "votes": "43" }
+      { "ct_name": "Masculine", "votes": "85" },
+      { "ct_name": "Feminine", "votes": "50" },
+      { "ct_name": "Mature", "votes": "42" },
+      { "ct_name": "Youthful", "votes": "44" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "58" },
-      { "ct_name": "Fall", "votes": "83" },
+      { "ct_name": "Winter", "votes": "59" },
+      { "ct_name": "Fall", "votes": "84" },
       { "ct_name": "Summer", "votes": "42" },
-      { "ct_name": "Spring", "votes": "73" }
+      { "ct_name": "Spring", "votes": "74" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -2407,30 +2495,30 @@
     "image_src": "https://pimages.parfumo.de/720/142773_img-8130-kilian-angels-share_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Kilian/angels-share",
     "type": [
-      { "ct_name": "Spicy", "votes": "489" },
-      { "ct_name": "Sweet", "votes": "675" },
-      { "ct_name": "Oriental", "votes": "219" },
-      { "ct_name": "Woody", "votes": "313" },
-      { "ct_name": "Gourmand", "votes": "640" },
-      { "ct_name": "Creamy", "votes": "169" }
+      { "ct_name": "Spicy", "votes": "495" },
+      { "ct_name": "Sweet", "votes": "685" },
+      { "ct_name": "Oriental", "votes": "223" },
+      { "ct_name": "Woody", "votes": "317" },
+      { "ct_name": "Gourmand", "votes": "650" },
+      { "ct_name": "Creamy", "votes": "172" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "126" },
-      { "ct_name": "Leisure", "votes": "313" },
-      { "ct_name": "Night Out", "votes": "664" },
-      { "ct_name": "Business", "votes": "106" },
-      { "ct_name": "Evening", "votes": "689" }
+      { "ct_name": "Daily", "votes": "129" },
+      { "ct_name": "Leisure", "votes": "315" },
+      { "ct_name": "Night Out", "votes": "676" },
+      { "ct_name": "Business", "votes": "107" },
+      { "ct_name": "Evening", "votes": "701" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "608" },
-      { "ct_name": "Feminine", "votes": "551" },
-      { "ct_name": "Mature", "votes": "311" },
-      { "ct_name": "Youthful", "votes": "301" }
+      { "ct_name": "Masculine", "votes": "620" },
+      { "ct_name": "Feminine", "votes": "557" },
+      { "ct_name": "Mature", "votes": "321" },
+      { "ct_name": "Youthful", "votes": "311" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "722" },
-      { "ct_name": "Fall", "votes": "633" },
-      { "ct_name": "Spring", "votes": "145" }
+      { "ct_name": "Winter", "votes": "734" },
+      { "ct_name": "Fall", "votes": "644" },
+      { "ct_name": "Spring", "votes": "149" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -2588,28 +2676,28 @@
     "image_src": "https://pimages.parfumo.de/720/1769_img-3031-guerlain-aqua-allegoria-herba-fresca_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Guerlain/Aqua_Allegoria_Herba_Fresca",
     "type": [
-      { "ct_name": "Citrus", "votes": "134" },
+      { "ct_name": "Citrus", "votes": "135" },
       { "ct_name": "Spicy", "votes": "66" },
-      { "ct_name": "Green", "votes": "200" },
+      { "ct_name": "Green", "votes": "201" },
       { "ct_name": "Fruity", "votes": "33" },
-      { "ct_name": "Fresh", "votes": "196" },
-      { "ct_name": "Floral", "votes": "72" }
+      { "ct_name": "Fresh", "votes": "197" },
+      { "ct_name": "Floral", "votes": "73" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "190" },
-      { "ct_name": "Sport", "votes": "119" },
-      { "ct_name": "Leisure", "votes": "185" },
-      { "ct_name": "Business", "votes": "148" }
+      { "ct_name": "Sport", "votes": "120" },
+      { "ct_name": "Leisure", "votes": "186" },
+      { "ct_name": "Business", "votes": "149" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "129" },
-      { "ct_name": "Feminine", "votes": "197" },
-      { "ct_name": "Mature", "votes": "83" },
-      { "ct_name": "Youthful", "votes": "100" }
+      { "ct_name": "Masculine", "votes": "130" },
+      { "ct_name": "Feminine", "votes": "198" },
+      { "ct_name": "Mature", "votes": "84" },
+      { "ct_name": "Youthful", "votes": "101" }
     ],
     "season": [
       { "ct_name": "Fall", "votes": "31" },
-      { "ct_name": "Summer", "votes": "202" },
+      { "ct_name": "Summer", "votes": "203" },
       { "ct_name": "Spring", "votes": "170" }
     ],
     "collection_group": "Sample Atomizers",
@@ -2674,32 +2762,32 @@
     "image_src": "https://pimages.parfumo.de/240/229262_img-7848-rasasi-hawas-ice_240.jpg",
     "link": "https://www.parfumo.com/Perfumes/Rasasi/hawas-ice",
     "type": [
-      { "ct_name": "Citrus", "votes": "4" },
-      { "ct_name": "Synthetic", "votes": "5" },
-      { "ct_name": "Sweet", "votes": "4" },
-      { "ct_name": "Woody", "votes": "2" },
-      { "ct_name": "Fruity", "votes": "6" },
-      { "ct_name": "Fresh", "votes": "7" },
+      { "ct_name": "Citrus", "votes": "5" },
+      { "ct_name": "Synthetic", "votes": "6" },
+      { "ct_name": "Sweet", "votes": "5" },
+      { "ct_name": "Woody", "votes": "3" },
+      { "ct_name": "Fruity", "votes": "7" },
+      { "ct_name": "Fresh", "votes": "8" },
       { "ct_name": "Aquatic", "votes": "5" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "4" },
-      { "ct_name": "Sport", "votes": "6" },
-      { "ct_name": "Leisure", "votes": "7" },
-      { "ct_name": "Night Out", "votes": "2" },
-      { "ct_name": "Business", "votes": "3" },
-      { "ct_name": "Evening", "votes": "3" }
+      { "ct_name": "Daily", "votes": "5" },
+      { "ct_name": "Sport", "votes": "7" },
+      { "ct_name": "Leisure", "votes": "8" },
+      { "ct_name": "Night Out", "votes": "3" },
+      { "ct_name": "Business", "votes": "4" },
+      { "ct_name": "Evening", "votes": "4" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "7" },
-      { "ct_name": "Mature", "votes": "1" },
-      { "ct_name": "Youthful", "votes": "6" }
+      { "ct_name": "Masculine", "votes": "8" },
+      { "ct_name": "Mature", "votes": "2" },
+      { "ct_name": "Youthful", "votes": "7" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "1" },
-      { "ct_name": "Fall", "votes": "3" },
-      { "ct_name": "Summer", "votes": "7" },
-      { "ct_name": "Spring", "votes": "5" }
+      { "ct_name": "Winter", "votes": "2" },
+      { "ct_name": "Fall", "votes": "4" },
+      { "ct_name": "Summer", "votes": "8" },
+      { "ct_name": "Spring", "votes": "6" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": []
@@ -2755,29 +2843,29 @@
     "image_src": "https://pimages.parfumo.de/720/63572_img-2026-dolce-amp-gabbana-the-one-for-men-eau-de-parfum_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Dolce_Gabbana/The_One_for_Men_Eau_de_Parfum",
     "type": [
-      { "ct_name": "Spicy", "votes": "509" },
-      { "ct_name": "Sweet", "votes": "518" },
+      { "ct_name": "Spicy", "votes": "510" },
+      { "ct_name": "Sweet", "votes": "520" },
       { "ct_name": "Oriental", "votes": "260" },
-      { "ct_name": "Woody", "votes": "404" },
-      { "ct_name": "Fruity", "votes": "156" }
+      { "ct_name": "Woody", "votes": "405" },
+      { "ct_name": "Fruity", "votes": "157" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "265" },
-      { "ct_name": "Leisure", "votes": "310" },
-      { "ct_name": "Night Out", "votes": "592" },
-      { "ct_name": "Business", "votes": "228" },
-      { "ct_name": "Evening", "votes": "628" }
+      { "ct_name": "Daily", "votes": "266" },
+      { "ct_name": "Leisure", "votes": "311" },
+      { "ct_name": "Night Out", "votes": "594" },
+      { "ct_name": "Business", "votes": "229" },
+      { "ct_name": "Evening", "votes": "630" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "682" },
-      { "ct_name": "Mature", "votes": "246" },
-      { "ct_name": "Youthful", "votes": "379" }
+      { "ct_name": "Masculine", "votes": "684" },
+      { "ct_name": "Mature", "votes": "248" },
+      { "ct_name": "Youthful", "votes": "380" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "567" },
-      { "ct_name": "Fall", "votes": "655" },
-      { "ct_name": "Summer", "votes": "188" },
-      { "ct_name": "Spring", "votes": "449" }
+      { "ct_name": "Winter", "votes": "569" },
+      { "ct_name": "Fall", "votes": "657" },
+      { "ct_name": "Summer", "votes": "189" },
+      { "ct_name": "Spring", "votes": "450" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -2810,8 +2898,8 @@
       { "ct_name": "Daily", "votes": "838" },
       { "ct_name": "Sport", "votes": "173" },
       { "ct_name": "Leisure", "votes": "729" },
-      { "ct_name": "Night Out", "votes": "499" },
-      { "ct_name": "Business", "votes": "773" },
+      { "ct_name": "Night Out", "votes": "500" },
+      { "ct_name": "Business", "votes": "774" },
       { "ct_name": "Evening", "votes": "553" }
     ],
     "audience": [
@@ -2821,10 +2909,10 @@
       { "ct_name": "Youthful", "votes": "305" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "522" },
-      { "ct_name": "Fall", "votes": "878" },
+      { "ct_name": "Winter", "votes": "521" },
+      { "ct_name": "Fall", "votes": "877" },
       { "ct_name": "Summer", "votes": "708" },
-      { "ct_name": "Spring", "votes": "887" }
+      { "ct_name": "Spring", "votes": "886" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -2847,31 +2935,31 @@
     "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/Royal_Essence_Herod",
     "type": [
       { "ct_name": "Spicy", "votes": "800" },
-      { "ct_name": "Sweet", "votes": "888" },
+      { "ct_name": "Sweet", "votes": "889" },
       { "ct_name": "Smoky", "votes": "388" },
       { "ct_name": "Oriental", "votes": "493" },
-      { "ct_name": "Woody", "votes": "414" },
-      { "ct_name": "Gourmand", "votes": "477" },
+      { "ct_name": "Woody", "votes": "415" },
+      { "ct_name": "Gourmand", "votes": "478" },
       { "ct_name": "Fruity", "votes": "208" },
-      { "ct_name": "Creamy", "votes": "207" }
+      { "ct_name": "Creamy", "votes": "208" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "310" },
-      { "ct_name": "Leisure", "votes": "507" },
-      { "ct_name": "Night Out", "votes": "885" },
-      { "ct_name": "Business", "votes": "265" },
-      { "ct_name": "Evening", "votes": "927" }
+      { "ct_name": "Leisure", "votes": "508" },
+      { "ct_name": "Night Out", "votes": "887" },
+      { "ct_name": "Business", "votes": "266" },
+      { "ct_name": "Evening", "votes": "929" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "995" },
+      { "ct_name": "Masculine", "votes": "997" },
       { "ct_name": "Feminine", "votes": "280" },
-      { "ct_name": "Mature", "votes": "432" },
-      { "ct_name": "Youthful", "votes": "432" }
+      { "ct_name": "Mature", "votes": "434" },
+      { "ct_name": "Youthful", "votes": "434" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "983" },
-      { "ct_name": "Fall", "votes": "947" },
-      { "ct_name": "Spring", "votes": "319" }
+      { "ct_name": "Winter", "votes": "984" },
+      { "ct_name": "Fall", "votes": "949" },
+      { "ct_name": "Spring", "votes": "321" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -2895,31 +2983,31 @@
     "image_src": "https://pimages.parfumo.de/720/209568_img-3869-jean-paul-gaultier-le-male-elixir_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/le-male-elixir",
     "type": [
-      { "ct_name": "Spicy", "votes": "167" },
+      { "ct_name": "Spicy", "votes": "170" },
       { "ct_name": "Synthetic", "votes": "74" },
-      { "ct_name": "Sweet", "votes": "332" },
-      { "ct_name": "Powdery", "votes": "97" },
-      { "ct_name": "Oriental", "votes": "64" },
-      { "ct_name": "Gourmand", "votes": "261" },
-      { "ct_name": "Creamy", "votes": "181" }
+      { "ct_name": "Sweet", "votes": "335" },
+      { "ct_name": "Powdery", "votes": "98" },
+      { "ct_name": "Oriental", "votes": "65" },
+      { "ct_name": "Gourmand", "votes": "264" },
+      { "ct_name": "Creamy", "votes": "183" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "88" },
-      { "ct_name": "Leisure", "votes": "191" },
-      { "ct_name": "Night Out", "votes": "314" },
+      { "ct_name": "Leisure", "votes": "193" },
+      { "ct_name": "Night Out", "votes": "318" },
       { "ct_name": "Business", "votes": "54" },
-      { "ct_name": "Evening", "votes": "319" }
+      { "ct_name": "Evening", "votes": "321" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "328" },
+      { "ct_name": "Masculine", "votes": "331" },
       { "ct_name": "Feminine", "votes": "65" },
       { "ct_name": "Mature", "votes": "82" },
-      { "ct_name": "Youthful", "votes": "255" }
+      { "ct_name": "Youthful", "votes": "257" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "342" },
-      { "ct_name": "Fall", "votes": "325" },
-      { "ct_name": "Spring", "votes": "148" }
+      { "ct_name": "Winter", "votes": "345" },
+      { "ct_name": "Fall", "votes": "328" },
+      { "ct_name": "Spring", "votes": "150" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -3029,30 +3117,30 @@
     "link": "https://www.parfumo.com/Perfumes/Guerlain/l-homme-ideal-extreme",
     "type": [
       { "ct_name": "Spicy", "votes": "149" },
-      { "ct_name": "Sweet", "votes": "163" },
+      { "ct_name": "Sweet", "votes": "164" },
       { "ct_name": "Oriental", "votes": "69" },
-      { "ct_name": "Leathery", "votes": "85" },
+      { "ct_name": "Leathery", "votes": "86" },
       { "ct_name": "Woody", "votes": "70" },
-      { "ct_name": "Gourmand", "votes": "75" },
-      { "ct_name": "Fruity", "votes": "89" },
+      { "ct_name": "Gourmand", "votes": "76" },
+      { "ct_name": "Fruity", "votes": "90" },
       { "ct_name": "Creamy", "votes": "44" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "81" },
+      { "ct_name": "Daily", "votes": "82" },
       { "ct_name": "Leisure", "votes": "108" },
       { "ct_name": "Night Out", "votes": "149" },
       { "ct_name": "Business", "votes": "76" },
-      { "ct_name": "Evening", "votes": "166" }
+      { "ct_name": "Evening", "votes": "167" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "188" },
+      { "ct_name": "Masculine", "votes": "189" },
       { "ct_name": "Feminine", "votes": "45" },
-      { "ct_name": "Mature", "votes": "94" },
+      { "ct_name": "Mature", "votes": "95" },
       { "ct_name": "Youthful", "votes": "89" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "166" },
-      { "ct_name": "Fall", "votes": "187" },
+      { "ct_name": "Winter", "votes": "167" },
+      { "ct_name": "Fall", "votes": "188" },
       { "ct_name": "Summer", "votes": "21" },
       { "ct_name": "Spring", "votes": "87" }
     ],
@@ -3076,33 +3164,33 @@
     "image_src": "https://pimages.parfumo.de/720/12010_img-9081-xerjoff-xj_1861_renaissance_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Xerjoff/renaissance",
     "type": [
-      { "ct_name": "Citrus", "votes": "391" },
-      { "ct_name": "Spicy", "votes": "118" },
-      { "ct_name": "Sweet", "votes": "78" },
+      { "ct_name": "Citrus", "votes": "397" },
+      { "ct_name": "Spicy", "votes": "120" },
+      { "ct_name": "Sweet", "votes": "80" },
       { "ct_name": "Woody", "votes": "88" },
-      { "ct_name": "Green", "votes": "214" },
+      { "ct_name": "Green", "votes": "217" },
       { "ct_name": "Fruity", "votes": "103" },
-      { "ct_name": "Fresh", "votes": "371" },
-      { "ct_name": "Floral", "votes": "145" }
+      { "ct_name": "Fresh", "votes": "377" },
+      { "ct_name": "Floral", "votes": "148" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "352" },
-      { "ct_name": "Sport", "votes": "177" },
-      { "ct_name": "Leisure", "votes": "365" },
-      { "ct_name": "Night Out", "votes": "149" },
-      { "ct_name": "Business", "votes": "292" },
-      { "ct_name": "Evening", "votes": "132" }
+      { "ct_name": "Daily", "votes": "356" },
+      { "ct_name": "Sport", "votes": "179" },
+      { "ct_name": "Leisure", "votes": "370" },
+      { "ct_name": "Night Out", "votes": "150" },
+      { "ct_name": "Business", "votes": "296" },
+      { "ct_name": "Evening", "votes": "133" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "367" },
-      { "ct_name": "Feminine", "votes": "243" },
-      { "ct_name": "Mature", "votes": "163" },
-      { "ct_name": "Youthful", "votes": "205" }
+      { "ct_name": "Masculine", "votes": "373" },
+      { "ct_name": "Feminine", "votes": "245" },
+      { "ct_name": "Mature", "votes": "169" },
+      { "ct_name": "Youthful", "votes": "210" }
     ],
     "season": [
-      { "ct_name": "Fall", "votes": "105" },
-      { "ct_name": "Summer", "votes": "398" },
-      { "ct_name": "Spring", "votes": "347" }
+      { "ct_name": "Fall", "votes": "107" },
+      { "ct_name": "Summer", "votes": "404" },
+      { "ct_name": "Spring", "votes": "351" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -3125,30 +3213,30 @@
     "image_src": "https://pimages.parfumo.de/720/123923_img-7281-louis-vuitton-afternoon-swim_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Louis_Vuitton/Afternoon_Swim",
     "type": [
-      { "ct_name": "Citrus", "votes": "370" },
-      { "ct_name": "Sweet", "votes": "100" },
-      { "ct_name": "Fruity", "votes": "207" },
-      { "ct_name": "Fresh", "votes": "383" },
-      { "ct_name": "Aquatic", "votes": "254" }
+      { "ct_name": "Citrus", "votes": "374" },
+      { "ct_name": "Sweet", "votes": "102" },
+      { "ct_name": "Fruity", "votes": "208" },
+      { "ct_name": "Fresh", "votes": "386" },
+      { "ct_name": "Aquatic", "votes": "257" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "348" },
-      { "ct_name": "Sport", "votes": "262" },
-      { "ct_name": "Leisure", "votes": "374" },
-      { "ct_name": "Night Out", "votes": "137" },
-      { "ct_name": "Business", "votes": "229" },
-      { "ct_name": "Evening", "votes": "104" }
+      { "ct_name": "Daily", "votes": "351" },
+      { "ct_name": "Sport", "votes": "266" },
+      { "ct_name": "Leisure", "votes": "379" },
+      { "ct_name": "Night Out", "votes": "138" },
+      { "ct_name": "Business", "votes": "231" },
+      { "ct_name": "Evening", "votes": "106" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "378" },
-      { "ct_name": "Feminine", "votes": "207" },
-      { "ct_name": "Mature", "votes": "110" },
-      { "ct_name": "Youthful", "votes": "266" }
+      { "ct_name": "Masculine", "votes": "382" },
+      { "ct_name": "Feminine", "votes": "209" },
+      { "ct_name": "Mature", "votes": "113" },
+      { "ct_name": "Youthful", "votes": "270" }
     ],
     "season": [
       { "ct_name": "Fall", "votes": "42" },
-      { "ct_name": "Summer", "votes": "416" },
-      { "ct_name": "Spring", "votes": "284" }
+      { "ct_name": "Summer", "votes": "421" },
+      { "ct_name": "Spring", "votes": "286" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -3165,33 +3253,33 @@
     "image_src": "https://pimages.parfumo.de/720/150441_img-3947-louis-vuitton-imagination_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Louis_Vuitton/imagination",
     "type": [
-      { "ct_name": "Citrus", "votes": "783" },
-      { "ct_name": "Spicy", "votes": "234" },
+      { "ct_name": "Citrus", "votes": "795" },
+      { "ct_name": "Spicy", "votes": "238" },
       { "ct_name": "Sweet", "votes": "163" },
-      { "ct_name": "Green", "votes": "251" },
+      { "ct_name": "Green", "votes": "258" },
       { "ct_name": "Fruity", "votes": "156" },
-      { "ct_name": "Fresh", "votes": "835" },
-      { "ct_name": "Aquatic", "votes": "472" }
+      { "ct_name": "Fresh", "votes": "848" },
+      { "ct_name": "Aquatic", "votes": "483" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "830" },
-      { "ct_name": "Sport", "votes": "462" },
-      { "ct_name": "Leisure", "votes": "797" },
-      { "ct_name": "Night Out", "votes": "429" },
-      { "ct_name": "Business", "votes": "648" },
-      { "ct_name": "Evening", "votes": "366" }
+      { "ct_name": "Daily", "votes": "843" },
+      { "ct_name": "Sport", "votes": "474" },
+      { "ct_name": "Leisure", "votes": "811" },
+      { "ct_name": "Night Out", "votes": "434" },
+      { "ct_name": "Business", "votes": "656" },
+      { "ct_name": "Evening", "votes": "371" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "872" },
-      { "ct_name": "Feminine", "votes": "281" },
-      { "ct_name": "Mature", "votes": "314" },
-      { "ct_name": "Youthful", "votes": "572" }
+      { "ct_name": "Masculine", "votes": "886" },
+      { "ct_name": "Feminine", "votes": "288" },
+      { "ct_name": "Mature", "votes": "320" },
+      { "ct_name": "Youthful", "votes": "582" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "123" },
-      { "ct_name": "Fall", "votes": "312" },
-      { "ct_name": "Summer", "votes": "914" },
-      { "ct_name": "Spring", "votes": "825" }
+      { "ct_name": "Winter", "votes": "125" },
+      { "ct_name": "Fall", "votes": "316" },
+      { "ct_name": "Summer", "votes": "929" },
+      { "ct_name": "Spring", "votes": "838" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -3210,31 +3298,31 @@
     "image_src": "https://pimages.parfumo.de/720/208389_img-4442-louis-vuitton-pacific-chill_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Louis_Vuitton/pacific-chill",
     "type": [
-      { "ct_name": "Citrus", "votes": "137" },
-      { "ct_name": "Sweet", "votes": "118" },
-      { "ct_name": "Green", "votes": "78" },
-      { "ct_name": "Fruity", "votes": "171" },
-      { "ct_name": "Fresh", "votes": "165" },
-      { "ct_name": "Aquatic", "votes": "37" }
+      { "ct_name": "Citrus", "votes": "140" },
+      { "ct_name": "Sweet", "votes": "121" },
+      { "ct_name": "Green", "votes": "81" },
+      { "ct_name": "Fruity", "votes": "175" },
+      { "ct_name": "Fresh", "votes": "168" },
+      { "ct_name": "Aquatic", "votes": "39" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "165" },
-      { "ct_name": "Sport", "votes": "104" },
-      { "ct_name": "Leisure", "votes": "176" },
-      { "ct_name": "Night Out", "votes": "77" },
-      { "ct_name": "Business", "votes": "113" },
-      { "ct_name": "Evening", "votes": "61" }
+      { "ct_name": "Daily", "votes": "169" },
+      { "ct_name": "Sport", "votes": "106" },
+      { "ct_name": "Leisure", "votes": "179" },
+      { "ct_name": "Night Out", "votes": "79" },
+      { "ct_name": "Business", "votes": "114" },
+      { "ct_name": "Evening", "votes": "62" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "158" },
-      { "ct_name": "Feminine", "votes": "137" },
+      { "ct_name": "Masculine", "votes": "161" },
+      { "ct_name": "Feminine", "votes": "140" },
       { "ct_name": "Mature", "votes": "49" },
-      { "ct_name": "Youthful", "votes": "139" }
+      { "ct_name": "Youthful", "votes": "142" }
     ],
     "season": [
       { "ct_name": "Fall", "votes": "29" },
-      { "ct_name": "Summer", "votes": "194" },
-      { "ct_name": "Spring", "votes": "148" }
+      { "ct_name": "Summer", "votes": "198" },
+      { "ct_name": "Spring", "votes": "152" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -3260,31 +3348,31 @@
     "link": "https://www.parfumo.com/Perfumes/Guerlain/Spiritueuse_Double_Vanille",
     "type": [
       { "ct_name": "Spicy", "votes": "205" },
-      { "ct_name": "Sweet", "votes": "321" },
+      { "ct_name": "Sweet", "votes": "322" },
       { "ct_name": "Smoky", "votes": "103" },
-      { "ct_name": "Powdery", "votes": "99" },
+      { "ct_name": "Powdery", "votes": "100" },
       { "ct_name": "Oriental", "votes": "128" },
       { "ct_name": "Woody", "votes": "80" },
-      { "ct_name": "Gourmand", "votes": "332" },
-      { "ct_name": "Creamy", "votes": "97" },
+      { "ct_name": "Gourmand", "votes": "333" },
+      { "ct_name": "Creamy", "votes": "98" },
       { "ct_name": "Floral", "votes": "66" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "188" },
       { "ct_name": "Leisure", "votes": "247" },
-      { "ct_name": "Night Out", "votes": "308" },
+      { "ct_name": "Night Out", "votes": "309" },
       { "ct_name": "Business", "votes": "143" },
-      { "ct_name": "Evening", "votes": "326" }
+      { "ct_name": "Evening", "votes": "327" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "229" },
+      { "ct_name": "Masculine", "votes": "230" },
       { "ct_name": "Feminine", "votes": "357" },
-      { "ct_name": "Mature", "votes": "164" },
-      { "ct_name": "Youthful", "votes": "137" }
+      { "ct_name": "Mature", "votes": "165" },
+      { "ct_name": "Youthful", "votes": "138" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "352" },
-      { "ct_name": "Fall", "votes": "359" },
+      { "ct_name": "Winter", "votes": "353" },
+      { "ct_name": "Fall", "votes": "360" },
       { "ct_name": "Summer", "votes": "77" },
       { "ct_name": "Spring", "votes": "178" }
     ],
@@ -3364,7 +3452,7 @@
       { "ct_name": "Oriental", "votes": "125" },
       { "ct_name": "Leathery", "votes": "69" },
       { "ct_name": "Woody", "votes": "126" },
-      { "ct_name": "Resinous", "votes": "93" }
+      { "ct_name": "Resinous", "votes": "94" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "73" },
@@ -3478,8 +3566,8 @@
       "Ginger CO2",
       "Elemi resin",
       "Blood orange",
-      "Benzoin",
       "Bourbon vanilla absolute",
+      "Benzoin",
       "Bourbon vanilla CO2",
       "Myrrh",
       "Tobacco absolute",
@@ -3499,33 +3587,33 @@
     "image_src": "https://pimages.parfumo.de/720/143609_img-5343-amouage-enclave_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Amouage/enclave",
     "type": [
-      { "ct_name": "Spicy", "votes": "148" },
-      { "ct_name": "Sweet", "votes": "82" },
+      { "ct_name": "Spicy", "votes": "150" },
+      { "ct_name": "Sweet", "votes": "83" },
       { "ct_name": "Oriental", "votes": "62" },
-      { "ct_name": "Woody", "votes": "110" },
+      { "ct_name": "Woody", "votes": "112" },
       { "ct_name": "Resinous", "votes": "47" },
-      { "ct_name": "Green", "votes": "92" },
-      { "ct_name": "Fresh", "votes": "130" },
+      { "ct_name": "Green", "votes": "93" },
+      { "ct_name": "Fresh", "votes": "132" },
       { "ct_name": "Creamy", "votes": "42" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "118" },
-      { "ct_name": "Leisure", "votes": "141" },
-      { "ct_name": "Night Out", "votes": "122" },
+      { "ct_name": "Daily", "votes": "119" },
+      { "ct_name": "Leisure", "votes": "143" },
+      { "ct_name": "Night Out", "votes": "125" },
       { "ct_name": "Business", "votes": "103" },
-      { "ct_name": "Evening", "votes": "116" }
+      { "ct_name": "Evening", "votes": "118" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "179" },
+      { "ct_name": "Masculine", "votes": "181" },
       { "ct_name": "Feminine", "votes": "53" },
-      { "ct_name": "Mature", "votes": "85" },
-      { "ct_name": "Youthful", "votes": "83" }
+      { "ct_name": "Mature", "votes": "87" },
+      { "ct_name": "Youthful", "votes": "86" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "97" },
-      { "ct_name": "Fall", "votes": "156" },
-      { "ct_name": "Summer", "votes": "96" },
-      { "ct_name": "Spring", "votes": "156" }
+      { "ct_name": "Winter", "votes": "99" },
+      { "ct_name": "Fall", "votes": "159" },
+      { "ct_name": "Summer", "votes": "97" },
+      { "ct_name": "Spring", "votes": "158" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -3548,30 +3636,30 @@
     "image_src": "https://pimages.parfumo.de/720/219465_img-3077-hugo-boss-boss-bottled-elixir_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Hugo_Boss/boss-bottled-elixir",
     "type": [
-      { "ct_name": "Spicy", "votes": "109" },
+      { "ct_name": "Spicy", "votes": "111" },
       { "ct_name": "Sweet", "votes": "61" },
-      { "ct_name": "Smoky", "votes": "88" },
-      { "ct_name": "Oriental", "votes": "65" },
-      { "ct_name": "Woody", "votes": "106" },
-      { "ct_name": "Resinous", "votes": "80" },
+      { "ct_name": "Smoky", "votes": "89" },
+      { "ct_name": "Oriental", "votes": "66" },
+      { "ct_name": "Woody", "votes": "107" },
+      { "ct_name": "Resinous", "votes": "81" },
       { "ct_name": "Earthy", "votes": "37" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "46" },
       { "ct_name": "Leisure", "votes": "73" },
-      { "ct_name": "Night Out", "votes": "103" },
+      { "ct_name": "Night Out", "votes": "105" },
       { "ct_name": "Business", "votes": "51" },
-      { "ct_name": "Evening", "votes": "112" }
+      { "ct_name": "Evening", "votes": "114" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "125" },
+      { "ct_name": "Masculine", "votes": "127" },
       { "ct_name": "Feminine", "votes": "11" },
-      { "ct_name": "Mature", "votes": "83" },
+      { "ct_name": "Mature", "votes": "84" },
       { "ct_name": "Youthful", "votes": "52" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "118" },
-      { "ct_name": "Fall", "votes": "120" },
+      { "ct_name": "Winter", "votes": "120" },
+      { "ct_name": "Fall", "votes": "122" },
       { "ct_name": "Spring", "votes": "54" }
     ],
     "collection_group": "Sample Atomizers",
@@ -3590,32 +3678,32 @@
     "image_src": "https://pimages.parfumo.de/720/78315_img-6156-penhaligon-s-portraits-the-tragedy-of-lord-george_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Penhaligons/the-tragedy-of-lord-george",
     "type": [
-      { "ct_name": "Spicy", "votes": "218" },
+      { "ct_name": "Spicy", "votes": "219" },
       { "ct_name": "Sweet", "votes": "133" },
       { "ct_name": "Powdery", "votes": "55" },
       { "ct_name": "Woody", "votes": "188" },
-      { "ct_name": "Fresh", "votes": "75" },
+      { "ct_name": "Fresh", "votes": "76" },
       { "ct_name": "Foug\u00e8re", "votes": "107" },
-      { "ct_name": "Creamy", "votes": "95" }
+      { "ct_name": "Creamy", "votes": "96" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "164" },
-      { "ct_name": "Leisure", "votes": "194" },
+      { "ct_name": "Daily", "votes": "165" },
+      { "ct_name": "Leisure", "votes": "195" },
       { "ct_name": "Night Out", "votes": "196" },
-      { "ct_name": "Business", "votes": "172" },
+      { "ct_name": "Business", "votes": "173" },
       { "ct_name": "Evening", "votes": "226" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "283" },
+      { "ct_name": "Masculine", "votes": "284" },
       { "ct_name": "Feminine", "votes": "48" },
-      { "ct_name": "Mature", "votes": "172" },
+      { "ct_name": "Mature", "votes": "173" },
       { "ct_name": "Youthful", "votes": "62" }
     ],
     "season": [
       { "ct_name": "Winter", "votes": "217" },
-      { "ct_name": "Fall", "votes": "267" },
+      { "ct_name": "Fall", "votes": "268" },
       { "ct_name": "Summer", "votes": "90" },
-      { "ct_name": "Spring", "votes": "203" }
+      { "ct_name": "Spring", "votes": "204" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": ["Soap", "Rum", "Tonka bean", "Ambrox"]
@@ -3663,32 +3751,32 @@
     "image_src": "https://pimages.parfumo.de/720/156229_img-3995-parfums-de-marly-haltane_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/haltane",
     "type": [
-      { "ct_name": "Spicy", "votes": "199" },
+      { "ct_name": "Spicy", "votes": "201" },
       { "ct_name": "Sweet", "votes": "143" },
       { "ct_name": "Oriental", "votes": "140" },
       { "ct_name": "Leathery", "votes": "79" },
-      { "ct_name": "Woody", "votes": "198" },
+      { "ct_name": "Woody", "votes": "199" },
       { "ct_name": "Resinous", "votes": "56" },
       { "ct_name": "Green", "votes": "54" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "79" },
-      { "ct_name": "Leisure", "votes": "119" },
-      { "ct_name": "Night Out", "votes": "190" },
+      { "ct_name": "Leisure", "votes": "120" },
+      { "ct_name": "Night Out", "votes": "192" },
       { "ct_name": "Business", "votes": "77" },
-      { "ct_name": "Evening", "votes": "202" }
+      { "ct_name": "Evening", "votes": "204" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "232" },
+      { "ct_name": "Masculine", "votes": "234" },
       { "ct_name": "Feminine", "votes": "21" },
-      { "ct_name": "Mature", "votes": "139" },
-      { "ct_name": "Youthful", "votes": "67" }
+      { "ct_name": "Mature", "votes": "141" },
+      { "ct_name": "Youthful", "votes": "68" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "207" },
-      { "ct_name": "Fall", "votes": "226" },
+      { "ct_name": "Winter", "votes": "209" },
+      { "ct_name": "Fall", "votes": "228" },
       { "ct_name": "Summer", "votes": "33" },
-      { "ct_name": "Spring", "votes": "121" }
+      { "ct_name": "Spring", "votes": "122" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -3711,9 +3799,9 @@
     "image_src": "https://pimages.parfumo.de/720/343_g6rxtv_1_million_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Paco_Rabanne/1_Million_Eau_de_Toilette",
     "type": [
-      { "ct_name": "Spicy", "votes": "389" },
-      { "ct_name": "Synthetic", "votes": "243" },
-      { "ct_name": "Sweet", "votes": "579" },
+      { "ct_name": "Spicy", "votes": "390" },
+      { "ct_name": "Synthetic", "votes": "244" },
+      { "ct_name": "Sweet", "votes": "580" },
       { "ct_name": "Oriental", "votes": "282" },
       { "ct_name": "Leathery", "votes": "109" },
       { "ct_name": "Woody", "votes": "148" },
@@ -3722,20 +3810,20 @@
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "198" },
-      { "ct_name": "Leisure", "votes": "315" },
-      { "ct_name": "Night Out", "votes": "542" },
+      { "ct_name": "Leisure", "votes": "316" },
+      { "ct_name": "Night Out", "votes": "543" },
       { "ct_name": "Business", "votes": "115" },
-      { "ct_name": "Evening", "votes": "519" }
+      { "ct_name": "Evening", "votes": "520" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "556" },
+      { "ct_name": "Masculine", "votes": "557" },
       { "ct_name": "Feminine", "votes": "93" },
       { "ct_name": "Mature", "votes": "81" },
-      { "ct_name": "Youthful", "votes": "501" }
+      { "ct_name": "Youthful", "votes": "502" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "555" },
-      { "ct_name": "Fall", "votes": "550" },
+      { "ct_name": "Winter", "votes": "556" },
+      { "ct_name": "Fall", "votes": "551" },
       { "ct_name": "Summer", "votes": "183" },
       { "ct_name": "Spring", "votes": "331" }
     ],
@@ -3806,34 +3894,34 @@
     "image_src": "https://pimages.parfumo.de/720/13_img-1455-jean_paul_gaultier-le_male_eau_de_toilette_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/Le_Male_Eau_de_Toilette",
     "type": [
-      { "ct_name": "Spicy", "votes": "405" },
+      { "ct_name": "Spicy", "votes": "408" },
       { "ct_name": "Synthetic", "votes": "230" },
-      { "ct_name": "Sweet", "votes": "674" },
-      { "ct_name": "Powdery", "votes": "264" },
-      { "ct_name": "Oriental", "votes": "379" },
-      { "ct_name": "Woody", "votes": "184" },
-      { "ct_name": "Fresh", "votes": "361" },
+      { "ct_name": "Sweet", "votes": "677" },
+      { "ct_name": "Powdery", "votes": "265" },
+      { "ct_name": "Oriental", "votes": "382" },
+      { "ct_name": "Woody", "votes": "185" },
+      { "ct_name": "Fresh", "votes": "363" },
       { "ct_name": "Floral", "votes": "155" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "458" },
+      { "ct_name": "Daily", "votes": "461" },
       { "ct_name": "Sport", "votes": "136" },
-      { "ct_name": "Leisure", "votes": "563" },
-      { "ct_name": "Night Out", "votes": "632" },
-      { "ct_name": "Business", "votes": "277" },
-      { "ct_name": "Evening", "votes": "600" }
+      { "ct_name": "Leisure", "votes": "567" },
+      { "ct_name": "Night Out", "votes": "636" },
+      { "ct_name": "Business", "votes": "280" },
+      { "ct_name": "Evening", "votes": "604" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "786" },
+      { "ct_name": "Masculine", "votes": "790" },
       { "ct_name": "Feminine", "votes": "119" },
-      { "ct_name": "Mature", "votes": "209" },
-      { "ct_name": "Youthful", "votes": "564" }
+      { "ct_name": "Mature", "votes": "212" },
+      { "ct_name": "Youthful", "votes": "568" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "602" },
-      { "ct_name": "Fall", "votes": "689" },
-      { "ct_name": "Summer", "votes": "407" },
-      { "ct_name": "Spring", "votes": "612" }
+      { "ct_name": "Winter", "votes": "607" },
+      { "ct_name": "Fall", "votes": "694" },
+      { "ct_name": "Summer", "votes": "410" },
+      { "ct_name": "Spring", "votes": "616" }
     ],
     "collection_group": "Sample Atomizers",
     "notes": [
@@ -3850,98 +3938,6 @@
       "Amber",
       "Sandalwood",
       "Cedarwood"
-    ]
-  },
-  {
-    "name": "Le Beau Paradise Garden\nJean Paul Gaultier 2024",
-    "brand": "Jean Paul Gaultier",
-    "image_src": "https://pimages.parfumo.de/720/239894_img-6918-jean-paul-gaultier-le-beau-paradise-garden_720.jpg",
-    "link": "https://www.parfumo.com/Perfumes/Jean_Paul_Gaultier/le-beau-paradise-garden",
-    "type": [
-      { "ct_name": "Synthetic", "votes": "63" },
-      { "ct_name": "Sweet", "votes": "95" },
-      { "ct_name": "Woody", "votes": "24" },
-      { "ct_name": "Green", "votes": "73" },
-      { "ct_name": "Fruity", "votes": "83" },
-      { "ct_name": "Fresh", "votes": "91" },
-      { "ct_name": "Creamy", "votes": "31" },
-      { "ct_name": "Aquatic", "votes": "22" }
-    ],
-    "occasion": [
-      { "ct_name": "Daily", "votes": "88" },
-      { "ct_name": "Sport", "votes": "30" },
-      { "ct_name": "Leisure", "votes": "107" },
-      { "ct_name": "Night Out", "votes": "40" },
-      { "ct_name": "Business", "votes": "40" },
-      { "ct_name": "Evening", "votes": "26" }
-    ],
-    "audience": [
-      { "ct_name": "Masculine", "votes": "110" },
-      { "ct_name": "Feminine", "votes": "28" },
-      { "ct_name": "Mature", "votes": "20" },
-      { "ct_name": "Youthful", "votes": "100" }
-    ],
-    "season": [
-      { "ct_name": "Fall", "votes": "26" },
-      { "ct_name": "Summer", "votes": "115" },
-      { "ct_name": "Spring", "votes": "107" }
-    ],
-    "collection_group": "Sample Atomizers",
-    "notes": [
-      "Coconut water",
-      "Tonka bean",
-      "Green fig",
-      "Mint",
-      "Sandalwood",
-      "Ginger"
-    ]
-  },
-  {
-    "name": "Brioni\nBrioni 2021 EAU DE PARFUM",
-    "brand": "Brioni",
-    "image_src": "https://pimages.parfumo.de/480/148189_img-1556-brioni-brioni-eau-de-parfum-2021_480.jpg",
-    "link": "https://www.parfumo.com/Perfumes/Brioni/brioni-eau-de-parfum-2021",
-    "type": [
-      { "ct_name": "Spicy", "votes": "17" },
-      { "ct_name": "Synthetic", "votes": "17" },
-      { "ct_name": "Sweet", "votes": "10" },
-      { "ct_name": "Woody", "votes": "33" },
-      { "ct_name": "Green", "votes": "13" },
-      { "ct_name": "Fruity", "votes": "19" },
-      { "ct_name": "Fresh", "votes": "38" },
-      { "ct_name": "Floral", "votes": "18" },
-      { "ct_name": "Aquatic", "votes": "14" }
-    ],
-    "occasion": [
-      { "ct_name": "Daily", "votes": "32" },
-      { "ct_name": "Sport", "votes": "9" },
-      { "ct_name": "Leisure", "votes": "32" },
-      { "ct_name": "Night Out", "votes": "19" },
-      { "ct_name": "Business", "votes": "32" },
-      { "ct_name": "Evening", "votes": "18" }
-    ],
-    "audience": [
-      { "ct_name": "Masculine", "votes": "43" },
-      { "ct_name": "Feminine", "votes": "6" },
-      { "ct_name": "Mature", "votes": "20" },
-      { "ct_name": "Youthful", "votes": "17" }
-    ],
-    "season": [
-      { "ct_name": "Winter", "votes": "17" },
-      { "ct_name": "Fall", "votes": "33" },
-      { "ct_name": "Summer", "votes": "32" },
-      { "ct_name": "Spring", "votes": "40" }
-    ],
-    "collection_group": "Sample Atomizers",
-    "notes": [
-      "Ozonic notes",
-      "Green apple",
-      "Pink pepper",
-      "Ambroxan",
-      "Violet",
-      "Cedarwood",
-      "Musk",
-      "Tonka bean"
     ]
   },
   {
@@ -3990,136 +3986,34 @@
     ]
   },
   {
-    "name": "Pegasus Exclusif\nParfums de Marly 2020",
-    "brand": "Parfums de Marly",
-    "image_src": "https://pimages.parfumo.de/720/144002_img-3520-parfums-de-marly-pegasus-exclusif_720.jpg",
-    "link": "https://www.parfumo.com/Perfumes/Parfums_de_Marly/pegasus-exclusif",
-    "type": [
-      { "ct_name": "Spicy", "votes": "121" },
-      { "ct_name": "Sweet", "votes": "130" },
-      { "ct_name": "Smoky", "votes": "38" },
-      { "ct_name": "Oriental", "votes": "71" },
-      { "ct_name": "Woody", "votes": "128" },
-      { "ct_name": "Resinous", "votes": "38" },
-      { "ct_name": "Gourmand", "votes": "37" },
-      { "ct_name": "Creamy", "votes": "62" }
-    ],
-    "occasion": [
-      { "ct_name": "Daily", "votes": "53" },
-      { "ct_name": "Leisure", "votes": "103" },
-      { "ct_name": "Night Out", "votes": "134" },
-      { "ct_name": "Business", "votes": "52" },
-      { "ct_name": "Evening", "votes": "132" }
-    ],
-    "audience": [
-      { "ct_name": "Masculine", "votes": "155" },
-      { "ct_name": "Feminine", "votes": "22" },
-      { "ct_name": "Mature", "votes": "88" },
-      { "ct_name": "Youthful", "votes": "71" }
-    ],
-    "season": [
-      { "ct_name": "Winter", "votes": "151" },
-      { "ct_name": "Fall", "votes": "148" },
-      { "ct_name": "Summer", "votes": "21" },
-      { "ct_name": "Spring", "votes": "72" }
-    ],
-    "collection_group": "Sample Atomizers",
-    "notes": [
-      "Cardamom",
-      "Heliotrope",
-      "Pink pepper",
-      "Bergamot",
-      "Bitter almond",
-      "Lavender",
-      "Geranium",
-      "Jasmine",
-      "Gaiac wood",
-      "Sandalwood",
-      "Vanilla",
-      "Amber",
-      "Oud"
-    ]
-  },
-  {
-    "name": "Toy Boy\nMoschino 2019",
-    "brand": "Moschino",
-    "image_src": "https://pimages.parfumo.de/720/128331_img-8600-moschino-toy_boy_720.jpg",
-    "link": "https://www.parfumo.com/Perfumes/Moschino/Toy_Boy",
-    "type": [
-      { "ct_name": "Spicy", "votes": "156" },
-      { "ct_name": "Synthetic", "votes": "98" },
-      { "ct_name": "Sweet", "votes": "102" },
-      { "ct_name": "Woody", "votes": "72" },
-      { "ct_name": "Green", "votes": "46" },
-      { "ct_name": "Fruity", "votes": "76" },
-      { "ct_name": "Fresh", "votes": "85" },
-      { "ct_name": "Floral", "votes": "198" }
-    ],
-    "occasion": [
-      { "ct_name": "Daily", "votes": "131" },
-      { "ct_name": "Leisure", "votes": "150" },
-      { "ct_name": "Night Out", "votes": "144" },
-      { "ct_name": "Business", "votes": "75" },
-      { "ct_name": "Evening", "votes": "152" }
-    ],
-    "audience": [
-      { "ct_name": "Masculine", "votes": "199" },
-      { "ct_name": "Feminine", "votes": "101" },
-      { "ct_name": "Mature", "votes": "73" },
-      { "ct_name": "Youthful", "votes": "134" }
-    ],
-    "season": [
-      { "ct_name": "Winter", "votes": "133" },
-      { "ct_name": "Fall", "votes": "187" },
-      { "ct_name": "Summer", "votes": "84" },
-      { "ct_name": "Spring", "votes": "180" }
-    ],
-    "collection_group": "Sample Atomizers",
-    "notes": [
-      "Pear",
-      "Pink pepper",
-      "Clove",
-      "Indonesian nutmeg",
-      "Elemi resin",
-      "Italian bergamot",
-      "Rose",
-      "Cashmeran",
-      "Magnolia",
-      "Flax blossom",
-      "Ambermax\u00ae",
-      "Sylkolide\u2122",
-      "Haitian vetiver"
-    ]
-  },
-  {
     "name": "Oud for Greatness\nInitio 2018",
     "brand": "Initio",
     "image_src": "https://pimages.parfumo.de/720/116727_img-3622-initio-oud-for-greatness_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Initio/Oud_for_Greatness",
     "type": [
-      { "ct_name": "Spicy", "votes": "427" },
-      { "ct_name": "Sweet", "votes": "269" },
+      { "ct_name": "Spicy", "votes": "429" },
+      { "ct_name": "Sweet", "votes": "270" },
       { "ct_name": "Smoky", "votes": "199" },
-      { "ct_name": "Oriental", "votes": "391" },
-      { "ct_name": "Woody", "votes": "458" },
+      { "ct_name": "Oriental", "votes": "394" },
+      { "ct_name": "Woody", "votes": "460" },
       { "ct_name": "Resinous", "votes": "122" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "105" },
-      { "ct_name": "Leisure", "votes": "246" },
-      { "ct_name": "Night Out", "votes": "468" },
-      { "ct_name": "Business", "votes": "86" },
-      { "ct_name": "Evening", "votes": "493" }
+      { "ct_name": "Leisure", "votes": "247" },
+      { "ct_name": "Night Out", "votes": "471" },
+      { "ct_name": "Business", "votes": "87" },
+      { "ct_name": "Evening", "votes": "496" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "528" },
+      { "ct_name": "Masculine", "votes": "531" },
       { "ct_name": "Feminine", "votes": "138" },
-      { "ct_name": "Mature", "votes": "273" },
-      { "ct_name": "Youthful", "votes": "192" }
+      { "ct_name": "Mature", "votes": "275" },
+      { "ct_name": "Youthful", "votes": "193" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "504" },
-      { "ct_name": "Fall", "votes": "512" },
+      { "ct_name": "Winter", "votes": "507" },
+      { "ct_name": "Fall", "votes": "515" },
       { "ct_name": "Spring", "votes": "210" }
     ],
     "collection_group": "Sample Vials",
@@ -4139,12 +4033,12 @@
       { "ct_name": "Resinous", "votes": "52" },
       { "ct_name": "Green", "votes": "46" },
       { "ct_name": "Fresh", "votes": "66" },
-      { "ct_name": "Foug\u00e8re", "votes": "135" },
+      { "ct_name": "Foug\u00e8re", "votes": "136" },
       { "ct_name": "Earthy", "votes": "47" },
       { "ct_name": "Floral", "votes": "46" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "157" },
+      { "ct_name": "Daily", "votes": "158" },
       { "ct_name": "Leisure", "votes": "139" },
       { "ct_name": "Night Out", "votes": "120" },
       { "ct_name": "Business", "votes": "161" },
@@ -4158,9 +4052,9 @@
     ],
     "season": [
       { "ct_name": "Winter", "votes": "147" },
-      { "ct_name": "Fall", "votes": "203" },
-      { "ct_name": "Summer", "votes": "87" },
-      { "ct_name": "Spring", "votes": "161" }
+      { "ct_name": "Fall", "votes": "204" },
+      { "ct_name": "Summer", "votes": "88" },
+      { "ct_name": "Spring", "votes": "162" }
     ],
     "collection_group": "Sample Vials",
     "notes": [
@@ -4285,31 +4179,31 @@
     "link": "https://www.parfumo.com/Perfumes/Widian/london",
     "type": [
       { "ct_name": "Spicy", "votes": "169" },
-      { "ct_name": "Sweet", "votes": "301" },
-      { "ct_name": "Oriental", "votes": "233" },
-      { "ct_name": "Leathery", "votes": "448" },
-      { "ct_name": "Woody", "votes": "200" },
-      { "ct_name": "Fruity", "votes": "363" },
+      { "ct_name": "Sweet", "votes": "303" },
+      { "ct_name": "Oriental", "votes": "236" },
+      { "ct_name": "Leathery", "votes": "452" },
+      { "ct_name": "Woody", "votes": "202" },
+      { "ct_name": "Fruity", "votes": "366" },
       { "ct_name": "Floral", "votes": "95" }
     ],
     "occasion": [
       { "ct_name": "Daily", "votes": "124" },
-      { "ct_name": "Leisure", "votes": "231" },
-      { "ct_name": "Night Out", "votes": "434" },
-      { "ct_name": "Business", "votes": "111" },
-      { "ct_name": "Evening", "votes": "442" }
+      { "ct_name": "Leisure", "votes": "235" },
+      { "ct_name": "Night Out", "votes": "439" },
+      { "ct_name": "Business", "votes": "113" },
+      { "ct_name": "Evening", "votes": "448" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "458" },
-      { "ct_name": "Feminine", "votes": "205" },
-      { "ct_name": "Mature", "votes": "220" },
-      { "ct_name": "Youthful", "votes": "188" }
+      { "ct_name": "Masculine", "votes": "464" },
+      { "ct_name": "Feminine", "votes": "206" },
+      { "ct_name": "Mature", "votes": "224" },
+      { "ct_name": "Youthful", "votes": "190" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "439" },
-      { "ct_name": "Fall", "votes": "465" },
+      { "ct_name": "Winter", "votes": "443" },
+      { "ct_name": "Fall", "votes": "471" },
       { "ct_name": "Summer", "votes": "95" },
-      { "ct_name": "Spring", "votes": "305" }
+      { "ct_name": "Spring", "votes": "309" }
     ],
     "collection_group": "Sample Vials",
     "notes": [
@@ -4545,9 +4439,9 @@
     "image_src": "https://pimages.parfumo.de/720/52364_zzthua_egypt_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Eight__Bob/Egypt",
     "type": [
-      { "ct_name": "Spicy", "votes": "73" },
+      { "ct_name": "Spicy", "votes": "74" },
       { "ct_name": "Synthetic", "votes": "28" },
-      { "ct_name": "Sweet", "votes": "35" },
+      { "ct_name": "Sweet", "votes": "36" },
       { "ct_name": "Oriental", "votes": "37" },
       { "ct_name": "Leathery", "votes": "16" },
       { "ct_name": "Woody", "votes": "60" },
@@ -4555,23 +4449,23 @@
       { "ct_name": "Earthy", "votes": "19" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "44" },
-      { "ct_name": "Leisure", "votes": "53" },
-      { "ct_name": "Night Out", "votes": "45" },
-      { "ct_name": "Business", "votes": "46" },
-      { "ct_name": "Evening", "votes": "43" }
+      { "ct_name": "Daily", "votes": "46" },
+      { "ct_name": "Leisure", "votes": "55" },
+      { "ct_name": "Night Out", "votes": "46" },
+      { "ct_name": "Business", "votes": "48" },
+      { "ct_name": "Evening", "votes": "45" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "78" },
+      { "ct_name": "Masculine", "votes": "80" },
       { "ct_name": "Feminine", "votes": "29" },
-      { "ct_name": "Mature", "votes": "38" },
-      { "ct_name": "Youthful", "votes": "24" }
+      { "ct_name": "Mature", "votes": "39" },
+      { "ct_name": "Youthful", "votes": "25" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "48" },
-      { "ct_name": "Fall", "votes": "71" },
+      { "ct_name": "Winter", "votes": "49" },
+      { "ct_name": "Fall", "votes": "73" },
       { "ct_name": "Summer", "votes": "24" },
-      { "ct_name": "Spring", "votes": "47" }
+      { "ct_name": "Spring", "votes": "49" }
     ],
     "collection_group": "Wish List",
     "notes": [
@@ -4591,33 +4485,33 @@
     "image_src": "https://pimages.parfumo.de/720/3825_img-3899-guerlain-guerlain-homme-eau-de-parfum_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Guerlain/Guerlain_Homme_Eau_de_Parfum",
     "type": [
-      { "ct_name": "Citrus", "votes": "112" },
-      { "ct_name": "Spicy", "votes": "126" },
+      { "ct_name": "Citrus", "votes": "114" },
+      { "ct_name": "Spicy", "votes": "127" },
       { "ct_name": "Sweet", "votes": "72" },
-      { "ct_name": "Woody", "votes": "152" },
-      { "ct_name": "Green", "votes": "143" },
-      { "ct_name": "Fresh", "votes": "183" },
-      { "ct_name": "Floral", "votes": "70" }
+      { "ct_name": "Woody", "votes": "154" },
+      { "ct_name": "Green", "votes": "145" },
+      { "ct_name": "Fresh", "votes": "185" },
+      { "ct_name": "Floral", "votes": "72" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "191" },
-      { "ct_name": "Sport", "votes": "45" },
-      { "ct_name": "Leisure", "votes": "190" },
+      { "ct_name": "Daily", "votes": "193" },
+      { "ct_name": "Sport", "votes": "46" },
+      { "ct_name": "Leisure", "votes": "192" },
       { "ct_name": "Night Out", "votes": "99" },
-      { "ct_name": "Business", "votes": "177" },
-      { "ct_name": "Evening", "votes": "119" }
+      { "ct_name": "Business", "votes": "179" },
+      { "ct_name": "Evening", "votes": "120" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "224" },
+      { "ct_name": "Masculine", "votes": "226" },
       { "ct_name": "Feminine", "votes": "23" },
-      { "ct_name": "Mature", "votes": "118" },
-      { "ct_name": "Youthful", "votes": "93" }
+      { "ct_name": "Mature", "votes": "120" },
+      { "ct_name": "Youthful", "votes": "94" }
     ],
     "season": [
       { "ct_name": "Winter", "votes": "64" },
-      { "ct_name": "Fall", "votes": "162" },
-      { "ct_name": "Summer", "votes": "191" },
-      { "ct_name": "Spring", "votes": "214" }
+      { "ct_name": "Fall", "votes": "163" },
+      { "ct_name": "Summer", "votes": "193" },
+      { "ct_name": "Spring", "votes": "216" }
     ],
     "collection_group": "Wish List",
     "notes": [
@@ -4636,31 +4530,32 @@
     "image_src": "https://pimages.parfumo.de/720/1407_img-9435-comme_des_garcons-series_3_incense__avignon_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Comme_des_Garons/Series_3_Incense_Avignon",
     "type": [
-      { "ct_name": "Spicy", "votes": "103" },
-      { "ct_name": "Smoky", "votes": "130" },
-      { "ct_name": "Woody", "votes": "113" },
-      { "ct_name": "Resinous", "votes": "117" },
+      { "ct_name": "Spicy", "votes": "104" },
+      { "ct_name": "Smoky", "votes": "131" },
+      { "ct_name": "Oriental", "votes": "27" },
+      { "ct_name": "Woody", "votes": "114" },
+      { "ct_name": "Resinous", "votes": "118" },
       { "ct_name": "Fresh", "votes": "28" },
-      { "ct_name": "Earthy", "votes": "50" }
+      { "ct_name": "Earthy", "votes": "51" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "57" },
-      { "ct_name": "Leisure", "votes": "106" },
-      { "ct_name": "Night Out", "votes": "100" },
+      { "ct_name": "Daily", "votes": "58" },
+      { "ct_name": "Leisure", "votes": "107" },
+      { "ct_name": "Night Out", "votes": "101" },
       { "ct_name": "Business", "votes": "41" },
-      { "ct_name": "Evening", "votes": "124" }
+      { "ct_name": "Evening", "votes": "125" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "149" },
-      { "ct_name": "Feminine", "votes": "98" },
-      { "ct_name": "Mature", "votes": "58" },
+      { "ct_name": "Masculine", "votes": "150" },
+      { "ct_name": "Feminine", "votes": "99" },
+      { "ct_name": "Mature", "votes": "59" },
       { "ct_name": "Youthful", "votes": "37" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "135" },
-      { "ct_name": "Fall", "votes": "139" },
+      { "ct_name": "Winter", "votes": "136" },
+      { "ct_name": "Fall", "votes": "140" },
       { "ct_name": "Summer", "votes": "34" },
-      { "ct_name": "Spring", "votes": "71" }
+      { "ct_name": "Spring", "votes": "72" }
     ],
     "collection_group": "Wish List",
     "notes": [
@@ -4682,28 +4577,28 @@
       { "ct_name": "Spicy", "votes": "56" },
       { "ct_name": "Smoky", "votes": "38" },
       { "ct_name": "Oriental", "votes": "25" },
-      { "ct_name": "Woody", "votes": "46" },
-      { "ct_name": "Resinous", "votes": "39" },
+      { "ct_name": "Woody", "votes": "47" },
+      { "ct_name": "Resinous", "votes": "40" },
       { "ct_name": "Earthy", "votes": "14" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "30" },
-      { "ct_name": "Leisure", "votes": "40" },
-      { "ct_name": "Night Out", "votes": "34" },
-      { "ct_name": "Business", "votes": "21" },
-      { "ct_name": "Evening", "votes": "39" }
+      { "ct_name": "Daily", "votes": "31" },
+      { "ct_name": "Leisure", "votes": "41" },
+      { "ct_name": "Night Out", "votes": "35" },
+      { "ct_name": "Business", "votes": "22" },
+      { "ct_name": "Evening", "votes": "40" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "52" },
-      { "ct_name": "Feminine", "votes": "44" },
-      { "ct_name": "Mature", "votes": "22" },
-      { "ct_name": "Youthful", "votes": "12" }
+      { "ct_name": "Masculine", "votes": "53" },
+      { "ct_name": "Feminine", "votes": "45" },
+      { "ct_name": "Mature", "votes": "23" },
+      { "ct_name": "Youthful", "votes": "13" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "46" },
-      { "ct_name": "Fall", "votes": "52" },
-      { "ct_name": "Summer", "votes": "15" },
-      { "ct_name": "Spring", "votes": "28" }
+      { "ct_name": "Winter", "votes": "47" },
+      { "ct_name": "Fall", "votes": "53" },
+      { "ct_name": "Summer", "votes": "16" },
+      { "ct_name": "Spring", "votes": "29" }
     ],
     "collection_group": "Wish List",
     "notes": [
@@ -4812,30 +4707,30 @@
     "image_src": "https://pimages.parfumo.de/720/1409_img-9717-comme_des_garcons-series_3_incense__kyoto_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Comme_des_Garons/Series_3_Incense_Kyoto",
     "type": [
-      { "ct_name": "Spicy", "votes": "128" },
-      { "ct_name": "Smoky", "votes": "150" },
-      { "ct_name": "Woody", "votes": "160" },
-      { "ct_name": "Resinous", "votes": "105" },
+      { "ct_name": "Spicy", "votes": "129" },
+      { "ct_name": "Smoky", "votes": "151" },
+      { "ct_name": "Woody", "votes": "161" },
+      { "ct_name": "Resinous", "votes": "106" },
       { "ct_name": "Green", "votes": "63" },
       { "ct_name": "Fresh", "votes": "55" },
       { "ct_name": "Earthy", "votes": "46" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "119" },
-      { "ct_name": "Leisure", "votes": "134" },
-      { "ct_name": "Night Out", "votes": "94" },
+      { "ct_name": "Daily", "votes": "120" },
+      { "ct_name": "Leisure", "votes": "135" },
+      { "ct_name": "Night Out", "votes": "95" },
       { "ct_name": "Business", "votes": "99" },
-      { "ct_name": "Evening", "votes": "120" }
+      { "ct_name": "Evening", "votes": "121" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "179" },
+      { "ct_name": "Masculine", "votes": "180" },
       { "ct_name": "Feminine", "votes": "110" },
-      { "ct_name": "Mature", "votes": "83" },
+      { "ct_name": "Mature", "votes": "84" },
       { "ct_name": "Youthful", "votes": "63" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "131" },
-      { "ct_name": "Fall", "votes": "161" },
+      { "ct_name": "Winter", "votes": "132" },
+      { "ct_name": "Fall", "votes": "162" },
       { "ct_name": "Summer", "votes": "65" },
       { "ct_name": "Spring", "votes": "131" }
     ],
@@ -4992,33 +4887,33 @@
     "type": [
       { "ct_name": "Citrus", "votes": "99" },
       { "ct_name": "Spicy", "votes": "82" },
-      { "ct_name": "Sweet", "votes": "185" },
+      { "ct_name": "Sweet", "votes": "187" },
       { "ct_name": "Powdery", "votes": "58" },
-      { "ct_name": "Woody", "votes": "132" },
+      { "ct_name": "Woody", "votes": "133" },
       { "ct_name": "Fruity", "votes": "62" },
       { "ct_name": "Fresh", "votes": "214" },
-      { "ct_name": "Creamy", "votes": "49" },
-      { "ct_name": "Floral", "votes": "111" }
+      { "ct_name": "Creamy", "votes": "50" },
+      { "ct_name": "Floral", "votes": "112" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "216" },
-      { "ct_name": "Sport", "votes": "65" },
-      { "ct_name": "Leisure", "votes": "212" },
-      { "ct_name": "Night Out", "votes": "127" },
-      { "ct_name": "Business", "votes": "200" },
-      { "ct_name": "Evening", "votes": "114" }
+      { "ct_name": "Daily", "votes": "219" },
+      { "ct_name": "Sport", "votes": "66" },
+      { "ct_name": "Leisure", "votes": "215" },
+      { "ct_name": "Night Out", "votes": "130" },
+      { "ct_name": "Business", "votes": "202" },
+      { "ct_name": "Evening", "votes": "115" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "242" },
-      { "ct_name": "Feminine", "votes": "72" },
-      { "ct_name": "Mature", "votes": "74" },
-      { "ct_name": "Youthful", "votes": "142" }
+      { "ct_name": "Masculine", "votes": "244" },
+      { "ct_name": "Feminine", "votes": "73" },
+      { "ct_name": "Mature", "votes": "76" },
+      { "ct_name": "Youthful", "votes": "144" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "82" },
-      { "ct_name": "Fall", "votes": "166" },
-      { "ct_name": "Summer", "votes": "211" },
-      { "ct_name": "Spring", "votes": "241" }
+      { "ct_name": "Winter", "votes": "83" },
+      { "ct_name": "Fall", "votes": "168" },
+      { "ct_name": "Summer", "votes": "214" },
+      { "ct_name": "Spring", "votes": "244" }
     ],
     "collection_group": "Watch List",
     "notes": [
@@ -5084,34 +4979,34 @@
     "image_src": "https://pimages.parfumo.de/720/13888_img-5507-dior-dior-homme-original-2011-eau-de-toilette_720.jpg",
     "link": "https://www.parfumo.com/Perfumes/Dior/dior-homme-original-2011-eau-de-toilette",
     "type": [
-      { "ct_name": "Spicy", "votes": "191" },
-      { "ct_name": "Sweet", "votes": "310" },
-      { "ct_name": "Powdery", "votes": "387" },
+      { "ct_name": "Spicy", "votes": "192" },
+      { "ct_name": "Sweet", "votes": "311" },
+      { "ct_name": "Powdery", "votes": "388" },
       { "ct_name": "Oriental", "votes": "83" },
       { "ct_name": "Leathery", "votes": "149" },
-      { "ct_name": "Woody", "votes": "229" },
+      { "ct_name": "Woody", "votes": "230" },
       { "ct_name": "Gourmand", "votes": "152" },
       { "ct_name": "Creamy", "votes": "88" },
-      { "ct_name": "Floral", "votes": "143" }
+      { "ct_name": "Floral", "votes": "144" }
     ],
     "occasion": [
-      { "ct_name": "Daily", "votes": "283" },
-      { "ct_name": "Leisure", "votes": "272" },
-      { "ct_name": "Night Out", "votes": "352" },
-      { "ct_name": "Business", "votes": "261" },
-      { "ct_name": "Evening", "votes": "370" }
+      { "ct_name": "Daily", "votes": "284" },
+      { "ct_name": "Leisure", "votes": "274" },
+      { "ct_name": "Night Out", "votes": "354" },
+      { "ct_name": "Business", "votes": "262" },
+      { "ct_name": "Evening", "votes": "372" }
     ],
     "audience": [
-      { "ct_name": "Masculine", "votes": "441" },
-      { "ct_name": "Feminine", "votes": "133" },
-      { "ct_name": "Mature", "votes": "196" },
-      { "ct_name": "Youthful", "votes": "190" }
+      { "ct_name": "Masculine", "votes": "443" },
+      { "ct_name": "Feminine", "votes": "134" },
+      { "ct_name": "Mature", "votes": "198" },
+      { "ct_name": "Youthful", "votes": "192" }
     ],
     "season": [
-      { "ct_name": "Winter", "votes": "371" },
-      { "ct_name": "Fall", "votes": "422" },
-      { "ct_name": "Summer", "votes": "141" },
-      { "ct_name": "Spring", "votes": "318" }
+      { "ct_name": "Winter", "votes": "373" },
+      { "ct_name": "Fall", "votes": "424" },
+      { "ct_name": "Summer", "votes": "142" },
+      { "ct_name": "Spring", "votes": "320" }
     ],
     "collection_group": "Watch List",
     "notes": [
