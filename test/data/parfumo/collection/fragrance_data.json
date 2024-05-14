@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Eau de Soleil Blanc\nTom Ford 2017",
+    "brand": "Tom Ford",
+    "image_src": "https://pimages.parfumo.de/720/101945_img-2843-tom_ford-eau_de_soleil_blanc_720.jpg",
+    "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Eau_de_Soleil_Blanc",
+    "type": [
+      { "ct_name": "Citrus", "votes": "122" },
+      { "ct_name": "Sweet", "votes": "180" },
+      { "ct_name": "Powdery", "votes": "71" },
+      { "ct_name": "Fruity", "votes": "63" },
+      { "ct_name": "Fresh", "votes": "161" },
+      { "ct_name": "Creamy", "votes": "279" },
+      { "ct_name": "Floral", "votes": "213" }
+    ],
+    "occasion": [
+      { "ct_name": "Daily", "votes": "247" },
+      { "ct_name": "Sport", "votes": "66" },
+      { "ct_name": "Leisure", "votes": "280" },
+      { "ct_name": "Night Out", "votes": "123" },
+      { "ct_name": "Business", "votes": "157" },
+      { "ct_name": "Evening", "votes": "98" }
+    ],
+    "audience": [
+      { "ct_name": "Masculine", "votes": "187" },
+      { "ct_name": "Feminine", "votes": "294" },
+      { "ct_name": "Mature", "votes": "110" },
+      { "ct_name": "Youthful", "votes": "179" }
+    ],
+    "season": [
+      { "ct_name": "Winter", "votes": "27" },
+      { "ct_name": "Fall", "votes": "52" },
+      { "ct_name": "Summer", "votes": "307" },
+      { "ct_name": "Spring", "votes": "223" }
+    ],
+    "collection_group": "Miniatures",
+    "notes": [
+      "Bitter orange zest",
+      "Bergamot",
+      "Petitgrain",
+      "Cardamom",
+      "Pistachio",
+      "Caraway",
+      "Pink pepper",
+      "Morrocan orange blossom",
+      "Comorian ylang-ylang",
+      "Tuberose",
+      "Jasmine",
+      "Vanilla",
+      "Amber"
+    ]
+  },
+  {
+    "name": "Bleu de Chanel\nChanel 2010 EAU DE TOILETTE",
+    "brand": "Chanel",
+    "image_src": "https://pimages.parfumo.de/720/8982_img-9371-chanel-bleu_de_chanel_eau_de_toilette_720.jpg",
+    "link": "https://www.parfumo.com/Perfumes/Chanel/Bleu_de_Chanel",
+    "type": [
+      { "ct_name": "Citrus", "votes": "427" },
+      { "ct_name": "Spicy", "votes": "263" },
+      { "ct_name": "Synthetic", "votes": "117" },
+      { "ct_name": "Woody", "votes": "318" },
+      { "ct_name": "Fruity", "votes": "123" },
+      { "ct_name": "Fresh", "votes": "486" },
+      { "ct_name": "Aquatic", "votes": "216" }
+    ],
+    "occasion": [
+      { "ct_name": "Daily", "votes": "526" },
+      { "ct_name": "Sport", "votes": "190" },
+      { "ct_name": "Leisure", "votes": "462" },
+      { "ct_name": "Night Out", "votes": "281" },
+      { "ct_name": "Business", "votes": "496" },
+      { "ct_name": "Evening", "votes": "286" }
+    ],
+    "audience": [
+      { "ct_name": "Masculine", "votes": "580" },
+      { "ct_name": "Mature", "votes": "223" },
+      { "ct_name": "Youthful", "votes": "344" }
+    ],
+    "season": [
+      { "ct_name": "Winter", "votes": "244" },
+      { "ct_name": "Fall", "votes": "430" },
+      { "ct_name": "Summer", "votes": "519" },
+      { "ct_name": "Spring", "votes": "545" }
+    ],
+    "collection_group": "Miniatures",
+    "notes": [
+      "Citrus notes",
+      "Pink pepper",
+      "Vetiver",
+      "Grapefruit",
+      "Cedar",
+      "Labdanum",
+      "Ginger",
+      "Sandalwood",
+      "Frankincense"
+    ]
+  },
+  {
+    "name": "Ombr\u00e9 Leather\nTom Ford 2018 EAU DE PARFUM",
+    "brand": "Tom Ford",
+    "image_src": "https://pimages.parfumo.de/720/112373_img-3918-tom_ford-ombre_leather_2018_720.jpg",
+    "link": "https://www.parfumo.com/Perfumes/Tom_Ford/ombre-leather-2018-eau-de-parfum",
+    "type": [
+      { "ct_name": "Spicy", "votes": "352" },
+      { "ct_name": "Sweet", "votes": "261" },
+      { "ct_name": "Smoky", "votes": "183" },
+      { "ct_name": "Leathery", "votes": "601" },
+      { "ct_name": "Woody", "votes": "203" },
+      { "ct_name": "Floral", "votes": "118" }
+    ],
+    "occasion": [
+      { "ct_name": "Daily", "votes": "211" },
+      { "ct_name": "Leisure", "votes": "351" },
+      { "ct_name": "Night Out", "votes": "514" },
+      { "ct_name": "Business", "votes": "215" },
+      { "ct_name": "Evening", "votes": "516" }
+    ],
+    "audience": [
+      { "ct_name": "Masculine", "votes": "585" },
+      { "ct_name": "Feminine", "votes": "125" },
+      { "ct_name": "Mature", "votes": "307" },
+      { "ct_name": "Youthful", "votes": "215" }
+    ],
+    "season": [
+      { "ct_name": "Winter", "votes": "544" },
+      { "ct_name": "Fall", "votes": "574" },
+      { "ct_name": "Summer", "votes": "86" },
+      { "ct_name": "Spring", "votes": "308" }
+    ],
+    "collection_group": "Miniatures",
+    "notes": [
+      "Cardamom",
+      "Jasmine sambac",
+      "Saffron",
+      "Black leather",
+      "Patchouli",
+      "Vetiver",
+      "Amber",
+      "White moss"
+    ]
+  },
+  {
+    "name": "Costa Azzurra\nTom Ford 2014 EAU DE PARFUM",
+    "brand": "Tom Ford",
+    "image_src": "https://pimages.parfumo.de/720/46089_img-2151-tom-ford-costa-azzurra-eau-de-parfum_720.jpg",
+    "link": "https://www.parfumo.com/Perfumes/Tom_Ford/Costa_Azzurra_Eau_de_Parfum",
+    "type": [
+      { "ct_name": "Citrus", "votes": "153" },
+      { "ct_name": "Spicy", "votes": "102" },
+      { "ct_name": "Woody", "votes": "102" },
+      { "ct_name": "Green", "votes": "59" },
+      { "ct_name": "Fruity", "votes": "40" },
+      { "ct_name": "Fresh", "votes": "163" },
+      { "ct_name": "Aquatic", "votes": "132" }
+    ],
+    "occasion": [
+      { "ct_name": "Daily", "votes": "167" },
+      { "ct_name": "Sport", "votes": "67" },
+      { "ct_name": "Leisure", "votes": "162" },
+      { "ct_name": "Night Out", "votes": "73" },
+      { "ct_name": "Business", "votes": "128" },
+      { "ct_name": "Evening", "votes": "74" }
+    ],
+    "audience": [
+      { "ct_name": "Masculine", "votes": "190" },
+      { "ct_name": "Feminine", "votes": "75" },
+      { "ct_name": "Mature", "votes": "79" },
+      { "ct_name": "Youthful", "votes": "90" }
+    ],
+    "season": [
+      { "ct_name": "Winter", "votes": "21" },
+      { "ct_name": "Fall", "votes": "73" },
+      { "ct_name": "Summer", "votes": "187" },
+      { "ct_name": "Spring", "votes": "157" }
+    ],
+    "collection_group": "Miniatures",
+    "notes": ["Lemon", "Cypress", "Oak wood"]
+  }
+]

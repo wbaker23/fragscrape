@@ -1,0 +1,9 @@
+parfumo_pages:
+  - url: https://www.parfumo.com/Users/Crazysillage/Collection/Miniaturen
+    label: Miniatures
+    color: rgb(103,164,245)
+
+parfumo_import_results_path: test/data/parfumo/collection/fragrance_links.json
+parfumo_enrich_results_path: test/data/parfumo/collection/fragrance_data.json
+parfumo_enrich_notes_path: test/data/parfumo/collection/fragrance_notes.json
+parfumo_graph_path: test/data/parfumo/collection/graph.json
