@@ -49,6 +49,7 @@
       "Vanilla",
       "Amber"
     ],
+    "notes_strength": [5, 4, 4, 2, 2, 1, 1, 5, 4, 4, 2, 4, 2],
     "note_groups": [
       {
         "group_name": "https://www.parfumo.com/Fragrance_Notes/bitter-orange",
@@ -177,6 +178,7 @@
       "Sandalwood",
       "Frankincense"
     ],
+    "notes_strength": [5, 2, 1, 5, 1, 1, 2, 2, 1],
     "note_groups": [
       {
         "group_name": "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
@@ -303,6 +305,7 @@
       "Amber",
       "White moss"
     ],
+    "notes_strength": [1, 1, 1, 5, 1, 1, 1, 1],
     "note_groups": [
       {
         "group_name": "https://www.parfumo.com/Fragrance_Notes/Cardamom",
@@ -406,6 +409,7 @@
     ],
     "collection_group": "Miniatures",
     "notes": ["Lemon", "Cypress", "Oak wood"],
+    "notes_strength": [5, 3, 3],
     "note_groups": [
       {
         "group_name": "https://www.parfumo.com/Fragrance_Notes/Citric_notes",

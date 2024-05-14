@@ -104,13 +104,14 @@ def enrich(ctx):
                 By.XPATH, "//img[@itemprop='image']"
             ).get_attribute("src")
 
-            notes_list = [
-                e.get_attribute("alt")
-                for e in driver.find_elements(
-                    By.XPATH,
-                    "//div[@class='notes_list mb-2']//span[@class='nowrap pointer']//img",
-                )
-            ]
+            notes_list = []
+            notes_strength = []
+            for e in driver.find_elements(
+                By.XPATH,
+                "//div[@class='notes_list mb-2']//span[@class='nowrap pointer']//img",
+            ):
+                notes_list.append(e.get_attribute("alt"))
+                notes_strength.append(int(e.get_attribute("class")[-1]))
 
             try:
                 driver.find_element(
@@ -167,6 +168,7 @@ def enrich(ctx):
                     "season": scent_season,
                     "collection_group": fragrance["label"],
                     "notes": notes_list,
+                    "notes_strength": notes_strength,
                 }
             )
 
