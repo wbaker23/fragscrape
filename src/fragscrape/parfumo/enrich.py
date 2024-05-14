@@ -10,7 +10,7 @@ from tqdm import tqdm
 from fragscrape.parfumo.driver import start_driver
 
 
-def _add_note_groups(fragrances_enriched: list, write_path: str):
+def _add_note_groups(driver, fragrances_enriched: list, write_path: str):
     notes_list = set(chain.from_iterable(f["notes"] for f in fragrances_enriched))
     replacement_dict = {
         "Mandarin_orange": "Mandarin",
@@ -28,41 +28,38 @@ def _add_note_groups(fragrances_enriched: list, write_path: str):
     }
     note_groups_dict = {}
 
-    with start_driver() as driver:
-        for n in tqdm(notes_list):
-            url_name = n
-            url_name = url_name.replace("®", "")
-            url_name = url_name.replace("™", "")
-            url_name = url_name.replace("é", "e")
-            url_name = url_name.replace("ç", "c")
-            url_name = url_name.replace(" ", "_")
-            if url_name in replacement_dict:
-                driver.get(
-                    f"https://www.parfumo.com/Fragrance_Note/{replacement_dict[url_name]}"
-                )
-            else:
-                driver.get(f"https://www.parfumo.com/Fragrance_Note/{url_name}")
+    for n in tqdm(notes_list):
+        url_name = n
+        url_name = url_name.replace("®", "")
+        url_name = url_name.replace("™", "")
+        url_name = url_name.replace("é", "e")
+        url_name = url_name.replace("ç", "c")
+        url_name = url_name.replace(" ", "_")
+        if url_name in replacement_dict:
+            driver.get(
+                f"https://www.parfumo.com/Fragrance_Note/{replacement_dict[url_name]}"
+            )
+        else:
+            driver.get(f"https://www.parfumo.com/Fragrance_Note/{url_name}")
+        try:
+            driver.find_element(By.XPATH, "//div[@class='main']")
+            groups = driver.find_elements(
+                By.XPATH, "//div[@class='mt-1 mb-1']/span[@class='label_a upper']/a"
+            )
+            note_groups_dict[n] = [group.get_attribute("href") for group in groups]
+        except:
             try:
+                driver.get(
+                    f"https://www.parfumo.com/Fragrance_Note/{url_name.lower().replace('_', '-')}"
+                )
                 driver.find_element(By.XPATH, "//div[@class='main']")
                 groups = driver.find_elements(
-                    By.XPATH, "//div[@class='mt-1 mb-1']/span[@class='label_a upper']/a"
+                    By.XPATH,
+                    "//div[@class='mt-1 mb-1']/span[@class='label_a upper']/a",
                 )
                 note_groups_dict[n] = [group.get_attribute("href") for group in groups]
             except:
-                try:
-                    driver.get(
-                        f"https://www.parfumo.com/Fragrance_Note/{url_name.lower().replace('_', '-')}"
-                    )
-                    driver.find_element(By.XPATH, "//div[@class='main']")
-                    groups = driver.find_elements(
-                        By.XPATH,
-                        "//div[@class='mt-1 mb-1']/span[@class='label_a upper']/a",
-                    )
-                    note_groups_dict[n] = [
-                        group.get_attribute("href") for group in groups
-                    ]
-                except:
-                    print(url_name)
+                print(url_name)
 
     with open(write_path, "w") as f:
         json.dump(note_groups_dict, f)
@@ -91,7 +88,7 @@ def enrich(ctx):
         collection = json.load(f)
 
     with start_driver() as driver:
-        decants_enriched = []
+        fragrances_enriched = []
         # Let this loop run with the Chrome driver on screen, and wait until it finishes.
         for fragrance in tqdm(collection):
             driver.get(fragrance["link"])
@@ -108,10 +105,10 @@ def enrich(ctx):
             ).get_attribute("src")
 
             notes_list = [
-                e.text
+                e.get_attribute("alt")
                 for e in driver.find_elements(
                     By.XPATH,
-                    "//div[@class='notes_list mb-2']//span[@class='nowrap pointer']",
+                    "//div[@class='notes_list mb-2']//span[@class='nowrap pointer']//img",
                 )
             ]
 
@@ -158,7 +155,7 @@ def enrich(ctx):
             except:
                 scent_season = None
 
-            decants_enriched.append(
+            fragrances_enriched.append(
                 {
                     "name": name,
                     "brand": brand,
@@ -173,9 +170,9 @@ def enrich(ctx):
                 }
             )
 
-    # decants_enriched = _add_note_groups(
-    #     decants_enriched, config["parfumo_enrich_notes_path"]
-    # )
+    fragrances_enriched = _add_note_groups(
+        driver, fragrances_enriched, config["parfumo_enrich_notes_path"]
+    )
 
     with open(config["parfumo_enrich_results_path"], "w") as f:
-        json.dump(decants_enriched, f)
+        json.dump(fragrances_enriched, f)
