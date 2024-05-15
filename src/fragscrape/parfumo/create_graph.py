@@ -75,15 +75,6 @@ def generate_edges_df(nodes_df):
     votes_pivot = (
         type_pivot.join(occasion_pivot).join(season_pivot).join(audience_pivot)
     )
-    # total_pivot_decomposed, total_pivot_explained_variance = decompose_df(
-    #     total_pivot, "name", total_pivot.columns.to_list()
-    # )
-    # variance_df = pd.DataFrame(
-    #     enumerate(np.cumsum(total_pivot_explained_variance))
-    # ).set_index(0)
-    # cutoff = variance_df[variance_df[1] >= 0.99].index.min() + 1
-    # print(f"Reducing from {total_pivot_decomposed.shape[1]} features to {cutoff-1}.")
-    # total_pivot_decomposed = total_pivot_decomposed[range(0, cutoff)]
     votes_pivot_cosine_array = cosine_similarity(votes_pivot)
 
     return (
@@ -167,9 +158,6 @@ def create_graph(ctx, color_groups, threshold):
         "votes_similarity",
     ]
     component_weights = [0, 0, 0, 0, 1]
-    # edges_df[component_columns] = pd.DataFrame(
-    #     StandardScaler().fit_transform(edges_df[component_columns].values)
-    # )
     edges_df["weight"] = edges_df.apply(
         lambda row: np.average(
             row[component_columns],
@@ -198,10 +186,6 @@ def create_graph(ctx, color_groups, threshold):
         .max(axis=1)
         .sort_values()
     )
-    # q1 = node_weights_df.quantile(0.25)
-    # q3 = node_weights_df.quantile(0.75)
-    # iqr = q3 - q1
-    # threshold = q1 - (1.5 * iqr) if threshold is None else threshold
     threshold = node_weights_df.iloc[0] if threshold is None else threshold
     print(
         f"Weight threshold: {threshold}",
