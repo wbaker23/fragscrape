@@ -1,6 +1,5 @@
 import json
 import re
-from collections import Counter
 from itertools import chain
 
 import click

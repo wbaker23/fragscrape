@@ -7,6 +7,51 @@ from tqdm import tqdm
 from fragscrape.parfumo.driver import start_driver
 
 
+def _load_collection(driver, pages):
+    links = []
+
+    for page in tqdm(pages):
+        driver.get(page["url"])
+        for fragrance in tqdm(
+            driver.find_element(By.ID, "wr_wrapper").find_elements(By.XPATH, "*")
+        ):
+            fragrance.click()
+            try:
+                # Must keep this model in view at all times by scrolling down the page,
+                # following the progress of the loop.
+                link = driver.find_element(
+                    By.CSS_SELECTOR,
+                    "body > div.wr_sneak > div.header > div.img > a",
+                )
+                if link.get_attribute("href") in [l["link"] for l in links]:
+                    continue
+                links.append(
+                    {"link": link.get_attribute("href"), "label": page["label"]}
+                )
+            except:
+                continue
+
+    return links
+
+
+def _load_tops(driver, pages):
+    links = []
+
+    for page in tqdm(pages):
+        driver.get(page["url"])
+        links.extend(
+            {
+                "link": fragrance.get_attribute("href"),
+                "label": page["label"],
+            }
+            for fragrance in tqdm(
+                driver.find_elements(By.XPATH, "//div[@class='image ']/a")
+            )
+        )
+
+    return links
+
+
 @click.command()
 @click.pass_context
 @click.option(
@@ -23,44 +68,10 @@ def load(ctx, source):
     config = ctx.obj.get("config")
 
     with start_driver() as driver:
-        links = []
-        # Collect fragrance urls from collection pages.
         if source == "collection":
-            for page in tqdm(config["parfumo_pages"]):
-                driver.get(page["url"])
-                for fragrance in tqdm(
-                    driver.find_element(By.ID, "wr_wrapper").find_elements(
-                        By.XPATH, "*"
-                    )
-                ):
-                    fragrance.click()
-                    try:
-                        # Must keep this model in view at all times by scrolling down the page,
-                        # following the progress of the loop.
-                        link = driver.find_element(
-                            By.CSS_SELECTOR,
-                            "body > div.wr_sneak > div.header > div.img > a",
-                        )
-                        if link.get_attribute("href") in [l["link"] for l in links]:
-                            continue
-                        links.append(
-                            {"link": link.get_attribute("href"), "label": page["label"]}
-                        )
-                    except:
-                        continue
-        # Collect fragrance urls from top lists.
+            links = _load_collection(driver, config["parfumo_pages"])
         elif source == "tops":
-            for page in tqdm(config["parfumo_top_pages"]):
-                driver.get(page["url"])
-                for fragrance in tqdm(
-                    driver.find_elements(By.XPATH, "//div[@class='image ']/a")
-                ):
-                    links.append(
-                        {
-                            "link": fragrance.get_attribute("href"),
-                            "label": page["label"],
-                        }
-                    )
+            links = _load_tops(driver, config["parfumo_pages"])
 
     with open(config["parfumo_import_results_path"], "w") as f:
         json.dump(links, f)
