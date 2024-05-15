@@ -65,16 +65,18 @@ def _add_note_groups(driver, fragrances_enriched: list, write_path: str):
     with open(write_path, "w") as f:
         json.dump(note_groups_dict, f)
 
-    def _get_groups_for_notes(note_list):
-        group_list = []
-        for note in note_list:
-            group_list.extend(note_groups_dict[note])
-        return [
-            {"group_name": k, "group_count": v} for k, v in Counter(group_list).items()
-        ]
-
     for f in fragrances_enriched:
-        f["note_groups"] = _get_groups_for_notes(f["notes"])
+        notes_list = list(zip(f["notes"], f["notes_strength"]))
+        note_groups = {}
+        for n in notes_list:
+            for g in note_groups_dict[n[0]]:
+                if g in note_groups:
+                    note_groups[g] += n[1]
+                else:
+                    note_groups[g] = n[1]
+        f["note_groups"] = [
+            {"group_name": l[0], "group_count": l[1]} for l in note_groups.items()
+        ]
 
     return fragrances_enriched
 
