@@ -8,6 +8,19 @@ from tqdm import tqdm
 from fragscrape.parfumo.driver import start_driver
 
 
+def _get_chart_data(driver, i, j):
+    try:
+        driver.find_element(By.XPATH, "//nav[@class='flex ptabs ']/div[6]").click()
+        script = driver.find_element(
+            By.CSS_SELECTOR, f"#classification_community > script:nth-child({i})"
+        ).get_attribute("innerHTML")
+        type = json.loads(re.search(f"chart{j}\\.data = ([^;]+)", script).group(1))
+    except:
+        type = None
+    finally:
+        return type
+
+
 @click.command()
 @click.pass_context
 def enrich(ctx):
@@ -34,48 +47,10 @@ def enrich(ctx):
                 By.XPATH, "//img[@itemprop='image']"
             ).get_attribute("src")
 
-            try:
-                driver.find_element(
-                    By.XPATH, "//nav[@class='flex ptabs ']/div[6]"
-                ).click()
-                type_script = driver.find_element(
-                    By.CSS_SELECTOR, "#classification_community > script:nth-child(2)"
-                ).get_attribute("innerHTML")
-                scent_type = json.loads(
-                    re.search("chart4\\.data = ([^;]+)", type_script).group(1)
-                )
-            except:
-                scent_type = None
-
-            try:
-                occasion_script = driver.find_element(
-                    By.CSS_SELECTOR, "#classification_community > script:nth-child(14)"
-                ).get_attribute("innerHTML")
-                scent_occasion = json.loads(
-                    re.search("chart2\\.data = ([^;]+)", occasion_script).group(1)
-                )
-            except:
-                scent_occasion = None
-
-            try:
-                audience_script = driver.find_element(
-                    By.CSS_SELECTOR, "#classification_community > script:nth-child(6)"
-                ).get_attribute("innerHTML")
-                scent_audience = json.loads(
-                    re.search("chart1\\.data = ([^;]+)", audience_script).group(1)
-                )
-            except:
-                scent_audience = None
-
-            try:
-                season_script = driver.find_element(
-                    By.CSS_SELECTOR, "#classification_community > script:nth-child(10)"
-                ).get_attribute("innerHTML")
-                scent_season = json.loads(
-                    re.search("chart3\\.data = ([^;]+)", season_script).group(1)
-                )
-            except:
-                scent_season = None
+            scent_type = _get_chart_data(driver, 2, 4)
+            scent_occasion = _get_chart_data(driver, 14, 2)
+            scent_audience = _get_chart_data(driver, 6, 1)
+            scent_season = _get_chart_data(driver, 10, 3)
 
             fragrances_enriched.append(
                 {
