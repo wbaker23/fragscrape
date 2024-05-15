@@ -1,0 +1,956 @@
+{
+  "Tonka bean absolute": ["https://www.parfumo.com/Fragrance_Notes/Tonka_bean"],
+  "Geraniol": ["https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients"],
+  "Bourbon vanilla CO2": [
+    "https://www.parfumo.com/Fragrance_Notes/Bourbon_vanilla",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Vanilla"
+  ],
+  "Grapefruit": [
+    "https://www.parfumo.com/Fragrance_Notes/citrus-fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Grapefruit"
+  ],
+  "Red mandarin orange": ["https://www.parfumo.com/Fragrance_Notes/Mandarin"],
+  "Brazilian tonka bean absolute": [
+    "https://www.parfumo.com/Fragrance_Notes/Tonka_bean"
+  ],
+  "Geranium": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Geranium"
+  ],
+  "Coconut water": ["https://www.parfumo.com/Fragrance_Notes/Coconut"],
+  "Egyptian jasmine": ["https://www.parfumo.com/Fragrance_Notes/Jasmine"],
+  "Marron glac\u00e9": [],
+  "Sicilian cedar": [
+    "https://www.parfumo.com/Fragrance_Notes/cedar",
+    "https://www.parfumo.com/Fragrance_Notes/Coniferous_trees"
+  ],
+  "Myrtle": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Myrtle",
+    "https://www.parfumo.com/Fragrance_Notes/plants"
+  ],
+  "Ambroxan": [
+    "https://www.parfumo.com/Fragrance_Notes/Ambergris",
+    "https://www.parfumo.com/Fragrance_Notes/Ambroxan",
+    "https://www.parfumo.com/Fragrance_Notes/Animalic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients"
+  ],
+  "Ecuadorian ambrette seed": [
+    "https://www.parfumo.com/Fragrance_Notes/Ambrette"
+  ],
+  "Moss": [
+    "https://www.parfumo.com/Fragrance_Notes/moss",
+    "https://www.parfumo.com/Fragrance_Notes/Mossy_notes"
+  ],
+  "Frankincense": [
+    "https://www.parfumo.com/Fragrance_Notes/incense",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Smoky_notes"
+  ],
+  "Pear": [
+    "https://www.parfumo.com/Fragrance_Notes/Fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Pear"
+  ],
+  "Ambrox": [
+    "https://www.parfumo.com/Fragrance_Notes/Ambergris",
+    "https://www.parfumo.com/Fragrance_Notes/Ambroxan",
+    "https://www.parfumo.com/Fragrance_Notes/Animalic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients"
+  ],
+  "Benzoin Siam": ["https://www.parfumo.com/Fragrance_Notes/Benzoin"],
+  "Rum": ["https://www.parfumo.com/Fragrance_Notes/Rum"],
+  "Vanilla": [
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Vanilla"
+  ],
+  "Ambergris": [
+    "https://www.parfumo.com/Fragrance_Notes/Ambergris",
+    "https://www.parfumo.com/Fragrance_Notes/Animalic_notes"
+  ],
+  "Clary sage": [
+    "https://www.parfumo.com/Fragrance_Notes/clary-sage",
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes"
+  ],
+  "Chinese geranium": ["https://www.parfumo.com/Fragrance_Notes/Geranium"],
+  "Indonesian oud": [
+    "https://www.parfumo.com/Fragrance_Notes/agarwood",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Ceylon cinnamon": [
+    "https://www.parfumo.com/Fragrance_Notes/Cinnamon",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Violet": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Violet"
+  ],
+  "Green tea": [
+    "https://www.parfumo.com/Fragrance_Notes/Green_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Green_tea",
+    "https://www.parfumo.com/Fragrance_Notes/Tea"
+  ],
+  "Italian iris concrete": ["https://www.parfumo.com/Fragrance_Notes/Iris"],
+  "Everlasting flower": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Immortelle"
+  ],
+  "Chinese myrrh": ["https://www.parfumo.com/Fragrance_Notes/Myrrh"],
+  "Lavender": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Lavender"
+  ],
+  "Rose": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Rose"
+  ],
+  "Opoponax": [
+    "https://www.parfumo.com/Fragrance_Notes/Opoponax",
+    "https://www.parfumo.com/Fragrance_Notes/Resinous_notes"
+  ],
+  "Cashmere wood": [
+    "https://www.parfumo.com/Fragrance_Notes/Cashmere_wood",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Omani white frankincense": [
+    "https://www.parfumo.com/Fragrance_Notes/incense",
+    "https://www.parfumo.com/Fragrance_Notes/Omani_frankincense"
+  ],
+  "Green almond": ["https://www.parfumo.com/Fragrance_Notes/Almond"],
+  "Liquorice": [
+    "https://www.parfumo.com/Fragrance_Notes/Glycyrrhiza",
+    "https://www.parfumo.com/Fragrance_Notes/Gourmandy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/liquorice"
+  ],
+  "Colombian cocoa": ["https://www.parfumo.com/Fragrance_Notes/Cocoa"],
+  "Teakwood": [
+    "https://www.parfumo.com/Fragrance_Notes/Teak",
+    "https://www.parfumo.com/Fragrance_Notes/woods"
+  ],
+  "Osmanthus": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Fruity_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Osmanthus"
+  ],
+  "Zanzibar black pepper": [
+    "https://www.parfumo.com/Fragrance_Notes/Black_pepper"
+  ],
+  "Fig leaf": [
+    "https://www.parfumo.com/Fragrance_Notes/Fig",
+    "https://www.parfumo.com/Fragrance_Notes/leaves"
+  ],
+  "Tonka bean": [
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Tonka_bean"
+  ],
+  "Pimento leaf": [
+    "https://www.parfumo.com/Fragrance_Notes/Allspice",
+    "https://www.parfumo.com/Fragrance_Notes/leaves"
+  ],
+  "Indian vetiver": ["https://www.parfumo.com/Fragrance_Notes/Vetiver"],
+  "Carrot seed": ["https://www.parfumo.com/Fragrance_Notes/Carrot"],
+  "Caramel": [
+    "https://www.parfumo.com/Fragrance_Notes/Caramel",
+    "https://www.parfumo.com/Fragrance_Notes/Gourmandy_notes"
+  ],
+  "Cashmeran": [
+    "https://www.parfumo.com/Fragrance_Notes/Cashmere_wood",
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients",
+    "https://www.parfumo.com/Fragrance_Notes/IFF",
+    "https://www.parfumo.com/Fragrance_Notes/Musk",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Juniper berry": ["https://www.parfumo.com/Fragrance_Notes/Juniper"],
+  "Patchouli blossom": [
+    "https://www.parfumo.com/Fragrance_Notes/flowers",
+    "https://www.parfumo.com/Fragrance_Notes/Patchouli"
+  ],
+  "Evernyl": [
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients",
+    "https://www.parfumo.com/Fragrance_Notes/Mossy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Oakmoss"
+  ],
+  "Linden blossom": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/flowers",
+    "https://www.parfumo.com/Fragrance_Notes/Linden_blossom",
+    "https://www.parfumo.com/Fragrance_Notes/Linden_tree"
+  ],
+  "Ethiopian frankincense": ["https://www.parfumo.com/Fragrance_Notes/incense"],
+  "Sandalwood": [
+    "https://www.parfumo.com/Fragrance_Notes/Sandalwood",
+    "https://www.parfumo.com/Fragrance_Notes/woods"
+  ],
+  "Blackcurrant bud": ["https://www.parfumo.com/Fragrance_Notes/Black_currant"],
+  "Coriander seed": ["https://www.parfumo.com/Fragrance_Notes/Coriander"],
+  "Orange blossom": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/flowers",
+    "https://www.parfumo.com/Fragrance_Notes/Orange_blossom",
+    "https://www.parfumo.com/Fragrance_Notes/White_flowers"
+  ],
+  "Suede": [
+    "https://www.parfumo.com/Fragrance_Notes/Leather",
+    "https://www.parfumo.com/Fragrance_Notes/Suede"
+  ],
+  "Mint": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Mint"
+  ],
+  "Black amber": ["https://www.parfumo.com/Fragrance_Notes/Amber"],
+  "Apricot": [
+    "https://www.parfumo.com/Fragrance_Notes/Apricot",
+    "https://www.parfumo.com/Fragrance_Notes/Fruits"
+  ],
+  "Leather": [
+    "https://www.parfumo.com/Fragrance_Notes/Animalic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Leather"
+  ],
+  "Amber Xtreme\u2122": [
+    "https://www.parfumo.com/Fragrance_Notes/Amber",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients",
+    "https://www.parfumo.com/Fragrance_Notes/IFF"
+  ],
+  "Canadian fir balsam": ["https://www.parfumo.com/Fragrance_Notes/fir-balsam"],
+  "Florentine iris absolute": ["https://www.parfumo.com/Fragrance_Notes/Iris"],
+  "Haitian vetiver": [
+    "https://www.parfumo.com/Fragrance_Notes/Grasses",
+    "https://www.parfumo.com/Fragrance_Notes/Vetiver",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Cocoa absolute": ["https://www.parfumo.com/Fragrance_Notes/Cocoa"],
+  "Cyclamen": [
+    "https://www.parfumo.com/Fragrance_Notes/Cyclamen",
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes"
+  ],
+  "Coriander": [
+    "https://www.parfumo.com/Fragrance_Notes/Coriander",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "White pepper": [
+    "https://www.parfumo.com/Fragrance_Notes/Pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/White_pepper"
+  ],
+  "Ozonic notes": [
+    "https://www.parfumo.com/Fragrance_Notes/Aquatic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Ozone"
+  ],
+  "Blackcurrant": ["https://www.parfumo.com/Fragrance_Notes/Black_currant"],
+  "Comorian vanilla": ["https://www.parfumo.com/Fragrance_Notes/Vanilla"],
+  "Coconut milk": [
+    "https://www.parfumo.com/Fragrance_Notes/Coconut",
+    "https://www.parfumo.com/Fragrance_Notes/juice"
+  ],
+  "Galbanum": [
+    "https://www.parfumo.com/Fragrance_Notes/Galbanum",
+    "https://www.parfumo.com/Fragrance_Notes/Resinous_notes"
+  ],
+  "Pineapple leaf": [
+    "https://www.parfumo.com/Fragrance_Notes/leaves",
+    "https://www.parfumo.com/Fragrance_Notes/Pineapple"
+  ],
+  "Cypriol": [
+    "https://www.parfumo.com/Fragrance_Notes/Cyperus",
+    "https://www.parfumo.com/Fragrance_Notes/Grasses",
+    "https://www.parfumo.com/Fragrance_Notes/Green_notes"
+  ],
+  "Amberketal": [
+    "https://www.parfumo.com/Fragrance_Notes/Amber",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients",
+    "https://www.parfumo.com/Fragrance_Notes/Givaudan"
+  ],
+  "Metallic notes": [
+    "https://www.parfumo.com/Fragrance_Notes/metallic-notes",
+    "https://www.parfumo.com/Fragrance_Notes/Not_classified"
+  ],
+  "White moss": ["https://www.parfumo.com/Fragrance_Notes/moss"],
+  "Moroccan rosemary": ["https://www.parfumo.com/Fragrance_Notes/Rosemary"],
+  "Beeswax": [
+    "https://www.parfumo.com/Fragrance_Notes/Beeswax",
+    "https://www.parfumo.com/Fragrance_Notes/Resinous_notes"
+  ],
+  "Sicilian orange": ["https://www.parfumo.com/Fragrance_Notes/Orange"],
+  "Somalian frankincense": [
+    "https://www.parfumo.com/Fragrance_Notes/incense",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Smoky_notes"
+  ],
+  "Ginger CO2": ["https://www.parfumo.com/Fragrance_Notes/Ginger"],
+  "Almond": [
+    "https://www.parfumo.com/Fragrance_Notes/Almond",
+    "https://www.parfumo.com/Fragrance_Notes/Fruity_notes"
+  ],
+  "Sichuan pepper": [
+    "https://www.parfumo.com/Fragrance_Notes/Pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Sichuan_pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Black suede": ["https://www.parfumo.com/Fragrance_Notes/Suede"],
+  "Woods": ["https://www.parfumo.com/Fragrance_Notes/Woody_notes"],
+  "Jasmine sambac": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Jasmine",
+    "https://www.parfumo.com/Fragrance_Notes/jasminum-sambac",
+    "https://www.parfumo.com/Fragrance_Notes/White_flowers"
+  ],
+  "Civet": [
+    "https://www.parfumo.com/Fragrance_Notes/Animalic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Civet"
+  ],
+  "Bitter orange": [
+    "https://www.parfumo.com/Fragrance_Notes/bitter-orange",
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes"
+  ],
+  "Plum": [
+    "https://www.parfumo.com/Fragrance_Notes/Fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Plum"
+  ],
+  "Resins": ["https://www.parfumo.com/Fragrance_Notes/Resinous_notes"],
+  "Tuberose": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Tuberose",
+    "https://www.parfumo.com/Fragrance_Notes/White_flowers"
+  ],
+  "Gaiac wood": [
+    "https://www.parfumo.com/Fragrance_Notes/Gaiac_wood",
+    "https://www.parfumo.com/Fragrance_Notes/woods"
+  ],
+  "White blossoms": [
+    "https://www.parfumo.com/Fragrance_Notes/flowers",
+    "https://www.parfumo.com/Fragrance_Notes/White_flowers"
+  ],
+  "Pink pepper": [
+    "https://www.parfumo.com/Fragrance_Notes/Pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Pink_pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Ylang-ylang": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Ylang_ylang"
+  ],
+  "Tropical fruits": ["https://www.parfumo.com/Fragrance_Notes/Fruits"],
+  "Clover": [
+    "https://www.parfumo.com/Fragrance_Notes/Clover",
+    "https://www.parfumo.com/Fragrance_Notes/Green_notes"
+  ],
+  "Amyris": [
+    "https://www.parfumo.com/Fragrance_Notes/Amyris",
+    "https://www.parfumo.com/Fragrance_Notes/Balsamic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Resinous_notes"
+  ],
+  "Raspberry": [
+    "https://www.parfumo.com/Fragrance_Notes/Berries",
+    "https://www.parfumo.com/Fragrance_Notes/Raspberry"
+  ],
+  "Oakmoss absolute": [
+    "https://www.parfumo.com/Fragrance_Notes/Mossy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Oakmoss"
+  ],
+  "Granny Smith apple": ["https://www.parfumo.com/Fragrance_Notes/Apple"],
+  "Caraway": [
+    "https://www.parfumo.com/Fragrance_Notes/Caraway",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Papyrus": [
+    "https://www.parfumo.com/Fragrance_Notes/Green_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Papyrus",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Roman chamomile": ["https://www.parfumo.com/Fragrance_Notes/Chamomile"],
+  "Bitter orange zest": [
+    "https://www.parfumo.com/Fragrance_Notes/bitter-orange"
+  ],
+  "Sage": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Sage"
+  ],
+  "Pimento": [
+    "https://www.parfumo.com/Fragrance_Notes/Allspice",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Floralozone": [
+    "https://www.parfumo.com/Fragrance_Notes/Aquatic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/floralozone",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients",
+    "https://www.parfumo.com/Fragrance_Notes/Green_notes",
+    "https://www.parfumo.com/Fragrance_Notes/IFF",
+    "https://www.parfumo.com/Fragrance_Notes/Ozone"
+  ],
+  "Tobacco": ["https://www.parfumo.com/Fragrance_Notes/Tobacco"],
+  "Nutmeg": [
+    "https://www.parfumo.com/Fragrance_Notes/Nutmeg",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Iris": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Iris",
+    "https://www.parfumo.com/Fragrance_Notes/Powdery_notes"
+  ],
+  "Rhodinol": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients",
+    "https://www.parfumo.com/Fragrance_Notes/Rose"
+  ],
+  "Clove": [
+    "https://www.parfumo.com/Fragrance_Notes/Clove",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Neroli": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Neroli",
+    "https://www.parfumo.com/Fragrance_Notes/White_flowers"
+  ],
+  "Green mandarin orange": ["https://www.parfumo.com/Fragrance_Notes/Mandarin"],
+  "Floral notes": ["https://www.parfumo.com/Fragrance_Notes/Floral_notes"],
+  "Cognac": ["https://www.parfumo.com/Fragrance_Notes/Cognac"],
+  "Sicilian mandarin orange": [
+    "https://www.parfumo.com/Fragrance_Notes/Mandarin"
+  ],
+  "Anethol": [
+    "https://www.parfumo.com/Fragrance_Notes/Aniseed",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Ceylonese sandalwood": [
+    "https://www.parfumo.com/Fragrance_Notes/Sandalwood"
+  ],
+  "Frankincense absolute": ["https://www.parfumo.com/Fragrance_Notes/incense"],
+  "Coffee": [
+    "https://www.parfumo.com/Fragrance_Notes/Beverages",
+    "https://www.parfumo.com/Fragrance_Notes/Coffee"
+  ],
+  "Chinese black tea CO2": [
+    "https://www.parfumo.com/Fragrance_Notes/Black_tea",
+    "https://www.parfumo.com/Fragrance_Notes/Tea"
+  ],
+  "Oak wood absolute": ["https://www.parfumo.com/Fragrance_Notes/Oak"],
+  "Aniseed": [
+    "https://www.parfumo.com/Fragrance_Notes/Aniseed",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Sicilian lemon": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/citrus-fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Lemon"
+  ],
+  "Moroccan grapefruit blossom": [
+    "https://www.parfumo.com/Fragrance_Notes/Grapefruit"
+  ],
+  "Jasmine": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Jasmine",
+    "https://www.parfumo.com/Fragrance_Notes/White_flowers"
+  ],
+  "Amber": ["https://www.parfumo.com/Fragrance_Notes/Amber"],
+  "Soap": ["https://www.parfumo.com/Fragrance_Notes/soapy-notes"],
+  "Heliotrope": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/heliotrope"
+  ],
+  "Juniper": [
+    "https://www.parfumo.com/Fragrance_Notes/Juniper",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Citrus fruits": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/citrus-fruits"
+  ],
+  "Cistus absolute": [
+    "https://www.parfumo.com/Fragrance_Notes/Balsamic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Cistus"
+  ],
+  "Musk": ["https://www.parfumo.com/Fragrance_Notes/Musk"],
+  "Italian bergamot": ["https://www.parfumo.com/Fragrance_Notes/Bergamot"],
+  "Vetiver": [
+    "https://www.parfumo.com/Fragrance_Notes/Grasses",
+    "https://www.parfumo.com/Fragrance_Notes/Vetiver",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Birch": [
+    "https://www.parfumo.com/Fragrance_Notes/Birch",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Fig": [
+    "https://www.parfumo.com/Fragrance_Notes/Fig",
+    "https://www.parfumo.com/Fragrance_Notes/Green_notes"
+  ],
+  "Apple": [
+    "https://www.parfumo.com/Fragrance_Notes/Apple",
+    "https://www.parfumo.com/Fragrance_Notes/Fruits"
+  ],
+  "Aspic": [
+    "https://www.parfumo.com/Fragrance_Notes/Dish",
+    "https://www.parfumo.com/Fragrance_Notes/Gourmandy_notes"
+  ],
+  "Vietnamese oud": [
+    "https://www.parfumo.com/Fragrance_Notes/agarwood",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Curly mint": ["https://www.parfumo.com/Fragrance_Notes/spearmint"],
+  "Australian sandalwood": [
+    "https://www.parfumo.com/Fragrance_Notes/Sandalwood"
+  ],
+  "Berries": [
+    "https://www.parfumo.com/Fragrance_Notes/Berries",
+    "https://www.parfumo.com/Fragrance_Notes/Fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Fruity_notes"
+  ],
+  "White thyme": ["https://www.parfumo.com/Fragrance_Notes/Thyme"],
+  "Bourbon vanilla absolute": [
+    "https://www.parfumo.com/Fragrance_Notes/Bourbon_vanilla",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Vanilla"
+  ],
+  "Bergamot": [
+    "https://www.parfumo.com/Fragrance_Notes/Bergamot",
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes"
+  ],
+  "Petitgrain": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Petitgrain"
+  ],
+  "Geranium leaf": [
+    "https://www.parfumo.com/Fragrance_Notes/Geranium",
+    "https://www.parfumo.com/Fragrance_Notes/leaves"
+  ],
+  "Blood orange": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Orange"
+  ],
+  "Lily of the valley": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Lily_of_the_valley",
+    "https://www.parfumo.com/Fragrance_Notes/White_flowers"
+  ],
+  "Orange": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Orange"
+  ],
+  "White cedar": [
+    "https://www.parfumo.com/Fragrance_Notes/cedar",
+    "https://www.parfumo.com/Fragrance_Notes/Coniferous_trees"
+  ],
+  "Citron": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Citron"
+  ],
+  "Pepper": ["https://www.parfumo.com/Fragrance_Notes/Spicy_notes"],
+  "Morrocan orange blossom": [
+    "https://www.parfumo.com/Fragrance_Notes/Orange_blossom"
+  ],
+  "Cinnamon": [
+    "https://www.parfumo.com/Fragrance_Notes/Cinnamon",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Rosemary": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Rosemary"
+  ],
+  "Date": [
+    "https://www.parfumo.com/Fragrance_Notes/Date",
+    "https://www.parfumo.com/Fragrance_Notes/Fruits"
+  ],
+  "Styrax": [
+    "https://www.parfumo.com/Fragrance_Notes/Resinous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Storax"
+  ],
+  "Pine needle": ["https://www.parfumo.com/Fragrance_Notes/Pine"],
+  "Green apple": ["https://www.parfumo.com/Fragrance_Notes/Apple"],
+  "Comorian ylang-ylang": [
+    "https://www.parfumo.com/Fragrance_Notes/Ylang_ylang"
+  ],
+  "Citrus notes": ["https://www.parfumo.com/Fragrance_Notes/Citric_notes"],
+  "Saffron": [
+    "https://www.parfumo.com/Fragrance_Notes/Saffron",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Lemon": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/citrus-fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Lemon"
+  ],
+  "Moroccan grapefruit": ["https://www.parfumo.com/Fragrance_Notes/Grapefruit"],
+  "Birch tar": [
+    "https://www.parfumo.com/Fragrance_Notes/Birch",
+    "https://www.parfumo.com/Fragrance_Notes/tar"
+  ],
+  "Indian sandalwood": [
+    "https://www.parfumo.com/Fragrance_Notes/Sandalwood",
+    "https://www.parfumo.com/Fragrance_Notes/woods"
+  ],
+  "Olive wood": [
+    "https://www.parfumo.com/Fragrance_Notes/Olive",
+    "https://www.parfumo.com/Fragrance_Notes/woods"
+  ],
+  "Peppermint": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Peppermint"
+  ],
+  "Italian green mandarin orange": [
+    "https://www.parfumo.com/Fragrance_Notes/Mandarin"
+  ],
+  "Pear blossom": [
+    "https://www.parfumo.com/Fragrance_Notes/flowers",
+    "https://www.parfumo.com/Fragrance_Notes/Pear"
+  ],
+  "Brazilian rosewood": [
+    "https://www.parfumo.com/Fragrance_Notes/woods",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Green cardamom": ["https://www.parfumo.com/Fragrance_Notes/Cardamom"],
+  "Proven\u00e7al lavender absolute": [
+    "https://www.parfumo.com/Fragrance_Notes/Lavender"
+  ],
+  "Oakmoss": [
+    "https://www.parfumo.com/Fragrance_Notes/Mossy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Oakmoss"
+  ],
+  "Pineapple": [
+    "https://www.parfumo.com/Fragrance_Notes/Fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Pineapple"
+  ],
+  "Davana": [
+    "https://www.parfumo.com/Fragrance_Notes/Davana",
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes"
+  ],
+  "Tiramisu": [
+    "https://www.parfumo.com/Fragrance_Notes/Gourmandy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/sweet-dishes"
+  ],
+  "May rose": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/may-rose",
+    "https://www.parfumo.com/Fragrance_Notes/Rosa_centifolia"
+  ],
+  "Caribbean amyris": ["https://www.parfumo.com/Fragrance_Notes/Amyris"],
+  "White tea": [
+    "https://www.parfumo.com/Fragrance_Notes/Tea",
+    "https://www.parfumo.com/Fragrance_Notes/White_tea"
+  ],
+  "Spindrift": ["https://www.parfumo.com/Fragrance_Notes/marine"],
+  "Tea": ["https://www.parfumo.com/Fragrance_Notes/Tea"],
+  "Absinth": ["https://www.parfumo.com/Fragrance_Notes/Absinth"],
+  "Green stems": ["https://www.parfumo.com/Fragrance_Notes/Green_notes"],
+  "Basil": [
+    "https://www.parfumo.com/Fragrance_Notes/Basil",
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes"
+  ],
+  "Cedarwood": [
+    "https://www.parfumo.com/Fragrance_Notes/cedar",
+    "https://www.parfumo.com/Fragrance_Notes/woods",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Tunisian neroli": ["https://www.parfumo.com/Fragrance_Notes/Neroli"],
+  "Crimean coriander": ["https://www.parfumo.com/Fragrance_Notes/Coriander"],
+  "White musk": ["https://www.parfumo.com/Fragrance_Notes/Musk"],
+  "Lime": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/citrus-fruits",
+    "https://www.parfumo.com/Fragrance_Notes/Lime"
+  ],
+  "Florentine iris": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Iris",
+    "https://www.parfumo.com/Fragrance_Notes/Lily",
+    "https://www.parfumo.com/Fragrance_Notes/Powdery_notes"
+  ],
+  "Italian mandarin orange": [
+    "https://www.parfumo.com/Fragrance_Notes/Mandarin"
+  ],
+  "Flintstone": [
+    "https://www.parfumo.com/Fragrance_Notes/Gunpowder",
+    "https://www.parfumo.com/Fragrance_Notes/Mineral_notes"
+  ],
+  "Chestnut": [
+    "https://www.parfumo.com/Fragrance_Notes/Chestnut",
+    "https://www.parfumo.com/Fragrance_Notes/Nuts",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Calabrian bergamot": [
+    "https://www.parfumo.com/Fragrance_Notes/Bergamot",
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes"
+  ],
+  "Coffee blossom": [
+    "https://www.parfumo.com/Fragrance_Notes/Coffee",
+    "https://www.parfumo.com/Fragrance_Notes/flowers"
+  ],
+  "Cardamom": [
+    "https://www.parfumo.com/Fragrance_Notes/Cardamom",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Benzoin": [
+    "https://www.parfumo.com/Fragrance_Notes/Benzoin",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Resinous_notes"
+  ],
+  "Black tea": [
+    "https://www.parfumo.com/Fragrance_Notes/Black_tea",
+    "https://www.parfumo.com/Fragrance_Notes/Tea"
+  ],
+  "Oud": [
+    "https://www.parfumo.com/Fragrance_Notes/agarwood",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Cistus": [
+    "https://www.parfumo.com/Fragrance_Notes/Balsamic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Cistus"
+  ],
+  "Honey": [
+    "https://www.parfumo.com/Fragrance_Notes/Gourmandy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Honey",
+    "https://www.parfumo.com/Fragrance_Notes/nectar"
+  ],
+  "Saffiano\u2122": [
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients",
+    "https://www.parfumo.com/Fragrance_Notes/Leathery_notes"
+  ],
+  "Artemisia": [
+    "https://www.parfumo.com/Fragrance_Notes/Artemisia",
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes"
+  ],
+  "Myrrh": [
+    "https://www.parfumo.com/Fragrance_Notes/Myrrh",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Resinous_notes"
+  ],
+  "Hinoki wood": [
+    "https://www.parfumo.com/Fragrance_Notes/Hinoki",
+    "https://www.parfumo.com/Fragrance_Notes/woods"
+  ],
+  "Nigerian ginger": ["https://www.parfumo.com/Fragrance_Notes/Ginger"],
+  "Vanilla absolute": ["https://www.parfumo.com/Fragrance_Notes/Vanilla"],
+  "Mineral notes": ["https://www.parfumo.com/Fragrance_Notes/Mineral_notes"],
+  "Elemi resin": [
+    "https://www.parfumo.com/Fragrance_Notes/Elemi",
+    "https://www.parfumo.com/Fragrance_Notes/Resinous_notes"
+  ],
+  "Maltol": [
+    "https://www.parfumo.com/Fragrance_Notes/Caramel",
+    "https://www.parfumo.com/Fragrance_Notes/Gourmandy_notes"
+  ],
+  "Sea salt": [
+    "https://www.parfumo.com/Fragrance_Notes/marine",
+    "https://www.parfumo.com/Fragrance_Notes/Mineral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/salt",
+    "https://www.parfumo.com/Fragrance_Notes/Salty_notes"
+  ],
+  "Macedonian juniper berry": [
+    "https://www.parfumo.com/Fragrance_Notes/Juniper"
+  ],
+  "Birch wood": ["https://www.parfumo.com/Fragrance_Notes/Birch"],
+  "Frankincense resin": [
+    "https://www.parfumo.com/Fragrance_Notes/incense",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Smoky_notes"
+  ],
+  "Black pepper": [
+    "https://www.parfumo.com/Fragrance_Notes/Black_pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Turkish rose": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Rose",
+    "https://www.parfumo.com/Fragrance_Notes/Turkish_rose"
+  ],
+  "Patchouli": [
+    "https://www.parfumo.com/Fragrance_Notes/Earthy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Patchouli"
+  ],
+  "Pine": [
+    "https://www.parfumo.com/Fragrance_Notes/Coniferous_trees",
+    "https://www.parfumo.com/Fragrance_Notes/Pine",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Marine notes": [
+    "https://www.parfumo.com/Fragrance_Notes/Aquatic_notes",
+    "https://www.parfumo.com/Fragrance_Notes/marine"
+  ],
+  "Red pepper": ["https://www.parfumo.com/Fragrance_Notes/Pepper"],
+  "New Caledonian sandalwood": [
+    "https://www.parfumo.com/Fragrance_Notes/Sandalwood"
+  ],
+  "Mahogany": [
+    "https://www.parfumo.com/Fragrance_Notes/Mahagony",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Bitter orange leaf": [
+    "https://www.parfumo.com/Fragrance_Notes/bitter-orange",
+    "https://www.parfumo.com/Fragrance_Notes/leaves"
+  ],
+  "Violet leaf": [
+    "https://www.parfumo.com/Fragrance_Notes/Green_notes",
+    "https://www.parfumo.com/Fragrance_Notes/leaves",
+    "https://www.parfumo.com/Fragrance_Notes/Violet",
+    "https://www.parfumo.com/Fragrance_Notes/violet-leaf"
+  ],
+  "Aldehydes": [
+    "https://www.parfumo.com/Fragrance_Notes/Aldehydes",
+    "https://www.parfumo.com/Fragrance_Notes/Fragrance_ingredients"
+  ],
+  "Black leather": ["https://www.parfumo.com/Fragrance_Notes/Leather"],
+  "Cypress": [
+    "https://www.parfumo.com/Fragrance_Notes/Cypress",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Angelica": [
+    "https://www.parfumo.com/Fragrance_Notes/Angelica",
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes"
+  ],
+  "Thyme": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Thyme"
+  ],
+  "Labdanum absolute": ["https://www.parfumo.com/Fragrance_Notes/Labdanum"],
+  "Hazelnut": [
+    "https://www.parfumo.com/Fragrance_Notes/Hazelnut",
+    "https://www.parfumo.com/Fragrance_Notes/Nuts"
+  ],
+  "Oak wood": [
+    "https://www.parfumo.com/Fragrance_Notes/Oak",
+    "https://www.parfumo.com/Fragrance_Notes/woods",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Cocoa": [
+    "https://www.parfumo.com/Fragrance_Notes/Cocoa",
+    "https://www.parfumo.com/Fragrance_Notes/Gourmandy_notes"
+  ],
+  "Violet leaf absolute": [
+    "https://www.parfumo.com/Fragrance_Notes/violet-leaf"
+  ],
+  "Amberwood": ["https://www.parfumo.com/Fragrance_Notes/Amber"],
+  "Bulgarian rose": [
+    "https://www.parfumo.com/Fragrance_Notes/Bulgarian_rose",
+    "https://www.parfumo.com/Fragrance_Notes/Rose"
+  ],
+  "Virginia cedar": [
+    "https://www.parfumo.com/Fragrance_Notes/Juniper",
+    "https://www.parfumo.com/Fragrance_Notes/virginia-cedar",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Papua New Guinean vanilla": [
+    "https://www.parfumo.com/Fragrance_Notes/Vanilla"
+  ],
+  "Hibiscus seed": ["https://www.parfumo.com/Fragrance_Notes/Hibiscus"],
+  "Tobacco absolute": ["https://www.parfumo.com/Fragrance_Notes/Tobacco"],
+  "Rose absolute": ["https://www.parfumo.com/Fragrance_Notes/Rose"],
+  "Birch leaf": [
+    "https://www.parfumo.com/Fragrance_Notes/Birch",
+    "https://www.parfumo.com/Fragrance_Notes/leaves"
+  ],
+  "Ebony": [
+    "https://www.parfumo.com/Fragrance_Notes/Ebony",
+    "https://www.parfumo.com/Fragrance_Notes/woods"
+  ],
+  "Ambrette seed": ["https://www.parfumo.com/Fragrance_Notes/Ambrette"],
+  "Spices": [
+    "https://www.parfumo.com/Fragrance_Notes/spices",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Labdanum": [
+    "https://www.parfumo.com/Fragrance_Notes/Labdanum",
+    "https://www.parfumo.com/Fragrance_Notes/Resinous_notes"
+  ],
+  "Cumin": [
+    "https://www.parfumo.com/Fragrance_Notes/Cumin",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Tarragon": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/plants"
+  ],
+  "Ginger": [
+    "https://www.parfumo.com/Fragrance_Notes/Ginger",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Orris butter": [
+    "https://www.parfumo.com/Fragrance_Notes/Iris",
+    "https://www.parfumo.com/Fragrance_Notes/Powdery_notes"
+  ],
+  "Pink pepper CO2": [
+    "https://www.parfumo.com/Fragrance_Notes/Pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Pink_pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Guatemala cardamom": ["https://www.parfumo.com/Fragrance_Notes/Cardamom"],
+  "Madagascar pepper": [],
+  "Angelica root": ["https://www.parfumo.com/Fragrance_Notes/Angelica"],
+  "Star anise": [
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Star_anise"
+  ],
+  "Kahili ginger": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Ginger"
+  ],
+  "Pepperwood\u2122": [
+    "https://www.parfumo.com/Fragrance_Notes/Givaudan",
+    "https://www.parfumo.com/Fragrance_Notes/Pepper",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Woody_notes"
+  ],
+  "Bay leaf": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Laurel",
+    "https://www.parfumo.com/Fragrance_Notes/leaves"
+  ],
+  "Mandarin orange": [
+    "https://www.parfumo.com/Fragrance_Notes/Citric_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Mandarin"
+  ],
+  "Pralin\u00e9": [
+    "https://www.parfumo.com/Fragrance_Notes/Chocolate",
+    "https://www.parfumo.com/Fragrance_Notes/Gourmandy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Praline"
+  ],
+  "Bourbon vanilla": [
+    "https://www.parfumo.com/Fragrance_Notes/Bourbon_vanilla",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Vanilla"
+  ],
+  "Indonesian patchouli": [
+    "https://www.parfumo.com/Fragrance_Notes/Earthy_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Oriental_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Patchouli"
+  ],
+  "French lavender": [
+    "https://www.parfumo.com/Fragrance_Notes/Floral_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Lavender"
+  ],
+  "Proven\u00e7al blue cedar": [
+    "https://www.parfumo.com/Fragrance_Notes/Cypress"
+  ],
+  "Pistachio": [
+    "https://www.parfumo.com/Fragrance_Notes/Fruity_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Pistachio"
+  ],
+  "Cedar": [
+    "https://www.parfumo.com/Fragrance_Notes/cedar",
+    "https://www.parfumo.com/Fragrance_Notes/Coniferous_trees"
+  ],
+  "Spearmint": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/Mint",
+    "https://www.parfumo.com/Fragrance_Notes/plants"
+  ],
+  "Shiso leaf": [
+    "https://www.parfumo.com/Fragrance_Notes/Herbaceous_notes",
+    "https://www.parfumo.com/Fragrance_Notes/leaves",
+    "https://www.parfumo.com/Fragrance_Notes/shiso",
+    "https://www.parfumo.com/Fragrance_Notes/Spicy_notes"
+  ],
+  "Olive tree": ["https://www.parfumo.com/Fragrance_Notes/Olive"]
+}

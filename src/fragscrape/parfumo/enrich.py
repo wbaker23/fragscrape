@@ -25,6 +25,7 @@ def _add_note_groups(driver, fragrances_enriched: list, write_path: str):
         "Frankincense_resin": "frankincense",
         "Oak_wood_absolute": "Oak_absolute",
         "Red_mandarin_orange": "Red_mandarin",
+        "Papua_New_Guinean_vanilla": "papua-new-guinea-vanilla",
     }
     note_groups_dict = {}
 
@@ -172,9 +173,14 @@ def enrich(ctx):
                 }
             )
 
-    fragrances_enriched = _add_note_groups(
-        driver, fragrances_enriched, config["parfumo_enrich_notes_path"]
-    )
+        # Checkpoint
+        with open(config["parfumo_enrich_results_path"], "w") as f:
+            json.dump(fragrances_enriched, f)
 
-    with open(config["parfumo_enrich_results_path"], "w") as f:
-        json.dump(fragrances_enriched, f)
+        fragrances_enriched = _add_note_groups(
+            driver, fragrances_enriched, config["parfumo_enrich_notes_path"]
+        )
+
+        # Final write
+        with open(config["parfumo_enrich_results_path"], "w") as f:
+            json.dump(fragrances_enriched, f)
