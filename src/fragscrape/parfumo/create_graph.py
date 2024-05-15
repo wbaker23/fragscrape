@@ -72,34 +72,6 @@ def generate_edges_df(nodes_df):
     audience_pivot = explode_chart_data(nodes_df, "audience")
     audience_cosine_array = cosine_similarity(audience_pivot)
 
-    notes_exp_df = (
-        nodes_df[["name", "notes", "notes_strength"]]
-        .explode(["notes", "notes_strength"])
-        .drop_duplicates()
-    )
-    notes_exp_df["notes_strength"] = notes_exp_df["notes_strength"].astype(int)
-    notes_pivot = (
-        notes_exp_df.pivot(index="name", columns="notes", values="notes_strength")
-        .fillna(0)
-        .astype("int32")
-    )
-    notes_cosine_array = cosine_similarity(notes_pivot)
-
-    note_groups_exp_df = nodes_df.explode("note_groups")
-    note_groups_exp_df["group_name"] = note_groups_exp_df["note_groups"].apply(
-        lambda x: x["group_name"]
-    )
-    note_groups_exp_df["group_count"] = note_groups_exp_df["note_groups"].apply(
-        lambda x: x["group_count"]
-    )
-    note_groups_pivot = (
-        note_groups_exp_df[["name", "group_name", "group_count"]]
-        .pivot(index="name", columns="group_name", values="group_count")
-        .fillna(0)
-        .astype("int32")
-    )
-    note_groups_cosine_array = cosine_similarity(note_groups_pivot)
-
     votes_pivot = (
         type_pivot.join(occasion_pivot).join(season_pivot).join(audience_pivot)
     )
@@ -123,8 +95,6 @@ def generate_edges_df(nodes_df):
                 "occasion_similarity": occasion_cosine_array[i][j],
                 "season_similarity": season_cosine_array[i][j],
                 "audience_similarity": audience_cosine_array[i][j],
-                "notes_similarity": notes_cosine_array[i][j],
-                "note_groups_similarity": note_groups_cosine_array[i][j],
                 "votes_similarity": votes_pivot_cosine_array[i][j],
             }
             for i in range(0, len(type_cosine_array))
@@ -194,11 +164,9 @@ def create_graph(ctx, color_groups, threshold):
         "occasion_similarity",
         "season_similarity",
         "audience_similarity",
-        "notes_similarity",
-        "note_groups_similarity",
         "votes_similarity",
     ]
-    component_weights = [0, 0, 0, 0, 0, 0, 1]
+    component_weights = [0, 0, 0, 0, 1]
     # edges_df[component_columns] = pd.DataFrame(
     #     StandardScaler().fit_transform(edges_df[component_columns].values)
     # )
