@@ -21,4 +21,7 @@ def initialize(cur):
     cur.execute(
         "CREATE TABLE IF NOT EXISTS collection(name, brand, link PRIMARY KEY, image_src, collection_group, wearings)"
     )
+    cur.execute(
+        "CREATE TABLE IF NOT EXISTS tops(name, brand, link PRIMARY KEY, image_src, collection_group, wearings)"
+    )
     cur.execute("CREATE TABLE IF NOT EXISTS votes(link PRIMARY KEY, category, votes)")

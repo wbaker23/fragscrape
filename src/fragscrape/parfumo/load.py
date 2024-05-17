@@ -4,10 +4,14 @@ import click
 from selenium.webdriver.common.by import By
 from tqdm import tqdm
 
+from fragscrape.parfumo import database
 from fragscrape.parfumo.driver import start_driver
 
+database.initialize()
 
-def _load_collection(driver, pages):
+
+@database.db_connection
+def _load_collection(cursor, driver, pages):
     links = []
 
     for page in tqdm(pages):
@@ -31,10 +35,16 @@ def _load_collection(driver, pages):
             except:
                 continue
 
+    cursor.executemany(
+        "INSERT OR REPLACE INTO collection VALUES(null, null, :link, null, :label, null)",
+        links,
+    )
+
     return links
 
 
-def _load_tops(driver, pages):
+@database.db_connection
+def _load_tops(cursor, driver, pages):
     links = []
 
     for page in tqdm(pages):
@@ -48,6 +58,11 @@ def _load_tops(driver, pages):
                 driver.find_elements(By.XPATH, "//div[@class='image ']/a")
             )
         )
+
+    cursor.executemany(
+        "INSERT OR REPLACE INTO tops VALUES(null, null, :link, null, :label, null)",
+        links,
+    )
 
     return links
 
@@ -72,6 +87,3 @@ def load(ctx, source):
             links = _load_collection(driver, config["parfumo_pages"])
         elif source == "tops":
             links = _load_tops(driver, config["parfumo_pages"])
-
-    with open(config["parfumo_import_results_path"], "w") as f:
-        json.dump(links, f)
