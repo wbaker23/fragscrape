@@ -196,6 +196,7 @@ def create_graph(ctx, color_groups, threshold):
         net.add_node(
             index,
             collection_group=row["collection_group"],
+            wearings=row["wearings"],
             type_animal=assign_node_attribute(votes_pivot, index, "Animal"),
             type_aquatic=assign_node_attribute(votes_pivot, index, "Aquatic"),
             type_chypre=assign_node_attribute(votes_pivot, index, "Chypre"),
