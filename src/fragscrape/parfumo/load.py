@@ -10,7 +10,7 @@ from fragscrape.parfumo.driver import start_driver
 database.initialize()
 
 
-@database.db_connection
+@database.db_cursor
 def _load_collection(cursor, driver, pages):
     links = []
 
@@ -48,7 +48,7 @@ def _load_collection(cursor, driver, pages):
     return links
 
 
-@database.db_connection
+@database.db_cursor
 def _load_tops(cursor, driver, pages):
     links = []
 

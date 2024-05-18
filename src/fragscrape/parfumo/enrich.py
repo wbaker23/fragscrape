@@ -22,12 +22,12 @@ def _get_chart_data(driver, i, j):
         return type
 
 
-@database.db_connection
+@database.db_cursor
 def _get_collection(cursor):
     return [dict(o) for o in cursor.execute("SELECT * FROM collection").fetchall()]
 
 
-@database.db_connection
+@database.db_cursor
 def _update_collection_row(cursor, data):
     cursor.execute(
         """
@@ -41,7 +41,7 @@ def _update_collection_row(cursor, data):
     )
 
 
-@database.db_connection
+@database.db_cursor
 def _update_votes_rows(cursor, data):
     cursor.executemany(
         """
