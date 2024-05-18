@@ -1,7 +1,7 @@
 import sqlite3
 
 
-def db_connection(func):
+def db_cursor(func):
     def wrapper(*args, **kwargs):
         con = sqlite3.connect("fragscrape.db")
         con.row_factory = sqlite3.Row
@@ -17,7 +17,7 @@ def db_connection(func):
     return wrapper
 
 
-@db_connection
+@db_cursor
 def initialize(cur):
     cur.execute(
         """
