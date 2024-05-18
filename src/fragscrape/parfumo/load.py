@@ -36,7 +36,12 @@ def _load_collection(cursor, driver, pages):
                 continue
 
     cursor.executemany(
-        "INSERT OR REPLACE INTO collection VALUES(null, null, :link, null, :label, null)",
+        """
+        INSERT INTO collection (link, collection_group) 
+        VALUES (:link, :label) 
+        ON CONFLICT DO UPDATE 
+        SET collection_group = excluded.collection_group
+        """,
         links,
     )
 
@@ -60,7 +65,12 @@ def _load_tops(cursor, driver, pages):
         )
 
     cursor.executemany(
-        "INSERT OR REPLACE INTO tops VALUES(null, null, :link, null, :label, null)",
+        """
+        INSERT INTO tops (link, collection_group) 
+        VALUES (:link, :label) 
+        ON CONFLICT DO UPDATE 
+        SET collection_group = excluded.collection_group
+        """,
         links,
     )
 
