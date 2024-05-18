@@ -17,6 +17,21 @@ def db_cursor(func):
     return wrapper
 
 
+def db_connection(func):
+    def wrapper(*args, **kwargs):
+        con = sqlite3.connect("fragscrape.db")
+        con.row_factory = sqlite3.Row
+
+        result = func(con, *args, **kwargs)
+
+        con.commit()
+        con.close()
+
+        return result
+
+    return wrapper
+
+
 @db_cursor
 def initialize(cur):
     cur.execute(
