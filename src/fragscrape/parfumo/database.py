@@ -49,7 +49,7 @@ def initialize(cur):
             link, 
             category, 
             votes, 
-            PRIMARY KEY (link, votes)
+            PRIMARY KEY (link, category)
         )
         """
     )
