@@ -23,15 +23,15 @@ def _close_parfumo_cookies_popup(driver):
 
 def start_driver(username: str = None, password: str = None):
     """Initialize driver and navigate to Parfumo."""
-    DRIVER = undetected_chromedriver.Chrome()
-    DRIVER.implicitly_wait(3)
-    DRIVER.get("https://www.parfumo.com")
-    DRIVER = _close_parfumo_cookies_popup(DRIVER)
+    driver = undetected_chromedriver.Chrome()
+    driver.implicitly_wait(3)
+    driver.get("https://www.parfumo.com")
+    driver = _close_parfumo_cookies_popup(driver)
 
     if username is not None and password is not None:
-        DRIVER.find_element(By.ID, "login-btn").click()
-        DRIVER.find_element(By.ID, "username").send_keys(username)
-        DRIVER.find_element(By.ID, "password").send_keys(password)
-        DRIVER.find_element(By.XPATH, "//button").click()
+        driver.find_element(By.ID, "login-btn").click()
+        driver.find_element(By.ID, "username").send_keys(username)
+        driver.find_element(By.ID, "password").send_keys(password)
+        driver.find_element(By.XPATH, "//button").click()
 
-    return DRIVER
+    return driver

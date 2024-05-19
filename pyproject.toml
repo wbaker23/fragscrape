@@ -20,3 +20,6 @@ fragscrape = "fragscrape:cli"
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
+
+[tool.pylint."messages control"]
+disable = ["missing-module-docstring", "missing-function-docstring", "unspecified-encoding", "line-too-long"]

@@ -10,16 +10,16 @@ from fragscrape.parfumo.driver import start_driver
 
 
 def _get_chart_data(driver, i, j):
-    try:
-        driver.find_element(By.XPATH, "//nav[@class='flex ptabs ']/div[6]").click()
+    chart_button = driver.find_element(By.XPATH, "//nav[@class='flex ptabs ']/div[6]")
+    if chart_button.get_attribute("innerHTML") == "<span>Chart</span>":
+        chart_button.click()
         script = driver.find_element(
             By.CSS_SELECTOR, f"#classification_community > script:nth-child({i})"
         ).get_attribute("innerHTML")
-        type = json.loads(re.search(f"chart{j}\\.data = ([^;]+)", script).group(1))
-    except:
-        type = None
-    finally:
-        return type
+        data = json.loads(re.search(f"chart{j}\\.data = ([^;]+)", script).group(1))
+    else:
+        data = None
+    return data
 
 
 @database.db_cursor

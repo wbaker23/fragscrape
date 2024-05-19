@@ -8,8 +8,7 @@ from fragscrape.parfumo.load import load
 
 
 @click.group()
-@click.pass_context
-def parfumo(ctx):
+def parfumo():
     """Entrypoint for Parfumo-specific code."""
 
 
