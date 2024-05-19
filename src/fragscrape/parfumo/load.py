@@ -1,5 +1,3 @@
-import json
-
 import click
 from selenium.webdriver.common.by import By
 from tqdm import tqdm
