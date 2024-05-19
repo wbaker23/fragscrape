@@ -19,20 +19,15 @@ def _load_collection(cursor, driver, pages):
             driver.find_element(By.ID, "wr_wrapper").find_elements(By.XPATH, "*")
         ):
             fragrance.click()
-            try:
-                # Must keep this model in view at all times by scrolling down the page,
-                # following the progress of the loop.
-                link = driver.find_element(
-                    By.CSS_SELECTOR,
-                    "body > div.wr_sneak > div.header > div.img > a",
-                )
-                if link.get_attribute("href") in [l["link"] for l in links]:
-                    continue
-                links.append(
-                    {"link": link.get_attribute("href"), "label": page["label"]}
-                )
-            except:
+            # Must keep this model in view at all times by scrolling down the page,
+            # following the progress of the loop.
+            link = driver.find_element(
+                By.CSS_SELECTOR,
+                "body > div.wr_sneak > div.header > div.img > a",
+            )
+            if link.get_attribute("href") in [l["link"] for l in links]:
                 continue
+            links.append({"link": link.get_attribute("href"), "label": page["label"]})
 
     cursor.executemany(
         """
@@ -94,7 +89,7 @@ def load(ctx, source):
     with start_driver() as driver:
         if source == "collection":
             # pylint: disable-next=no-value-for-parameter
-            links = _load_collection(driver, config["parfumo_pages"])
+            _load_collection(driver, config["parfumo_pages"])
         elif source == "tops":
             # pylint: disable-next=no-value-for-parameter
-            links = _load_tops(driver, config["parfumo_pages"])
+            _load_tops(driver, config["parfumo_pages"])

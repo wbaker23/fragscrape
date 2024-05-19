@@ -19,10 +19,10 @@ class MplColorHelper:
         self.cmap_name = cmap_name
         self.cmap = plt.get_cmap(cmap_name)
         self.norm = mpl.colors.Normalize(vmin=start_val, vmax=stop_val)
-        self.scalarMap = mpl.cm.ScalarMappable(norm=self.norm, cmap=self.cmap)
+        self.scalar_map = mpl.cm.ScalarMappable(norm=self.norm, cmap=self.cmap)
 
     def get_rgba(self, val):
-        return self.scalarMap.to_rgba(val, bytes=True)
+        return self.scalar_map.to_rgba(val, bytes=True)
 
     def get_rgb_str(self, val):
         r, g, b, _ = self.get_rgba(val)
@@ -255,7 +255,7 @@ def create_graph(ctx, color_groups, threshold):
         node_colors = MplColorHelper("rainbow", 0, len(communities) - 1)
         community_colors = {}
         for node in net:
-            for i in range(len(communities)):
+            for i, _ in enumerate(communities):
                 if node in communities[i]:
                     community_colors[node] = node_colors.get_rgb_str(i)
         nx.set_node_attributes(net, community_colors, "color")
