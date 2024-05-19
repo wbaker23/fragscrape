@@ -55,8 +55,7 @@ def _update_votes_rows(cursor, data):
 
 
 @click.command()
-@click.pass_context
-def enrich(ctx):
+def enrich():
     """Navigate to previously scraped fragrance urls to get categorization data."""
     collection = _get_collection()
 

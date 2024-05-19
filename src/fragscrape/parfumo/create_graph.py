@@ -5,7 +5,6 @@ import click
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import networkx as nx
-import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
