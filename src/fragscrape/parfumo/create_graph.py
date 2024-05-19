@@ -41,24 +41,6 @@ def decompose_df(df: pd.DataFrame, label: str, variables: list):
     return x_pca, pca.explained_variance_ratio_
 
 
-def explode_chart_data(df, chart_name):
-    """Convert df with Parfumo chart data into wide-form."""
-    # Explode parfumo chart data
-    exp_df = df.explode(chart_name)
-    exp_df[f"{chart_name}_name"] = exp_df[chart_name].apply(lambda x: x["ct_name"])
-    exp_df[f"{chart_name}_votes"] = exp_df[chart_name].apply(lambda x: x["votes"])
-
-    # Pivot exploded df
-    pivot = (
-        exp_df[["name", f"{chart_name}_name", f"{chart_name}_votes"]]
-        .pivot(index="name", columns=f"{chart_name}_name", values=f"{chart_name}_votes")
-        .fillna(0)
-        .astype(int)
-    )
-
-    return pivot
-
-
 def generate_edges_df(nodes_df) -> pd.DataFrame:
     """Generate df listing all possible combinations of nodes with distance metrics."""
     votes_pivot_cosine_array = cosine_similarity(nodes_df)
