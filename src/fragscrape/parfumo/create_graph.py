@@ -96,7 +96,9 @@ def load_collection(connection) -> pd.DataFrame:
 
 
 def load_and_clean() -> pd.DataFrame:
+    # pylint: disable-next=no-value-for-parameter
     votes = load_votes()
+    # pylint: disable-next=no-value-for-parameter
     collection = load_collection()
     nodes_df = collection.join(votes)
 

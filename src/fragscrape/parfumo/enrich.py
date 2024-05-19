@@ -57,6 +57,7 @@ def _update_votes_rows(cursor, data):
 @click.command()
 def enrich():
     """Navigate to previously scraped fragrance urls to get categorization data."""
+    # pylint: disable-next=no-value-for-parameter
     collection = _get_collection()
 
     with start_driver() as driver:
@@ -85,6 +86,7 @@ def enrich():
                 item["link"] = fragrance["link"]
                 item["category"] = item["ct_name"]
 
+            # pylint: disable-next=no-value-for-parameter
             _update_collection_row(
                 {
                     "name": name,
@@ -93,4 +95,5 @@ def enrich():
                     "link": fragrance["link"],
                 }
             )
+            # pylint: disable-next=no-value-for-parameter
             _update_votes_rows(all_votes)

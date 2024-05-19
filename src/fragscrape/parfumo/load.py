@@ -5,6 +5,7 @@ from tqdm import tqdm
 from fragscrape.parfumo import database
 from fragscrape.parfumo.driver import start_driver
 
+# pylint: disable-next=no-value-for-parameter
 database.initialize()
 
 
@@ -92,6 +93,8 @@ def load(ctx, source):
 
     with start_driver() as driver:
         if source == "collection":
+            # pylint: disable-next=no-value-for-parameter
             links = _load_collection(driver, config["parfumo_pages"])
         elif source == "tops":
+            # pylint: disable-next=no-value-for-parameter
             links = _load_tops(driver, config["parfumo_pages"])
