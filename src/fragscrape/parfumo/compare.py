@@ -1,11 +1,9 @@
-import re
-
 import click
 import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.axes import Axes
 
-from fragscrape.parfumo.create_graph import explode_chart_data
+from fragscrape.parfumo.create_graph import load_and_clean
 
 
 def _add_subplot_to_axes(ax: Axes, df: pd.DataFrame) -> None:
@@ -16,70 +14,83 @@ def _add_subplot_to_axes(ax: Axes, df: pd.DataFrame) -> None:
 
 
 @click.command()
-@click.pass_context
-def compare(ctx):
-    config = ctx.obj.get("config")
-
-    nodes_df = pd.read_json(config["parfumo_enrich_results_path"])
-    nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
-    nodes_df = nodes_df.dropna()
-    print(f"Nodes: {nodes_df.shape[0]}")
+def compare():
+    nodes_df = load_and_clean().set_index("name")
 
     fragrance_1 = input("Type the name of a fragrance: ")
     fragrance_2 = input("Type the name of a second fragrance: ")
     nodes_df = nodes_df.loc[
-        nodes_df["name"].str.contains(fragrance_1, case=False)
-        | nodes_df["name"].str.contains(fragrance_2, case=False)
+        nodes_df.index.str.contains(fragrance_1, case=False)
+        | nodes_df.index.str.contains(fragrance_2, case=False)
     ]
 
-    fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(8, 5))
+    _, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(8, 5))
 
-    type_pivot = explode_chart_data(nodes_df, "type")
-    type_pivot = type_pivot.apply(lambda row: row / row.sum(), axis=1)
-    type_pivot = type_pivot[
+    type_data = nodes_df[
+        [
+            "Animal",
+            "Aquatic",
+            "Citrus",
+            "Creamy",
+            "Earthy",
+            "Floral",
+            "Fougère",
+            "Fresh",
+            "Fruity",
+            "Gourmand",
+            "Green",
+            "Leathery",
+            "Oriental",
+            "Powdery",
+            "Resinous",
+            "Smoky",
+            "Spicy",
+            "Sweet",
+            "Synthetic",
+            "Woody",
+        ]
+    ]
+    type_data = type_data[
         sorted(
-            type_pivot.columns,
-            key=lambda c: type_pivot.diff().iloc[1][c],
+            type_data.columns,
+            key=lambda c: type_data.diff().iloc[1][c],
         )
     ]
-    _add_subplot_to_axes(ax1, type_pivot)
-    ax1.get_legend().set_visible(False)
-    ax1.set_ybound(lower=-0.01)
+    _add_subplot_to_axes(ax1, type_data)
 
-    occasion_pivot = explode_chart_data(nodes_df, "occasion")
-    occasion_pivot = occasion_pivot.apply(lambda row: row / row.sum(), axis=1)
-    occasion_pivot = occasion_pivot[
+    occasion_data = nodes_df[
+        ["Business", "Daily", "Evening", "Leisure", "Night Out", "Sport"]
+    ]
+    occasion_data = occasion_data[
         sorted(
-            occasion_pivot.columns,
-            key=lambda c: occasion_pivot.diff().iloc[1][c],
+            occasion_data.columns,
+            key=lambda c: occasion_data.diff().iloc[1][c],
         )
     ]
-    _add_subplot_to_axes(ax2, occasion_pivot)
-    ax2.get_legend().set_visible(False)
-    ax2.set_ybound(lower=-0.01)
+    _add_subplot_to_axes(ax2, occasion_data)
 
-    season_pivot = explode_chart_data(nodes_df, "season")
-    season_pivot = season_pivot.apply(lambda row: row / row.sum(), axis=1)
-    season_pivot = season_pivot[
+    season_data = nodes_df[["Spring", "Summer", "Fall", "Winter"]]
+    season_data = season_data[
         sorted(
-            season_pivot.columns,
-            key=lambda c: season_pivot.diff().iloc[1][c],
+            season_data.columns,
+            key=lambda c: season_data.diff().iloc[1][c],
         )
     ]
-    _add_subplot_to_axes(ax3, season_pivot)
-    ax3.get_legend().set_visible(False)
-    ax3.set_ybound(lower=-0.01)
+    _add_subplot_to_axes(ax3, season_data)
 
-    audience_pivot = explode_chart_data(nodes_df, "audience")
-    audience_pivot = audience_pivot.apply(lambda row: row / row.sum(), axis=1)
-    audience_pivot = audience_pivot[
+    audience_data = nodes_df[["Masculine", "Feminine", "Youthful", "Mature"]]
+    audience_data = audience_data[
         sorted(
-            audience_pivot.columns,
-            key=lambda c: audience_pivot.diff().iloc[1][c],
+            audience_data.columns,
+            key=lambda c: audience_data.diff().iloc[1][c],
         )
     ]
-    _add_subplot_to_axes(ax4, audience_pivot)
-    ax4.set_ybound(lower=-0.01)
+    _add_subplot_to_axes(ax4, audience_data)
+
+    for i, ax in enumerate([ax1, ax2, ax3, ax4], start=1):
+        ax.set_ybound(lower=-0.01)
+        if i < 4:
+            ax.get_legend().set_visible(False)
 
     plt.subplots_adjust(
         left=0.1, bottom=0.1, right=0.9, top=0.9, wspace=0.4, hspace=0.4
