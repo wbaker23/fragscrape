@@ -10,6 +10,8 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
 
+from fragscrape.parfumo.database import db_connection
+
 
 class MplColorHelper:
     """Helper class for coloring nodes using a colormap."""
@@ -58,51 +60,51 @@ def explode_chart_data(df, chart_name):
     return pivot
 
 
-def generate_edges_df(nodes_df):
+def generate_edges_df(nodes_df) -> pd.DataFrame:
     """Generate df listing all possible combinations of nodes with distance metrics."""
-    type_pivot = explode_chart_data(nodes_df, "type")
-    type_cosine_array = cosine_similarity(type_pivot)
+    votes_pivot_cosine_array = cosine_similarity(nodes_df)
 
-    occasion_pivot = explode_chart_data(nodes_df, "occasion")
-    occasion_cosine_array = cosine_similarity(occasion_pivot)
-
-    season_pivot = explode_chart_data(nodes_df, "season")
-    season_cosine_array = cosine_similarity(season_pivot)
-
-    audience_pivot = explode_chart_data(nodes_df, "audience")
-    audience_cosine_array = cosine_similarity(audience_pivot)
-
-    votes_pivot = (
-        type_pivot.join(occasion_pivot).join(season_pivot).join(audience_pivot)
-    )
-    votes_pivot_cosine_array = cosine_similarity(votes_pivot)
-
-    return (
-        pd.DataFrame(
-            {
-                "source": type_pivot.index[i],
-                "target": type_pivot.index[j],
-                "type_similarity": type_cosine_array[i][j],
-                "occasion_similarity": occasion_cosine_array[i][j],
-                "season_similarity": season_cosine_array[i][j],
-                "audience_similarity": audience_cosine_array[i][j],
-                "votes_similarity": votes_pivot_cosine_array[i][j],
-            }
-            for i in range(0, len(type_cosine_array))
-            for j in range(0, i)
-        ),
-        votes_pivot,
+    return pd.DataFrame(
+        {
+            "source": nodes_df.index[i],
+            "target": nodes_df.index[j],
+            "weight": votes_pivot_cosine_array[i][j],
+        }
+        for i in range(0, len(votes_pivot_cosine_array))
+        for j in range(0, i)
     )
 
 
-def load_and_clean(filepath: str):
-    nodes_df = pd.read_json(filepath)
-    nodes_df["name"] = nodes_df["name"].apply(lambda x: re.sub("\n", " ", x))
-    nodes_df = nodes_df.dropna()
+@db_connection
+def load_votes(connection) -> pd.DataFrame:
+    votes = pd.read_sql(sql="SELECT * FROM votes", con=connection)
+    votes = (
+        votes.pivot(index="link", columns="category", values="votes")
+        .fillna(0)
+        .astype(int)
+        .apply(lambda row: row / row.sum(), axis=1)
+    )
+    return votes
+
+
+@db_connection
+def load_collection(connection) -> pd.DataFrame:
+    collection = pd.read_sql(sql="SELECT * FROM collection", con=connection).set_index(
+        "link"
+    )
+    collection["name"] = collection["name"].apply(lambda x: re.sub("\n", " ", x))
+    return collection
+
+
+def load_and_clean() -> pd.DataFrame:
+    votes = load_votes()
+    collection = load_collection()
+    nodes_df = collection.join(votes)
+
     print(nodes_df["collection_group"].value_counts())
-    nodes_df = nodes_df.loc[
-        ~nodes_df["collection_group"].isin(["Top Unisex", "Sample Vials"])
-    ]
+    # nodes_df = nodes_df.loc[
+    #     ~nodes_df["collection_group"].isin(["Top Unisex", "Sample Vials"])
+    # ]
     print(f"Nodes: {nodes_df.shape[0]}", "\n")
     return nodes_df
 
@@ -132,28 +134,10 @@ def create_graph(ctx, color_groups, threshold):
     config = ctx.obj.get("config")
 
     # Load graph data
-    nodes_df = load_and_clean(config["parfumo_enrich_results_path"])
+    nodes_df = load_and_clean()
 
     # Generate edges
-    edges_df, votes_pivot = generate_edges_df(nodes_df)
-
-    # Calculate weight by transforming component features and averaging
-    component_columns = [
-        "type_similarity",
-        "occasion_similarity",
-        "season_similarity",
-        "audience_similarity",
-        "votes_similarity",
-    ]
-    component_weights = [0, 0, 0, 0, 1]
-    edges_df["weight"] = edges_df.apply(
-        lambda row: np.average(
-            row[component_columns],
-            weights=component_weights,
-        ),
-        axis=1,
-    )
-
+    edges_df = generate_edges_df(nodes_df.select_dtypes(include="float64"))
     print(edges_df.describe(), "\n")
 
     # Automatically calculate threshold to exclude outliers
@@ -184,54 +168,48 @@ def create_graph(ctx, color_groups, threshold):
     # Create graph
     net = nx.Graph()
 
-    def assign_node_attribute(df, index, attribute_name):
-        if attribute_name in df.loc[index]:
-            return int(df.loc[index][attribute_name])
-        else:
-            return 0
-
     # Add nodes to graph
-    nodes_df.set_index("name", inplace=True)
     for index, row in nodes_df.iterrows():
         net.add_node(
             index,
+            name=row["name"],
             collection_group=row["collection_group"],
             wearings=row["wearings"],
-            type_animal=assign_node_attribute(votes_pivot, index, "Animal"),
-            type_aquatic=assign_node_attribute(votes_pivot, index, "Aquatic"),
-            type_chypre=assign_node_attribute(votes_pivot, index, "Chypre"),
-            type_citrus=assign_node_attribute(votes_pivot, index, "Citrus"),
-            type_creamy=assign_node_attribute(votes_pivot, index, "Creamy"),
-            type_earthy=assign_node_attribute(votes_pivot, index, "Earthy"),
-            type_floral=assign_node_attribute(votes_pivot, index, "Floral"),
-            type_fougere=assign_node_attribute(votes_pivot, index, "Fougère"),
-            type_fresh=assign_node_attribute(votes_pivot, index, "Fresh"),
-            type_fruity=assign_node_attribute(votes_pivot, index, "Fruity"),
-            type_gourmand=assign_node_attribute(votes_pivot, index, "Gourmand"),
-            type_green=assign_node_attribute(votes_pivot, index, "Green"),
-            type_leathery=assign_node_attribute(votes_pivot, index, "Leathery"),
-            type_oriental=assign_node_attribute(votes_pivot, index, "Oriental"),
-            type_powdery=assign_node_attribute(votes_pivot, index, "Powdery"),
-            type_resinous=assign_node_attribute(votes_pivot, index, "Resinous"),
-            type_smoky=assign_node_attribute(votes_pivot, index, "Smoky"),
-            type_spicy=assign_node_attribute(votes_pivot, index, "Spicy"),
-            type_sweet=assign_node_attribute(votes_pivot, index, "Sweet"),
-            type_synthetic=assign_node_attribute(votes_pivot, index, "Synthetic"),
-            type_woody=assign_node_attribute(votes_pivot, index, "Woody"),
-            occasion_evening=assign_node_attribute(votes_pivot, index, "Evening"),
-            occasion_business=assign_node_attribute(votes_pivot, index, "Business"),
-            occasion_night_out=assign_node_attribute(votes_pivot, index, "Night Out"),
-            occasion_leisure=assign_node_attribute(votes_pivot, index, "Leisure"),
-            occasion_sport=assign_node_attribute(votes_pivot, index, "Sport"),
-            occasion_daily=assign_node_attribute(votes_pivot, index, "Daily"),
-            season_spring=assign_node_attribute(votes_pivot, index, "Spring"),
-            season_summer=assign_node_attribute(votes_pivot, index, "Summer"),
-            season_fall=assign_node_attribute(votes_pivot, index, "Fall"),
-            season_winter=assign_node_attribute(votes_pivot, index, "Winter"),
-            audience_youthful=assign_node_attribute(votes_pivot, index, "Youthful"),
-            audience_mature=assign_node_attribute(votes_pivot, index, "Mature"),
-            audience_feminine=assign_node_attribute(votes_pivot, index, "Feminine"),
-            audience_masculine=assign_node_attribute(votes_pivot, index, "Masculine"),
+            type_animal=row["Animal"],
+            type_aquatic=row["Aquatic"],
+            # type_chypre=row["Chypre"],
+            type_citrus=row["Citrus"],
+            type_creamy=row["Creamy"],
+            type_earthy=row["Earthy"],
+            type_floral=row["Floral"],
+            type_fougere=row["Fougère"],
+            type_fresh=row["Fresh"],
+            type_fruity=row["Fruity"],
+            type_gourmand=row["Gourmand"],
+            type_green=row["Green"],
+            type_leathery=row["Leathery"],
+            type_oriental=row["Oriental"],
+            type_powdery=row["Powdery"],
+            type_resinous=row["Resinous"],
+            type_smoky=row["Smoky"],
+            type_spicy=row["Spicy"],
+            type_sweet=row["Sweet"],
+            type_synthetic=row["Synthetic"],
+            type_woody=row["Woody"],
+            occasion_evening=row["Evening"],
+            occasion_business=row["Business"],
+            occasion_night_out=row["Night Out"],
+            occasion_leisure=row["Leisure"],
+            occasion_sport=row["Sport"],
+            occasion_daily=row["Daily"],
+            season_spring=row["Spring"],
+            season_summer=row["Summer"],
+            season_fall=row["Fall"],
+            season_winter=row["Winter"],
+            audience_youthful=row["Youthful"],
+            audience_mature=row["Mature"],
+            audience_feminine=row["Feminine"],
+            audience_masculine=row["Masculine"],
         )
 
     # Add edges to graph
@@ -294,7 +272,7 @@ def create_graph(ctx, color_groups, threshold):
     # Create shortened node labels and add node details
     for node_id in net.nodes:
         node = net.nodes[node_id]
-        node["short_name"] = re.sub(" \\d{4}.*$", "", node_id)
+        node["short_name"] = re.sub(" \\d{4}.*$", "", node["name"])
         node["click"] = "<br>".join(
             f"{i[0]} -- {i[1]} -- {i[2]}"
             for i in sorted(

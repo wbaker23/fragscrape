@@ -11,9 +11,9 @@ parfumo_pages:
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/308824
     label: Sample Atomizers
     color: rgb(141,118,182)
-  - url: https://www.parfumo.com/Users/Crazysillage/Collection/308818
-    label: Sample Vials
-    color: rgb(141,118,182)
+  # - url: https://www.parfumo.com/Users/Crazysillage/Collection/308818
+  #   label: Sample Vials
+  #   color: rgb(141,118,182)
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/Wish_List
     label: Wish List
     color: rgb(248,92,132)
