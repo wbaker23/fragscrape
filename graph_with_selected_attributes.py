@@ -48,11 +48,11 @@ all_columns = [
 ]
 
 # Set weights
-components = ["audience_youthful", "type_spicy"]
+components = ["season_summer", "type_citrus"]
 attributes_dict = {}
 for node, attributes in net.nodes(data=True):
-    component_total = 0
-    total = 0
+    component_total = 0.0
+    total = 0.0
     for key, value in attributes.items():
         if key in all_columns:
             total += value

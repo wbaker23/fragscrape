@@ -84,10 +84,10 @@ def load_and_clean() -> pd.DataFrame:
     collection = load_collection()
     nodes_df = collection.join(votes)
 
+    nodes_df = nodes_df.loc[
+        ~nodes_df["collection_group"].isin(["Watch List", "Wish List"])
+    ]
     print(nodes_df["collection_group"].value_counts())
-    # nodes_df = nodes_df.loc[
-    #     ~nodes_df["collection_group"].isin(["Top Unisex", "Sample Vials"])
-    # ]
     print(f"Nodes: {nodes_df.shape[0]}", "\n")
     return nodes_df
 
