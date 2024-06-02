@@ -48,7 +48,7 @@ all_columns = [
 ]
 
 # Set weights
-components = ["season_summer", "type_citrus"]
+components = ["season_summer", "occasion_business", "audience_masculine"]
 attributes_dict = {}
 for node, attributes in net.nodes(data=True):
     component_total = 0.0
@@ -73,13 +73,7 @@ node_colors = MplColorHelper("Purples", value_list[0], value_list[-1])
 nx.set_node_attributes(
     net,
     {
-        node: {
-            "color": (
-                node_colors.get_rgb_str(attr["component_mean"])
-                if attr["collection_group"] in ["Decants", "Sample Atomizers"]
-                else "rgb(255,255,255)"
-            )
-        }
+        node: {"color": (node_colors.get_rgb_str(attr["component_mean"]))}
         for node, attr in net.nodes(data=True)
     },
 )
