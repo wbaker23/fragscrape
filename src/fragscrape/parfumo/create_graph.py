@@ -70,9 +70,9 @@ def load_votes(connection) -> pd.DataFrame:
 
 @db_connection
 def load_collection(connection) -> pd.DataFrame:
-    collection = pd.read_sql(sql="SELECT * FROM collection", con=connection).set_index(
-        "link"
-    )
+    collection = pd.read_sql(
+        sql="SELECT * FROM collection WHERE collection_group != 'I Had'", con=connection
+    ).set_index("link")
     collection["name"] = collection["name"].apply(lambda x: re.sub("\n", " ", x))
     return collection
 
@@ -84,9 +84,6 @@ def load_and_clean() -> pd.DataFrame:
     collection = load_collection()
     nodes_df = collection.join(votes)
 
-    nodes_df = nodes_df.loc[
-        ~nodes_df["collection_group"].isin(["Watch List", "Wish List"])
-    ]
     print(nodes_df["collection_group"].value_counts())
     print(f"Nodes: {nodes_df.shape[0]}", "\n")
     return nodes_df
