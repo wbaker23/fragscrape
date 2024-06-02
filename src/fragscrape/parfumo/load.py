@@ -39,6 +39,16 @@ def _load_collection(cursor, driver, pages):
         links,
     )
 
+    collection_link_set = set(
+        dict(o)["link"] for o in cursor.execute("SELECT * FROM collection").fetchall()
+    )
+    link_set = set(o["link"] for o in links)
+
+    print("Missing links:")
+    print(collection_link_set.difference(link_set))
+    print("Extra links:")
+    print(link_set.difference(collection_link_set))
+
     return links
 
 
