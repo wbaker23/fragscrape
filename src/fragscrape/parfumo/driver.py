@@ -24,7 +24,7 @@ def _close_parfumo_cookies_popup(driver):
 def start_driver(username: str = None, password: str = None):
     """Initialize driver and navigate to Parfumo."""
     driver = undetected_chromedriver.Chrome()
-    driver.implicitly_wait(3)
+    driver.implicitly_wait(10)
     driver.get("https://www.parfumo.com")
     driver = _close_parfumo_cookies_popup(driver)
 
