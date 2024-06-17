@@ -1,6 +1,6 @@
 Hello! This repository is a work in progress. 1.0.0 release is coming soon!
 
-#### Notes
+#### Build Process
 ```
 python -m build
 python -m twine upload --repository testpypi dist/*

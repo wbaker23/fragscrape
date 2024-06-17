@@ -7,7 +7,7 @@ profile = "black"
 
 [project]
 name = "fragscrape"
-version = "0.0.1"
+version = "0.1.0"
 requires-python = ">= 3.10"
 authors = [
     {name = "Will Baker", email = "bakerwill764@gmail.com"},
