@@ -35,8 +35,8 @@ def decompose_df(df: pd.DataFrame, label: str, variables: list):
     temp_df = df.reset_index()
 
     x_pca = pd.DataFrame(pca.fit_transform(temp_df[variables].values))
-    x_pca["name"] = temp_df[label]
-    x_pca.set_index("name", inplace=True)
+    x_pca[label] = temp_df[label]
+    x_pca.set_index(label, inplace=True)
 
     return x_pca, pca.explained_variance_ratio_
 
