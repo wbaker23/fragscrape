@@ -53,8 +53,7 @@ def initialize(cur):
             brand, 
             link PRIMARY KEY, 
             image_src, 
-            collection_group, 
-            wearings
+            tops_group
         )
         """
     )

@@ -33,10 +33,34 @@ def _get_collection(cursor):
 
 
 @database.db_cursor
+def _get_tops(cursor):
+    return [
+        dict(o)
+        for o in cursor.execute(
+            "SELECT * FROM tops WHERE tops_group == 'Top Mens'"
+        ).fetchall()
+    ]
+
+
+@database.db_cursor
 def _update_collection_row(cursor, data):
     cursor.execute(
         """
         UPDATE collection SET
+        name = :name,
+        brand = :brand,
+        image_src = :image_src
+        WHERE link = :link
+        """,
+        data,
+    )
+
+
+@database.db_cursor
+def _update_tops_row(cursor, data):
+    cursor.execute(
+        """
+        UPDATE tops SET
         name = :name,
         brand = :brand,
         image_src = :image_src
@@ -60,14 +84,27 @@ def _update_votes_rows(cursor, data):
 
 
 @click.command()
-def enrich():
+@click.option(
+    "--source",
+    "-s",
+    "source",
+    type=click.Choice(["collection", "tops"]),
+    default="collection",
+    show_default=True,
+    help="Source of fragrances, either a collection page or page of top fragrances.",
+)
+def enrich(source):
     """Navigate to previously scraped fragrance urls to get categorization data."""
-    # pylint: disable-next=no-value-for-parameter
-    collection = _get_collection()
+    if source == "collection":
+        # pylint: disable-next=no-value-for-parameter
+        data = _get_collection()
+    elif source == "tops":
+        # pylint: disable-next=no-value-for-parameter
+        data = _get_tops()
 
     with start_driver() as driver:
         # Let this loop run with the Chrome driver on screen, and wait until it finishes.
-        for fragrance in tqdm(collection):
+        for fragrance in tqdm(data):
             driver.get(fragrance["link"])
             name = driver.find_element(
                 By.CSS_SELECTOR,
@@ -91,14 +128,26 @@ def enrich():
                 item["link"] = fragrance["link"]
                 item["category"] = item["ct_name"]
 
-            # pylint: disable-next=no-value-for-parameter
-            _update_collection_row(
-                {
-                    "name": name,
-                    "brand": brand,
-                    "image_src": image_src,
-                    "link": fragrance["link"],
-                }
-            )
+            if source == "collection":
+                # pylint: disable-next=no-value-for-parameter
+                _update_collection_row(
+                    {
+                        "name": name,
+                        "brand": brand,
+                        "image_src": image_src,
+                        "link": fragrance["link"],
+                    }
+                )
+            elif source == "tops":
+                # pylint: disable-next=no-value-for-parameter
+                _update_tops_row(
+                    {
+                        "name": name,
+                        "brand": brand,
+                        "image_src": image_src,
+                        "link": fragrance["link"],
+                    }
+                )
+
             # pylint: disable-next=no-value-for-parameter
             _update_votes_rows(all_votes)
