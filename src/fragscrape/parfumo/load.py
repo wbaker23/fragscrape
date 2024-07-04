@@ -70,10 +70,10 @@ def _load_tops(cursor, driver, pages):
 
     cursor.executemany(
         """
-        INSERT INTO tops (link, collection_group) 
+        INSERT INTO tops (link, tops_group) 
         VALUES (:link, :label) 
         ON CONFLICT DO UPDATE 
-        SET collection_group = excluded.collection_group
+        SET tops_group = excluded.tops_group
         """,
         links,
     )

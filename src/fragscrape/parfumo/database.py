@@ -1,5 +1,7 @@
 import sqlite3
 
+import pandas as pd
+
 
 def db_cursor(func):
     def wrapper(*args, **kwargs):
@@ -32,6 +34,11 @@ def db_connection(func):
     return wrapper
 
 
+@db_connection
+def query_to_df(connection, query: str) -> pd.DataFrame:
+    return pd.read_sql(sql=query, con=connection)
+
+
 @db_cursor
 def initialize(cur):
     cur.execute(
@@ -53,8 +60,7 @@ def initialize(cur):
             brand, 
             link PRIMARY KEY, 
             image_src, 
-            collection_group, 
-            wearings
+            tops_group
         )
         """
     )

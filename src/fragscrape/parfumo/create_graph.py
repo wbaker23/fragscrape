@@ -9,7 +9,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
 
-from fragscrape.parfumo.database import db_connection
+from fragscrape.parfumo.database import query_to_df
 
 
 class MplColorHelper:
@@ -27,6 +27,11 @@ class MplColorHelper:
     def get_rgb_str(self, val):
         r, g, b, _ = self.get_rgba(val)
         return f"rgb({r},{g},{b})"
+
+    def get_rgb_tuple(self, val):
+        r, g, b, _ = self.get_rgba(val)
+        max_val = max(r, g, b)
+        return (r / max_val, g / max_val, b / max_val)
 
 
 def decompose_df(df: pd.DataFrame, label: str, variables: list):
@@ -56,9 +61,8 @@ def generate_edges_df(nodes_df) -> pd.DataFrame:
     )
 
 
-@db_connection
-def load_votes(connection) -> pd.DataFrame:
-    votes = pd.read_sql(sql="SELECT * FROM votes", con=connection)
+def load_votes() -> pd.DataFrame:
+    votes = query_to_df("SELECT * FROM votes")
     votes = (
         votes.pivot(index="link", columns="category", values="votes")
         .fillna(0)
@@ -68,13 +72,20 @@ def load_votes(connection) -> pd.DataFrame:
     return votes
 
 
-@db_connection
-def load_collection(connection) -> pd.DataFrame:
-    collection = pd.read_sql(
-        sql="SELECT * FROM collection WHERE collection_group != 'I Had'", con=connection
+def load_collection() -> pd.DataFrame:
+    collection = query_to_df(
+        "SELECT * FROM collection WHERE collection_group != 'I Had'"
     ).set_index("link")
+    collection = collection.dropna(subset="name")
     collection["name"] = collection["name"].apply(lambda x: re.sub("\n", " ", x))
     return collection
+
+
+def load_tops() -> pd.DataFrame:
+    tops = query_to_df("SELECT * FROM tops").set_index("link")
+    tops = tops.dropna()
+    tops["name"] = tops["name"].apply(lambda x: re.sub("\n", " ", x))
+    return tops
 
 
 def load_and_clean() -> pd.DataFrame:
@@ -186,8 +197,8 @@ def create_graph(ctx, color_groups, threshold):
             season_summer=row["Summer"],
             season_fall=row["Fall"],
             season_winter=row["Winter"],
-            audience_youthful=row["Youthful"],
-            audience_mature=row["Mature"],
+            audience_modern=row["Modern"],
+            audience_classic=row["Classic"],
             audience_feminine=row["Feminine"],
             audience_masculine=row["Masculine"],
         )
