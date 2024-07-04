@@ -28,6 +28,11 @@ class MplColorHelper:
         r, g, b, _ = self.get_rgba(val)
         return f"rgb({r},{g},{b})"
 
+    def get_rgb_tuple(self, val):
+        r, g, b, _ = self.get_rgba(val)
+        max_val = max(r, g, b)
+        return (r / max_val, g / max_val, b / max_val)
+
 
 def decompose_df(df: pd.DataFrame, label: str, variables: list):
     """Use PCA to decompose a df."""

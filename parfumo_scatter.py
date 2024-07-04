@@ -6,7 +6,7 @@ import pandas as pd
 import yaml
 from sklearn.decomposition import PCA
 
-from fragscrape.parfumo.create_graph import load_collection, load_tops, load_votes
+from fragscrape.parfumo.create_graph import load_collection, load_votes
 
 
 def normalized_rgb(rgb: tuple):
@@ -16,20 +16,20 @@ def normalized_rgb(rgb: tuple):
 
 if __name__ == "__main__":
     # Load data
-    votes = load_votes()
-    tops = load_collection()
-    df = tops.join(votes)
+    df = load_collection().join(load_votes())
 
     # Reduce to 2 components
     pca = PCA(n_components=2)
     temp_df = df.reset_index()
     x_pca = pd.DataFrame(pca.fit_transform(temp_df[df.columns.to_list()[5:]].values))
+    # print(pca.explained_variance_ratio_.cumsum())
     x_pca["link"] = temp_df["link"]
     x_pca.set_index("link", inplace=True)
 
     # Join to main df
     df = df.join(
-        other=x_pca[[0, 1]].rename(columns={1: "pca_0", 0: "pca_1"}), on="link"
+        other=x_pca[[0, 1]].rename(columns={1: "pca_0", 0: "pca_1"}),
+        on="link",
     )
 
     # Add color to df
