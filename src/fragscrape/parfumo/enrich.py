@@ -34,12 +34,7 @@ def _get_collection(cursor):
 
 @database.db_cursor
 def _get_tops(cursor):
-    return [
-        dict(o)
-        for o in cursor.execute(
-            "SELECT * FROM tops WHERE tops_group == 'Top Mens'"
-        ).fetchall()
-    ]
+    return [dict(o) for o in cursor.execute("SELECT * FROM tops").fetchall()]
 
 
 @database.db_cursor
@@ -118,36 +113,45 @@ def enrich(source):
                 By.XPATH, "//img[@itemprop='image']"
             ).get_attribute("src")
 
-            scent_type = _get_chart_data(driver, 2, 4)
-            scent_occasion = _get_chart_data(driver, 14, 2)
-            scent_audience = _get_chart_data(driver, 6, 1)
-            scent_season = _get_chart_data(driver, 10, 3)
+            try:
+                scent_type = _get_chart_data(driver, 2, 4)
+                scent_occasion = _get_chart_data(driver, 14, 2)
+                scent_audience = _get_chart_data(driver, 6, 1)
+                scent_season = _get_chart_data(driver, 10, 3)
 
-            all_votes = [*scent_type, *scent_occasion, *scent_audience, *scent_season]
-            for item in all_votes:
-                item["link"] = fragrance["link"]
-                item["category"] = item["ct_name"]
+                all_votes = [
+                    *scent_type,
+                    *scent_occasion,
+                    *scent_audience,
+                    *scent_season,
+                ]
+                for item in all_votes:
+                    item["link"] = fragrance["link"]
+                    item["category"] = item["ct_name"]
 
-            if source == "collection":
+                if source == "collection":
+                    # pylint: disable-next=no-value-for-parameter
+                    _update_collection_row(
+                        {
+                            "name": name,
+                            "brand": brand,
+                            "image_src": image_src,
+                            "link": fragrance["link"],
+                        }
+                    )
+                elif source == "tops":
+                    # pylint: disable-next=no-value-for-parameter
+                    _update_tops_row(
+                        {
+                            "name": name,
+                            "brand": brand,
+                            "image_src": image_src,
+                            "link": fragrance["link"],
+                        }
+                    )
+
                 # pylint: disable-next=no-value-for-parameter
-                _update_collection_row(
-                    {
-                        "name": name,
-                        "brand": brand,
-                        "image_src": image_src,
-                        "link": fragrance["link"],
-                    }
-                )
-            elif source == "tops":
-                # pylint: disable-next=no-value-for-parameter
-                _update_tops_row(
-                    {
-                        "name": name,
-                        "brand": brand,
-                        "image_src": image_src,
-                        "link": fragrance["link"],
-                    }
-                )
-
-            # pylint: disable-next=no-value-for-parameter
-            _update_votes_rows(all_votes)
+                _update_votes_rows(all_votes)
+            except:
+                print(fragrance["link"])
+                continue

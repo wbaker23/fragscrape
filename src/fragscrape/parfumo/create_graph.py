@@ -77,6 +77,14 @@ def load_collection(connection) -> pd.DataFrame:
     return collection
 
 
+@db_connection
+def load_tops(connection) -> pd.DataFrame:
+    tops = pd.read_sql(sql="SELECT * FROM tops", con=connection).set_index("link")
+    tops = tops.dropna()
+    tops["name"] = tops["name"].apply(lambda x: re.sub("\n", " ", x))
+    return tops
+
+
 def load_and_clean() -> pd.DataFrame:
     # pylint: disable-next=no-value-for-parameter
     votes = load_votes()

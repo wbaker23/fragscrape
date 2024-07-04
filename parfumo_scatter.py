@@ -6,7 +6,7 @@ import pandas as pd
 import yaml
 from sklearn.decomposition import PCA
 
-from fragscrape.parfumo.create_graph import load_and_clean
+from fragscrape.parfumo.create_graph import load_tops, load_votes
 
 
 def normalized_rgb(rgb: tuple):
@@ -16,7 +16,9 @@ def normalized_rgb(rgb: tuple):
 
 if __name__ == "__main__":
     # Load data
-    df = load_and_clean()
+    votes = load_votes()
+    tops = load_tops()
+    df = tops.join(votes)
 
     # Reduce to 2 components
     pca = PCA(n_components=2)
@@ -31,11 +33,11 @@ if __name__ == "__main__":
     )
 
     # Add color to df
-    with open("configs/parfumo_collection_config.yaml", "r") as f:
+    with open("configs/parfumo_tops_config.yaml", "r") as f:
         config = yaml.safe_load(f)
     collection_group_colors = {p["label"]: p["color"] for p in config["parfumo_pages"]}
     df["color"] = df.apply(
-        lambda row: collection_group_colors[row["collection_group"]],
+        lambda row: collection_group_colors[row["tops_group"]],
         axis=1,
     )
     df["color_eval"] = df["color"].apply(
