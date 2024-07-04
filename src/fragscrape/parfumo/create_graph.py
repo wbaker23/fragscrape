@@ -194,8 +194,8 @@ def create_graph(ctx, color_groups, threshold):
             season_summer=row["Summer"],
             season_fall=row["Fall"],
             season_winter=row["Winter"],
-            audience_youthful=row["Youthful"],
-            audience_mature=row["Mature"],
+            audience_modern=row["Modern"],
+            audience_classic=row["Classic"],
             audience_feminine=row["Feminine"],
             audience_masculine=row["Masculine"],
         )
