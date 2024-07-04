@@ -24,12 +24,7 @@ def _get_chart_data(driver, i, j):
 
 @database.db_cursor
 def _get_collection(cursor):
-    return [
-        dict(o)
-        for o in cursor.execute(
-            "SELECT * FROM collection WHERE collection_group != 'I Had'"
-        ).fetchall()
-    ]
+    return [dict(o) for o in cursor.execute("SELECT * FROM collection").fetchall()]
 
 
 @database.db_cursor

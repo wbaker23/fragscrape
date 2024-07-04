@@ -9,7 +9,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
 
-from fragscrape.parfumo.database import db_connection
+from fragscrape.parfumo.database import query_to_df
 
 
 class MplColorHelper:
@@ -56,9 +56,8 @@ def generate_edges_df(nodes_df) -> pd.DataFrame:
     )
 
 
-@db_connection
-def load_votes(connection) -> pd.DataFrame:
-    votes = pd.read_sql(sql="SELECT * FROM votes", con=connection)
+def load_votes() -> pd.DataFrame:
+    votes = query_to_df("SELECT * FROM votes")
     votes = (
         votes.pivot(index="link", columns="category", values="votes")
         .fillna(0)
@@ -68,18 +67,17 @@ def load_votes(connection) -> pd.DataFrame:
     return votes
 
 
-@db_connection
-def load_collection(connection) -> pd.DataFrame:
-    collection = pd.read_sql(
-        sql="SELECT * FROM collection WHERE collection_group != 'I Had'", con=connection
+def load_collection() -> pd.DataFrame:
+    collection = query_to_df(
+        "SELECT * FROM collection WHERE collection_group != 'I Had'"
     ).set_index("link")
+    collection = collection.dropna(subset="name")
     collection["name"] = collection["name"].apply(lambda x: re.sub("\n", " ", x))
     return collection
 
 
-@db_connection
-def load_tops(connection) -> pd.DataFrame:
-    tops = pd.read_sql(sql="SELECT * FROM tops", con=connection).set_index("link")
+def load_tops() -> pd.DataFrame:
+    tops = query_to_df("SELECT * FROM tops").set_index("link")
     tops = tops.dropna()
     tops["name"] = tops["name"].apply(lambda x: re.sub("\n", " ", x))
     return tops
