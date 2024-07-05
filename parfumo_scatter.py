@@ -5,6 +5,7 @@ import mplcursors
 import pandas as pd
 import yaml
 from sklearn.decomposition import PCA
+from sklearn.preprocessing import MinMaxScaler
 
 from fragscrape.parfumo.create_graph import load_collection, load_votes
 
@@ -28,7 +29,11 @@ if __name__ == "__main__":
 
     # Join to main df
     df = df.join(
-        other=x_pca[[0, 1]].rename(columns={1: "pca_0", 0: "pca_1"}),
+        other=pd.DataFrame(
+            MinMaxScaler().fit_transform(x_pca),
+            index=x_pca.index,
+            columns=x_pca.columns,
+        ).rename(columns={0: "pca_1", 1: "pca_0"}),
         on="link",
     )
 
@@ -60,8 +65,8 @@ if __name__ == "__main__":
     def on_add(sel):
         sel.annotation.set(text=df[["name"]].iloc[sel.index].to_string())
 
-    plt.axhline(linewidth=0.5, color="k")
-    plt.axvline(linewidth=0.5, color="k")
+    plt.axhline(y=0.5, linewidth=0.5, color="k")
+    plt.axvline(x=0.5, linewidth=0.5, color="k")
 
     # Show scatter plot
     plt.show()
