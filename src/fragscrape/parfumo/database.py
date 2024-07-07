@@ -40,6 +40,11 @@ def query_to_df(connection, query: str) -> pd.DataFrame:
 
 
 @db_cursor
+def execute_query(cursor, query: str):
+    return cursor.execute(query)
+
+
+@db_cursor
 def initialize(cur):
     cur.execute(
         """
