@@ -9,7 +9,12 @@ from sklearn.cluster import AffinityPropagation
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import MinMaxScaler
 
-from fragscrape.parfumo.create_graph import MplColorHelper, load_collection, load_votes
+from fragscrape.parfumo.create_graph import (
+    MplColorHelper,
+    load_collection,
+    load_tops,
+    load_votes,
+)
 
 COLOR_SOURCE = "clusters"
 
@@ -22,6 +27,8 @@ def normalized_rgb(rgb: tuple):
 if __name__ == "__main__":
     # Load data
     df = load_collection().join(load_votes())
+    # df = load_tops().join(load_votes())
+    # df = df[df["tops_group"] == "Top Mens"]
 
     # Assign clusters
     features = df[df.columns[5:]]
@@ -64,7 +71,7 @@ if __name__ == "__main__":
             lambda x: normalized_rgb(eval(x.replace("rgb", "")))
         )
     elif COLOR_SOURCE == "clusters":
-        colors = MplColorHelper("viridis", min(clusters), max(clusters))
+        colors = MplColorHelper("hsv", min(clusters), max(clusters))
         df["color_eval"] = df["cluster"].apply(colors.get_rgb_tuple)
     else:
         print("Must define COLOR_SOURCE.")
