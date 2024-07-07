@@ -7,7 +7,6 @@ import yaml
 from numpy import unique
 from sklearn.cluster import AffinityPropagation
 from sklearn.decomposition import PCA
-from sklearn.preprocessing import MinMaxScaler
 
 from fragscrape.parfumo.create_graph import (
     MplColorHelper,
@@ -47,11 +46,7 @@ if __name__ == "__main__":
 
     # Join to main df
     df = df.join(
-        other=pd.DataFrame(
-            MinMaxScaler().fit_transform(x_pca),
-            index=x_pca.index,
-            columns=x_pca.columns,
-        ).rename(columns={0: "pca_1", 1: "pca_0"}),
+        other=x_pca.rename(columns={0: "pca_0", 1: "pca_1"}),
         on="link",
     )
     df["cluster"] = yhat
@@ -71,13 +66,19 @@ if __name__ == "__main__":
             lambda x: normalized_rgb(eval(x.replace("rgb", "")))
         )
     elif COLOR_SOURCE == "clusters":
-        colors = MplColorHelper("hsv", min(clusters), max(clusters))
+        colors = MplColorHelper("rainbow", min(clusters), max(clusters))
         df["color_eval"] = df["cluster"].apply(colors.get_rgb_tuple)
     else:
         print("Must define COLOR_SOURCE.")
 
     # Make scatter plot
-    ax = df.plot.scatter(x="pca_0", y="pca_1", c="color_eval", s=50)
+    ax = df.plot.scatter(x="pca_0", y="pca_1", c="color_eval", s=100)
+
+    # Add points to existing axes
+    cluster_centers = pca.transform(model.cluster_centers_)
+    ax2 = plt.scatter(
+        x=cluster_centers[:, 0], y=cluster_centers[:, 1], c="k", marker="x", s=100
+    )
 
     for name in enumerate(df["name"]):
         plt.annotate(
@@ -94,8 +95,8 @@ if __name__ == "__main__":
             text=f"{df[['name']].iloc[sel.index].to_string()}\n{df[['cluster']].iloc[sel.index].to_string()}"
         )
 
-    plt.axhline(y=0.5, linewidth=0.5, color="k")
-    plt.axvline(x=0.5, linewidth=0.5, color="k")
+    plt.axhline(linewidth=0.5, color="k")
+    plt.axvline(linewidth=0.5, color="k")
 
     # Show scatter plot
     plt.show()
