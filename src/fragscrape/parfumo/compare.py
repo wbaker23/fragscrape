@@ -78,7 +78,7 @@ def compare():
     ]
     _add_subplot_to_axes(ax3, season_data)
 
-    audience_data = nodes_df[["Masculine", "Feminine", "Youthful", "Mature"]]
+    audience_data = nodes_df[["Masculine", "Feminine", "Modern", "Classic"]]
     audience_data = audience_data[
         sorted(
             audience_data.columns,
