@@ -8,12 +8,7 @@ from numpy import unique
 from sklearn.cluster import AffinityPropagation
 from sklearn.decomposition import PCA
 
-from fragscrape.parfumo.create_graph import (
-    MplColorHelper,
-    load_collection,
-    load_tops,
-    load_votes,
-)
+from fragscrape.parfumo.create_graph import MplColorHelper, load_collection, load_votes
 
 COLOR_SOURCE = "clusters"
 
@@ -26,8 +21,11 @@ def normalized_rgb(rgb: tuple):
 if __name__ == "__main__":
     # Load data
     df = load_collection().join(load_votes())
-    # df = load_tops().join(load_votes())
-    # df = df[df["tops_group"] == "Top Mens"]
+    df = df[
+        df["collection_group"].isin(
+            ["I have", "Miniatures", "Decants", "Sample Atomizers"]
+        )
+    ]
 
     # Assign clusters
     features = df[df.columns[5:]]
