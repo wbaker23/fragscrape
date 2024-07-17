@@ -12,6 +12,42 @@ from fragscrape.parfumo.create_graph import MplColorHelper, load_collection, loa
 
 COLOR_SOURCE = "clusters"
 
+CATEGORIES = {
+    "Type": [
+        "Animal",
+        "Aquatic",
+        "Chypre",
+        "Citrus",
+        "Creamy",
+        "Earthy",
+        "Floral",
+        "Fougère",
+        "Fresh",
+        "Fruity",
+        "Gourmand",
+        "Green",
+        "Leathery",
+        "Oriental",
+        "Powdery",
+        "Resinous",
+        "Smoky",
+        "Spicy",
+        "Sweet",
+        "Synthetic",
+        "Woody",
+    ],
+    "Style": ["Masculine", "Feminine", "Classic", "Modern"],
+    "Occasion": ["Daily", "Sport", "Leisure", "Night Out", "Business", "Evening"],
+    "Season": ["Winter", "Spring", "Summer", "Fall"],
+}
+
+WEIGHTS = {
+    "Type": 1,
+    "Style": 1,
+    "Occasion": 1,
+    "Season": 1,
+}
+
 
 def normalized_rgb(rgb: tuple):
     max_val = max(rgb)
@@ -27,8 +63,33 @@ if __name__ == "__main__":
         )
     ]
 
+    df_type = (
+        df[CATEGORIES["Type"]].apply(lambda row: row / row.sum(), axis=1)
+        * WEIGHTS["Type"]
+    )
+    df_style = (
+        df[CATEGORIES["Style"]].apply(lambda row: row / row.sum(), axis=1)
+        * WEIGHTS["Style"]
+    )
+    df_occasion = (
+        df[CATEGORIES["Occasion"]].apply(lambda row: row / row.sum(), axis=1)
+        * WEIGHTS["Occasion"]
+    )
+    df_season = (
+        df[CATEGORIES["Season"]].apply(lambda row: row / row.sum(), axis=1)
+        * WEIGHTS["Season"]
+    )
+
+    df = (
+        df[["name", "collection_group"]]
+        .join(df_type)
+        .join(df_style)
+        .join(df_occasion)
+        .join(df_season)
+    )
+
     # Assign clusters
-    features = df[df.columns[5:]]
+    features = df[df.columns[2:]]
     model = AffinityPropagation()
     model.fit(features)
     yhat = model.predict(features)
@@ -37,7 +98,7 @@ if __name__ == "__main__":
     # Reduce to 2 components
     pca = PCA(n_components=2)
     temp_df = df.reset_index()
-    x_pca = pd.DataFrame(pca.fit_transform(temp_df[df.columns.to_list()[5:]].values))
+    x_pca = pd.DataFrame(pca.fit_transform(temp_df[df.columns.to_list()[2:]].values))
     print(f"Explained variance: {pca.explained_variance_ratio_.sum() * 100}%")
     x_pca["link"] = temp_df["link"]
     x_pca.set_index("link", inplace=True)
