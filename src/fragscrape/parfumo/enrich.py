@@ -9,10 +9,10 @@ from fragscrape.parfumo import database
 from fragscrape.parfumo.driver import start_driver
 
 
-def _get_chart_data(driver, i, j):
+def _get_chart_data(driver, i, j, open_charts=False):
     chart_button = driver.find_element(
         By.XPATH,
-        "//nav[@class='flex ptabs ']/div[@class='action_order_pd action_order_classification']",
+        f"//nav[@class='flex ptabs ']/div[@class='action_order_pd action_order_classification{'' if open_charts else ' active'}']",
     )
     if chart_button.get_attribute("innerHTML") == "<span>Chart</span>":
         chart_button.click()
@@ -112,7 +112,7 @@ def enrich(source):
             ).get_attribute("src")
 
             try:
-                scent_type = _get_chart_data(driver, 2, 4)
+                scent_type = _get_chart_data(driver, 2, 4, open_charts=True)
                 scent_occasion = _get_chart_data(driver, 14, 2)
                 scent_audience = _get_chart_data(driver, 6, 1)
                 scent_season = _get_chart_data(driver, 10, 3)
