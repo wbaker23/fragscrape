@@ -59,7 +59,14 @@ if __name__ == "__main__":
     df = load_collection().join(load_votes())
     df = df[
         df["collection_group"].isin(
-            ["I have", "Miniatures", "Decants", "Sample Atomizers"]
+            [
+                "I have",
+                "Miniatures",
+                "Decants",
+                "Sample Atomizers",
+                "Wish List",
+                "Watch List",
+            ]
         )
     ]
 
