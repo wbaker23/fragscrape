@@ -10,7 +10,8 @@ from sklearn.decomposition import PCA
 
 from fragscrape.parfumo.create_graph import MplColorHelper, load_collection, load_votes
 
-COLOR_SOURCE = "clusters"
+COLOR_SOURCE = "attributes"
+COMPONENTS = ["Daily", "Leisure", "Summer", "Fresh"]
 
 CATEGORIES = {
     "Type": [
@@ -64,8 +65,8 @@ if __name__ == "__main__":
                 "Miniatures",
                 "Decants",
                 "Sample Atomizers",
-                "Wish List",
-                "Watch List",
+                # "Wish List",
+                # "Watch List",
             ]
         )
     ]
@@ -134,6 +135,12 @@ if __name__ == "__main__":
     elif COLOR_SOURCE == "clusters":
         colors = MplColorHelper("rainbow", min(clusters), max(clusters))
         df["color_eval"] = df["cluster"].apply(colors.get_rgb_tuple)
+    elif COLOR_SOURCE == "attributes":
+        attribute_totals = df[COMPONENTS].sum(axis=1)
+        colors = MplColorHelper(
+            "Purples", attribute_totals.min(), attribute_totals.max()
+        )
+        df["color_eval"] = attribute_totals.apply(colors.get_rgb_tuple)
     else:
         print("Must define COLOR_SOURCE.")
 
