@@ -10,7 +10,7 @@ from sklearn.decomposition import PCA
 
 from fragscrape.parfumo.create_graph import MplColorHelper, load_collection, load_votes
 
-COLOR_SOURCE = "attributes"
+COLOR_SOURCE = "collection_groups"
 COMPONENTS = ["Daily", "Leisure", "Summer", "Fresh"]
 
 CATEGORIES = {
@@ -65,8 +65,8 @@ if __name__ == "__main__":
                 "Miniatures",
                 "Decants",
                 "Sample Atomizers",
-                # "Wish List",
-                # "Watch List",
+                "Wish List",
+                "Watch List",
             ]
         )
     ]
