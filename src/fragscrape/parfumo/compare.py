@@ -49,7 +49,7 @@ def compare():
             "Synthetic",
             "Woody",
         ]
-    ]
+    ].apply(lambda row: row / row.sum(), axis=1)
     type_data = type_data[
         sorted(
             type_data.columns,
@@ -60,7 +60,7 @@ def compare():
 
     occasion_data = nodes_df[
         ["Business", "Daily", "Evening", "Leisure", "Night Out", "Sport"]
-    ]
+    ].apply(lambda row: row / row.sum(), axis=1)
     occasion_data = occasion_data[
         sorted(
             occasion_data.columns,
@@ -69,7 +69,9 @@ def compare():
     ]
     _add_subplot_to_axes(ax2, occasion_data)
 
-    season_data = nodes_df[["Spring", "Summer", "Fall", "Winter"]]
+    season_data = nodes_df[["Spring", "Summer", "Fall", "Winter"]].apply(
+        lambda row: row / row.sum(), axis=1
+    )
     season_data = season_data[
         sorted(
             season_data.columns,
@@ -78,7 +80,9 @@ def compare():
     ]
     _add_subplot_to_axes(ax3, season_data)
 
-    audience_data = nodes_df[["Masculine", "Feminine", "Modern", "Classic"]]
+    audience_data = nodes_df[["Masculine", "Feminine", "Modern", "Classic"]].apply(
+        lambda row: row / row.sum(), axis=1
+    )
     audience_data = audience_data[
         sorted(
             audience_data.columns,
