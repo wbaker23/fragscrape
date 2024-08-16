@@ -8,11 +8,16 @@ from numpy import unique
 from sklearn.cluster import AffinityPropagation
 from sklearn.decomposition import PCA
 
-from fragscrape.parfumo.create_graph import MplColorHelper, load_collection, load_votes
+from fragscrape.parfumo.create_graph import (
+    MplColorHelper,
+    load_collection,
+    load_tops,
+    load_votes,
+)
 
-COLOR_SOURCE = "collection_groups"
+DATA_SOURCE = "collection"
+COLOR_SOURCE = "clusters"
 COMPONENTS = ["Daily", "Leisure", "Summer", "Fresh"]
-
 CATEGORIES = {
     "Type": [
         "Animal",
@@ -41,7 +46,6 @@ CATEGORIES = {
     "Occasion": ["Daily", "Sport", "Leisure", "Night Out", "Business", "Evening"],
     "Season": ["Winter", "Spring", "Summer", "Fall"],
 }
-
 WEIGHTS = {
     "Type": 1,
     "Style": 1,
@@ -57,20 +61,27 @@ def normalized_rgb(rgb: tuple):
 
 if __name__ == "__main__":
     # Load data
-    df = load_collection().join(load_votes())
-    df = df[
-        df["collection_group"].isin(
-            [
-                "I have",
-                "Miniatures",
-                "Decants",
-                "Sample Atomizers",
-                "Wish List",
-                "Watch List",
-            ]
-        )
-    ]
+    if DATA_SOURCE == "collection":
+        df = load_collection()
+        df = df[
+            df["collection_group"].isin(
+                [
+                    "I have",
+                    "Miniatures",
+                    "Decants",
+                    "Sample Atomizers",
+                    "Wish List",
+                    # "Watch List",
+                ]
+            )
+        ]
+        df.rename(columns={"collection_group": "group"}, inplace=True)
+    elif DATA_SOURCE == "tops":
+        df = load_tops()
+        df = df[df["tops_group"].isin(["Top Unisex", "Top Mens"])]
+        df.rename(columns={"tops_group": "group"}, inplace=True)
 
+    df = df.join(load_votes())
     df_type = (
         df[CATEGORIES["Type"]].apply(lambda row: row / row.sum(), axis=1)
         * WEIGHTS["Type"]
@@ -89,7 +100,7 @@ if __name__ == "__main__":
     )
 
     df = (
-        df[["name", "collection_group"]]
+        df[["name", "group"]]
         .join(df_type)
         .join(df_style)
         .join(df_occasion)
@@ -145,6 +156,7 @@ if __name__ == "__main__":
         print("Must define COLOR_SOURCE.")
 
     # Make scatter plot
+    print(df.shape)
     ax = df.plot.scatter(x="pca_0", y="pca_1", c="color_eval", s=100)
 
     # Add points to existing axes
