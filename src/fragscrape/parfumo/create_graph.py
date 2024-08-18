@@ -74,7 +74,7 @@ def load_votes() -> pd.DataFrame:
 
 def load_collection() -> pd.DataFrame:
     collection = query_to_df(
-        "SELECT * FROM collection WHERE collection_group != 'I Had'"
+        "SELECT * FROM collection WHERE collection_group != 'I Had' AND collection_group != 'Watch List'"
     ).set_index("link")
     collection = collection.dropna(subset="name")
     collection["name"] = collection["name"].apply(lambda x: re.sub("\n", " ", x))
