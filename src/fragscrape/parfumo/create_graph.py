@@ -73,9 +73,7 @@ def load_votes() -> pd.DataFrame:
 
 
 def load_collection() -> pd.DataFrame:
-    collection = query_to_df(
-        "SELECT * FROM collection WHERE collection_group != 'I Had' AND collection_group != 'Watch List'"
-    ).set_index("link")
+    collection = query_to_df("SELECT * FROM collection").set_index("link")
     collection = collection.dropna(subset="name")
     collection["name"] = collection["name"].apply(lambda x: re.sub("\n", " ", x))
     return collection
@@ -94,6 +92,18 @@ def load_and_clean() -> pd.DataFrame:
     # pylint: disable-next=no-value-for-parameter
     collection = load_collection()
     nodes_df = collection.join(votes)
+    nodes_df = nodes_df[
+        nodes_df["collection_group"].isin(
+            [
+                "I have",
+                "Miniatures",
+                "Decants",
+                "Sample Atomizers",
+                "Wish List",
+                "Watch List",
+            ]
+        )
+    ]
 
     print(nodes_df["collection_group"].value_counts())
     print(f"Nodes: {nodes_df.shape[0]}", "\n")

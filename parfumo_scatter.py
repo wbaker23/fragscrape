@@ -16,7 +16,7 @@ from fragscrape.parfumo.create_graph import (
 )
 
 DATA_SOURCE = "collection"
-COLOR_SOURCE = "clusters"
+COLOR_SOURCE = "collection_groups"
 COMPONENTS = ["Daily", "Leisure", "Summer", "Fresh"]
 CATEGORIES = {
     "Type": [
@@ -71,7 +71,7 @@ if __name__ == "__main__":
                     "Decants",
                     "Sample Atomizers",
                     "Wish List",
-                    # "Watch List",
+                    "Watch List",
                 ]
             )
         ]
@@ -137,7 +137,7 @@ if __name__ == "__main__":
             p["label"]: p["color"] for p in config["parfumo_pages"]
         }
         df["color"] = df.apply(
-            lambda row: collection_group_colors[row["collection_group"]],
+            lambda row: collection_group_colors[row["group"]],
             axis=1,
         )
         df["color_eval"] = df["color"].apply(
