@@ -17,6 +17,9 @@ parfumo_pages:
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/Watch_List
     label: Watch List
     color: rgb(252,160,48)
+  - url: https://www.parfumo.com/Users/Crazysillage/Collection/364045
+    label: Storage
+    color: rgb(211,211,211)
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/I_had
     label: I Had
     color: rgb(255,255,255)

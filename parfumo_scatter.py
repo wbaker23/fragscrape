@@ -72,6 +72,7 @@ if __name__ == "__main__":
                     "Sample Atomizers",
                     "Wish List",
                     "Watch List",
+                    "Storage",
                 ]
             )
         ]
