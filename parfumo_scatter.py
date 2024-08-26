@@ -16,7 +16,7 @@ from fragscrape.parfumo.create_graph import (
 )
 
 DATA_SOURCE = "collection"
-COLOR_SOURCE = "collection_groups"
+COLOR_SOURCE = "clusters"
 COMPONENTS = ["Daily", "Leisure", "Summer", "Fresh"]
 CATEGORIES = {
     "Type": [
@@ -54,9 +54,8 @@ WEIGHTS = {
 }
 
 
-def normalized_rgb(rgb: tuple):
-    max_val = max(rgb)
-    return (rgb[0] / max_val, rgb[1] / max_val, rgb[2] / max_val)
+def rgb_float(rgb: tuple):
+    return (rgb[0] / 255, rgb[1] / 255, rgb[2] / 255)
 
 
 if __name__ == "__main__":
@@ -72,7 +71,7 @@ if __name__ == "__main__":
                     "Sample Atomizers",
                     "Wish List",
                     "Watch List",
-                    "Storage",
+                    # "Storage",
                 ]
             )
         ]
@@ -142,7 +141,7 @@ if __name__ == "__main__":
             axis=1,
         )
         df["color_eval"] = df["color"].apply(
-            lambda x: normalized_rgb(eval(x.replace("rgb", "")))
+            lambda x: rgb_float(eval(x.replace("rgb", "")))
         )
     elif COLOR_SOURCE == "clusters":
         colors = MplColorHelper("rainbow", min(clusters), max(clusters))

@@ -30,7 +30,7 @@ class MplColorHelper:
 
     def get_rgb_tuple(self, val):
         r, g, b, _ = self.get_rgba(val)
-        max_val = max(r, g, b)
+        max_val = 255
         return (r / max_val, g / max_val, b / max_val)
 
 
