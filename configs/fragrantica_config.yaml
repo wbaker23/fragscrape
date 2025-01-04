@@ -13,10 +13,16 @@ fragrantica_awards_pages_to_import:
   url: https://www.fragrantica.com/awards2022/category/Best-Men-s-Perfume-of-All-Time
 - name: mens_all_time_2023
   url: https://www.fragrantica.com/awards2023/category/Best-Men-s-Perfume-of-All-Time
+- name: mens_yearly_2020
+  url: https://www.fragrantica.com/awards2020/category/Best-Perfume-for-Men-2020
+- name: mens_yearly_2021
+  url: https://www.fragrantica.com/awards2021/category/Best-Perfume-for-Men-2021
 - name: mens_yearly_2022
   url: https://www.fragrantica.com/awards2022/category/Best-Perfume-for-Men-2022
 - name: mens_yearly_2023
   url: https://www.fragrantica.com/awards2023/category/Best-Perfume-for-Men-2023
+# - name: mens_yearly_2024
+#   url: https://www.fragrantica.com/awards2024/category/Best-Mens-Fragrance-2024
 - name: vanilla_2021
   url: https://www.fragrantica.com/awards2021/category/Best-Vanilla-Perfume
 - name: hot_days_2017

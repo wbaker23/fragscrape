@@ -1,6 +1,6 @@
 name,link,upvotes,downvotes,year,order,total_votes,vote_diff,vote_diff_normalized,ratio,updated_order,inverse_order,bayes
 Lost Cherry Tom Ford (unisex) ~ 2018,https://www.fragrantica.com/perfume/Tom-Ford/Lost-Cherry-51411.html,994,434,2018,1,1428,560,1.0,0.696078431372549,1.0,213.0,0.6864754098360656
-L’Homme Ideal Eau de Parfum Guerlain (male) ~ 2016,https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html,637,181,2016,2,818,456,0.8306188925081434,0.7787286063569682,2.0,212.0,0.7587822014051522
+L’Homme Idéal Eau de Parfum Guerlain (male) ~ 2016,https://www.fragrantica.com/perfume/Guerlain/L-Homme-Ideal-Eau-de-Parfum-37735.html,637,181,2016,2,818,456,0.8306188925081434,0.7787286063569682,2.0,212.0,0.7587822014051522
 La Petite Robe Noire Guerlain (female) ~ 2012,https://www.fragrantica.com/perfume/Guerlain/La-Petite-Robe-Noire-14681.html,439,273,2012,3,712,166,0.3583061889250814,0.6165730337078652,3.0,211.0,0.6016042780748663
 Rouge Smoking BDK Parfums (unisex) ~ 2018,https://www.fragrantica.com/perfume/BDK-Parfums/Rouge-Smoking-51468.html,405,241,2018,4,646,164,0.3550488599348534,0.6269349845201239,4.0,210.0,0.6099706744868035
 Lovefest Burning Cherry | 48 Eau de Parfum Kayali Fragrances (unisex) ~ 2022,https://www.fragrantica.com/perfume/Kayali-Fragrances/Lovefest-Burning-Cherry-48-Eau-de-Parfum-75661.html,380,248,2022,5,628,132,0.30293159609120524,0.6050955414012739,5.0,209.0,0.588855421686747
@@ -145,7 +145,7 @@ Benjoin en Fleur Claudio Zucca Parfums (unisex) ~ 2022,https://www.fragrantica.c
 Glamour Diva O Boticário (female) ~ 2019,https://www.fragrantica.com/perfume/O-Boticario/Glamour-Diva-57676.html,6,16,2019,145,22,-10,0.07166123778501629,0.2727272727272727,144.0,70.0,0.29310344827586204
 Liquid Cashmere Black Donna Karan (female) ~ 2015,https://www.fragrantica.com/perfume/Donna-Karan/Liquid-Cashmere-Black-31957.html,5,14,2015,146,19,-9,0.07328990228013028,0.2631578947368421,145.0,69.0,0.2909090909090909
 Purple Heart V 5 Map Of The Heart (female) ~ 2016,https://www.fragrantica.com/perfume/Map-Of-The-Heart/Purple-Heart-V-5-41107.html,4,12,2016,147,16,-8,0.07491856677524429,0.25,146.0,68.0,0.28846153846153844
-Olympea Legend Paco Rabanne (female) ~ 2019,https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-Legend-54324.html,8,20,2019,148,28,-12,0.06840390879478828,0.2857142857142857,147.0,67.0,0.296875
+Olympea Legend Rabanne (female) ~ 2019,https://www.fragrantica.com/perfume/Rabanne/Olympea-Legend-54324.html,8,20,2019,148,28,-12,0.06840390879478828,0.2857142857142857,147.0,67.0,0.296875
 Trajan Nilafar du Nil (male) ~ 2019,https://www.fragrantica.com/perfume/Nilafar-du-Nil/Trajan-60394.html,2,8,2019,149,10,-6,0.0781758957654723,0.2,148.0,66.0,0.2826086956521739
 Neroli Nostrum Lunio (unisex) ~ 2022,https://www.fragrantica.com/perfume/Lunio/Neroli-Nostrum-75342.html,2,8,2022,150,10,-6,0.0781758957654723,0.2,149.0,65.0,0.2826086956521739
 Very Good Girl Carolina Herrera (female) ~ 2021,https://www.fragrantica.com/perfume/Carolina-Herrera/Very-Good-Girl-65560.html,4,12,2021,151,16,-8,0.07491856677524429,0.25,150.0,64.0,0.28846153846153844
@@ -196,7 +196,7 @@ Kimonanthe Diptyque (unisex) ~ 2017,https://www.fragrantica.com/perfume/Diptyque
 Lucky Number 6 Liz Claiborne (female) ~ 2006,https://www.fragrantica.com/perfume/Liz-Claiborne/Lucky-Number-6-1786.html,4,20,2006,196,24,-16,0.06188925081433225,0.16666666666666666,195.0,19.0,0.25
 Gio Antonelli Intenso Jequiti (female) ~ 2021,https://www.fragrantica.com/perfume/Jequiti/Gio-Antonelli-Intenso-70103.html,3,18,2021,197,21,-15,0.06351791530944625,0.14285714285714285,196.0,18.0,0.24561403508771928
 La Collection M7 Oud Absolu Yves Saint Laurent (male) ~ 2011,https://www.fragrantica.com/perfume/Yves-Saint-Laurent/La-Collection-M7-Oud-Absolu-13735.html,17,47,2011,198,64,-30,0.03908794788273615,0.265625,197.0,17.0,0.28
-Major Me Paco Rabanne (unisex) ~ 2021,https://www.fragrantica.com/perfume/Paco-Rabanne/Major-Me-68723.html,6,25,2021,199,31,-19,0.057003257328990226,0.1935483870967742,198.0,16.0,0.2537313432835821
+Major Me Rabanne (unisex) ~ 2021,https://www.fragrantica.com/perfume/Rabanne/Major-Me-68723.html,6,25,2021,199,31,-19,0.057003257328990226,0.1935483870967742,198.0,16.0,0.2537313432835821
 Amore Mio Eau de Parfum Jeanne Arthes (female),https://www.fragrantica.com/perfume/Jeanne-Arthes/Amore-Mio-Eau-de-Parfum-10215.html,8,30,0,200,38,-22,0.052117263843648204,0.21052631578947367,199.0,15.0,0.25675675675675674
 Naked Moon Ubaya (female) ~ 2021,https://www.fragrantica.com/perfume/Ubaya/Naked-Moon-67021.html,7,28,2021,201,35,-21,0.05374592833876221,0.2,200.0,14.0,0.2535211267605634
 Attraction Desire For Her Avon (female) ~ 2021,https://www.fragrantica.com/perfume/Avon/Attraction-Desire-For-Her-65299.html,5,24,2021,202,29,-19,0.057003257328990226,0.1724137931034483,201.0,13.0,0.24615384615384617

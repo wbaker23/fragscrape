@@ -2,7 +2,7 @@ name,link,upvotes,downvotes,year,order,total_votes,vote_diff,vote_diff_normalize
 Tobacco Vanille Tom Ford (unisex) ~ 2007,https://www.fragrantica.com/perfume/Tom-Ford/Tobacco-Vanille-1825.html,726,397,2007,1,1123,329,1.0,0.6464826357969724,1.0,545.0,0.6402439024390244
 Hypnotic Poison Dior (female) ~ 1998,https://www.fragrantica.com/perfume/Dior/Hypnotic-Poison-219.html,602,342,1998,2,944,260,0.8140161725067385,0.6377118644067796,2.0,544.0,0.630546955624355
 Ani Nishane (unisex) ~ 2019,https://www.fragrantica.com/perfume/Nishane/Ani-54785.html,440,170,2019,3,610,270,0.8409703504043127,0.7213114754098361,3.0,543.0,0.7070866141732284
-Spiritueuse Double Vanille Guerlain (female) ~ 2007,https://www.fragrantica.com/perfume/Guerlain/Spiritueuse-Double-Vanille-3345.html,418,130,2007,4,548,288,0.889487870619946,0.7627737226277372,4.0,542.0,0.7452006980802792
+Spiritueuse Double Vanille Guerlain (unisex) ~ 2007,https://www.fragrantica.com/perfume/Guerlain/Spiritueuse-Double-Vanille-3345.html,418,130,2007,4,548,288,0.889487870619946,0.7627737226277372,4.0,542.0,0.7452006980802792
 Shalimar Eau de Parfum Guerlain (female) ~ 1990,https://www.fragrantica.com/perfume/Guerlain/Shalimar-Eau-de-Parfum-53.html,461,276,1990,5,737,185,0.6118598382749326,0.6255088195386703,5.0,541.0,0.6167979002624672
 Dior Addict Eau de Parfum (2014) Dior (female) ~ 2014,https://www.fragrantica.com/perfume/Dior/Dior-Addict-Eau-de-Parfum-2014-28201.html,420,205,2014,6,625,215,0.692722371967655,0.672,6.0,540.0,0.66
 Lira Xerjoff (female) ~ 2011,https://www.fragrantica.com/perfume/Xerjoff/Lira-11801.html,354,127,2011,7,481,227,0.7250673854447439,0.735966735966736,7.0,539.0,0.717391304347826
@@ -57,7 +57,7 @@ Angels' Share By Kilian (unisex) ~ 2020,https://www.fragrantica.com/perfume/By-K
 I Don't Need A Prince By My Side To Be A Princess By Kilian (unisex) ~ 2018,https://www.fragrantica.com/perfume/By-Kilian/I-Don-t-Need-A-Prince-By-My-Side-To-Be-A-Princess-50497.html,89,72,2018,56,161,17,0.15902964959568733,0.5527950310559007,56.0,490.0,0.5268817204301075
 Cologne of the Missions Le Couvent Maison de Parfum (unisex) ~ 2011,https://www.fragrantica.com/perfume/Le-Couvent-Maison-de-Parfum/Cologne-of-the-Missions-18811.html,76,49,2011,57,125,27,0.18598382749326148,0.608,57.0,489.0,0.5666666666666667
 Fahrenheit Le Parfum Dior (male) ~ 2014,https://www.fragrantica.com/perfume/Dior/Fahrenheit-Le-Parfum-23099.html,107,112,2014,58,219,-5,0.09973045822102426,0.4885844748858447,58.0,488.0,0.47540983606557374
-Olympéa Paco Rabanne (female) ~ 2015,https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-31666.html,86,71,2015,59,157,15,0.15363881401617252,0.5477707006369427,59.0,487.0,0.521978021978022
+Olympéa Rabanne (female) ~ 2015,https://www.fragrantica.com/perfume/Rabanne/Olympea-31666.html,86,71,2015,59,157,15,0.15363881401617252,0.5477707006369427,59.0,487.0,0.521978021978022
 Dama Bianca Xerjoff (female) ~ 2012,https://www.fragrantica.com/perfume/Xerjoff/Dama-Bianca-15555.html,71,43,2012,60,114,28,0.18867924528301888,0.6228070175438597,60.0,486.0,0.5755395683453237
 Vanille Havane Les Indemodables (unisex) ~ 2020,https://www.fragrantica.com/perfume/Les-Indemodables/Vanille-Havane-63395.html,63,29,2020,61,92,34,0.20485175202156336,0.6847826086956522,61.0,485.0,0.6153846153846154
 Shalimar Souffle Intense Guerlain (female) ~ 2017,https://www.fragrantica.com/perfume/Guerlain/Shalimar-Souffle-Intense-46110.html,68,46,2017,62,114,22,0.1725067385444744,0.5964912280701754,62.0,484.0,0.5539568345323741
@@ -111,7 +111,7 @@ Ylang in Gold M. Micallef (female) ~ 2012,https://www.fragrantica.com/perfume/M-
 Vanille Noire Yves Rocher (female) ~ 2010,https://www.fragrantica.com/perfume/Yves-Rocher/Vanille-Noire-9894.html,39,35,2010,110,74,4,0.12398921832884097,0.527027027027027,110.0,436.0,0.48484848484848486
 Bentley for Men Intense Bentley (male) ~ 2013,https://www.fragrantica.com/perfume/Bentley/Bentley-for-Men-Intense-17666.html,40,39,2013,111,79,1,0.11590296495956874,0.5063291139240507,111.0,435.0,0.47115384615384615
 This is Him Zadig & Voltaire (male) ~ 2016,https://www.fragrantica.com/perfume/Zadig-Voltaire/This-is-Him-39359.html,34,27,2016,112,61,7,0.1320754716981132,0.5573770491803278,112.0,434.0,0.5
-Habit Rouge Eau de Toilette Guerlain (male) ~ 1965,https://www.fragrantica.com/perfume/Guerlain/Habit-Rouge-Eau-de-Toilette-16.html,37,35,1965,113,72,2,0.11859838274932614,0.5138888888888888,113.0,433.0,0.4742268041237113
+Habit Rouge Eau de Toilette Guerlain (male) ~ 1988,https://www.fragrantica.com/perfume/Guerlain/Habit-Rouge-Eau-de-Toilette-16.html,37,35,1988,113,72,2,0.11859838274932614,0.5138888888888888,113.0,433.0,0.4742268041237113
 Tobacco Collection Rich Warm Addictive Zara (male) ~ 2016,https://www.fragrantica.com/perfume/Zara/Tobacco-Collection-Rich-Warm-Addictive-40449.html,40,42,2016,114,82,-2,0.1078167115902965,0.4878048780487805,114.0,432.0,0.45794392523364486
 Viva la Juicy Gold Couture Juicy Couture (female) ~ 2014,https://www.fragrantica.com/perfume/Juicy-Couture/Viva-la-Juicy-Gold-Couture-25753.html,34,30,2014,115,64,4,0.12398921832884097,0.53125,115.0,431.0,0.48314606741573035
 Le Lion Eau de Parfum Chanel (unisex) ~ 2020,https://www.fragrantica.com/perfume/Chanel/Le-Lion-Eau-de-Parfum-61036.html,40,43,2020,116,83,-3,0.10512129380053908,0.4819277108433735,116.0,430.0,0.4537037037037037
@@ -121,7 +121,7 @@ Kenzo Jungle L'Elephant Kenzo (female) ~ 1996,https://www.fragrantica.com/perfum
 Vanilla Vibes Juliette Has A Gun (unisex) ~ 2019,https://www.fragrantica.com/perfume/Juliette-Has-A-Gun/Vanilla-Vibes-54878.html,40,44,2019,120,84,-4,0.10242587601078168,0.47619047619047616,120.0,426.0,0.44954128440366975
 Psychedelic Love Initio Parfums Prives (unisex) ~ 2017,https://www.fragrantica.com/perfume/Initio-Parfums-Prives/Psychedelic-Love-45977.html,28,21,2017,121,49,7,0.1320754716981132,0.5714285714285714,121.0,425.0,0.5
 LolitaLand Lolita Lempicka (female) ~ 2018,https://www.fragrantica.com/perfume/Lolita-Lempicka/LolitaLand-51385.html,40,47,2018,122,87,-7,0.09433962264150944,0.45977011494252873,122.0,424.0,0.4375
-Olympéa Intense Paco Rabanne (female) ~ 2016,https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-Intense-42890.html,42,51,2016,123,93,-9,0.0889487870619946,0.45161290322580644,123.0,423.0,0.4322033898305085
+Olympéa Intense Rabanne (female) ~ 2016,https://www.fragrantica.com/perfume/Rabanne/Olympea-Intense-42890.html,42,51,2016,123,93,-9,0.0889487870619946,0.45161290322580644,123.0,423.0,0.4322033898305085
 Dolce Vita Dior (female) ~ 1994,https://www.fragrantica.com/perfume/Dior/Dolce-Vita-222.html,29,25,1994,124,54,4,0.12398921832884097,0.5370370370370371,124.0,422.0,0.4810126582278481
 Dior Homme Intense 2011 Dior (male) ~ 2011,https://www.fragrantica.com/perfume/Dior/Dior-Homme-Intense-2011-13016.html,25,17,2011,125,42,8,0.13477088948787064,0.5952380952380952,125.0,421.0,0.5074626865671642
 Lavandes Trianon Lancôme (unisex) ~ 2016,https://www.fragrantica.com/perfume/Lancome/Lavandes-Trianon-39738.html,29,27,2016,126,56,2,0.11859838274932614,0.5178571428571429,126.0,420.0,0.4691358024691358
@@ -220,7 +220,7 @@ Creamy Vanilla Crumble 4160 Tuesdays (unisex) ~ 2018,https://www.fragrantica.com
 Woman by Ralph Lauren Intense Ralph Lauren (female) ~ 2019,https://www.fragrantica.com/perfume/Ralph-Lauren/Woman-by-Ralph-Lauren-Intense-55199.html,16,26,2019,219,42,-10,0.0862533692722372,0.38095238095238093,219.0,327.0,0.373134328358209
 Silky Woods Goldfield & Banks Australia (unisex) ~ 2021,https://www.fragrantica.com/perfume/Goldfield-Banks-Australia/Silky-Woods-66766.html,13,20,2021,220,33,-7,0.09433962264150944,0.3939393939393939,220.0,326.0,0.3793103448275862
 Midnight Fantasy Britney Spears (female) ~ 2006,https://www.fragrantica.com/perfume/Britney-Spears/Midnight-Fantasy-802.html,20,34,2006,221,54,-14,0.07547169811320754,0.37037037037037035,221.0,325.0,0.3670886075949367
-Pure XS For Her Paco Rabanne (female) ~ 2018,https://www.fragrantica.com/perfume/Paco-Rabanne/Pure-XS-For-Her-51424.html,20,34,2018,222,54,-14,0.07547169811320754,0.37037037037037035,222.0,324.0,0.3670886075949367
+Pure XS For Her Rabanne (female) ~ 2018,https://www.fragrantica.com/perfume/Rabanne/Pure-XS-For-Her-51424.html,20,34,2018,222,54,-14,0.07547169811320754,0.37037037037037035,222.0,324.0,0.3670886075949367
 Jaipur Homme Boucheron (male) ~ 1998,https://www.fragrantica.com/perfume/Boucheron/Jaipur-Homme-137.html,12,18,1998,223,30,-6,0.09703504043126684,0.4,223.0,323.0,0.38181818181818183
 Armani Code Profumo Giorgio Armani (male) ~ 2016,https://www.fragrantica.com/perfume/Giorgio-Armani/Armani-Code-Profumo-34761.html,11,16,2016,224,27,-5,0.09973045822102426,0.4074074074074074,224.0,322.0,0.38461538461538464
 Vanille Coco Comptoir Sud Pacifique (female) ~ 2003,https://www.fragrantica.com/perfume/Comptoir-Sud-Pacifique/Vanille-Coco-745.html,10,14,2003,225,24,-4,0.10242587601078168,0.4166666666666667,225.0,321.0,0.3877551020408163
@@ -244,7 +244,7 @@ Almond Harmony The House of Oud (unisex) ~ 2016,https://www.fragrantica.com/perf
 Jimmy Choo Fever Jimmy Choo (female) ~ 2018,https://www.fragrantica.com/perfume/Jimmy-Choo/Jimmy-Choo-Fever-49615.html,9,13,2018,243,22,-4,0.10242587601078168,0.4090909090909091,243.0,303.0,0.3829787234042553
 Sintra Memo Paris (unisex) ~ 2020,https://www.fragrantica.com/perfume/Memo-Paris/Sintra-62837.html,6,7,2020,244,13,-1,0.1105121293800539,0.46153846153846156,244.0,302.0,0.39473684210526316
 Coffee Break Maison Martin Margiela (unisex) ~ 2019,https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Coffee-Break-55926.html,5,5,2019,245,10,0,0.11320754716981132,0.5,245.0,301.0,0.4
-Olympea Legend Paco Rabanne (female) ~ 2019,https://www.fragrantica.com/perfume/Paco-Rabanne/Olympea-Legend-54324.html,21,38,2019,246,59,-17,0.06738544474393532,0.3559322033898305,246.0,300.0,0.35714285714285715
+Olympea Legend Rabanne (female) ~ 2019,https://www.fragrantica.com/perfume/Rabanne/Olympea-Legend-54324.html,21,38,2019,246,59,-17,0.06738544474393532,0.3559322033898305,246.0,300.0,0.35714285714285715
 Matin Calin Comptoir Sud Pacifique (female),https://www.fragrantica.com/perfume/Comptoir-Sud-Pacifique/Matin-Calin-1450.html,8,12,0,247,20,-4,0.10242587601078168,0.4,247.0,299.0,0.37777777777777777
 Ivory Route Xerjoff (unisex) ~ 2012,https://www.fragrantica.com/perfume/Xerjoff/Ivory-Route-16442.html,8,12,2012,248,20,-4,0.10242587601078168,0.4,248.0,298.0,0.37777777777777777
 Café Chantant Nobile 1942 (unisex) ~ 2013,https://www.fragrantica.com/perfume/Nobile-1942/Cafe-Chantant-18073.html,8,12,2013,249,20,-4,0.10242587601078168,0.4,249.0,297.0,0.37777777777777777
@@ -400,7 +400,7 @@ Gardenia M. Micallef (female) ~ 2002,https://www.fragrantica.com/perfume/M-Mical
 Kalemat Arabian Oud (unisex),https://www.fragrantica.com/perfume/Arabian-Oud/Kalemat-21623.html,1,4,0,400,5,-3,0.10512129380053908,0.2,399.0,147.0,0.3333333333333333
 Améthyste Sereine GRAHAM & POTT (unisex) ~ 2021,https://www.fragrantica.com/perfume/GRAHAM-POTT/Amethyste-Sereine-69608.html,2,6,2021,401,8,-4,0.10242587601078168,0.25,400.0,146.0,0.3333333333333333
 Fumée Vanilla Kyse Perfumes (unisex) ~ 2018,https://www.fragrantica.com/perfume/Kyse-Perfumes/Fumee-Vanilla-53318.html,1,4,2018,402,5,-3,0.10512129380053908,0.2,401.0,145.0,0.3333333333333333
-Invictus Victory Paco Rabanne (male) ~ 2021,https://www.fragrantica.com/perfume/Paco-Rabanne/Invictus-Victory-65177.html,2,6,2021,403,8,-4,0.10242587601078168,0.25,402.0,144.0,0.3333333333333333
+Invictus Victory Rabanne (male) ~ 2021,https://www.fragrantica.com/perfume/Rabanne/Invictus-Victory-65177.html,2,6,2021,403,8,-4,0.10242587601078168,0.25,402.0,144.0,0.3333333333333333
 Captured By Candlelight 4160 Tuesdays (unisex) ~ 2016,https://www.fragrantica.com/perfume/4160-Tuesdays/Captured-By-Candlelight-41008.html,1,4,2016,404,5,-3,0.10512129380053908,0.2,403.0,143.0,0.3333333333333333
 Lavanda e Baunilha Natura (female) ~ 2014,https://www.fragrantica.com/perfume/Natura/Lavanda-e-Baunilha-33501.html,1,4,2014,405,5,-3,0.10512129380053908,0.2,404.0,142.0,0.3333333333333333
 Ameixa e Flor de Baunilha Natura (female) ~ 2021,https://www.fragrantica.com/perfume/Natura/Ameixa-e-Flor-de-Baunilha-67415.html,1,4,2021,406,5,-3,0.10512129380053908,0.2,405.0,141.0,0.3333333333333333
@@ -417,7 +417,7 @@ Dries Van Noten par Frederic Malle Frederic Malle (unisex) ~ 2013,https://www.fr
 Lothair Penhaligon's (unisex) ~ 2014,https://www.fragrantica.com/perfume/Penhaligon-s/Lothair-27039.html,4,11,2014,417,15,-7,0.09433962264150944,0.26666666666666666,416.0,130.0,0.325
 Le 3e Homme de Caron Caron (male) ~ 1985,https://www.fragrantica.com/perfume/Caron/Le-3e-Homme-de-Caron-7421.html,4,11,1985,418,15,-7,0.09433962264150944,0.26666666666666666,417.0,129.0,0.325
 Splendida Tubereuse Mystique Bvlgari (female) ~ 2019,https://www.fragrantica.com/perfume/Bvlgari/Splendida-Tubereuse-Mystique-55838.html,8,19,2019,419,27,-11,0.08355795148247978,0.2962962962962963,418.0,128.0,0.3269230769230769
-Dirty Coconut Heretic Parfums (unisex) ~ 2021,https://www.fragrantica.com/perfume/Heretic-Parfums/Dirty-Coconut-67941.html,3,9,2021,420,12,-6,0.09703504043126684,0.25,419.0,127.0,0.32432432432432434
+Dirty Coconut Heretic Parfum (unisex) ~ 2021,https://www.fragrantica.com/perfume/Heretic-Parfum/Dirty-Coconut-67941.html,3,9,2021,420,12,-6,0.09703504043126684,0.25,419.0,127.0,0.32432432432432434
 Gentleman Eau de Toilette Intense Givenchy (male) ~ 2021,https://www.fragrantica.com/perfume/Givenchy/Gentleman-Eau-de-Toilette-Intense-65051.html,4,11,2021,421,15,-7,0.09433962264150944,0.26666666666666666,420.0,126.0,0.325
 Vinyle Yves Saint Laurent (unisex) ~ 2016,https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Vinyle-40933.html,3,9,2016,422,12,-6,0.09703504043126684,0.25,421.0,125.0,0.32432432432432434
 Encens Suave Matiere Premiere (unisex) ~ 2019,https://www.fragrantica.com/perfume/Matiere-Premiere/Encens-Suave-59060.html,3,9,2019,423,12,-6,0.09703504043126684,0.25,422.0,124.0,0.32432432432432434
@@ -470,7 +470,7 @@ Armani Code Luna Giorgio Armani (female) ~ 2012,https://www.fragrantica.com/perf
 CK IN2U for Her Calvin Klein (female) ~ 2007,https://www.fragrantica.com/perfume/Calvin-Klein/CK-IN2U-for-Her-934.html,3,11,2007,470,14,-8,0.09164420485175202,0.21428571428571427,469.0,77.0,0.3076923076923077
 Vanilla Touch La Rive (female) ~ 2013,https://www.fragrantica.com/perfume/La-Rive/Vanilla-Touch-38852.html,2,9,2013,471,11,-7,0.09433962264150944,0.18181818181818182,470.0,76.0,0.3055555555555556
 Queen by Queen Latifah Queen Latifah (female) ~ 2009,https://www.fragrantica.com/perfume/Queen-Latifah/Queen-by-Queen-Latifah-6231.html,2,9,2009,472,11,-7,0.09433962264150944,0.18181818181818182,471.0,75.0,0.3055555555555556
-Fragrance 01 Taunt Dedcool (unisex) ~ 2018,https://www.fragrantica.com/perfume/Dedcool/Fragrance-01-Taunt-52312.html,1,7,2018,473,8,-6,0.09703504043126684,0.125,472.0,74.0,0.30303030303030304
+Fragrance 01 Taunt DedCool (unisex) ~ 2018,https://www.fragrantica.com/perfume/DedCool/Fragrance-01-Taunt-52312.html,1,7,2018,473,8,-6,0.09703504043126684,0.125,472.0,74.0,0.30303030303030304
 Royal Gold Oud Elite (unisex) ~ 2010,https://www.fragrantica.com/perfume/Oud-Elite/Royal-Gold-40745.html,1,7,2010,474,8,-6,0.09703504043126684,0.125,473.0,73.0,0.30303030303030304
 1725 Histoires de Parfums (male) ~ 2001,https://www.fragrantica.com/perfume/Histoires-de-Parfums/1725-4491.html,1,7,2001,475,8,-6,0.09703504043126684,0.125,474.0,72.0,0.30303030303030304
 Tocade 2013 Rochas (female) ~ 2013,https://www.fragrantica.com/perfume/Rochas/Tocade-2013-18766.html,1,7,2013,476,8,-6,0.09703504043126684,0.125,475.0,71.0,0.30303030303030304
