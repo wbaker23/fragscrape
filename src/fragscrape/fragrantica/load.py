@@ -22,26 +22,30 @@ def get_awarded_fragrances(url: str, driver):
     driver.get(url)
     count_fragrances = len(
         WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.CLASS_NAME, "nomination-box"))
+            EC.presence_of_all_elements_located(
+                (By.XPATH, "//div[starts-with(@id, 'nomination_')]")
+            )
         )
     )
+    nominations = driver.find_elements(
+        By.XPATH, "//div[starts-with(@id, 'nomination_')]"
+    )
+    assert len(nominations) == count_fragrances
 
     frag_list = []
-    for i in tqdm(range(1, count_fragrances + 1)):
+    for nomination in tqdm(nominations):
         try:
-            name = driver.find_element(
-                By.CSS_SELECTOR, f"div.small-6:nth-child({i}) > a:nth-child(2)"
-            ).text
-            link = driver.find_element(
-                By.CSS_SELECTOR, f"div.small-6:nth-child({i}) > a:nth-child(2)"
-            ).get_attribute("href")
-            upvotes = driver.find_element(
+            info = nomination.find_element(By.CSS_SELECTOR, "p > a")
+            name = info.text
+            link = info.get_attribute("href")
+
+            upvotes = nomination.find_element(
                 By.CSS_SELECTOR,
-                f"div.small-6:nth-child({i}) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
+                "div.flex.justify-between.items-center.pt-3.pb-2.px-1.bg-clip-padding.bg-gradient-to-b.from-neutral-50.to-white.max-lg\:rounded-t-\[1rem\].lg\:rounded-tl-\[0\.5rem\].lg\:rounded-tr-\[0\.5rem\] > div:nth-child(1) > div.flex.flex-col.justify-end.items-center.h-full.w-full.cursor-pointer > div > span",
             ).text
             downvotes = driver.find_element(
                 By.CSS_SELECTOR,
-                f"div.small-6:nth-child({i}) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)",
+                "div.flex.justify-between.items-center.pt-3.pb-2.px-1.bg-clip-padding.bg-gradient-to-b.from-neutral-50.to-white.max-lg\:rounded-t-\[1rem\].lg\:rounded-tl-\[0\.5rem\].lg\:rounded-tr-\[0\.5rem\] > div:nth-child(2) > div.flex.flex-col.justify-end.items-center.h-full.w-full.cursor-pointer > div > span",
             ).text
             year = get_year(name)
 
@@ -52,7 +56,7 @@ def get_awarded_fragrances(url: str, driver):
                     "upvotes": upvotes,
                     "downvotes": downvotes,
                     "year": year,
-                    "order": i,
+                    "order": nominations.index(nomination),
                 }
             )
         except (NoSuchElementException, AttributeError):
