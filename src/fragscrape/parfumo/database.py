@@ -75,6 +75,7 @@ def initialize(cur):
             link, 
             category, 
             votes, 
+            last_updated,
             PRIMARY KEY (link, category)
         )
         """

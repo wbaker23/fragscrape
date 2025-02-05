@@ -1,5 +1,6 @@
 import json
 import re
+from datetime import datetime
 
 import click
 from selenium.webdriver.common.by import By
@@ -33,6 +34,16 @@ def _get_collection(cursor):
             "SELECT * FROM collection WHERE collection_group != 'I Had'"
         ).fetchall()
     ]
+
+
+@database.db_cursor
+def _get_votes(cursor):
+    return {
+        row["link"]: row["min(last_updated)"]
+        for row in cursor.execute(
+            "SELECT link, min(last_updated) FROM votes GROUP BY link"
+        ).fetchall()
+    }
 
 
 @database.db_cursor
@@ -72,10 +83,10 @@ def _update_tops_row(cursor, data):
 def _update_votes_rows(cursor, data):
     cursor.executemany(
         """
-        INSERT INTO votes (link, category, votes) 
-        VALUES (:link, :category, :votes)
-        ON CONFLICT DO UPDATE
-        SET votes = excluded.votes
+        INSERT INTO votes (link, category, votes, last_updated) 
+        VALUES (:link, :category, :votes, DATE('now'))
+        ON CONFLICT(link, category) DO UPDATE
+        SET votes = excluded.votes, last_updated = DATE('now')
         """,
         data,
     )
@@ -100,9 +111,15 @@ def enrich(source):
         # pylint: disable-next=no-value-for-parameter
         data = _get_tops()
 
+    vote_data = _get_votes()
+
     with start_driver() as driver:
         # Let this loop run with the Chrome driver on screen, and wait until it finishes.
         for fragrance in tqdm(data):
+            if fragrance["link"] in vote_data.keys():
+                if vote_data[fragrance["link"]] == datetime.utcnow().date().isoformat():
+                    continue
+
             driver.get(fragrance["link"])
             name = driver.find_element(
                 By.CSS_SELECTOR,
