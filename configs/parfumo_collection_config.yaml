@@ -8,18 +8,12 @@ parfumo_pages:
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/Abfuellungen
     label: Decants
     color: rgb(103,164,245)
-  - url: https://www.parfumo.com/Users/Crazysillage/Collection/308824
-    label: Sample Atomizers
-    color: rgb(141,118,182)
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/Wish_List
     label: Wish List
     color: rgb(248,92,132)
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/Watch_List
     label: Watch List
     color: rgb(252,160,48)
-  - url: https://www.parfumo.com/Users/Crazysillage/Collection/364045
-    label: Storage
-    color: rgb(211,211,211)
   - url: https://www.parfumo.com/Users/Crazysillage/Collection/I_had
     label: I Had
     color: rgb(255,255,255)
