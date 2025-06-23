@@ -16,7 +16,7 @@ from fragscrape.parfumo.create_graph import (
 )
 
 DATA_SOURCE = "collection"
-COLOR_SOURCE = "collection_groups"
+COLOR_SOURCE = "clusters"
 COMPONENTS = ["Daily", "Leisure", "Summer", "Fresh"]
 CATEGORIES = {
     "Type": [

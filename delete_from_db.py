@@ -7,5 +7,5 @@ def delete_with_link(cursor, link):
 
 
 if __name__ == "__main__":
-    link = "https://www.parfumo.com/Perfumes/Ralph_Lauren/Polo_Eau_de_Toilette"
+    link = "https://www.parfumo.com/Perfumes/Hugo_Boss/boss-bottled-absolu"
     delete_with_link(link=link)
